@@ -24,10 +24,15 @@ are all called `README.md`.
 ## What is deterministic, and what is not
 
 **Deterministic.** Steps 03–09 and 12–13 are pure functions of `data/`. There is no
-sampling, no random seed, no wall-clock input to a computation. Re-running them on the
-same `data/` produces byte-identical tables and figures, except for two documented
-timestamps: `public/data/manifest.json` carries a build date, and `MANIFEST.tsv` carries
-a retrieval date.
+sampling, no random seed, no wall-clock input to a computation, and the two library
+defaults that would have leaked one are pinned: gzip is written with `mtime=0`, and
+matplotlib's PDF/PNG creation timestamps are suppressed. Re-running on the same `data/`
+therefore produces byte-identical output, verified by re-running the pipeline and then
+`shasum -a 256 -c CHECKSUMS.sha256` (299/299 OK).
+
+Two files carry a date by design and are excluded from the checksum manifest or expected
+to change: `public/data/manifest.json` (build date, shown on the site's About page) and
+`MANIFEST.tsv` (retrieval date for each input).
 
 **Not deterministic across time.** Steps 00–02 and 10 read live APIs:
 

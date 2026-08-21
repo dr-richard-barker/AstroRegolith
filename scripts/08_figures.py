@@ -42,10 +42,16 @@ plt.rcParams.update({
 
 
 def save(fig, name: str):
+    """Write the PNG (site) and PDF (LaTeX), without a creation timestamp.
+
+    Matplotlib stamps the current time into PDF and PNG metadata by default,
+    which would make every re-run produce different bytes and break
+    CHECKSUMS.sha256 even when nothing about the figure changed.
+    """
     PNG.mkdir(parents=True, exist_ok=True)
     PDF.mkdir(parents=True, exist_ok=True)
-    fig.savefig(PNG / f"{name}.png")
-    fig.savefig(PDF / f"{name}.pdf")
+    fig.savefig(PNG / f"{name}.png", metadata={"Software": None})
+    fig.savefig(PDF / f"{name}.pdf", metadata={"CreationDate": None, "Producer": None})
     plt.close(fig)
     log(f"  ✓ {name}")
 

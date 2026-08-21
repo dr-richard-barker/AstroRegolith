@@ -130,7 +130,11 @@ def main() -> int:
 
     res = pd.concat(frames, ignore_index=True)
     res = res.sort_values(["analysis", "covariate", "fdr", "p_value"])
-    res.to_csv(T / "growth_correlated_genes.csv.gz", index=False, compression="gzip")
+    # mtime=0: gzip stamps the current time into its header by default, so an
+    # otherwise identical re-run would produce different bytes and break the
+    # checksum manifest. Pinning it keeps the pipeline byte-reproducible.
+    res.to_csv(T / "growth_correlated_genes.csv.gz", index=False,
+               compression={"method": "gzip", "mtime": 0})
     ann.reset_index().rename(columns={"TAIR": "gene"}).to_csv(
         T / "gene_annotation.csv", index=False)
     pd.DataFrame([{"covariate": k, "description": v} for k, v in COVARIATES.items()]

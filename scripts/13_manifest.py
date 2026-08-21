@@ -54,6 +54,9 @@ INPUTS = [
 CHECKSUM_ROOTS = ["data/awg", "data/osdr", "results", "public/data", "public/images",
                   "manuscript/figures", "manuscript/supplementary", "legacy"]
 SKIP_DIRS = {"raw_large", "__pycache__", ".fetch"}
+# Deliberately excluded: it carries the build date, so its checksum changes on
+# every run by design. Everything else in the tree is byte-reproducible.
+SKIP_FILES = {"public/data/manifest.json"}
 
 
 def sha256(path: Path) -> str:
@@ -96,7 +99,9 @@ def main() -> int:
         if not base.exists():
             continue
         for f in sorted(base.rglob("*")):
-            if not f.is_file() or any(part in SKIP_DIRS for part in f.parts):
+            rel = str(f.relative_to(ROOT))
+            if (not f.is_file() or rel in SKIP_FILES
+                    or any(part in SKIP_DIRS for part in f.parts)):
                 continue
             lines.append(f"{sha256(f)}  {f.relative_to(ROOT)}")
             count += 1
