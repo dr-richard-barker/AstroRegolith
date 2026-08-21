@@ -8,6 +8,11 @@
 \documentclass[11pt,a4paper]{article}
 
 \usepackage[utf8]{inputenc}
+% lmodern must precede fontenc: it supplies scalable Type 1 outlines in place of
+% the default bitmap Computer Modern. Without it microtype's font expansion
+% aborts with "auto expansion is only possible with scalable fonts" on a minimal
+% TeX installation, which is exactly what the CI image is.
+\usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage[margin=2.4cm]{geometry}
 \usepackage{graphicx}
