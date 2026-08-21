@@ -48,7 +48,7 @@ const NAV: { id: Tab; label: string; sub: string; icon: React.ComponentType<any>
   { id: 'about', label: 'About', sub: 'Marker & pipeline', icon: Info },
 ];
 
-const LOGO = `${import.meta.env.BASE_URL}cose/cose-logo.png`;
+const LOGO = `${import.meta.env.BASE_URL}cose/regolith-logo.png`;
 const PER_PAGE = 50;
 
 function initialTheme(): 'light' | 'dark' {
@@ -153,7 +153,7 @@ function AppInner({ auth }: { auth: AuthState }) {
 
       <aside className="rail">
         <div className="rail-brand">
-          <img src={LOGO} alt="CoSE" />
+          <img src={LOGO} alt="AstroRegolith" />
           <div>
             <div className="t1">AstroRegolith</div>
             <div className="t2">Regolith plant database</div>

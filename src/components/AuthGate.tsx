@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { LogIn, ShieldAlert, Loader2, Crosshair, Ruler, Palette, UploadCloud, Sprout, Rocket, Images, LineChart } from 'lucide-react';
 import { watchAuth, signInWithGoogle, signOut, type AuthState } from '../lib/auth';
 
-const LOGO = `${import.meta.env.BASE_URL}cose/cose-logo.png`;
+const LOGO = `${import.meta.env.BASE_URL}cose/regolith-logo.png`;
 
 function applyTheme() {
   const saved = localStorage.getItem('cose-theme');
@@ -26,8 +26,8 @@ export const AuthGate: React.FC<{ children: (auth: AuthState) => React.ReactNode
     return (
       <div className="auth-screen">
         <div className="auth-card">
-          <img src={LOGO} alt="CoSE" className="auth-logo" />
-          <div className="auth-eyebrow">CoSE Cloud · AstroBotany</div>
+          <img src={LOGO} alt="AstroRegolith" className="auth-logo" />
+          <div className="auth-eyebrow">AstroRegolith Cloud · AstroBotany</div>
           <h1>Calibration Image Database</h1>
           {auth.status === 'loading'
             ? <p className="auth-msg"><Loader2 className="spin" size={16} /> Checking your session…</p>
@@ -36,7 +36,7 @@ export const AuthGate: React.FC<{ children: (auth: AuthState) => React.ReactNode
                 <button className="btn btn-ghost" onClick={() => signOut()}>Sign out</button>
               </>}
         </div>
-        <div className="auth-foot">Space biology · CoSE Cloud</div>
+        <div className="auth-foot">Space biology · AstroRegolith Cloud</div>
       </div>
     );
   }
@@ -45,7 +45,7 @@ export const AuthGate: React.FC<{ children: (auth: AuthState) => React.ReactNode
   return (
     <div className="land">
       <header className="land-nav">
-        <div className="land-brand"><img src={LOGO} alt="CoSE" /> <span>CoSE&nbsp;Cloud</span></div>
+        <div className="land-brand"><img src={LOGO} alt="AstroRegolith" /> <span>AstroRegolith</span></div>
         <button className="btn btn-primary btn-sm" onClick={() => signInWithGoogle()}><LogIn size={15} /> Sign in</button>
       </header>
 
