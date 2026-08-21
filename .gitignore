@@ -1,0 +1,32 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Re-fetchable primary data. `scripts/run_all.sh` downloads these on demand and
+# MANIFEST.tsv records their source URL, size and checksum, so the repository
+# stays clonable and the Zenodo archive stays small.
+data/osdr/raw_large/
+
+# Files a local upload flow writes at runtime.
+data/uploads/
+
+# LaTeX build artefacts
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+manuscript/*.synctex.gz
+manuscript/*.pdf
+!manuscript/figures/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/

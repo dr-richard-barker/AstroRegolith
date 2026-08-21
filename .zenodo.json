@@ -1,0 +1,81 @@
+{
+  "title": "AstroRegolith: an open database and growth-anchored reanalysis of plant growth in lunar, Martian and asteroid regolith",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "<p>An open, server-free database for plant growth in regolith, with the analysis and manuscript that accompany it.</p><p><strong>Catalogue.</strong> Every regolith-relevant dataset in NASA's Open Science Data Repository (nine biological studies) and Physical Sciences Informatics system (six curated investigations), with measured file and image counts and a stated reason for inclusion. Only two of the nine deposit plant imagery, and PSI holds no plant-in-regolith data at all &mdash; both facts are reported rather than glossed.</p><p><strong>Substrates.</strong> Soil-probe response of eight candidate growth substrates during watering, the LHS-1 lunar highlands simulant specification, and a side-by-side oxide comparison against Chang'e-5 returned mare soil.</p><p><strong>Growth-anchored transcriptomics.</strong> NASA OSD-476 grew <em>Arabidopsis thaliana</em> in 900 mg of Apollo 11, 12 and 17 regolith against a JSC-1A simulant control. Its ISA-Tab deposit keys each RNA-seq sample to a growth plate and a twelve-timepoint leaf-count trajectory, so each sequenced plant can be joined to its own growth (twelve one-to-one joins, four plate-mean joins; Spearman rho = 0.84 between two independently measured phenotype layers). Correlating expression against growth identifies 2,008 genes at 5% FDR for leaf-emergence rate, of which 299 replicate in an Apollo-only analysis where substrate no longer tracks growth, and 82 are not detected by the published substrate contrasts.</p><p><strong>Contents.</strong> Acquisition and analysis code (<code>scripts/</code>, reproducible end to end via <code>run_all.sh</code>), derived tables and figures (<code>results/</code>), a static web database with in-browser ArUco scale and colour calibration (<code>src/</code>, <code>public/</code>), a LaTeX manuscript with a Crossref-verified bibliography and supplementary tables (<code>manuscript/</code>), and the ported precursor write-up (<code>legacy/</code>). Provenance, licence and SHA-256 for every input file are in <code>MANIFEST.tsv</code>; large re-fetchable NASA tables are listed there but not redistributed.</p><p><strong>Licensing.</strong> Code MIT; data, figures and prose CC-BY-4.0. NASA OSDR and PSI data retain their own terms &mdash; cite the original investigators.</p>",
+  "keywords": [
+    "lunar regolith",
+    "regolith simulant",
+    "astrobotany",
+    "Arabidopsis thaliana",
+    "in-situ resource utilisation",
+    "transcriptomics",
+    "phenotyping",
+    "PlantCV",
+    "NASA OSDR",
+    "GeneLab",
+    "space biology",
+    "open data",
+    "ISA-Tab",
+    "reproducible research"
+  ],
+  "creators": [
+    {
+      "name": "Barker, Richard John",
+      "affiliation": "Center of Space Exploration (CoSE)"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dr-richard-barker/AstroRegolith",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1038/s42003-022-03334-8",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-476",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-670",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1093/nsr/nwab188",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://psi.nasa.gov/physci/repo/",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/dr-richard-barker/Lunar_regolith_AWG",
+      "relation": "isNewVersionOf",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/dr-richard-barker/AstroBotany_calibration_image_sharing_and_analysis",
+      "relation": "isDerivedFrom",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "notes": "Large NASA tables that the pipeline re-fetches on demand (chiefly the 36 MB GLDS-476 differential-expression table and the full-resolution OSD-670 imagery) are catalogued in MANIFEST.tsv with source URL and checksum but are not included in this archive. Run scripts/run_all.sh to reconstruct them."
+}

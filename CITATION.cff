@@ -1,0 +1,85 @@
+cff-version: 1.2.0
+message: "If you use this database or its analysis, please cite it as below, and cite the original data depositors listed in MANIFEST.tsv."
+title: "AstroRegolith: an open database and growth-anchored reanalysis of plant growth in lunar, Martian and asteroid regolith"
+abstract: >-
+  An open, server-free database for plant growth in regolith. It catalogues the
+  regolith-relevant holdings of NASA's Open Science Data Repository (nine
+  biological studies) and Physical Sciences Informatics system (six curated
+  investigations), characterises candidate substrates against returned lunar
+  soil, and re-analyses NASA OSD-476 — Arabidopsis thaliana grown in Apollo 11,
+  12 and 17 regolith — by joining each RNA-seq sample to the growth trajectory of
+  the individual plant it came from. That linkage, possible because the deposit
+  recorded a plate and a twelve-timepoint leaf count against each sequenced
+  plant, identifies 299 genes whose expression tracks measured growth in both a
+  full and an Apollo-only analysis, 82 of which are not detected by the published
+  substrate contrasts. Includes the harvest and analysis code, harmonised
+  phenotype and expression tables, a static web database with in-browser
+  calibration-marker analysis, an Epicollect5 contribution workflow, and a
+  manuscript.
+type: software
+authors:
+  - family-names: Barker
+    given-names: Richard
+    name-particle: J.
+    alias: dr-richard-barker
+    email: dr.richard.barker@gmail.com
+keywords:
+  - lunar regolith
+  - regolith simulant
+  - astrobotany
+  - Arabidopsis thaliana
+  - in-situ resource utilisation
+  - transcriptomics
+  - phenotyping
+  - PlantCV
+  - NASA OSDR
+  - GeneLab
+  - open data
+  - ISA-Tab
+  - space biology
+license: MIT
+license-url: "https://github.com/dr-richard-barker/AstroRegolith/blob/main/LICENSE_NOTES.md"
+repository-code: "https://github.com/dr-richard-barker/AstroRegolith"
+url: "https://dr-richard-barker.github.io/AstroRegolith/"
+references:
+  - type: article
+    title: "Plants grown in Apollo lunar regolith present stress-associated transcriptomes that inform prospects for lunar exploration"
+    authors:
+      - family-names: Paul
+        given-names: Anna-Lisa
+      - family-names: Elardo
+        given-names: Stephen
+        name-particle: M.
+      - family-names: Ferl
+        given-names: Robert
+    journal: "Communications Biology"
+    year: 2022
+    volume: "5"
+    doi: "10.1038/s42003-022-03334-8"
+    notes: "The source study for the growth-anchored reanalysis."
+  - type: data
+    title: "OSD-476 / GLDS-476 / LSDS-12, NASA Open Science Data Repository"
+    url: "https://osdr.nasa.gov/bio/repo/data/studies/OSD-476"
+  - type: data
+    title: "OSD-670: CI Asteroid Regolith as an In Situ Plant Growth Medium for Space Crop Production"
+    url: "https://osdr.nasa.gov/bio/repo/data/studies/OSD-670"
+  - type: article
+    title: "Characteristics of the lunar samples returned by the Chang'E-5 mission"
+    authors:
+      - family-names: Li
+        given-names: Chunlai
+      - name: "et al."
+    journal: "National Science Review"
+    year: 2022
+    volume: "9"
+    issue: "2"
+    doi: "10.1093/nsr/nwab188"
+    notes: "Reference composition for the simulant comparison."
+  - type: software
+    title: "AstroBotany calibration image sharing and analysis"
+    authors:
+      - family-names: Barker
+        given-names: Richard
+        name-particle: J.
+    url: "https://github.com/dr-richard-barker/AstroBotany_calibration_image_sharing_and_analysis"
+    notes: "The architecture this database is forked from."

@@ -1,0 +1,13 @@
+analysis,covariate,genes_tested,genes_fdr05,max_abs_rho
+primary,leaf_auc,23533,1825,0.9521709715382585
+primary,leaf_final,23533,1553,0.9522048622319738
+primary,leaf_first_day,23533,428,0.936002107733575
+primary,leaf_rate_per_day,23533,2008,0.95
+primary,log10_area_mm2_last,23533,114,0.9382352941176471
+primary,rgr_area_per_day,23533,15,0.9117647058823529
+within_lunar,leaf_auc,23533,15,0.9457107322567674
+within_lunar,leaf_final,23533,98,0.9552944114708368
+within_lunar,leaf_first_day,23533,0,0.9438798074485389
+within_lunar,leaf_rate_per_day,23533,395,0.972027972027972
+within_lunar,log10_area_mm2_last,23533,0,0.916083916083916
+within_lunar,rgr_area_per_day,23533,0,0.9370629370629371

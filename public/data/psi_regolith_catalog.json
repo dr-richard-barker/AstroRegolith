@@ -1,0 +1,943 @@
+{
+ "accessed": "2026-08-21",
+ "api": "https://psi.nasa.gov/geode-py/ws/repo/search",
+ "caveat": "PSI holds no plant-in-regolith data. Its regolith-relevant content is granular mechanics, regolith-derived cement/ISRU and dust behaviour — physics investigations that constrain how a regolith growth substrate behaves, not biology. Listed here so an experiment designer can find the substrate physics, with that limitation stated up front.",
+ "curated": [
+  {
+   "accession": "PSI-47",
+   "acronym": "DAFT / DAFT-2",
+   "end": "06-01-2009",
+   "keywords": [
+    "DAFT",
+    "Condensate Nuclei Counter",
+    "Laser scattering aerosol device",
+    "Fire safety",
+    "Space hardware testing",
+    "P-Trak particulate counter",
+    "Capillary Fluid Motion",
+    "Combustion",
+    "Smoke",
+    "Fire prevention"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "Dust and aerosol measurement: particulate behaviour in a closed cabin — relevant to regolith dust load in a plant-growth habitat.",
+   "research_area": "Combustion Science",
+   "start": "03-01-2003",
+   "sub_area": "Spacecraft Fire Safety",
+   "title": "Dust and Aerosol Measurement Feasibility Test / Dust and Aerosol Measurement Feasibility Test-2",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47"
+  },
+  {
+   "accession": "PSI-83",
+   "acronym": "MICS-MVP",
+   "end": "11-21-2023",
+   "keywords": [
+    "tricalcium aluminate",
+    "cement",
+    "variable gravity",
+    "gypsum",
+    "hydration"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "MICS on a variable-gravity platform — the gravity-level dependence of the same binder chemistry.",
+   "research_area": "Materials Science",
+   "start": "11-22-2016",
+   "sub_area": "Cement Solidification",
+   "title": "Microgravity Investigation of Cement Solidification - Multi-use Variable Gravity Platform",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-83"
+  },
+  {
+   "accession": "PSI-84",
+   "acronym": "MICS",
+   "end": "11-21-2023",
+   "keywords": [
+    "Microgravity",
+    "Diffusion controlled crystal growth",
+    "Porosity",
+    "MICS",
+    "Hydration",
+    "Cement Solidification",
+    "Density",
+    "Cement"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "Cement solidified in microgravity (MICS): hydration and pore structure of a regolith-derived binder. The ISRU counterpart to growing in regolith — the same feedstock, a different use.",
+   "research_area": "Materials Science",
+   "start": "11-22-2016",
+   "sub_area": "Cement Solidification",
+   "title": "Microgravity Investigation of Cement Solidification",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-84"
+  },
+  {
+   "accession": "PSI-110",
+   "acronym": "Strata-1",
+   "end": "",
+   "keywords": [
+    "regolith dynamics",
+    "comets",
+    "STRATA-1",
+    "asteroid",
+    "microgravity",
+    "Particle Density"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "Regolith mechanics in microgravity (STRATA-1): how granular beds of asteroid/lunar-analogue material segregate and pack over long durations. Bears on substrate settling and root penetration resistance in low gravity.",
+   "research_area": "Materials Science",
+   "start": "",
+   "sub_area": "Regolith Dynamics",
+   "title": "An International Space Station Experiment into Fundamental Regolith Processes in Microgravity",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-110"
+  },
+  {
+   "accession": "PSI-174",
+   "acronym": "",
+   "end": "06-30-2024",
+   "keywords": [
+    "grant",
+    "scanning electron microscopy",
+    "micromechanics analysis code with generalized method of cells",
+    "micromechanics-based modeling",
+    "MICS",
+    "cement"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "Micromechanical modelling of microgravity-solidified cement, giving pore-network parameters for regolith-derived material.",
+   "research_area": "Materials Science",
+   "start": "11-01-2021",
+   "sub_area": "Cement hydration",
+   "title": "Micromechanics Based Modeling of Cement Solidified in the Microgravity",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-174"
+  },
+  {
+   "accession": "PSI-187",
+   "acronym": "PWM",
+   "end": "11-27-2025",
+   "keywords": [
+    "Root aeration",
+    "plant growth",
+    "Capillary-driven irrigation",
+    "Gas-liquid separation",
+    "Passive irrigation systems",
+    "Hydroponics",
+    "Life-support systems",
+    "Controlled-environment agriculture"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "Plant Water Management: capillary water delivery to plant roots in microgravity. Not regolith, but the irrigation physics any regolith substrate has to work with.",
+   "research_area": "Fluid Physics",
+   "start": "02-16-2023",
+   "sub_area": "Fluid Dynamics",
+   "title": "Plant Water Management",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-187"
+  }
+ ],
+ "other_hits": [
+  {
+   "accession": "PSI-4",
+   "acronym": "FBCE FBM",
+   "end": "12-31-2021",
+   "keywords": [
+    "Flow boiling",
+    "Two-phase Flow",
+    "flow boiling pressure drop",
+    "FBCE FBM",
+    "Density Wave Oscillations",
+    "Pressure Drop Oscillations",
+    "Heat transfer"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "06-01-2017",
+   "sub_area": "Two Phase Flow and Heat Transfer",
+   "title": "Flow Boiling and Condensation Experiment Flow Boiling Module",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-4"
+  },
+  {
+   "accession": "PSI-5",
+   "acronym": "PK-4",
+   "end": "03-03-2024",
+   "keywords": [
+    "Soft Matter",
+    "Complex Plasmas",
+    "Thermodynamics",
+    "Plasma Physics",
+    "Statistical Physics"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-11-2014",
+   "sub_area": "Complex Plasmas",
+   "title": "Plasma Kristall 4",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-5"
+  },
+  {
+   "accession": "PSI-6",
+   "acronym": "FOAM",
+   "end": "",
+   "keywords": [
+    "Foams",
+    "Diffuse Transmission Spectroscopy",
+    "Bubble Dynamics",
+    "Coarsening"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "",
+   "sub_area": "Biophysics",
+   "title": "Foam Optics and Mechanics",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-6"
+  },
+  {
+   "accession": "PSI-15",
+   "acronym": "ACE-M2R",
+   "end": "07-31-2020",
+   "keywords": [
+    "Colloids",
+    "Reflight"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "11-01-2013",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment-Microscopy 2 Reflight",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-15"
+  },
+  {
+   "accession": "PSI-16",
+   "acronym": "ACE-T1",
+   "end": "11-22-2023",
+   "keywords": [
+    "Colloid",
+    "Janus particle",
+    "Self assembly",
+    "microgravity"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "08-15-2016",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment - Temperature 1",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-16"
+  },
+  {
+   "accession": "PSI-18",
+   "acronym": "ACE-T7",
+   "end": "11-08-2018",
+   "keywords": [
+    "Colloid",
+    "non-spherical",
+    "Self-assembly",
+    "depletant"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "05-08-2018",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment - Temperature 7",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-18"
+  },
+  {
+   "accession": "PSI-19",
+   "acronym": "ACE-TR",
+   "end": "02-10-2021",
+   "keywords": [
+    "Colloids",
+    "Ellipsoid",
+    "nematic ordering",
+    "microgravity",
+    "Confocal microscopy",
+    "hedgehog"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-17-2020",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment with Temperature Control - R [Ellipsoid]",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-19"
+  },
+  {
+   "accession": "PSI-28",
+   "acronym": "BCAT-4",
+   "end": "12-31-2013",
+   "keywords": [
+    "Colloids",
+    "microgravity",
+    "Crystals"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "12-18-2007",
+   "sub_area": "Colloids",
+   "title": "Binodal Colloidal Aggregation Test - 4",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-28"
+  },
+  {
+   "accession": "PSI-37",
+   "acronym": "CFE-2",
+   "end": "",
+   "keywords": [
+    "CFE",
+    "Capillary forces",
+    "Capillary Flow Experiment (CFE)",
+    "CFE-2"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "",
+   "sub_area": "",
+   "title": "Capillary Flow Experiment - 2",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-37"
+  },
+  {
+   "accession": "PSI-44",
+   "acronym": "CSLM",
+   "end": "31-Aug-2017",
+   "keywords": [
+    "Ostwald Ripening",
+    "Microgravity",
+    "coarsening",
+    "kinetics"
+   ],
+   "platform": "Space Shuttle",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Materials Science",
+   "start": "28-Sep-2010",
+   "sub_area": "Solidification, Coarsening",
+   "title": "Coarsening in Solid-Liquid Mixtures",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-44"
+  },
+  {
+   "accession": "PSI-52",
+   "acronym": "ACE-T11",
+   "end": "08-31-2024",
+   "keywords": [
+    "Colloid",
+    "crystallization",
+    "rheology",
+    "Self-assembly",
+    "3D structures",
+    "Hard Spheres",
+    "temperature gradient"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-01-2019",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment - Temperature Control and Gradient Sample 11",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-52"
+  },
+  {
+   "accession": "PSI-66",
+   "acronym": "",
+   "end": "12-06-2024",
+   "keywords": [
+    "Rheology",
+    "Viscoelastic Suspensions",
+    "Particle–Polymer Interactions",
+    "SHERE"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "12-07-2022",
+   "sub_area": "Polymer Solutions",
+   "title": "Dynamic Response of Particle-Filled Polymeric Fluids in Flows with Complex Lagrangian Time Histories",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-66"
+  },
+  {
+   "accession": "PSI-74",
+   "acronym": "InSPACE-2",
+   "end": "01-07-2010",
+   "keywords": [
+    "Colloids",
+    "magnetorheological (MR) fluid",
+    "self-assembly",
+    "microgravity",
+    "pulsed fields",
+    "buckling"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "01-08-2007",
+   "sub_area": "Colloids",
+   "title": "Investigating the Structures of Paramagnetic Aggregates from Colloidal Emulsions-2",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-74"
+  },
+  {
+   "accession": "PSI-75",
+   "acronym": "InSPACE-3",
+   "end": "04-19-2018",
+   "keywords": [
+    "Colloids",
+    "magnetorheological (MR) fluids",
+    "self-assembly",
+    "microgravity",
+    "pulsed fields"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "03-01-2010",
+   "sub_area": "Colloids",
+   "title": "Investigating the Structures of Paramagnetic Aggregates from Colloidal Emulsions-3",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-75"
+  },
+  {
+   "accession": "PSI-76",
+   "acronym": "InSPACE-1",
+   "end": "11-01-2004",
+   "keywords": [
+    "Colloids",
+    "magnetorheological (MR) fluid",
+    "microgravity"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "03-01-2000",
+   "sub_area": "Colloids",
+   "title": "Investigating the Structures of Paramagnetic Aggregates from Colloidal Emulsions-1",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-76"
+  },
+  {
+   "accession": "PSI-80",
+   "acronym": "LMMBIO-3",
+   "end": "01-23-2021",
+   "keywords": [
+    "Crystallization",
+    "Crystal Growth Rate",
+    "macromolecular crystals",
+    "protein structure",
+    "Protein Crystallization",
+    "advanced photon source",
+    "LMMBio",
+    "biophysical analysis"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Biophysics",
+   "start": "01-24-2014",
+   "sub_area": "Proteins",
+   "title": "Light Microscopy Module Biophysics-3",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-80"
+  },
+  {
+   "accession": "PSI-81",
+   "acronym": "MABE",
+   "end": "",
+   "keywords": [
+    "MABE",
+    "microscale heater array",
+    "boiling",
+    "bubble dynamics"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "",
+   "sub_area": "",
+   "title": "Microheater Array Boiling Experiment",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-81"
+  },
+  {
+   "accession": "PSI-90",
+   "acronym": "PBRE",
+   "end": "05-31-2017",
+   "keywords": [
+    "PBRE-WR",
+    "PBRE-2",
+    "PBRE",
+    "Packed Bed Reactors"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "03-01-2014",
+   "sub_area": "",
+   "title": "Packed Bed Reactor Experiment",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-90"
+  },
+  {
+   "accession": "PSI-95",
+   "acronym": "PK-3 Plus",
+   "end": "04-14-2013",
+   "keywords": [
+    "crystalline systems",
+    "PK-3+",
+    "ESA",
+    "Physics",
+    "Complex plasmas",
+    "PKE-Nefedov",
+    "Plasma Crystals",
+    "Plasma"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "03-01-2007",
+   "sub_area": "Dusty Plasma",
+   "title": "Plasma Kristall-3 Plus",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-95"
+  },
+  {
+   "accession": "PSI-101",
+   "acronym": "SAME-R",
+   "end": "09-30-2010",
+   "keywords": [
+    "Soot",
+    "Flames",
+    "Pyrell",
+    "SAME",
+    "Transmission Electron Microscopy",
+    "Silicon Rubber",
+    "Spacecraft Fire Safety",
+    "Teflon",
+    "Cotton",
+    "Smoke",
+    "Kapton",
+    "SAME-2"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Combustion Science",
+   "start": "07-01-2010",
+   "sub_area": "Spacecraft Fire Safety",
+   "title": "Smoke Aerosol Measurement Experiment-Reflight",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
+  },
+  {
+   "accession": "PSI-102",
+   "acronym": "SAME",
+   "end": "02-28-2008",
+   "keywords": [
+    "Smoke",
+    "Surface Combustion",
+    "Fire Safety",
+    "Bio-Astronautics",
+    "Smoldering"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Combustion Science",
+   "start": "03-02-2001",
+   "sub_area": "Spacecraft Fire Safety",
+   "title": "Smoke and Aerosol Measurement Experiment",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102"
+  },
+  {
+   "accession": "PSI-103",
+   "acronym": "SHERE-II",
+   "end": "12-02-2012",
+   "keywords": [
+    "Shearing"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "11-28-2012",
+   "sub_area": "Polymers",
+   "title": "Shear History Extensional Rheology Experiment - II",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-103"
+  },
+  {
+   "accession": "PSI-108",
+   "acronym": "STDCE-1",
+   "end": "",
+   "keywords": [
+    "USML-1",
+    "STDCE-1",
+    "thermocapillary flow",
+    "buoyancy",
+    "Columbia",
+    "Surface Tension",
+    "Constant Flux",
+    "Marangoni Number"
+   ],
+   "platform": "Space Shuttle",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "",
+   "sub_area": "",
+   "title": "Surface Tension Driven Convection Experiment-1",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-108"
+  },
+  {
+   "accession": "PSI-109",
+   "acronym": "STDCE-2",
+   "end": "",
+   "keywords": [
+    "STDCE-1",
+    "STDCE-2",
+    "Constant Flux",
+    "Surface Tension",
+    "Thermocapillary Flow",
+    "USML-2"
+   ],
+   "platform": "Space Shuttle",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "",
+   "sub_area": "",
+   "title": "Surface Tension Driven Convection Experiment-2",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-109"
+  },
+  {
+   "accession": "PSI-115",
+   "acronym": "",
+   "end": "12-31-2019",
+   "keywords": [
+    "SAME Data",
+    "Nanoparticles",
+    "Ground-based research",
+    "Dibutyl pthalate",
+    "thermophoresis",
+    "Aerosol Smoke Generation",
+    "Navier-Stokes nodal approach",
+    "Numerical Simulation",
+    "Particle settling"
+   ],
+   "platform": "Not Applicable",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Combustion Science",
+   "start": "01-30-2017",
+   "sub_area": "Smoke Aerosol, Combustion Simulation",
+   "title": "Utilization of the Smoke Aerosol Measurement Experiment Data for Advanced Modeling and Simulation of Smoke Generation in Micro-Gravity",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115"
+  },
+  {
+   "accession": "PSI-119",
+   "acronym": "",
+   "end": "11-24-2022",
+   "keywords": [
+    "STDCE",
+    "Particle tracking analysis",
+    "thermo-fluid mechanics",
+    "Marangoni convection"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "11-25-2020",
+   "sub_area": "Capillary flow",
+   "title": "Enhanced Particle Tracking in STDC Data and Its Industrial Application of Marangoni Convection",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-119"
+  },
+  {
+   "accession": "PSI-148",
+   "acronym": "",
+   "end": "02-24-2023",
+   "keywords": [
+    "Dendritic solidification",
+    "grant",
+    "Spurious grain formation",
+    "Marangoni convection"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Materials Science",
+   "start": "09-16-2019",
+   "sub_area": "Granular Materials",
+   "title": "Spurious Grain Formation in Alloys Directionally Solidified on the Space Station Due to Marangoni Convection",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-148"
+  },
+  {
+   "accession": "PSI-165",
+   "acronym": "ACE-T2",
+   "end": "06-07-2021",
+   "keywords": [
+    "Critical Casimir attraction",
+    "Complex crystallisation kinetics",
+    "Electrostatic repulsion"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-26-2018",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment -Temperature controlled- 2",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-165"
+  },
+  {
+   "accession": "PSI-167",
+   "acronym": "ACE-T9",
+   "end": "08-31-2019",
+   "keywords": [
+    "metallodielectric Janus spheres",
+    "lock-and-key particles",
+    "microscopy imaging",
+    "electric-field cell"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-01-2013",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment - Imaging, Folding and Assembly of Colloidal Molecules",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-167"
+  },
+  {
+   "accession": "PSI-169",
+   "acronym": "ACE-T12",
+   "end": "09-30-2019",
+   "keywords": [
+    "Nanoparticle haloing",
+    "microfluids",
+    "self-assembly",
+    "NPH",
+    "colloids",
+    "microscopy"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "10-01-2014",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment-Nanoparticle Haloing",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-169"
+  },
+  {
+   "accession": "PSI-177",
+   "acronym": "InSPACE-4",
+   "end": "08-31-2023",
+   "keywords": [
+    "Magnetic Colloids",
+    "Magnetic fields",
+    "self-assembly",
+    "magnetorheological (MR) fluid",
+    "nanomaterials",
+    "assembly kinetics",
+    "anisotropic particle",
+    "toggled fields"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-01-2016",
+   "sub_area": "Colloids",
+   "title": "Investigating the Structure of Paramagnetic Aggregates from Colloidal Emulsions - 4",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-177"
+  },
+  {
+   "accession": "PSI-179",
+   "acronym": "ASE",
+   "end": "10-01-2019",
+   "keywords": [
+    "aerosols",
+    "Thermophysical properties"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "09-01-2016",
+   "sub_area": "Multiphase Flow",
+   "title": "Aerosol Sampling Experiment",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-179"
+  },
+  {
+   "accession": "PSI-181",
+   "acronym": "",
+   "end": "12-31-2022",
+   "keywords": [
+    "solidification",
+    "Soldering",
+    "Micromechanical Testing",
+    "Extreme Temperatures",
+    "Marangoni Convection",
+    "Microstructure Characterization",
+    "Porosity"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Materials Science",
+   "start": "01-01-2020",
+   "sub_area": "Microstructural Characterization, Terrestrial vs Microgravity Effects, Solder Joints",
+   "title": "Structure and Properties of Pb-Sn and Pb-free Sn-Ag-Cu Solders Produced in Terrestrial vs. Microgravity Environments under Extremes of Elevated and Cryo Temperatures",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-181"
+  },
+  {
+   "accession": "PSI-182",
+   "acronym": "",
+   "end": "11-30-2024",
+   "keywords": [
+    "colloids",
+    "microgravity",
+    "fractal",
+    "gels",
+    "experiment",
+    "polydisperse"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "12-01-2021",
+   "sub_area": "Colloids",
+   "title": "Colloidal gels:  Aging in microgravity, Structure of highly polydisperse gels",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-182"
+  },
+  {
+   "accession": "PSI-184",
+   "acronym": "Flow Boiling TSP",
+   "end": "05-31-2022",
+   "keywords": [
+    "local heat flux",
+    "condensation",
+    "TSP",
+    "variable gravity",
+    "PSI grant"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "06-01-2015",
+   "sub_area": "Flow Boiling",
+   "title": "Flow Boiling Heat Transfer Using Temperature Sensitive Paints",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-184"
+  },
+  {
+   "accession": "PSI-185",
+   "acronym": "",
+   "end": "09-15-2020",
+   "keywords": [
+    "Simulations",
+    "Coarsening",
+    "Ostwald ripening",
+    "particle size distribution",
+    "multiparticle diffusion",
+    "PSD",
+    "2-D",
+    "CSLM"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Materials Science",
+   "start": "09-16-2016",
+   "sub_area": "Simulation, Microstructure Evolution",
+   "title": "Testing Analytical and Numerical Models in Phase Coarsening using NASA Physical Sciences Informatics System",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-185"
+  },
+  {
+   "accession": "PSI-188",
+   "acronym": "ACE-T4",
+   "end": "09-14-2020",
+   "keywords": [
+    "Colloidal Glasses",
+    "Crystalline Order",
+    "Glass Transition",
+    "Microgravity"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "06-01-2020",
+   "sub_area": "Colloids",
+   "title": "Advanced Colloids Experiment-Temperature 4",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-188"
+  },
+  {
+   "accession": "PSI-189",
+   "acronym": "",
+   "end": "12-30-2024",
+   "keywords": [
+    "Validation of a CFD model",
+    "packed bed reactor"
+   ],
+   "platform": "",
+   "project_type": "Ground Investigation",
+   "relevance": "",
+   "research_area": "Fluid Physics",
+   "start": "11-19-2021",
+   "sub_area": "Packed Bed Reactor",
+   "title": "Validation of a CFD Model for Gas-Liquid Flows in Packed Bed Reactors to Enable Thermo-Fluid Analysis in Microgravity",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-189"
+  },
+  {
+   "accession": "PSI-190",
+   "acronym": "PEP",
+   "end": "09-01-2004",
+   "keywords": [],
+   "platform": "Space Shuttle",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Materials Science",
+   "start": "02-01-1993",
+   "sub_area": "Solidification, Metal Matrix Composites",
+   "title": "Particle Engulfment and Pushing By Solidifying Interfaces",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-190"
+  },
+  {
+   "accession": "PSI-191",
+   "acronym": "ACE-T5",
+   "end": "12-08-2023",
+   "keywords": [
+    "bijel",
+    "Marangoni convection",
+    "spinodal decomposition",
+    "self assembly",
+    "microgravity"
+   ],
+   "platform": "International Space Station",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "10-01-2013",
+   "sub_area": "Bijels, Colloids",
+   "title": "Advanced Colloids Experiment-Temperature 5",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-191"
+  }
+ ],
+ "source": "NASA Physical Sciences Informatics (PSI)"
+}

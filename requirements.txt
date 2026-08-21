@@ -1,0 +1,16 @@
+# Pinned to the versions the committed results were produced with.
+# Scripts 00-02 are stdlib-only; the rest need these.
+pandas==2.3.3
+numpy==2.0.2
+scipy==1.13.1
+matplotlib==3.9.4
+openpyxl==3.1.5
+
+# Image bundling (scripts/10_bundle_images.py). pillow-heif is needed because five
+# of OSD-670's "supplemental" files are HEIC images deposited with a .jpeg
+# extension; without it the script skips them with an explicit message.
+Pillow==11.3.0
+pillow-heif==1.1.1
+
+# CITATION.cff validation only.
+PyYAML>=6.0

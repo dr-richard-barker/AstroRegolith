@@ -1,0 +1,9 @@
+substrate,time_min,water_content_pct,ec_us_cm,ph,nitrogen,phosphorus,potassium,water_added_ml,protocol
+Martian Regolith Simulant,417.28,23.39,31.0,5.0,9.0,0.0,6.0,10.0,10ml H20 in 15ml substrate
+Perlite (Small particle),428.08,22.01,10.0,5.1,0.0,0.0,0.0,10.0,10ml H20 in 15ml substrate
+Arcelite,853.52,19.18,148.0,4.6,82.0,14.0,57.0,10.0,10ml H20 in 15ml substrate
+Vermiculite (old powder),225.31,40.62,112.0,6.5,69.0,4.0,48.0,10.0,10ml H20 in 15ml substrate
+Potting soil,689.44,13.48,64.0,6.4,43.0,0.0,30.0,10.0,10ml H20 in 15ml substrate
+Lunar simulant,257.19,35.53,25.0,5.2,0.0,0.0,0.0,10.0,10ml H20 in 15ml substrate
+Stirred Lunar simulant,801.54,24.36,39.0,5.9,20.0,0.0,13.0,10.0,10ml H20 in 15ml substrate
+Potassium polyacrylate,673.44,100.0,2320.0,4.0,209.0,112.0,146.0,10.0,10ml H20 in 15ml substrate

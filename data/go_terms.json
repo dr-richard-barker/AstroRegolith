@@ -1,0 +1,7450 @@
+{
+ "GO:0000002": {
+  "aspect": "biological_process",
+  "name": "obsolete mitochondrial genome maintenance"
+ },
+ "GO:0000003": {
+  "aspect": "biological_process",
+  "name": "obsolete reproduction"
+ },
+ "GO:0000018": {
+  "aspect": "biological_process",
+  "name": "regulation of DNA recombination"
+ },
+ "GO:0000027": {
+  "aspect": "biological_process",
+  "name": "ribosomal large subunit assembly"
+ },
+ "GO:0000030": {
+  "aspect": "molecular_function",
+  "name": "mannosyltransferase activity"
+ },
+ "GO:0000038": {
+  "aspect": "biological_process",
+  "name": "very long-chain fatty acid metabolic process"
+ },
+ "GO:0000041": {
+  "aspect": "biological_process",
+  "name": "transition metal ion transport"
+ },
+ "GO:0000045": {
+  "aspect": "biological_process",
+  "name": "autophagosome assembly"
+ },
+ "GO:0000049": {
+  "aspect": "molecular_function",
+  "name": "tRNA binding"
+ },
+ "GO:0000054": {
+  "aspect": "biological_process",
+  "name": "ribosomal subunit export from nucleus"
+ },
+ "GO:0000070": {
+  "aspect": "biological_process",
+  "name": "mitotic sister chromatid segregation"
+ },
+ "GO:0000075": {
+  "aspect": "biological_process",
+  "name": "cell cycle checkpoint signaling"
+ },
+ "GO:0000076": {
+  "aspect": "biological_process",
+  "name": "DNA replication checkpoint signaling"
+ },
+ "GO:0000077": {
+  "aspect": "biological_process",
+  "name": "DNA damage checkpoint signaling"
+ },
+ "GO:0000079": {
+  "aspect": "biological_process",
+  "name": "regulation of cyclin-dependent protein serine/threonine kinase activity"
+ },
+ "GO:0000082": {
+  "aspect": "biological_process",
+  "name": "G1/S transition of mitotic cell cycle"
+ },
+ "GO:0000109": {
+  "aspect": "cellular_component",
+  "name": "nucleotide-excision repair complex"
+ },
+ "GO:0000118": {
+  "aspect": "cellular_component",
+  "name": "histone deacetylase complex"
+ },
+ "GO:0000122": {
+  "aspect": "biological_process",
+  "name": "negative regulation of transcription by RNA polymerase II"
+ },
+ "GO:0000123": {
+  "aspect": "cellular_component",
+  "name": "histone acetyltransferase complex"
+ },
+ "GO:0000124": {
+  "aspect": "cellular_component",
+  "name": "SAGA complex"
+ },
+ "GO:0000127": {
+  "aspect": "cellular_component",
+  "name": "transcription factor TFIIIC complex"
+ },
+ "GO:0000139": {
+  "aspect": "cellular_component",
+  "name": "Golgi membrane"
+ },
+ "GO:0000145": {
+  "aspect": "cellular_component",
+  "name": "exocyst"
+ },
+ "GO:0000146": {
+  "aspect": "molecular_function",
+  "name": "microfilament motor activity"
+ },
+ "GO:0000149": {
+  "aspect": "molecular_function",
+  "name": "SNARE binding"
+ },
+ "GO:0000151": {
+  "aspect": "cellular_component",
+  "name": "ubiquitin ligase complex"
+ },
+ "GO:0000152": {
+  "aspect": "cellular_component",
+  "name": "nuclear ubiquitin ligase complex"
+ },
+ "GO:0000154": {
+  "aspect": "biological_process",
+  "name": "rRNA modification"
+ },
+ "GO:0000166": {
+  "aspect": "molecular_function",
+  "name": "nucleotide binding"
+ },
+ "GO:0000175": {
+  "aspect": "molecular_function",
+  "name": "3'-5'-RNA exonuclease activity"
+ },
+ "GO:0000178": {
+  "aspect": "cellular_component",
+  "name": "exosome (RNase complex)"
+ },
+ "GO:0000184": {
+  "aspect": "biological_process",
+  "name": "nuclear-transcribed mRNA catabolic process, nonsense-mediated decay"
+ },
+ "GO:0000209": {
+  "aspect": "biological_process",
+  "name": "protein polyubiquitination"
+ },
+ "GO:0000226": {
+  "aspect": "biological_process",
+  "name": "microtubule cytoskeleton organization"
+ },
+ "GO:0000228": {
+  "aspect": "cellular_component",
+  "name": "nuclear chromosome"
+ },
+ "GO:0000245": {
+  "aspect": "biological_process",
+  "name": "spliceosomal complex assembly"
+ },
+ "GO:0000271": {
+  "aspect": "biological_process",
+  "name": "polysaccharide biosynthetic process"
+ },
+ "GO:0000276": {
+  "aspect": "cellular_component",
+  "name": "obsolete mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)"
+ },
+ "GO:0000278": {
+  "aspect": "biological_process",
+  "name": "mitotic cell cycle"
+ },
+ "GO:0000280": {
+  "aspect": "biological_process",
+  "name": "nuclear division"
+ },
+ "GO:0000281": {
+  "aspect": "biological_process",
+  "name": "mitotic cytokinesis"
+ },
+ "GO:0000287": {
+  "aspect": "molecular_function",
+  "name": "magnesium ion binding"
+ },
+ "GO:0000288": {
+  "aspect": "biological_process",
+  "name": "nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay"
+ },
+ "GO:0000289": {
+  "aspect": "biological_process",
+  "name": "nuclear-transcribed mRNA poly(A) tail shortening"
+ },
+ "GO:0000302": {
+  "aspect": "biological_process",
+  "name": "response to reactive oxygen species"
+ },
+ "GO:0000307": {
+  "aspect": "cellular_component",
+  "name": "cyclin-dependent protein kinase holoenzyme complex"
+ },
+ "GO:0000313": {
+  "aspect": "cellular_component",
+  "name": "organellar ribosome"
+ },
+ "GO:0000323": {
+  "aspect": "cellular_component",
+  "name": "lytic vacuole"
+ },
+ "GO:0000325": {
+  "aspect": "cellular_component",
+  "name": "plant-type vacuole"
+ },
+ "GO:0000339": {
+  "aspect": "molecular_function",
+  "name": "RNA cap binding"
+ },
+ "GO:0000346": {
+  "aspect": "cellular_component",
+  "name": "transcription export complex"
+ },
+ "GO:0000347": {
+  "aspect": "cellular_component",
+  "name": "THO complex"
+ },
+ "GO:0000375": {
+  "aspect": "biological_process",
+  "name": "RNA splicing, via transesterification reactions"
+ },
+ "GO:0000377": {
+  "aspect": "biological_process",
+  "name": "RNA splicing, via transesterification reactions with bulged adenosine as nucleophile"
+ },
+ "GO:0000381": {
+  "aspect": "biological_process",
+  "name": "regulation of alternative mRNA splicing, via spliceosome"
+ },
+ "GO:0000387": {
+  "aspect": "biological_process",
+  "name": "spliceosomal snRNP assembly"
+ },
+ "GO:0000398": {
+  "aspect": "biological_process",
+  "name": "mRNA splicing, via spliceosome"
+ },
+ "GO:0000407": {
+  "aspect": "cellular_component",
+  "name": "phagophore assembly site"
+ },
+ "GO:0000422": {
+  "aspect": "biological_process",
+  "name": "autophagy of mitochondrion"
+ },
+ "GO:0000428": {
+  "aspect": "cellular_component",
+  "name": "DNA-directed RNA polymerase complex"
+ },
+ "GO:0000439": {
+  "aspect": "cellular_component",
+  "name": "transcription factor TFIIH core complex"
+ },
+ "GO:0000447": {
+  "aspect": "biological_process",
+  "name": "endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+ },
+ "GO:0000460": {
+  "aspect": "biological_process",
+  "name": "maturation of 5.8S rRNA"
+ },
+ "GO:0000462": {
+  "aspect": "biological_process",
+  "name": "maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+ },
+ "GO:0000463": {
+  "aspect": "biological_process",
+  "name": "maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+ },
+ "GO:0000466": {
+  "aspect": "biological_process",
+  "name": "maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+ },
+ "GO:0000470": {
+  "aspect": "biological_process",
+  "name": "maturation of LSU-rRNA"
+ },
+ "GO:0000479": {
+  "aspect": "biological_process",
+  "name": "endonucleolytic cleavage of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+ },
+ "GO:0000502": {
+  "aspect": "cellular_component",
+  "name": "proteasome complex"
+ },
+ "GO:0000712": {
+  "aspect": "biological_process",
+  "name": "resolution of meiotic recombination intermediates"
+ },
+ "GO:0000723": {
+  "aspect": "biological_process",
+  "name": "telomere maintenance"
+ },
+ "GO:0000724": {
+  "aspect": "biological_process",
+  "name": "double-strand break repair via homologous recombination"
+ },
+ "GO:0000725": {
+  "aspect": "biological_process",
+  "name": "recombinational repair"
+ },
+ "GO:0000727": {
+  "aspect": "biological_process",
+  "name": "double-strand break repair via break-induced replication"
+ },
+ "GO:0000731": {
+  "aspect": "biological_process",
+  "name": "DNA synthesis involved in DNA repair"
+ },
+ "GO:0000775": {
+  "aspect": "cellular_component",
+  "name": "chromosome, centromeric region"
+ },
+ "GO:0000776": {
+  "aspect": "cellular_component",
+  "name": "kinetochore"
+ },
+ "GO:0000779": {
+  "aspect": "cellular_component",
+  "name": "condensed chromosome, centromeric region"
+ },
+ "GO:0000781": {
+  "aspect": "cellular_component",
+  "name": "chromosome, telomeric region"
+ },
+ "GO:0000785": {
+  "aspect": "cellular_component",
+  "name": "chromatin"
+ },
+ "GO:0000793": {
+  "aspect": "cellular_component",
+  "name": "condensed chromosome"
+ },
+ "GO:0000794": {
+  "aspect": "cellular_component",
+  "name": "condensed nuclear chromosome"
+ },
+ "GO:0000808": {
+  "aspect": "cellular_component",
+  "name": "origin recognition complex"
+ },
+ "GO:0000811": {
+  "aspect": "cellular_component",
+  "name": "GINS complex"
+ },
+ "GO:0000812": {
+  "aspect": "cellular_component",
+  "name": "Swr1 complex"
+ },
+ "GO:0000813": {
+  "aspect": "cellular_component",
+  "name": "ESCRT I complex"
+ },
+ "GO:0000819": {
+  "aspect": "biological_process",
+  "name": "sister chromatid segregation"
+ },
+ "GO:0000902": {
+  "aspect": "biological_process",
+  "name": "cell morphogenesis"
+ },
+ "GO:0000910": {
+  "aspect": "biological_process",
+  "name": "cytokinesis"
+ },
+ "GO:0000922": {
+  "aspect": "cellular_component",
+  "name": "spindle pole"
+ },
+ "GO:0000932": {
+  "aspect": "cellular_component",
+  "name": "P-body"
+ },
+ "GO:0000956": {
+  "aspect": "biological_process",
+  "name": "nuclear-transcribed mRNA catabolic process"
+ },
+ "GO:0000959": {
+  "aspect": "biological_process",
+  "name": "mitochondrial RNA metabolic process"
+ },
+ "GO:0000963": {
+  "aspect": "biological_process",
+  "name": "mitochondrial RNA processing"
+ },
+ "GO:0000972": {
+  "aspect": "biological_process",
+  "name": "transcription-dependent tethering of RNA polymerase II gene DNA at nuclear periphery"
+ },
+ "GO:0000973": {
+  "aspect": "biological_process",
+  "name": "post-transcriptional tethering of RNA polymerase II gene DNA at nuclear periphery"
+ },
+ "GO:0000974": {
+  "aspect": "cellular_component",
+  "name": "Prp19 complex"
+ },
+ "GO:0000976": {
+  "aspect": "molecular_function",
+  "name": "transcription cis-regulatory region binding"
+ },
+ "GO:0000977": {
+  "aspect": "molecular_function",
+  "name": "RNA polymerase II transcription regulatory region sequence-specific DNA binding"
+ },
+ "GO:0000978": {
+  "aspect": "molecular_function",
+  "name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+ },
+ "GO:0000981": {
+  "aspect": "molecular_function",
+  "name": "DNA-binding transcription factor activity, RNA polymerase II-specific"
+ },
+ "GO:0000987": {
+  "aspect": "molecular_function",
+  "name": "cis-regulatory region sequence-specific DNA binding"
+ },
+ "GO:0000993": {
+  "aspect": "molecular_function",
+  "name": "RNA polymerase II complex binding"
+ },
+ "GO:0001046": {
+  "aspect": "molecular_function",
+  "name": "core promoter sequence-specific DNA binding"
+ },
+ "GO:0001054": {
+  "aspect": "molecular_function",
+  "name": "obsolete RNA polymerase I activity"
+ },
+ "GO:0001055": {
+  "aspect": "molecular_function",
+  "name": "obsolete RNA polymerase II activity"
+ },
+ "GO:0001056": {
+  "aspect": "molecular_function",
+  "name": "obsolete RNA polymerase III activity"
+ },
+ "GO:0001067": {
+  "aspect": "molecular_function",
+  "name": "transcription regulatory region nucleic acid binding"
+ },
+ "GO:0001098": {
+  "aspect": "molecular_function",
+  "name": "obsolete basal transcription machinery binding"
+ },
+ "GO:0001099": {
+  "aspect": "molecular_function",
+  "name": "obsolete basal RNA polymerase II transcription machinery binding"
+ },
+ "GO:0001510": {
+  "aspect": "biological_process",
+  "name": "RNA methylation"
+ },
+ "GO:0001522": {
+  "aspect": "biological_process",
+  "name": "pseudouridine synthesis"
+ },
+ "GO:0001676": {
+  "aspect": "biological_process",
+  "name": "long-chain fatty acid metabolic process"
+ },
+ "GO:0001678": {
+  "aspect": "biological_process",
+  "name": "intracellular glucose homeostasis"
+ },
+ "GO:0001727": {
+  "aspect": "molecular_function",
+  "name": "lipid kinase activity"
+ },
+ "GO:0001932": {
+  "aspect": "biological_process",
+  "name": "regulation of protein phosphorylation"
+ },
+ "GO:0001934": {
+  "aspect": "biological_process",
+  "name": "positive regulation of protein phosphorylation"
+ },
+ "GO:0002098": {
+  "aspect": "biological_process",
+  "name": "tRNA wobble uridine modification"
+ },
+ "GO:0002181": {
+  "aspect": "biological_process",
+  "name": "cytoplasmic translation"
+ },
+ "GO:0002183": {
+  "aspect": "biological_process",
+  "name": "cytoplasmic translational initiation"
+ },
+ "GO:0002376": {
+  "aspect": "biological_process",
+  "name": "immune system process"
+ },
+ "GO:0003002": {
+  "aspect": "biological_process",
+  "name": "regionalization"
+ },
+ "GO:0003006": {
+  "aspect": "biological_process",
+  "name": "developmental process involved in reproduction"
+ },
+ "GO:0003333": {
+  "aspect": "biological_process",
+  "name": "amino acid transmembrane transport"
+ },
+ "GO:0003676": {
+  "aspect": "molecular_function",
+  "name": "nucleic acid binding"
+ },
+ "GO:0003677": {
+  "aspect": "molecular_function",
+  "name": "DNA binding"
+ },
+ "GO:0003678": {
+  "aspect": "molecular_function",
+  "name": "DNA helicase activity"
+ },
+ "GO:0003682": {
+  "aspect": "molecular_function",
+  "name": "chromatin binding"
+ },
+ "GO:0003684": {
+  "aspect": "molecular_function",
+  "name": "damaged DNA binding"
+ },
+ "GO:0003688": {
+  "aspect": "molecular_function",
+  "name": "DNA replication origin binding"
+ },
+ "GO:0003690": {
+  "aspect": "molecular_function",
+  "name": "double-stranded DNA binding"
+ },
+ "GO:0003697": {
+  "aspect": "molecular_function",
+  "name": "single-stranded DNA binding"
+ },
+ "GO:0003700": {
+  "aspect": "molecular_function",
+  "name": "DNA-binding transcription factor activity"
+ },
+ "GO:0003712": {
+  "aspect": "molecular_function",
+  "name": "transcription coregulator activity"
+ },
+ "GO:0003713": {
+  "aspect": "molecular_function",
+  "name": "transcription coactivator activity"
+ },
+ "GO:0003714": {
+  "aspect": "molecular_function",
+  "name": "transcription corepressor activity"
+ },
+ "GO:0003723": {
+  "aspect": "molecular_function",
+  "name": "RNA binding"
+ },
+ "GO:0003725": {
+  "aspect": "molecular_function",
+  "name": "double-stranded RNA binding"
+ },
+ "GO:0003727": {
+  "aspect": "molecular_function",
+  "name": "single-stranded RNA binding"
+ },
+ "GO:0003729": {
+  "aspect": "molecular_function",
+  "name": "mRNA binding"
+ },
+ "GO:0003730": {
+  "aspect": "molecular_function",
+  "name": "mRNA 3'-UTR binding"
+ },
+ "GO:0003735": {
+  "aspect": "molecular_function",
+  "name": "structural constituent of ribosome"
+ },
+ "GO:0003743": {
+  "aspect": "molecular_function",
+  "name": "translation initiation factor activity"
+ },
+ "GO:0003746": {
+  "aspect": "molecular_function",
+  "name": "translation elongation factor activity"
+ },
+ "GO:0003755": {
+  "aspect": "molecular_function",
+  "name": "peptidyl-prolyl cis-trans isomerase activity"
+ },
+ "GO:0003756": {
+  "aspect": "molecular_function",
+  "name": "protein disulfide isomerase activity"
+ },
+ "GO:0003774": {
+  "aspect": "molecular_function",
+  "name": "cytoskeletal motor activity"
+ },
+ "GO:0003777": {
+  "aspect": "molecular_function",
+  "name": "microtubule motor activity"
+ },
+ "GO:0003779": {
+  "aspect": "molecular_function",
+  "name": "actin binding"
+ },
+ "GO:0003824": {
+  "aspect": "molecular_function",
+  "name": "catalytic activity"
+ },
+ "GO:0003887": {
+  "aspect": "molecular_function",
+  "name": "DNA-directed DNA polymerase activity"
+ },
+ "GO:0003899": {
+  "aspect": "molecular_function",
+  "name": "DNA-directed RNA polymerase activity"
+ },
+ "GO:0003904": {
+  "aspect": "molecular_function",
+  "name": "deoxyribodipyrimidine photo-lyase activity"
+ },
+ "GO:0003924": {
+  "aspect": "molecular_function",
+  "name": "GTPase activity"
+ },
+ "GO:0003954": {
+  "aspect": "molecular_function",
+  "name": "NADH dehydrogenase activity"
+ },
+ "GO:0004175": {
+  "aspect": "molecular_function",
+  "name": "endopeptidase activity"
+ },
+ "GO:0004177": {
+  "aspect": "molecular_function",
+  "name": "aminopeptidase activity"
+ },
+ "GO:0004180": {
+  "aspect": "molecular_function",
+  "name": "carboxypeptidase activity"
+ },
+ "GO:0004190": {
+  "aspect": "molecular_function",
+  "name": "aspartic-type endopeptidase activity"
+ },
+ "GO:0004197": {
+  "aspect": "molecular_function",
+  "name": "cysteine-type endopeptidase activity"
+ },
+ "GO:0004222": {
+  "aspect": "molecular_function",
+  "name": "metalloendopeptidase activity"
+ },
+ "GO:0004252": {
+  "aspect": "molecular_function",
+  "name": "serine-type endopeptidase activity"
+ },
+ "GO:0004364": {
+  "aspect": "molecular_function",
+  "name": "glutathione transferase activity"
+ },
+ "GO:0004386": {
+  "aspect": "molecular_function",
+  "name": "helicase activity"
+ },
+ "GO:0004396": {
+  "aspect": "molecular_function",
+  "name": "hexokinase activity"
+ },
+ "GO:0004402": {
+  "aspect": "molecular_function",
+  "name": "histone acetyltransferase activity"
+ },
+ "GO:0004407": {
+  "aspect": "molecular_function",
+  "name": "histone deacetylase activity"
+ },
+ "GO:0004497": {
+  "aspect": "molecular_function",
+  "name": "monooxygenase activity"
+ },
+ "GO:0004518": {
+  "aspect": "molecular_function",
+  "name": "nuclease activity"
+ },
+ "GO:0004519": {
+  "aspect": "molecular_function",
+  "name": "endonuclease activity"
+ },
+ "GO:0004520": {
+  "aspect": "molecular_function",
+  "name": "DNA endonuclease activity"
+ },
+ "GO:0004521": {
+  "aspect": "molecular_function",
+  "name": "RNA endonuclease activity"
+ },
+ "GO:0004527": {
+  "aspect": "molecular_function",
+  "name": "exonuclease activity"
+ },
+ "GO:0004529": {
+  "aspect": "molecular_function",
+  "name": "DNA exonuclease activity"
+ },
+ "GO:0004536": {
+  "aspect": "molecular_function",
+  "name": "DNA nuclease activity"
+ },
+ "GO:0004540": {
+  "aspect": "molecular_function",
+  "name": "RNA nuclease activity"
+ },
+ "GO:0004550": {
+  "aspect": "molecular_function",
+  "name": "nucleoside diphosphate kinase activity"
+ },
+ "GO:0004553": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, hydrolyzing O-glycosyl compounds"
+ },
+ "GO:0004568": {
+  "aspect": "molecular_function",
+  "name": "chitinase activity"
+ },
+ "GO:0004596": {
+  "aspect": "molecular_function",
+  "name": "protein-N-terminal amino-acid acetyltransferase activity"
+ },
+ "GO:0004620": {
+  "aspect": "molecular_function",
+  "name": "glycerophospholipase activity"
+ },
+ "GO:0004629": {
+  "aspect": "molecular_function",
+  "name": "C-type glycerophospholipase activity"
+ },
+ "GO:0004659": {
+  "aspect": "molecular_function",
+  "name": "prenyltransferase activity"
+ },
+ "GO:0004672": {
+  "aspect": "molecular_function",
+  "name": "protein kinase activity"
+ },
+ "GO:0004674": {
+  "aspect": "molecular_function",
+  "name": "protein serine/threonine kinase activity"
+ },
+ "GO:0004675": {
+  "aspect": "molecular_function",
+  "name": "transmembrane receptor protein serine/threonine kinase activity"
+ },
+ "GO:0004693": {
+  "aspect": "molecular_function",
+  "name": "cyclin-dependent protein serine/threonine kinase activity"
+ },
+ "GO:0004713": {
+  "aspect": "molecular_function",
+  "name": "protein tyrosine kinase activity"
+ },
+ "GO:0004721": {
+  "aspect": "molecular_function",
+  "name": "phosphoprotein phosphatase activity"
+ },
+ "GO:0004722": {
+  "aspect": "molecular_function",
+  "name": "protein serine/threonine phosphatase activity"
+ },
+ "GO:0004725": {
+  "aspect": "molecular_function",
+  "name": "protein tyrosine phosphatase activity"
+ },
+ "GO:0004792": {
+  "aspect": "molecular_function",
+  "name": "thiosulfate-cyanide sulfurtransferase activity"
+ },
+ "GO:0004842": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-protein transferase activity"
+ },
+ "GO:0004843": {
+  "aspect": "molecular_function",
+  "name": "cysteine-type deubiquitinase activity"
+ },
+ "GO:0004857": {
+  "aspect": "molecular_function",
+  "name": "enzyme inhibitor activity"
+ },
+ "GO:0004864": {
+  "aspect": "molecular_function",
+  "name": "protein phosphatase inhibitor activity"
+ },
+ "GO:0004888": {
+  "aspect": "molecular_function",
+  "name": "transmembrane signaling receptor activity"
+ },
+ "GO:0005048": {
+  "aspect": "molecular_function",
+  "name": "signal sequence receptor activity"
+ },
+ "GO:0005085": {
+  "aspect": "molecular_function",
+  "name": "guanyl-nucleotide exchange factor activity"
+ },
+ "GO:0005096": {
+  "aspect": "molecular_function",
+  "name": "GTPase activator activity"
+ },
+ "GO:0005102": {
+  "aspect": "molecular_function",
+  "name": "signaling receptor binding"
+ },
+ "GO:0005198": {
+  "aspect": "molecular_function",
+  "name": "structural molecule activity"
+ },
+ "GO:0005200": {
+  "aspect": "molecular_function",
+  "name": "structural constituent of cytoskeleton"
+ },
+ "GO:0005215": {
+  "aspect": "molecular_function",
+  "name": "transporter activity"
+ },
+ "GO:0005216": {
+  "aspect": "molecular_function",
+  "name": "monoatomic ion channel activity"
+ },
+ "GO:0005227": {
+  "aspect": "molecular_function",
+  "name": "calcium-activated cation channel activity"
+ },
+ "GO:0005244": {
+  "aspect": "molecular_function",
+  "name": "voltage-gated monoatomic ion channel activity"
+ },
+ "GO:0005249": {
+  "aspect": "molecular_function",
+  "name": "voltage-gated potassium channel activity"
+ },
+ "GO:0005261": {
+  "aspect": "molecular_function",
+  "name": "monoatomic cation channel activity"
+ },
+ "GO:0005262": {
+  "aspect": "molecular_function",
+  "name": "calcium channel activity"
+ },
+ "GO:0005267": {
+  "aspect": "molecular_function",
+  "name": "potassium channel activity"
+ },
+ "GO:0005319": {
+  "aspect": "molecular_function",
+  "name": "lipid carrier activity"
+ },
+ "GO:0005337": {
+  "aspect": "molecular_function",
+  "name": "nucleoside transmembrane transporter activity"
+ },
+ "GO:0005338": {
+  "aspect": "molecular_function",
+  "name": "nucleotide-sugar transmembrane transporter activity"
+ },
+ "GO:0005342": {
+  "aspect": "molecular_function",
+  "name": "obsolete organic acid transmembrane transporter activity"
+ },
+ "GO:0005372": {
+  "aspect": "molecular_function",
+  "name": "water transmembrane transporter activity"
+ },
+ "GO:0005459": {
+  "aspect": "molecular_function",
+  "name": "UDP-galactose transmembrane transporter activity"
+ },
+ "GO:0005484": {
+  "aspect": "molecular_function",
+  "name": "SNAP receptor activity"
+ },
+ "GO:0005488": {
+  "aspect": "molecular_function",
+  "name": "binding"
+ },
+ "GO:0005496": {
+  "aspect": "molecular_function",
+  "name": "steroid binding"
+ },
+ "GO:0005504": {
+  "aspect": "molecular_function",
+  "name": "fatty acid binding"
+ },
+ "GO:0005506": {
+  "aspect": "molecular_function",
+  "name": "iron ion binding"
+ },
+ "GO:0005507": {
+  "aspect": "molecular_function",
+  "name": "copper ion binding"
+ },
+ "GO:0005509": {
+  "aspect": "molecular_function",
+  "name": "calcium ion binding"
+ },
+ "GO:0005515": {
+  "aspect": "molecular_function",
+  "name": "protein binding"
+ },
+ "GO:0005516": {
+  "aspect": "molecular_function",
+  "name": "calmodulin binding"
+ },
+ "GO:0005524": {
+  "aspect": "molecular_function",
+  "name": "ATP binding"
+ },
+ "GO:0005525": {
+  "aspect": "molecular_function",
+  "name": "GTP binding"
+ },
+ "GO:0005543": {
+  "aspect": "molecular_function",
+  "name": "phospholipid binding"
+ },
+ "GO:0005546": {
+  "aspect": "molecular_function",
+  "name": "phosphatidylinositol-4,5-bisphosphate binding"
+ },
+ "GO:0005548": {
+  "aspect": "molecular_function",
+  "name": "obsolete phospholipid transporter activity"
+ },
+ "GO:0005576": {
+  "aspect": "cellular_component",
+  "name": "extracellular region"
+ },
+ "GO:0005615": {
+  "aspect": "cellular_component",
+  "name": "obsolete extracellular space"
+ },
+ "GO:0005618": {
+  "aspect": "cellular_component",
+  "name": "cell wall"
+ },
+ "GO:0005622": {
+  "aspect": "cellular_component",
+  "name": "intracellular anatomical structure"
+ },
+ "GO:0005634": {
+  "aspect": "cellular_component",
+  "name": "nucleus"
+ },
+ "GO:0005635": {
+  "aspect": "cellular_component",
+  "name": "nuclear envelope"
+ },
+ "GO:0005643": {
+  "aspect": "cellular_component",
+  "name": "nuclear pore"
+ },
+ "GO:0005654": {
+  "aspect": "cellular_component",
+  "name": "nucleoplasm"
+ },
+ "GO:0005657": {
+  "aspect": "cellular_component",
+  "name": "replication fork"
+ },
+ "GO:0005664": {
+  "aspect": "cellular_component",
+  "name": "nuclear origin of replication recognition complex"
+ },
+ "GO:0005665": {
+  "aspect": "cellular_component",
+  "name": "RNA polymerase II, core complex"
+ },
+ "GO:0005666": {
+  "aspect": "cellular_component",
+  "name": "RNA polymerase III complex"
+ },
+ "GO:0005667": {
+  "aspect": "cellular_component",
+  "name": "transcription regulator complex"
+ },
+ "GO:0005669": {
+  "aspect": "cellular_component",
+  "name": "transcription factor TFIID complex"
+ },
+ "GO:0005675": {
+  "aspect": "cellular_component",
+  "name": "transcription factor TFIIH holo complex"
+ },
+ "GO:0005680": {
+  "aspect": "cellular_component",
+  "name": "anaphase-promoting complex"
+ },
+ "GO:0005681": {
+  "aspect": "cellular_component",
+  "name": "spliceosomal complex"
+ },
+ "GO:0005682": {
+  "aspect": "cellular_component",
+  "name": "U5 snRNP"
+ },
+ "GO:0005684": {
+  "aspect": "cellular_component",
+  "name": "U2-type spliceosomal complex"
+ },
+ "GO:0005685": {
+  "aspect": "cellular_component",
+  "name": "U1 snRNP"
+ },
+ "GO:0005686": {
+  "aspect": "cellular_component",
+  "name": "U2 snRNP"
+ },
+ "GO:0005687": {
+  "aspect": "cellular_component",
+  "name": "U4 snRNP"
+ },
+ "GO:0005688": {
+  "aspect": "cellular_component",
+  "name": "U6 snRNP"
+ },
+ "GO:0005689": {
+  "aspect": "cellular_component",
+  "name": "U12-type spliceosomal complex"
+ },
+ "GO:0005694": {
+  "aspect": "cellular_component",
+  "name": "chromosome"
+ },
+ "GO:0005730": {
+  "aspect": "cellular_component",
+  "name": "nucleolus"
+ },
+ "GO:0005732": {
+  "aspect": "cellular_component",
+  "name": "sno(s)RNA-containing ribonucleoprotein complex"
+ },
+ "GO:0005736": {
+  "aspect": "cellular_component",
+  "name": "RNA polymerase I complex"
+ },
+ "GO:0005737": {
+  "aspect": "cellular_component",
+  "name": "cytoplasm"
+ },
+ "GO:0005739": {
+  "aspect": "cellular_component",
+  "name": "mitochondrion"
+ },
+ "GO:0005740": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial envelope"
+ },
+ "GO:0005741": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial outer membrane"
+ },
+ "GO:0005743": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial inner membrane"
+ },
+ "GO:0005744": {
+  "aspect": "cellular_component",
+  "name": "TIM23 mitochondrial import inner membrane translocase complex"
+ },
+ "GO:0005746": {
+  "aspect": "cellular_component",
+  "name": "obsolete mitochondrial respirasome"
+ },
+ "GO:0005747": {
+  "aspect": "cellular_component",
+  "name": "obsolete mitochondrial respiratory chain complex I"
+ },
+ "GO:0005750": {
+  "aspect": "cellular_component",
+  "name": "obsolete mitochondrial respiratory chain complex III"
+ },
+ "GO:0005753": {
+  "aspect": "cellular_component",
+  "name": "obsolete mitochondrial proton-transporting ATP synthase complex"
+ },
+ "GO:0005758": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial intermembrane space"
+ },
+ "GO:0005759": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial matrix"
+ },
+ "GO:0005761": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial ribosome"
+ },
+ "GO:0005762": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial large ribosomal subunit"
+ },
+ "GO:0005763": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial small ribosomal subunit"
+ },
+ "GO:0005764": {
+  "aspect": "cellular_component",
+  "name": "lysosome"
+ },
+ "GO:0005765": {
+  "aspect": "cellular_component",
+  "name": "lysosomal membrane"
+ },
+ "GO:0005768": {
+  "aspect": "cellular_component",
+  "name": "endosome"
+ },
+ "GO:0005770": {
+  "aspect": "cellular_component",
+  "name": "late endosome"
+ },
+ "GO:0005773": {
+  "aspect": "cellular_component",
+  "name": "vacuole"
+ },
+ "GO:0005774": {
+  "aspect": "cellular_component",
+  "name": "vacuolar membrane"
+ },
+ "GO:0005776": {
+  "aspect": "cellular_component",
+  "name": "autophagosome"
+ },
+ "GO:0005777": {
+  "aspect": "cellular_component",
+  "name": "peroxisome"
+ },
+ "GO:0005778": {
+  "aspect": "cellular_component",
+  "name": "peroxisomal membrane"
+ },
+ "GO:0005783": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum"
+ },
+ "GO:0005788": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum lumen"
+ },
+ "GO:0005789": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum membrane"
+ },
+ "GO:0005791": {
+  "aspect": "cellular_component",
+  "name": "rough endoplasmic reticulum"
+ },
+ "GO:0005793": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum-Golgi intermediate compartment"
+ },
+ "GO:0005794": {
+  "aspect": "cellular_component",
+  "name": "Golgi apparatus"
+ },
+ "GO:0005795": {
+  "aspect": "cellular_component",
+  "name": "Golgi stack"
+ },
+ "GO:0005798": {
+  "aspect": "cellular_component",
+  "name": "Golgi-associated vesicle"
+ },
+ "GO:0005801": {
+  "aspect": "cellular_component",
+  "name": "cis-Golgi network"
+ },
+ "GO:0005802": {
+  "aspect": "cellular_component",
+  "name": "trans-Golgi network"
+ },
+ "GO:0005811": {
+  "aspect": "cellular_component",
+  "name": "lipid droplet"
+ },
+ "GO:0005813": {
+  "aspect": "cellular_component",
+  "name": "centrosome"
+ },
+ "GO:0005815": {
+  "aspect": "cellular_component",
+  "name": "microtubule organizing center"
+ },
+ "GO:0005819": {
+  "aspect": "cellular_component",
+  "name": "spindle"
+ },
+ "GO:0005829": {
+  "aspect": "cellular_component",
+  "name": "cytosol"
+ },
+ "GO:0005832": {
+  "aspect": "cellular_component",
+  "name": "chaperonin-containing T-complex"
+ },
+ "GO:0005838": {
+  "aspect": "cellular_component",
+  "name": "proteasome regulatory particle"
+ },
+ "GO:0005840": {
+  "aspect": "cellular_component",
+  "name": "ribosome"
+ },
+ "GO:0005844": {
+  "aspect": "cellular_component",
+  "name": "obsolete polysome"
+ },
+ "GO:0005847": {
+  "aspect": "cellular_component",
+  "name": "mRNA cleavage and polyadenylation specificity factor complex"
+ },
+ "GO:0005849": {
+  "aspect": "cellular_component",
+  "name": "mRNA cleavage factor complex"
+ },
+ "GO:0005852": {
+  "aspect": "cellular_component",
+  "name": "eukaryotic translation initiation factor 3 complex"
+ },
+ "GO:0005856": {
+  "aspect": "cellular_component",
+  "name": "cytoskeleton"
+ },
+ "GO:0005868": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic dynein complex"
+ },
+ "GO:0005874": {
+  "aspect": "cellular_component",
+  "name": "microtubule"
+ },
+ "GO:0005875": {
+  "aspect": "cellular_component",
+  "name": "microtubule associated complex"
+ },
+ "GO:0005876": {
+  "aspect": "cellular_component",
+  "name": "spindle microtubule"
+ },
+ "GO:0005881": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic microtubule"
+ },
+ "GO:0005885": {
+  "aspect": "cellular_component",
+  "name": "Arp2/3 protein complex"
+ },
+ "GO:0005886": {
+  "aspect": "cellular_component",
+  "name": "plasma membrane"
+ },
+ "GO:0005911": {
+  "aspect": "cellular_component",
+  "name": "cell-cell junction"
+ },
+ "GO:0005938": {
+  "aspect": "cellular_component",
+  "name": "cell cortex"
+ },
+ "GO:0005975": {
+  "aspect": "biological_process",
+  "name": "carbohydrate metabolic process"
+ },
+ "GO:0005976": {
+  "aspect": "biological_process",
+  "name": "polysaccharide metabolic process"
+ },
+ "GO:0005996": {
+  "aspect": "biological_process",
+  "name": "monosaccharide metabolic process"
+ },
+ "GO:0006006": {
+  "aspect": "biological_process",
+  "name": "glucose metabolic process"
+ },
+ "GO:0006022": {
+  "aspect": "biological_process",
+  "name": "aminoglycan metabolic process"
+ },
+ "GO:0006040": {
+  "aspect": "biological_process",
+  "name": "amino sugar metabolic process"
+ },
+ "GO:0006047": {
+  "aspect": "biological_process",
+  "name": "obsolete UDP-N-acetylglucosamine metabolic process"
+ },
+ "GO:0006066": {
+  "aspect": "biological_process",
+  "name": "alcohol metabolic process"
+ },
+ "GO:0006072": {
+  "aspect": "biological_process",
+  "name": "glycerol-3-phosphate metabolic process"
+ },
+ "GO:0006082": {
+  "aspect": "biological_process",
+  "name": "obsolete organic acid metabolic process"
+ },
+ "GO:0006091": {
+  "aspect": "biological_process",
+  "name": "generation of precursor metabolites and energy"
+ },
+ "GO:0006096": {
+  "aspect": "biological_process",
+  "name": "glycolytic process"
+ },
+ "GO:0006099": {
+  "aspect": "biological_process",
+  "name": "tricarboxylic acid cycle"
+ },
+ "GO:0006119": {
+  "aspect": "biological_process",
+  "name": "oxidative phosphorylation"
+ },
+ "GO:0006122": {
+  "aspect": "biological_process",
+  "name": "mitochondrial electron transport, ubiquinol to cytochrome c"
+ },
+ "GO:0006123": {
+  "aspect": "biological_process",
+  "name": "mitochondrial electron transport, cytochrome c to oxygen"
+ },
+ "GO:0006139": {
+  "aspect": "biological_process",
+  "name": "nucleobase-containing compound metabolic process"
+ },
+ "GO:0006144": {
+  "aspect": "biological_process",
+  "name": "purine nucleobase metabolic process"
+ },
+ "GO:0006163": {
+  "aspect": "biological_process",
+  "name": "purine nucleotide metabolic process"
+ },
+ "GO:0006164": {
+  "aspect": "biological_process",
+  "name": "purine nucleotide biosynthetic process"
+ },
+ "GO:0006206": {
+  "aspect": "biological_process",
+  "name": "pyrimidine nucleobase metabolic process"
+ },
+ "GO:0006220": {
+  "aspect": "biological_process",
+  "name": "pyrimidine nucleotide metabolic process"
+ },
+ "GO:0006259": {
+  "aspect": "biological_process",
+  "name": "DNA metabolic process"
+ },
+ "GO:0006260": {
+  "aspect": "biological_process",
+  "name": "DNA replication"
+ },
+ "GO:0006261": {
+  "aspect": "biological_process",
+  "name": "DNA-templated DNA replication"
+ },
+ "GO:0006268": {
+  "aspect": "biological_process",
+  "name": "obsolete DNA unwinding involved in DNA replication"
+ },
+ "GO:0006270": {
+  "aspect": "biological_process",
+  "name": "DNA replication initiation"
+ },
+ "GO:0006271": {
+  "aspect": "biological_process",
+  "name": "DNA strand elongation involved in DNA replication"
+ },
+ "GO:0006281": {
+  "aspect": "biological_process",
+  "name": "DNA repair"
+ },
+ "GO:0006282": {
+  "aspect": "biological_process",
+  "name": "regulation of DNA repair"
+ },
+ "GO:0006284": {
+  "aspect": "biological_process",
+  "name": "base-excision repair"
+ },
+ "GO:0006289": {
+  "aspect": "biological_process",
+  "name": "nucleotide-excision repair"
+ },
+ "GO:0006298": {
+  "aspect": "biological_process",
+  "name": "mismatch repair"
+ },
+ "GO:0006301": {
+  "aspect": "biological_process",
+  "name": "DNA damage tolerance"
+ },
+ "GO:0006302": {
+  "aspect": "biological_process",
+  "name": "double-strand break repair"
+ },
+ "GO:0006303": {
+  "aspect": "biological_process",
+  "name": "double-strand break repair via nonhomologous end joining"
+ },
+ "GO:0006304": {
+  "aspect": "biological_process",
+  "name": "DNA modification"
+ },
+ "GO:0006305": {
+  "aspect": "biological_process",
+  "name": "obsolete DNA alkylation"
+ },
+ "GO:0006306": {
+  "aspect": "biological_process",
+  "name": "obsolete DNA methylation"
+ },
+ "GO:0006310": {
+  "aspect": "biological_process",
+  "name": "DNA recombination"
+ },
+ "GO:0006312": {
+  "aspect": "biological_process",
+  "name": "mitotic recombination"
+ },
+ "GO:0006325": {
+  "aspect": "biological_process",
+  "name": "chromatin organization"
+ },
+ "GO:0006334": {
+  "aspect": "biological_process",
+  "name": "nucleosome assembly"
+ },
+ "GO:0006338": {
+  "aspect": "biological_process",
+  "name": "chromatin remodeling"
+ },
+ "GO:0006351": {
+  "aspect": "biological_process",
+  "name": "DNA-templated transcription"
+ },
+ "GO:0006352": {
+  "aspect": "biological_process",
+  "name": "DNA-templated transcription initiation"
+ },
+ "GO:0006354": {
+  "aspect": "biological_process",
+  "name": "DNA-templated transcription elongation"
+ },
+ "GO:0006355": {
+  "aspect": "biological_process",
+  "name": "regulation of DNA-templated transcription"
+ },
+ "GO:0006357": {
+  "aspect": "biological_process",
+  "name": "regulation of transcription by RNA polymerase II"
+ },
+ "GO:0006360": {
+  "aspect": "biological_process",
+  "name": "transcription by RNA polymerase I"
+ },
+ "GO:0006364": {
+  "aspect": "biological_process",
+  "name": "rRNA processing"
+ },
+ "GO:0006366": {
+  "aspect": "biological_process",
+  "name": "transcription by RNA polymerase II"
+ },
+ "GO:0006367": {
+  "aspect": "biological_process",
+  "name": "transcription initiation at RNA polymerase II promoter"
+ },
+ "GO:0006368": {
+  "aspect": "biological_process",
+  "name": "transcription elongation by RNA polymerase II"
+ },
+ "GO:0006376": {
+  "aspect": "biological_process",
+  "name": "mRNA splice site recognition"
+ },
+ "GO:0006378": {
+  "aspect": "biological_process",
+  "name": "obsolete mRNA polyadenylation"
+ },
+ "GO:0006383": {
+  "aspect": "biological_process",
+  "name": "transcription by RNA polymerase III"
+ },
+ "GO:0006388": {
+  "aspect": "biological_process",
+  "name": "tRNA splicing, via endonucleolytic cleavage and ligation"
+ },
+ "GO:0006396": {
+  "aspect": "biological_process",
+  "name": "RNA processing"
+ },
+ "GO:0006397": {
+  "aspect": "biological_process",
+  "name": "mRNA processing"
+ },
+ "GO:0006399": {
+  "aspect": "biological_process",
+  "name": "tRNA metabolic process"
+ },
+ "GO:0006400": {
+  "aspect": "biological_process",
+  "name": "tRNA modification"
+ },
+ "GO:0006401": {
+  "aspect": "biological_process",
+  "name": "RNA catabolic process"
+ },
+ "GO:0006402": {
+  "aspect": "biological_process",
+  "name": "mRNA catabolic process"
+ },
+ "GO:0006403": {
+  "aspect": "biological_process",
+  "name": "RNA localization"
+ },
+ "GO:0006405": {
+  "aspect": "biological_process",
+  "name": "RNA export from nucleus"
+ },
+ "GO:0006406": {
+  "aspect": "biological_process",
+  "name": "mRNA export from nucleus"
+ },
+ "GO:0006412": {
+  "aspect": "biological_process",
+  "name": "translation"
+ },
+ "GO:0006413": {
+  "aspect": "biological_process",
+  "name": "translational initiation"
+ },
+ "GO:0006414": {
+  "aspect": "biological_process",
+  "name": "translational elongation"
+ },
+ "GO:0006417": {
+  "aspect": "biological_process",
+  "name": "regulation of translation"
+ },
+ "GO:0006446": {
+  "aspect": "biological_process",
+  "name": "regulation of translational initiation"
+ },
+ "GO:0006457": {
+  "aspect": "biological_process",
+  "name": "protein folding"
+ },
+ "GO:0006458": {
+  "aspect": "biological_process",
+  "name": "'de novo' protein folding"
+ },
+ "GO:0006465": {
+  "aspect": "biological_process",
+  "name": "obsolete signal peptide processing"
+ },
+ "GO:0006468": {
+  "aspect": "biological_process",
+  "name": "protein phosphorylation"
+ },
+ "GO:0006470": {
+  "aspect": "biological_process",
+  "name": "protein dephosphorylation"
+ },
+ "GO:0006473": {
+  "aspect": "biological_process",
+  "name": "protein acetylation"
+ },
+ "GO:0006475": {
+  "aspect": "biological_process",
+  "name": "internal protein amino acid acetylation"
+ },
+ "GO:0006479": {
+  "aspect": "biological_process",
+  "name": "protein methylation"
+ },
+ "GO:0006486": {
+  "aspect": "biological_process",
+  "name": "obsolete protein glycosylation"
+ },
+ "GO:0006487": {
+  "aspect": "biological_process",
+  "name": "protein N-linked glycosylation"
+ },
+ "GO:0006497": {
+  "aspect": "biological_process",
+  "name": "protein lipidation"
+ },
+ "GO:0006505": {
+  "aspect": "biological_process",
+  "name": "GPI anchor metabolic process"
+ },
+ "GO:0006506": {
+  "aspect": "biological_process",
+  "name": "GPI anchor biosynthetic process"
+ },
+ "GO:0006508": {
+  "aspect": "biological_process",
+  "name": "proteolysis"
+ },
+ "GO:0006511": {
+  "aspect": "biological_process",
+  "name": "ubiquitin-dependent protein catabolic process"
+ },
+ "GO:0006513": {
+  "aspect": "biological_process",
+  "name": "protein monoubiquitination"
+ },
+ "GO:0006515": {
+  "aspect": "biological_process",
+  "name": "protein quality control"
+ },
+ "GO:0006518": {
+  "aspect": "biological_process",
+  "name": "peptide metabolic process"
+ },
+ "GO:0006520": {
+  "aspect": "biological_process",
+  "name": "amino acid metabolic process"
+ },
+ "GO:0006536": {
+  "aspect": "biological_process",
+  "name": "glutamate metabolic process"
+ },
+ "GO:0006570": {
+  "aspect": "biological_process",
+  "name": "obsolete tyrosine metabolic process"
+ },
+ "GO:0006576": {
+  "aspect": "biological_process",
+  "name": "biogenic amine metabolic process"
+ },
+ "GO:0006596": {
+  "aspect": "biological_process",
+  "name": "polyamine biosynthetic process"
+ },
+ "GO:0006605": {
+  "aspect": "biological_process",
+  "name": "protein targeting"
+ },
+ "GO:0006606": {
+  "aspect": "biological_process",
+  "name": "protein import into nucleus"
+ },
+ "GO:0006607": {
+  "aspect": "biological_process",
+  "name": "NLS-bearing protein import into nucleus"
+ },
+ "GO:0006612": {
+  "aspect": "biological_process",
+  "name": "protein targeting to membrane"
+ },
+ "GO:0006613": {
+  "aspect": "biological_process",
+  "name": "cotranslational protein targeting to membrane"
+ },
+ "GO:0006614": {
+  "aspect": "biological_process",
+  "name": "SRP-dependent cotranslational protein targeting to membrane"
+ },
+ "GO:0006620": {
+  "aspect": "biological_process",
+  "name": "post-translational protein targeting to endoplasmic reticulum membrane"
+ },
+ "GO:0006623": {
+  "aspect": "biological_process",
+  "name": "protein targeting to vacuole"
+ },
+ "GO:0006625": {
+  "aspect": "biological_process",
+  "name": "protein targeting to peroxisome"
+ },
+ "GO:0006626": {
+  "aspect": "biological_process",
+  "name": "obsolete protein targeting to mitochondrion"
+ },
+ "GO:0006629": {
+  "aspect": "biological_process",
+  "name": "lipid metabolic process"
+ },
+ "GO:0006631": {
+  "aspect": "biological_process",
+  "name": "fatty acid metabolic process"
+ },
+ "GO:0006633": {
+  "aspect": "biological_process",
+  "name": "fatty acid biosynthetic process"
+ },
+ "GO:0006635": {
+  "aspect": "biological_process",
+  "name": "fatty acid beta-oxidation"
+ },
+ "GO:0006637": {
+  "aspect": "biological_process",
+  "name": "acyl-CoA metabolic process"
+ },
+ "GO:0006638": {
+  "aspect": "biological_process",
+  "name": "neutral lipid metabolic process"
+ },
+ "GO:0006639": {
+  "aspect": "biological_process",
+  "name": "acylglycerol metabolic process"
+ },
+ "GO:0006641": {
+  "aspect": "biological_process",
+  "name": "triglyceride metabolic process"
+ },
+ "GO:0006643": {
+  "aspect": "biological_process",
+  "name": "obsolete membrane lipid metabolic process"
+ },
+ "GO:0006644": {
+  "aspect": "biological_process",
+  "name": "phospholipid metabolic process"
+ },
+ "GO:0006650": {
+  "aspect": "biological_process",
+  "name": "glycerophospholipid metabolic process"
+ },
+ "GO:0006661": {
+  "aspect": "biological_process",
+  "name": "phosphatidylinositol biosynthetic process"
+ },
+ "GO:0006664": {
+  "aspect": "biological_process",
+  "name": "glycolipid metabolic process"
+ },
+ "GO:0006665": {
+  "aspect": "biological_process",
+  "name": "sphingolipid metabolic process"
+ },
+ "GO:0006672": {
+  "aspect": "biological_process",
+  "name": "ceramide metabolic process"
+ },
+ "GO:0006694": {
+  "aspect": "biological_process",
+  "name": "steroid biosynthetic process"
+ },
+ "GO:0006720": {
+  "aspect": "biological_process",
+  "name": "isoprenoid metabolic process"
+ },
+ "GO:0006721": {
+  "aspect": "biological_process",
+  "name": "terpenoid metabolic process"
+ },
+ "GO:0006725": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular aromatic compound metabolic process"
+ },
+ "GO:0006739": {
+  "aspect": "biological_process",
+  "name": "NADP+ metabolic process"
+ },
+ "GO:0006744": {
+  "aspect": "biological_process",
+  "name": "ubiquinone biosynthetic process"
+ },
+ "GO:0006749": {
+  "aspect": "biological_process",
+  "name": "glutathione metabolic process"
+ },
+ "GO:0006753": {
+  "aspect": "biological_process",
+  "name": "nucleoside phosphate metabolic process"
+ },
+ "GO:0006754": {
+  "aspect": "biological_process",
+  "name": "ATP biosynthetic process"
+ },
+ "GO:0006760": {
+  "aspect": "biological_process",
+  "name": "folic acid-containing compound metabolic process"
+ },
+ "GO:0006778": {
+  "aspect": "biological_process",
+  "name": "porphyrin-containing compound metabolic process"
+ },
+ "GO:0006783": {
+  "aspect": "biological_process",
+  "name": "heme biosynthetic process"
+ },
+ "GO:0006790": {
+  "aspect": "biological_process",
+  "name": "sulfur compound metabolic process"
+ },
+ "GO:0006793": {
+  "aspect": "biological_process",
+  "name": "phosphorus metabolic process"
+ },
+ "GO:0006796": {
+  "aspect": "biological_process",
+  "name": "phosphate-containing compound metabolic process"
+ },
+ "GO:0006807": {
+  "aspect": "biological_process",
+  "name": "obsolete nitrogen compound metabolic process"
+ },
+ "GO:0006810": {
+  "aspect": "biological_process",
+  "name": "transport"
+ },
+ "GO:0006811": {
+  "aspect": "biological_process",
+  "name": "monoatomic ion transport"
+ },
+ "GO:0006812": {
+  "aspect": "biological_process",
+  "name": "monoatomic cation transport"
+ },
+ "GO:0006813": {
+  "aspect": "biological_process",
+  "name": "potassium ion transport"
+ },
+ "GO:0006814": {
+  "aspect": "biological_process",
+  "name": "sodium ion transport"
+ },
+ "GO:0006816": {
+  "aspect": "biological_process",
+  "name": "calcium ion transport"
+ },
+ "GO:0006820": {
+  "aspect": "biological_process",
+  "name": "monoatomic anion transport"
+ },
+ "GO:0006833": {
+  "aspect": "biological_process",
+  "name": "water transport"
+ },
+ "GO:0006835": {
+  "aspect": "biological_process",
+  "name": "dicarboxylic acid transport"
+ },
+ "GO:0006839": {
+  "aspect": "biological_process",
+  "name": "mitochondrial transport"
+ },
+ "GO:0006865": {
+  "aspect": "biological_process",
+  "name": "amino acid transport"
+ },
+ "GO:0006869": {
+  "aspect": "biological_process",
+  "name": "lipid transport"
+ },
+ "GO:0006873": {
+  "aspect": "biological_process",
+  "name": "intracellular monoatomic ion homeostasis"
+ },
+ "GO:0006874": {
+  "aspect": "biological_process",
+  "name": "intracellular calcium ion homeostasis"
+ },
+ "GO:0006879": {
+  "aspect": "biological_process",
+  "name": "intracellular iron ion homeostasis"
+ },
+ "GO:0006885": {
+  "aspect": "biological_process",
+  "name": "regulation of pH"
+ },
+ "GO:0006886": {
+  "aspect": "biological_process",
+  "name": "intracellular protein transport"
+ },
+ "GO:0006887": {
+  "aspect": "biological_process",
+  "name": "exocytosis"
+ },
+ "GO:0006888": {
+  "aspect": "biological_process",
+  "name": "endoplasmic reticulum to Golgi vesicle-mediated transport"
+ },
+ "GO:0006890": {
+  "aspect": "biological_process",
+  "name": "retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum"
+ },
+ "GO:0006891": {
+  "aspect": "biological_process",
+  "name": "intra-Golgi vesicle-mediated transport"
+ },
+ "GO:0006892": {
+  "aspect": "biological_process",
+  "name": "post-Golgi vesicle-mediated transport"
+ },
+ "GO:0006893": {
+  "aspect": "biological_process",
+  "name": "Golgi to plasma membrane transport"
+ },
+ "GO:0006896": {
+  "aspect": "biological_process",
+  "name": "Golgi to vacuole transport"
+ },
+ "GO:0006897": {
+  "aspect": "biological_process",
+  "name": "endocytosis"
+ },
+ "GO:0006898": {
+  "aspect": "biological_process",
+  "name": "receptor-mediated endocytosis"
+ },
+ "GO:0006900": {
+  "aspect": "biological_process",
+  "name": "vesicle budding from membrane"
+ },
+ "GO:0006906": {
+  "aspect": "biological_process",
+  "name": "vesicle fusion"
+ },
+ "GO:0006913": {
+  "aspect": "biological_process",
+  "name": "nucleocytoplasmic transport"
+ },
+ "GO:0006914": {
+  "aspect": "biological_process",
+  "name": "autophagy"
+ },
+ "GO:0006950": {
+  "aspect": "biological_process",
+  "name": "response to stress"
+ },
+ "GO:0006952": {
+  "aspect": "biological_process",
+  "name": "defense response"
+ },
+ "GO:0006955": {
+  "aspect": "biological_process",
+  "name": "immune response"
+ },
+ "GO:0006970": {
+  "aspect": "biological_process",
+  "name": "response to osmotic stress"
+ },
+ "GO:0006974": {
+  "aspect": "biological_process",
+  "name": "DNA damage response"
+ },
+ "GO:0006979": {
+  "aspect": "biological_process",
+  "name": "response to oxidative stress"
+ },
+ "GO:0006986": {
+  "aspect": "biological_process",
+  "name": "response to unfolded protein"
+ },
+ "GO:0006996": {
+  "aspect": "biological_process",
+  "name": "organelle organization"
+ },
+ "GO:0006997": {
+  "aspect": "biological_process",
+  "name": "nucleus organization"
+ },
+ "GO:0006998": {
+  "aspect": "biological_process",
+  "name": "nuclear envelope organization"
+ },
+ "GO:0007004": {
+  "aspect": "biological_process",
+  "name": "telomere maintenance via telomerase"
+ },
+ "GO:0007005": {
+  "aspect": "biological_process",
+  "name": "mitochondrion organization"
+ },
+ "GO:0007006": {
+  "aspect": "biological_process",
+  "name": "mitochondrial membrane organization"
+ },
+ "GO:0007007": {
+  "aspect": "biological_process",
+  "name": "inner mitochondrial membrane organization"
+ },
+ "GO:0007010": {
+  "aspect": "biological_process",
+  "name": "cytoskeleton organization"
+ },
+ "GO:0007015": {
+  "aspect": "biological_process",
+  "name": "actin filament organization"
+ },
+ "GO:0007017": {
+  "aspect": "biological_process",
+  "name": "microtubule-based process"
+ },
+ "GO:0007018": {
+  "aspect": "biological_process",
+  "name": "microtubule-based movement"
+ },
+ "GO:0007019": {
+  "aspect": "biological_process",
+  "name": "microtubule depolymerization"
+ },
+ "GO:0007020": {
+  "aspect": "biological_process",
+  "name": "microtubule nucleation"
+ },
+ "GO:0007029": {
+  "aspect": "biological_process",
+  "name": "endoplasmic reticulum organization"
+ },
+ "GO:0007030": {
+  "aspect": "biological_process",
+  "name": "Golgi organization"
+ },
+ "GO:0007031": {
+  "aspect": "biological_process",
+  "name": "peroxisome organization"
+ },
+ "GO:0007032": {
+  "aspect": "biological_process",
+  "name": "endosome organization"
+ },
+ "GO:0007033": {
+  "aspect": "biological_process",
+  "name": "vacuole organization"
+ },
+ "GO:0007034": {
+  "aspect": "biological_process",
+  "name": "vacuolar transport"
+ },
+ "GO:0007035": {
+  "aspect": "biological_process",
+  "name": "vacuolar acidification"
+ },
+ "GO:0007041": {
+  "aspect": "biological_process",
+  "name": "lysosomal transport"
+ },
+ "GO:0007043": {
+  "aspect": "biological_process",
+  "name": "cell-cell junction assembly"
+ },
+ "GO:0007049": {
+  "aspect": "biological_process",
+  "name": "cell cycle"
+ },
+ "GO:0007051": {
+  "aspect": "biological_process",
+  "name": "spindle organization"
+ },
+ "GO:0007052": {
+  "aspect": "biological_process",
+  "name": "mitotic spindle organization"
+ },
+ "GO:0007059": {
+  "aspect": "biological_process",
+  "name": "chromosome segregation"
+ },
+ "GO:0007062": {
+  "aspect": "biological_process",
+  "name": "sister chromatid cohesion"
+ },
+ "GO:0007064": {
+  "aspect": "biological_process",
+  "name": "mitotic sister chromatid cohesion"
+ },
+ "GO:0007076": {
+  "aspect": "biological_process",
+  "name": "mitotic chromosome condensation"
+ },
+ "GO:0007088": {
+  "aspect": "biological_process",
+  "name": "regulation of mitotic nuclear division"
+ },
+ "GO:0007093": {
+  "aspect": "biological_process",
+  "name": "mitotic cell cycle checkpoint signaling"
+ },
+ "GO:0007094": {
+  "aspect": "biological_process",
+  "name": "mitotic spindle assembly checkpoint signaling"
+ },
+ "GO:0007095": {
+  "aspect": "biological_process",
+  "name": "mitotic G2 DNA damage checkpoint signaling"
+ },
+ "GO:0007098": {
+  "aspect": "biological_process",
+  "name": "centrosome cycle"
+ },
+ "GO:0007127": {
+  "aspect": "biological_process",
+  "name": "meiosis I"
+ },
+ "GO:0007131": {
+  "aspect": "biological_process",
+  "name": "reciprocal meiotic recombination"
+ },
+ "GO:0007154": {
+  "aspect": "biological_process",
+  "name": "cell communication"
+ },
+ "GO:0007163": {
+  "aspect": "biological_process",
+  "name": "establishment or maintenance of cell polarity"
+ },
+ "GO:0007165": {
+  "aspect": "biological_process",
+  "name": "signal transduction"
+ },
+ "GO:0007166": {
+  "aspect": "biological_process",
+  "name": "cell surface receptor signaling pathway"
+ },
+ "GO:0007186": {
+  "aspect": "biological_process",
+  "name": "G protein-coupled receptor signaling pathway"
+ },
+ "GO:0007188": {
+  "aspect": "biological_process",
+  "name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway"
+ },
+ "GO:0007275": {
+  "aspect": "biological_process",
+  "name": "multicellular organism development"
+ },
+ "GO:0007346": {
+  "aspect": "biological_process",
+  "name": "regulation of mitotic cell cycle"
+ },
+ "GO:0007389": {
+  "aspect": "biological_process",
+  "name": "pattern specification process"
+ },
+ "GO:0008017": {
+  "aspect": "molecular_function",
+  "name": "microtubule binding"
+ },
+ "GO:0008023": {
+  "aspect": "cellular_component",
+  "name": "transcription elongation factor complex"
+ },
+ "GO:0008033": {
+  "aspect": "biological_process",
+  "name": "tRNA processing"
+ },
+ "GO:0008047": {
+  "aspect": "molecular_function",
+  "name": "enzyme activator activity"
+ },
+ "GO:0008064": {
+  "aspect": "biological_process",
+  "name": "regulation of actin polymerization or depolymerization"
+ },
+ "GO:0008080": {
+  "aspect": "molecular_function",
+  "name": "N-acetyltransferase activity"
+ },
+ "GO:0008081": {
+  "aspect": "molecular_function",
+  "name": "phosphoric diester hydrolase activity"
+ },
+ "GO:0008092": {
+  "aspect": "molecular_function",
+  "name": "cytoskeletal protein binding"
+ },
+ "GO:0008094": {
+  "aspect": "molecular_function",
+  "name": "ATP-dependent activity, acting on DNA"
+ },
+ "GO:0008104": {
+  "aspect": "biological_process",
+  "name": "intracellular protein localization"
+ },
+ "GO:0008134": {
+  "aspect": "molecular_function",
+  "name": "transcription factor binding"
+ },
+ "GO:0008135": {
+  "aspect": "molecular_function",
+  "name": "translation factor activity, RNA binding"
+ },
+ "GO:0008143": {
+  "aspect": "molecular_function",
+  "name": "poly(A) binding"
+ },
+ "GO:0008146": {
+  "aspect": "molecular_function",
+  "name": "sulfotransferase activity"
+ },
+ "GO:0008152": {
+  "aspect": "biological_process",
+  "name": "metabolic process"
+ },
+ "GO:0008154": {
+  "aspect": "biological_process",
+  "name": "actin polymerization or depolymerization"
+ },
+ "GO:0008168": {
+  "aspect": "molecular_function",
+  "name": "methyltransferase activity"
+ },
+ "GO:0008170": {
+  "aspect": "molecular_function",
+  "name": "N-methyltransferase activity"
+ },
+ "GO:0008171": {
+  "aspect": "molecular_function",
+  "name": "O-methyltransferase activity"
+ },
+ "GO:0008173": {
+  "aspect": "molecular_function",
+  "name": "RNA methyltransferase activity"
+ },
+ "GO:0008175": {
+  "aspect": "molecular_function",
+  "name": "tRNA methyltransferase activity"
+ },
+ "GO:0008180": {
+  "aspect": "cellular_component",
+  "name": "COP9 signalosome"
+ },
+ "GO:0008194": {
+  "aspect": "molecular_function",
+  "name": "UDP-glycosyltransferase activity"
+ },
+ "GO:0008198": {
+  "aspect": "molecular_function",
+  "name": "ferrous iron binding"
+ },
+ "GO:0008202": {
+  "aspect": "biological_process",
+  "name": "steroid metabolic process"
+ },
+ "GO:0008213": {
+  "aspect": "biological_process",
+  "name": "protein alkylation"
+ },
+ "GO:0008219": {
+  "aspect": "biological_process",
+  "name": "cell death"
+ },
+ "GO:0008233": {
+  "aspect": "molecular_function",
+  "name": "peptidase activity"
+ },
+ "GO:0008234": {
+  "aspect": "molecular_function",
+  "name": "cysteine-type peptidase activity"
+ },
+ "GO:0008235": {
+  "aspect": "molecular_function",
+  "name": "metalloexopeptidase activity"
+ },
+ "GO:0008237": {
+  "aspect": "molecular_function",
+  "name": "metallopeptidase activity"
+ },
+ "GO:0008238": {
+  "aspect": "molecular_function",
+  "name": "exopeptidase activity"
+ },
+ "GO:0008250": {
+  "aspect": "cellular_component",
+  "name": "oligosaccharyltransferase complex"
+ },
+ "GO:0008252": {
+  "aspect": "molecular_function",
+  "name": "nucleotidase activity"
+ },
+ "GO:0008270": {
+  "aspect": "molecular_function",
+  "name": "zinc ion binding"
+ },
+ "GO:0008276": {
+  "aspect": "molecular_function",
+  "name": "protein methyltransferase activity"
+ },
+ "GO:0008287": {
+  "aspect": "cellular_component",
+  "name": "protein serine/threonine phosphatase complex"
+ },
+ "GO:0008289": {
+  "aspect": "molecular_function",
+  "name": "lipid binding"
+ },
+ "GO:0008296": {
+  "aspect": "molecular_function",
+  "name": "3'-5'-DNA exonuclease activity"
+ },
+ "GO:0008299": {
+  "aspect": "biological_process",
+  "name": "isoprenoid biosynthetic process"
+ },
+ "GO:0008300": {
+  "aspect": "biological_process",
+  "name": "isoprenoid catabolic process"
+ },
+ "GO:0008320": {
+  "aspect": "molecular_function",
+  "name": "transmembrane protein transporter activity"
+ },
+ "GO:0008324": {
+  "aspect": "molecular_function",
+  "name": "monoatomic cation transmembrane transporter activity"
+ },
+ "GO:0008333": {
+  "aspect": "biological_process",
+  "name": "endosome to lysosome transport"
+ },
+ "GO:0008360": {
+  "aspect": "biological_process",
+  "name": "regulation of cell shape"
+ },
+ "GO:0008374": {
+  "aspect": "molecular_function",
+  "name": "obsolete O-acyltransferase activity"
+ },
+ "GO:0008375": {
+  "aspect": "molecular_function",
+  "name": "acetylglucosaminyltransferase activity"
+ },
+ "GO:0008378": {
+  "aspect": "molecular_function",
+  "name": "galactosyltransferase activity"
+ },
+ "GO:0008380": {
+  "aspect": "biological_process",
+  "name": "RNA splicing"
+ },
+ "GO:0008408": {
+  "aspect": "molecular_function",
+  "name": "3'-5' exonuclease activity"
+ },
+ "GO:0008409": {
+  "aspect": "molecular_function",
+  "name": "5'-3' exonuclease activity"
+ },
+ "GO:0008417": {
+  "aspect": "molecular_function",
+  "name": "fucosyltransferase activity"
+ },
+ "GO:0008483": {
+  "aspect": "molecular_function",
+  "name": "transaminase activity"
+ },
+ "GO:0008509": {
+  "aspect": "molecular_function",
+  "name": "monoatomic anion transmembrane transporter activity"
+ },
+ "GO:0008514": {
+  "aspect": "molecular_function",
+  "name": "obsolete organic anion transmembrane transporter activity"
+ },
+ "GO:0008541": {
+  "aspect": "cellular_component",
+  "name": "proteasome regulatory particle, lid subcomplex"
+ },
+ "GO:0008574": {
+  "aspect": "molecular_function",
+  "name": "plus-end-directed microtubule motor activity"
+ },
+ "GO:0008610": {
+  "aspect": "biological_process",
+  "name": "lipid biosynthetic process"
+ },
+ "GO:0008643": {
+  "aspect": "biological_process",
+  "name": "carbohydrate transport"
+ },
+ "GO:0008649": {
+  "aspect": "molecular_function",
+  "name": "rRNA methyltransferase activity"
+ },
+ "GO:0008652": {
+  "aspect": "biological_process",
+  "name": "amino acid biosynthetic process"
+ },
+ "GO:0008654": {
+  "aspect": "biological_process",
+  "name": "phospholipid biosynthetic process"
+ },
+ "GO:0008757": {
+  "aspect": "molecular_function",
+  "name": "S-adenosylmethionine-dependent methyltransferase activity"
+ },
+ "GO:0009055": {
+  "aspect": "molecular_function",
+  "name": "electron transfer activity"
+ },
+ "GO:0009056": {
+  "aspect": "biological_process",
+  "name": "catabolic process"
+ },
+ "GO:0009057": {
+  "aspect": "biological_process",
+  "name": "macromolecule catabolic process"
+ },
+ "GO:0009058": {
+  "aspect": "biological_process",
+  "name": "biosynthetic process"
+ },
+ "GO:0009059": {
+  "aspect": "biological_process",
+  "name": "macromolecule biosynthetic process"
+ },
+ "GO:0009060": {
+  "aspect": "biological_process",
+  "name": "aerobic respiration"
+ },
+ "GO:0009062": {
+  "aspect": "biological_process",
+  "name": "fatty acid catabolic process"
+ },
+ "GO:0009063": {
+  "aspect": "biological_process",
+  "name": "amino acid catabolic process"
+ },
+ "GO:0009066": {
+  "aspect": "biological_process",
+  "name": "obsolete aspartate family amino acid metabolic process"
+ },
+ "GO:0009067": {
+  "aspect": "biological_process",
+  "name": "aspartate family amino acid biosynthetic process"
+ },
+ "GO:0009072": {
+  "aspect": "biological_process",
+  "name": "aromatic amino acid metabolic process"
+ },
+ "GO:0009073": {
+  "aspect": "biological_process",
+  "name": "aromatic amino acid biosynthetic process"
+ },
+ "GO:0009074": {
+  "aspect": "biological_process",
+  "name": "aromatic amino acid catabolic process"
+ },
+ "GO:0009081": {
+  "aspect": "biological_process",
+  "name": "branched-chain amino acid metabolic process"
+ },
+ "GO:0009082": {
+  "aspect": "biological_process",
+  "name": "branched-chain amino acid biosynthetic process"
+ },
+ "GO:0009085": {
+  "aspect": "biological_process",
+  "name": "L-lysine biosynthetic process"
+ },
+ "GO:0009098": {
+  "aspect": "biological_process",
+  "name": "L-leucine biosynthetic process"
+ },
+ "GO:0009100": {
+  "aspect": "biological_process",
+  "name": "glycoprotein metabolic process"
+ },
+ "GO:0009101": {
+  "aspect": "biological_process",
+  "name": "glycoprotein biosynthetic process"
+ },
+ "GO:0009112": {
+  "aspect": "biological_process",
+  "name": "nucleobase metabolic process"
+ },
+ "GO:0009116": {
+  "aspect": "biological_process",
+  "name": "nucleoside metabolic process"
+ },
+ "GO:0009117": {
+  "aspect": "biological_process",
+  "name": "nucleotide metabolic process"
+ },
+ "GO:0009123": {
+  "aspect": "biological_process",
+  "name": "nucleoside monophosphate metabolic process"
+ },
+ "GO:0009141": {
+  "aspect": "biological_process",
+  "name": "nucleoside triphosphate metabolic process"
+ },
+ "GO:0009142": {
+  "aspect": "biological_process",
+  "name": "nucleoside triphosphate biosynthetic process"
+ },
+ "GO:0009144": {
+  "aspect": "biological_process",
+  "name": "purine nucleoside triphosphate metabolic process"
+ },
+ "GO:0009145": {
+  "aspect": "biological_process",
+  "name": "purine nucleoside triphosphate biosynthetic process"
+ },
+ "GO:0009150": {
+  "aspect": "biological_process",
+  "name": "purine ribonucleotide metabolic process"
+ },
+ "GO:0009152": {
+  "aspect": "biological_process",
+  "name": "purine ribonucleotide biosynthetic process"
+ },
+ "GO:0009164": {
+  "aspect": "biological_process",
+  "name": "nucleoside catabolic process"
+ },
+ "GO:0009165": {
+  "aspect": "biological_process",
+  "name": "nucleotide biosynthetic process"
+ },
+ "GO:0009166": {
+  "aspect": "biological_process",
+  "name": "nucleotide catabolic process"
+ },
+ "GO:0009199": {
+  "aspect": "biological_process",
+  "name": "obsolete ribonucleoside triphosphate metabolic process"
+ },
+ "GO:0009201": {
+  "aspect": "biological_process",
+  "name": "ribonucleoside triphosphate biosynthetic process"
+ },
+ "GO:0009205": {
+  "aspect": "biological_process",
+  "name": "purine ribonucleoside triphosphate metabolic process"
+ },
+ "GO:0009206": {
+  "aspect": "biological_process",
+  "name": "purine ribonucleoside triphosphate biosynthetic process"
+ },
+ "GO:0009225": {
+  "aspect": "biological_process",
+  "name": "nucleotide-sugar metabolic process"
+ },
+ "GO:0009247": {
+  "aspect": "biological_process",
+  "name": "glycolipid biosynthetic process"
+ },
+ "GO:0009250": {
+  "aspect": "biological_process",
+  "name": "glucan biosynthetic process"
+ },
+ "GO:0009259": {
+  "aspect": "biological_process",
+  "name": "ribonucleotide metabolic process"
+ },
+ "GO:0009260": {
+  "aspect": "biological_process",
+  "name": "ribonucleotide biosynthetic process"
+ },
+ "GO:0009266": {
+  "aspect": "biological_process",
+  "name": "response to temperature stimulus"
+ },
+ "GO:0009267": {
+  "aspect": "biological_process",
+  "name": "cellular response to starvation"
+ },
+ "GO:0009306": {
+  "aspect": "biological_process",
+  "name": "protein secretion"
+ },
+ "GO:0009308": {
+  "aspect": "biological_process",
+  "name": "amine metabolic process"
+ },
+ "GO:0009312": {
+  "aspect": "biological_process",
+  "name": "oligosaccharide biosynthetic process"
+ },
+ "GO:0009314": {
+  "aspect": "biological_process",
+  "name": "response to radiation"
+ },
+ "GO:0009395": {
+  "aspect": "biological_process",
+  "name": "phospholipid catabolic process"
+ },
+ "GO:0009408": {
+  "aspect": "biological_process",
+  "name": "response to heat"
+ },
+ "GO:0009409": {
+  "aspect": "biological_process",
+  "name": "response to cold"
+ },
+ "GO:0009411": {
+  "aspect": "biological_process",
+  "name": "response to UV"
+ },
+ "GO:0009416": {
+  "aspect": "biological_process",
+  "name": "response to light stimulus"
+ },
+ "GO:0009451": {
+  "aspect": "biological_process",
+  "name": "RNA modification"
+ },
+ "GO:0009507": {
+  "aspect": "cellular_component",
+  "name": "chloroplast"
+ },
+ "GO:0009526": {
+  "aspect": "cellular_component",
+  "name": "plastid envelope"
+ },
+ "GO:0009534": {
+  "aspect": "cellular_component",
+  "name": "chloroplast thylakoid"
+ },
+ "GO:0009535": {
+  "aspect": "cellular_component",
+  "name": "chloroplast thylakoid membrane"
+ },
+ "GO:0009536": {
+  "aspect": "cellular_component",
+  "name": "plastid"
+ },
+ "GO:0009566": {
+  "aspect": "biological_process",
+  "name": "fertilization"
+ },
+ "GO:0009570": {
+  "aspect": "cellular_component",
+  "name": "chloroplast stroma"
+ },
+ "GO:0009579": {
+  "aspect": "cellular_component",
+  "name": "thylakoid"
+ },
+ "GO:0009605": {
+  "aspect": "biological_process",
+  "name": "response to external stimulus"
+ },
+ "GO:0009607": {
+  "aspect": "biological_process",
+  "name": "response to biotic stimulus"
+ },
+ "GO:0009611": {
+  "aspect": "biological_process",
+  "name": "response to wounding"
+ },
+ "GO:0009617": {
+  "aspect": "biological_process",
+  "name": "response to bacterium"
+ },
+ "GO:0009628": {
+  "aspect": "biological_process",
+  "name": "response to abiotic stimulus"
+ },
+ "GO:0009636": {
+  "aspect": "biological_process",
+  "name": "response to toxic substance"
+ },
+ "GO:0009653": {
+  "aspect": "biological_process",
+  "name": "anatomical structure morphogenesis"
+ },
+ "GO:0009657": {
+  "aspect": "biological_process",
+  "name": "plastid organization"
+ },
+ "GO:0009658": {
+  "aspect": "biological_process",
+  "name": "chloroplast organization"
+ },
+ "GO:0009668": {
+  "aspect": "biological_process",
+  "name": "plastid membrane organization"
+ },
+ "GO:0009685": {
+  "aspect": "biological_process",
+  "name": "gibberellin metabolic process"
+ },
+ "GO:0009694": {
+  "aspect": "biological_process",
+  "name": "jasmonic acid metabolic process"
+ },
+ "GO:0009705": {
+  "aspect": "cellular_component",
+  "name": "plant-type vacuole membrane"
+ },
+ "GO:0009706": {
+  "aspect": "cellular_component",
+  "name": "chloroplast inner membrane"
+ },
+ "GO:0009707": {
+  "aspect": "cellular_component",
+  "name": "chloroplast outer membrane"
+ },
+ "GO:0009719": {
+  "aspect": "biological_process",
+  "name": "response to endogenous stimulus"
+ },
+ "GO:0009725": {
+  "aspect": "biological_process",
+  "name": "response to hormone"
+ },
+ "GO:0009737": {
+  "aspect": "biological_process",
+  "name": "response to abscisic acid"
+ },
+ "GO:0009739": {
+  "aspect": "biological_process",
+  "name": "response to gibberellin"
+ },
+ "GO:0009753": {
+  "aspect": "biological_process",
+  "name": "response to jasmonic acid"
+ },
+ "GO:0009755": {
+  "aspect": "biological_process",
+  "name": "hormone-mediated signaling pathway"
+ },
+ "GO:0009790": {
+  "aspect": "biological_process",
+  "name": "embryo development"
+ },
+ "GO:0009791": {
+  "aspect": "biological_process",
+  "name": "post-embryonic development"
+ },
+ "GO:0009826": {
+  "aspect": "biological_process",
+  "name": "unidimensional cell growth"
+ },
+ "GO:0009888": {
+  "aspect": "biological_process",
+  "name": "tissue development"
+ },
+ "GO:0009889": {
+  "aspect": "biological_process",
+  "name": "regulation of biosynthetic process"
+ },
+ "GO:0009890": {
+  "aspect": "biological_process",
+  "name": "negative regulation of biosynthetic process"
+ },
+ "GO:0009891": {
+  "aspect": "biological_process",
+  "name": "positive regulation of biosynthetic process"
+ },
+ "GO:0009892": {
+  "aspect": "biological_process",
+  "name": "negative regulation of metabolic process"
+ },
+ "GO:0009893": {
+  "aspect": "biological_process",
+  "name": "positive regulation of metabolic process"
+ },
+ "GO:0009894": {
+  "aspect": "biological_process",
+  "name": "regulation of catabolic process"
+ },
+ "GO:0009895": {
+  "aspect": "biological_process",
+  "name": "negative regulation of catabolic process"
+ },
+ "GO:0009896": {
+  "aspect": "biological_process",
+  "name": "positive regulation of catabolic process"
+ },
+ "GO:0009898": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic side of plasma membrane"
+ },
+ "GO:0009908": {
+  "aspect": "biological_process",
+  "name": "flower development"
+ },
+ "GO:0009941": {
+  "aspect": "cellular_component",
+  "name": "chloroplast envelope"
+ },
+ "GO:0009966": {
+  "aspect": "biological_process",
+  "name": "regulation of signal transduction"
+ },
+ "GO:0009968": {
+  "aspect": "biological_process",
+  "name": "negative regulation of signal transduction"
+ },
+ "GO:0009975": {
+  "aspect": "molecular_function",
+  "name": "cyclase activity"
+ },
+ "GO:0009987": {
+  "aspect": "biological_process",
+  "name": "cellular process"
+ },
+ "GO:0009991": {
+  "aspect": "biological_process",
+  "name": "obsolete response to extracellular stimulus"
+ },
+ "GO:0010008": {
+  "aspect": "cellular_component",
+  "name": "endosome membrane"
+ },
+ "GO:0010020": {
+  "aspect": "biological_process",
+  "name": "chloroplast fission"
+ },
+ "GO:0010027": {
+  "aspect": "biological_process",
+  "name": "thylakoid membrane organization"
+ },
+ "GO:0010033": {
+  "aspect": "biological_process",
+  "name": "obsolete response to organic substance"
+ },
+ "GO:0010154": {
+  "aspect": "biological_process",
+  "name": "fruit development"
+ },
+ "GO:0010228": {
+  "aspect": "biological_process",
+  "name": "vegetative to reproductive phase transition of meristem"
+ },
+ "GO:0010243": {
+  "aspect": "biological_process",
+  "name": "obsolete response to organonitrogen compound"
+ },
+ "GO:0010256": {
+  "aspect": "biological_process",
+  "name": "endomembrane system organization"
+ },
+ "GO:0010389": {
+  "aspect": "biological_process",
+  "name": "regulation of G2/M transition of mitotic cell cycle"
+ },
+ "GO:0010467": {
+  "aspect": "biological_process",
+  "name": "gene expression"
+ },
+ "GO:0010468": {
+  "aspect": "biological_process",
+  "name": "regulation of gene expression"
+ },
+ "GO:0010494": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic stress granule"
+ },
+ "GO:0010498": {
+  "aspect": "biological_process",
+  "name": "proteasomal protein catabolic process"
+ },
+ "GO:0010506": {
+  "aspect": "biological_process",
+  "name": "regulation of autophagy"
+ },
+ "GO:0010556": {
+  "aspect": "biological_process",
+  "name": "regulation of macromolecule biosynthetic process"
+ },
+ "GO:0010557": {
+  "aspect": "biological_process",
+  "name": "positive regulation of macromolecule biosynthetic process"
+ },
+ "GO:0010558": {
+  "aspect": "biological_process",
+  "name": "negative regulation of macromolecule biosynthetic process"
+ },
+ "GO:0010562": {
+  "aspect": "biological_process",
+  "name": "positive regulation of phosphorus metabolic process"
+ },
+ "GO:0010564": {
+  "aspect": "biological_process",
+  "name": "regulation of cell cycle process"
+ },
+ "GO:0010604": {
+  "aspect": "biological_process",
+  "name": "positive regulation of macromolecule metabolic process"
+ },
+ "GO:0010605": {
+  "aspect": "biological_process",
+  "name": "negative regulation of macromolecule metabolic process"
+ },
+ "GO:0010608": {
+  "aspect": "biological_process",
+  "name": "post-transcriptional regulation of gene expression"
+ },
+ "GO:0010628": {
+  "aspect": "biological_process",
+  "name": "positive regulation of gene expression"
+ },
+ "GO:0010629": {
+  "aspect": "biological_process",
+  "name": "negative regulation of gene expression"
+ },
+ "GO:0010638": {
+  "aspect": "biological_process",
+  "name": "positive regulation of organelle organization"
+ },
+ "GO:0010639": {
+  "aspect": "biological_process",
+  "name": "negative regulation of organelle organization"
+ },
+ "GO:0010646": {
+  "aspect": "biological_process",
+  "name": "regulation of cell communication"
+ },
+ "GO:0010648": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cell communication"
+ },
+ "GO:0010817": {
+  "aspect": "biological_process",
+  "name": "regulation of hormone levels"
+ },
+ "GO:0010833": {
+  "aspect": "biological_process",
+  "name": "telomere maintenance via telomere lengthening"
+ },
+ "GO:0010876": {
+  "aspect": "biological_process",
+  "name": "lipid localization"
+ },
+ "GO:0010921": {
+  "aspect": "biological_process",
+  "name": "regulation of phosphatase activity"
+ },
+ "GO:0010948": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cell cycle process"
+ },
+ "GO:0010965": {
+  "aspect": "biological_process",
+  "name": "regulation of mitotic sister chromatid separation"
+ },
+ "GO:0010972": {
+  "aspect": "biological_process",
+  "name": "negative regulation of G2/M transition of mitotic cell cycle"
+ },
+ "GO:0012501": {
+  "aspect": "biological_process",
+  "name": "programmed cell death"
+ },
+ "GO:0012505": {
+  "aspect": "cellular_component",
+  "name": "endomembrane system"
+ },
+ "GO:0012506": {
+  "aspect": "cellular_component",
+  "name": "vesicle membrane"
+ },
+ "GO:0012507": {
+  "aspect": "cellular_component",
+  "name": "ER to Golgi transport vesicle membrane"
+ },
+ "GO:0014070": {
+  "aspect": "biological_process",
+  "name": "obsolete response to organic cyclic compound"
+ },
+ "GO:0015031": {
+  "aspect": "biological_process",
+  "name": "protein transport"
+ },
+ "GO:0015035": {
+  "aspect": "molecular_function",
+  "name": "protein-disulfide reductase activity"
+ },
+ "GO:0015036": {
+  "aspect": "molecular_function",
+  "name": "disulfide oxidoreductase activity"
+ },
+ "GO:0015075": {
+  "aspect": "molecular_function",
+  "name": "monoatomic ion transmembrane transporter activity"
+ },
+ "GO:0015078": {
+  "aspect": "molecular_function",
+  "name": "proton transmembrane transporter activity"
+ },
+ "GO:0015079": {
+  "aspect": "molecular_function",
+  "name": "potassium ion transmembrane transporter activity"
+ },
+ "GO:0015081": {
+  "aspect": "molecular_function",
+  "name": "sodium ion transmembrane transporter activity"
+ },
+ "GO:0015085": {
+  "aspect": "molecular_function",
+  "name": "calcium ion transmembrane transporter activity"
+ },
+ "GO:0015101": {
+  "aspect": "molecular_function",
+  "name": "obsolete organic cation transmembrane transporter activity"
+ },
+ "GO:0015103": {
+  "aspect": "molecular_function",
+  "name": "obsolete inorganic anion transmembrane transporter activity"
+ },
+ "GO:0015108": {
+  "aspect": "molecular_function",
+  "name": "chloride transmembrane transporter activity"
+ },
+ "GO:0015112": {
+  "aspect": "molecular_function",
+  "name": "nitrate transmembrane transporter activity"
+ },
+ "GO:0015144": {
+  "aspect": "molecular_function",
+  "name": "carbohydrate transmembrane transporter activity"
+ },
+ "GO:0015171": {
+  "aspect": "molecular_function",
+  "name": "amino acid transmembrane transporter activity"
+ },
+ "GO:0015172": {
+  "aspect": "molecular_function",
+  "name": "acidic amino acid transmembrane transporter activity"
+ },
+ "GO:0015175": {
+  "aspect": "molecular_function",
+  "name": "neutral L-amino acid transmembrane transporter activity"
+ },
+ "GO:0015179": {
+  "aspect": "molecular_function",
+  "name": "L-amino acid transmembrane transporter activity"
+ },
+ "GO:0015205": {
+  "aspect": "molecular_function",
+  "name": "nucleobase transmembrane transporter activity"
+ },
+ "GO:0015216": {
+  "aspect": "molecular_function",
+  "name": "purine nucleotide transmembrane transporter activity"
+ },
+ "GO:0015252": {
+  "aspect": "molecular_function",
+  "name": "proton channel activity"
+ },
+ "GO:0015267": {
+  "aspect": "molecular_function",
+  "name": "channel activity"
+ },
+ "GO:0015276": {
+  "aspect": "molecular_function",
+  "name": "ligand-gated monoatomic ion channel activity"
+ },
+ "GO:0015291": {
+  "aspect": "molecular_function",
+  "name": "secondary active transmembrane transporter activity"
+ },
+ "GO:0015293": {
+  "aspect": "molecular_function",
+  "name": "symporter activity"
+ },
+ "GO:0015294": {
+  "aspect": "molecular_function",
+  "name": "solute:monoatomic cation symporter activity"
+ },
+ "GO:0015295": {
+  "aspect": "molecular_function",
+  "name": "solute:proton symporter activity"
+ },
+ "GO:0015297": {
+  "aspect": "molecular_function",
+  "name": "antiporter activity"
+ },
+ "GO:0015318": {
+  "aspect": "molecular_function",
+  "name": "obsolete inorganic molecular entity transmembrane transporter activity"
+ },
+ "GO:0015629": {
+  "aspect": "cellular_component",
+  "name": "actin cytoskeleton"
+ },
+ "GO:0015630": {
+  "aspect": "cellular_component",
+  "name": "microtubule cytoskeleton"
+ },
+ "GO:0015631": {
+  "aspect": "molecular_function",
+  "name": "tubulin binding"
+ },
+ "GO:0015662": {
+  "aspect": "molecular_function",
+  "name": "P-type ion transporter activity"
+ },
+ "GO:0015698": {
+  "aspect": "biological_process",
+  "name": "inorganic anion transport"
+ },
+ "GO:0015711": {
+  "aspect": "biological_process",
+  "name": "obsolete organic anion transport"
+ },
+ "GO:0015718": {
+  "aspect": "biological_process",
+  "name": "monocarboxylic acid transport"
+ },
+ "GO:0015748": {
+  "aspect": "biological_process",
+  "name": "organophosphate ester transport"
+ },
+ "GO:0015804": {
+  "aspect": "biological_process",
+  "name": "neutral amino acid transport"
+ },
+ "GO:0015849": {
+  "aspect": "biological_process",
+  "name": "organic acid transport"
+ },
+ "GO:0015850": {
+  "aspect": "biological_process",
+  "name": "organic hydroxy compound transport"
+ },
+ "GO:0015908": {
+  "aspect": "biological_process",
+  "name": "fatty acid transport"
+ },
+ "GO:0015914": {
+  "aspect": "biological_process",
+  "name": "phospholipid transport"
+ },
+ "GO:0015918": {
+  "aspect": "biological_process",
+  "name": "sterol transport"
+ },
+ "GO:0015926": {
+  "aspect": "molecular_function",
+  "name": "glucosidase activity"
+ },
+ "GO:0015931": {
+  "aspect": "biological_process",
+  "name": "nucleobase-containing compound transport"
+ },
+ "GO:0015932": {
+  "aspect": "molecular_function",
+  "name": "nucleobase-containing compound transmembrane transporter activity"
+ },
+ "GO:0015934": {
+  "aspect": "cellular_component",
+  "name": "large ribosomal subunit"
+ },
+ "GO:0015935": {
+  "aspect": "cellular_component",
+  "name": "small ribosomal subunit"
+ },
+ "GO:0015979": {
+  "aspect": "biological_process",
+  "name": "photosynthesis"
+ },
+ "GO:0015980": {
+  "aspect": "biological_process",
+  "name": "energy derivation by oxidation of organic compounds"
+ },
+ "GO:0015986": {
+  "aspect": "biological_process",
+  "name": "proton motive force-driven ATP synthesis"
+ },
+ "GO:0015994": {
+  "aspect": "biological_process",
+  "name": "chlorophyll metabolic process"
+ },
+ "GO:0016020": {
+  "aspect": "cellular_component",
+  "name": "membrane"
+ },
+ "GO:0016042": {
+  "aspect": "biological_process",
+  "name": "lipid catabolic process"
+ },
+ "GO:0016043": {
+  "aspect": "biological_process",
+  "name": "cellular component organization"
+ },
+ "GO:0016049": {
+  "aspect": "biological_process",
+  "name": "cell growth"
+ },
+ "GO:0016050": {
+  "aspect": "biological_process",
+  "name": "vesicle organization"
+ },
+ "GO:0016051": {
+  "aspect": "biological_process",
+  "name": "carbohydrate biosynthetic process"
+ },
+ "GO:0016053": {
+  "aspect": "biological_process",
+  "name": "obsolete organic acid biosynthetic process"
+ },
+ "GO:0016054": {
+  "aspect": "biological_process",
+  "name": "obsolete organic acid catabolic process"
+ },
+ "GO:0016070": {
+  "aspect": "biological_process",
+  "name": "RNA metabolic process"
+ },
+ "GO:0016071": {
+  "aspect": "biological_process",
+  "name": "mRNA metabolic process"
+ },
+ "GO:0016072": {
+  "aspect": "biological_process",
+  "name": "rRNA metabolic process"
+ },
+ "GO:0016073": {
+  "aspect": "biological_process",
+  "name": "snRNA metabolic process"
+ },
+ "GO:0016101": {
+  "aspect": "biological_process",
+  "name": "diterpenoid metabolic process"
+ },
+ "GO:0016102": {
+  "aspect": "biological_process",
+  "name": "diterpenoid biosynthetic process"
+ },
+ "GO:0016114": {
+  "aspect": "biological_process",
+  "name": "terpenoid biosynthetic process"
+ },
+ "GO:0016125": {
+  "aspect": "biological_process",
+  "name": "sterol metabolic process"
+ },
+ "GO:0016126": {
+  "aspect": "biological_process",
+  "name": "sterol biosynthetic process"
+ },
+ "GO:0016128": {
+  "aspect": "biological_process",
+  "name": "obsolete phytosteroid metabolic process"
+ },
+ "GO:0016180": {
+  "aspect": "biological_process",
+  "name": "snRNA processing"
+ },
+ "GO:0016192": {
+  "aspect": "biological_process",
+  "name": "vesicle-mediated transport"
+ },
+ "GO:0016197": {
+  "aspect": "biological_process",
+  "name": "endosomal transport"
+ },
+ "GO:0016209": {
+  "aspect": "molecular_function",
+  "name": "antioxidant activity"
+ },
+ "GO:0016226": {
+  "aspect": "biological_process",
+  "name": "iron-sulfur cluster assembly"
+ },
+ "GO:0016236": {
+  "aspect": "biological_process",
+  "name": "macroautophagy"
+ },
+ "GO:0016237": {
+  "aspect": "biological_process",
+  "name": "microautophagy"
+ },
+ "GO:0016278": {
+  "aspect": "molecular_function",
+  "name": "lysine N-methyltransferase activity"
+ },
+ "GO:0016279": {
+  "aspect": "molecular_function",
+  "name": "protein-lysine N-methyltransferase activity"
+ },
+ "GO:0016298": {
+  "aspect": "molecular_function",
+  "name": "lipase activity"
+ },
+ "GO:0016301": {
+  "aspect": "molecular_function",
+  "name": "kinase activity"
+ },
+ "GO:0016310": {
+  "aspect": "biological_process",
+  "name": "phosphorylation"
+ },
+ "GO:0016311": {
+  "aspect": "biological_process",
+  "name": "dephosphorylation"
+ },
+ "GO:0016407": {
+  "aspect": "molecular_function",
+  "name": "acetyltransferase activity"
+ },
+ "GO:0016409": {
+  "aspect": "molecular_function",
+  "name": "palmitoyltransferase activity"
+ },
+ "GO:0016410": {
+  "aspect": "molecular_function",
+  "name": "obsolete N-acyltransferase activity"
+ },
+ "GO:0016462": {
+  "aspect": "molecular_function",
+  "name": "pyrophosphatase activity"
+ },
+ "GO:0016469": {
+  "aspect": "cellular_component",
+  "name": "proton-transporting two-sector ATPase complex"
+ },
+ "GO:0016482": {
+  "aspect": "biological_process",
+  "name": "cytosolic transport"
+ },
+ "GO:0016485": {
+  "aspect": "biological_process",
+  "name": "protein processing"
+ },
+ "GO:0016491": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity"
+ },
+ "GO:0016514": {
+  "aspect": "cellular_component",
+  "name": "SWI/SNF complex"
+ },
+ "GO:0016556": {
+  "aspect": "biological_process",
+  "name": "mRNA modification"
+ },
+ "GO:0016558": {
+  "aspect": "biological_process",
+  "name": "protein import into peroxisome matrix"
+ },
+ "GO:0016559": {
+  "aspect": "biological_process",
+  "name": "peroxisome fission"
+ },
+ "GO:0016567": {
+  "aspect": "biological_process",
+  "name": "protein ubiquitination"
+ },
+ "GO:0016570": {
+  "aspect": "biological_process",
+  "name": "obsolete histone modification"
+ },
+ "GO:0016571": {
+  "aspect": "biological_process",
+  "name": "obsolete histone methylation"
+ },
+ "GO:0016573": {
+  "aspect": "biological_process",
+  "name": "obsolete histone acetylation"
+ },
+ "GO:0016575": {
+  "aspect": "biological_process",
+  "name": "obsolete histone deacetylation"
+ },
+ "GO:0016579": {
+  "aspect": "biological_process",
+  "name": "protein deubiquitination"
+ },
+ "GO:0016591": {
+  "aspect": "cellular_component",
+  "name": "RNA polymerase II, holoenzyme"
+ },
+ "GO:0016592": {
+  "aspect": "cellular_component",
+  "name": "mediator complex"
+ },
+ "GO:0016593": {
+  "aspect": "cellular_component",
+  "name": "Cdc73/Paf1 complex"
+ },
+ "GO:0016597": {
+  "aspect": "molecular_function",
+  "name": "amino acid binding"
+ },
+ "GO:0016604": {
+  "aspect": "cellular_component",
+  "name": "nuclear body"
+ },
+ "GO:0016607": {
+  "aspect": "cellular_component",
+  "name": "nuclear speck"
+ },
+ "GO:0016614": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on CH-OH group of donors"
+ },
+ "GO:0016616": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"
+ },
+ "GO:0016627": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on the CH-CH group of donors"
+ },
+ "GO:0016628": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor"
+ },
+ "GO:0016651": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on NAD(P)H"
+ },
+ "GO:0016667": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on a sulfur group of donors"
+ },
+ "GO:0016684": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on peroxide as acceptor"
+ },
+ "GO:0016702": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen"
+ },
+ "GO:0016705": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen"
+ },
+ "GO:0016706": {
+  "aspect": "molecular_function",
+  "name": "2-oxoglutarate-dependent dioxygenase activity"
+ },
+ "GO:0016709": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen"
+ },
+ "GO:0016722": {
+  "aspect": "molecular_function",
+  "name": "oxidoreductase activity, acting on metal ions"
+ },
+ "GO:0016740": {
+  "aspect": "molecular_function",
+  "name": "transferase activity"
+ },
+ "GO:0016741": {
+  "aspect": "molecular_function",
+  "name": "transferase activity, transferring one-carbon groups"
+ },
+ "GO:0016746": {
+  "aspect": "molecular_function",
+  "name": "acyltransferase activity"
+ },
+ "GO:0016747": {
+  "aspect": "molecular_function",
+  "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+ },
+ "GO:0016755": {
+  "aspect": "molecular_function",
+  "name": "aminoacyltransferase activity"
+ },
+ "GO:0016757": {
+  "aspect": "molecular_function",
+  "name": "glycosyltransferase activity"
+ },
+ "GO:0016758": {
+  "aspect": "molecular_function",
+  "name": "hexosyltransferase activity"
+ },
+ "GO:0016763": {
+  "aspect": "molecular_function",
+  "name": "pentosyltransferase activity"
+ },
+ "GO:0016765": {
+  "aspect": "molecular_function",
+  "name": "transferase activity, transferring alkyl or aryl (other than methyl) groups"
+ },
+ "GO:0016772": {
+  "aspect": "molecular_function",
+  "name": "transferase activity, transferring phosphorus-containing groups"
+ },
+ "GO:0016773": {
+  "aspect": "molecular_function",
+  "name": "phosphotransferase activity, alcohol group as acceptor"
+ },
+ "GO:0016776": {
+  "aspect": "molecular_function",
+  "name": "phosphotransferase activity, phosphate group as acceptor"
+ },
+ "GO:0016779": {
+  "aspect": "molecular_function",
+  "name": "nucleotidyltransferase activity"
+ },
+ "GO:0016782": {
+  "aspect": "molecular_function",
+  "name": "transferase activity, transferring sulphur-containing groups"
+ },
+ "GO:0016783": {
+  "aspect": "molecular_function",
+  "name": "sulfurtransferase activity"
+ },
+ "GO:0016787": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity"
+ },
+ "GO:0016788": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on ester bonds"
+ },
+ "GO:0016790": {
+  "aspect": "molecular_function",
+  "name": "thiolester hydrolase activity"
+ },
+ "GO:0016791": {
+  "aspect": "molecular_function",
+  "name": "phosphatase activity"
+ },
+ "GO:0016796": {
+  "aspect": "molecular_function",
+  "name": "obsolete exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters"
+ },
+ "GO:0016798": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on glycosyl bonds"
+ },
+ "GO:0016810": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds"
+ },
+ "GO:0016811": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides"
+ },
+ "GO:0016814": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines"
+ },
+ "GO:0016817": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on acid anhydrides"
+ },
+ "GO:0016818": {
+  "aspect": "molecular_function",
+  "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+ },
+ "GO:0016829": {
+  "aspect": "molecular_function",
+  "name": "lyase activity"
+ },
+ "GO:0016830": {
+  "aspect": "molecular_function",
+  "name": "carbon-carbon lyase activity"
+ },
+ "GO:0016831": {
+  "aspect": "molecular_function",
+  "name": "carboxy-lyase activity"
+ },
+ "GO:0016835": {
+  "aspect": "molecular_function",
+  "name": "carbon-oxygen lyase activity"
+ },
+ "GO:0016836": {
+  "aspect": "molecular_function",
+  "name": "hydro-lyase activity"
+ },
+ "GO:0016853": {
+  "aspect": "molecular_function",
+  "name": "isomerase activity"
+ },
+ "GO:0016857": {
+  "aspect": "molecular_function",
+  "name": "racemase and epimerase activity, acting on carbohydrates and derivatives"
+ },
+ "GO:0016866": {
+  "aspect": "molecular_function",
+  "name": "intramolecular transferase activity"
+ },
+ "GO:0016874": {
+  "aspect": "molecular_function",
+  "name": "ligase activity"
+ },
+ "GO:0016887": {
+  "aspect": "molecular_function",
+  "name": "ATP hydrolysis activity"
+ },
+ "GO:0016895": {
+  "aspect": "molecular_function",
+  "name": "DNA exonuclease activity, producing 5'-phosphomonoesters"
+ },
+ "GO:0016925": {
+  "aspect": "biological_process",
+  "name": "protein sumoylation"
+ },
+ "GO:0016973": {
+  "aspect": "biological_process",
+  "name": "poly(A)+ mRNA export from nucleus"
+ },
+ "GO:0017004": {
+  "aspect": "biological_process",
+  "name": "cytochrome complex assembly"
+ },
+ "GO:0017025": {
+  "aspect": "molecular_function",
+  "name": "TBP-class protein binding"
+ },
+ "GO:0017056": {
+  "aspect": "molecular_function",
+  "name": "structural constituent of nuclear pore"
+ },
+ "GO:0017069": {
+  "aspect": "molecular_function",
+  "name": "snRNA binding"
+ },
+ "GO:0017076": {
+  "aspect": "molecular_function",
+  "name": "purine nucleotide binding"
+ },
+ "GO:0017111": {
+  "aspect": "molecular_function",
+  "name": "ribonucleoside triphosphate phosphatase activity"
+ },
+ "GO:0017116": {
+  "aspect": "molecular_function",
+  "name": "single-stranded DNA helicase activity"
+ },
+ "GO:0017119": {
+  "aspect": "cellular_component",
+  "name": "COG complex"
+ },
+ "GO:0017148": {
+  "aspect": "biological_process",
+  "name": "negative regulation of translation"
+ },
+ "GO:0017157": {
+  "aspect": "biological_process",
+  "name": "regulation of exocytosis"
+ },
+ "GO:0017171": {
+  "aspect": "molecular_function",
+  "name": "serine hydrolase activity"
+ },
+ "GO:0018105": {
+  "aspect": "biological_process",
+  "name": "peptidyl-serine phosphorylation"
+ },
+ "GO:0018107": {
+  "aspect": "biological_process",
+  "name": "peptidyl-threonine phosphorylation"
+ },
+ "GO:0018126": {
+  "aspect": "biological_process",
+  "name": "protein hydroxylation"
+ },
+ "GO:0018130": {
+  "aspect": "biological_process",
+  "name": "obsolete heterocycle biosynthetic process"
+ },
+ "GO:0018193": {
+  "aspect": "biological_process",
+  "name": "obsolete peptidyl-amino acid modification"
+ },
+ "GO:0018205": {
+  "aspect": "biological_process",
+  "name": "peptidyl-lysine modification"
+ },
+ "GO:0018209": {
+  "aspect": "biological_process",
+  "name": "obsolete peptidyl-serine modification"
+ },
+ "GO:0018279": {
+  "aspect": "biological_process",
+  "name": "obsolete protein N-linked glycosylation via asparagine"
+ },
+ "GO:0018345": {
+  "aspect": "biological_process",
+  "name": "protein palmitoylation"
+ },
+ "GO:0018393": {
+  "aspect": "biological_process",
+  "name": "internal peptidyl-lysine acetylation"
+ },
+ "GO:0018394": {
+  "aspect": "biological_process",
+  "name": "peptidyl-lysine acetylation"
+ },
+ "GO:0018410": {
+  "aspect": "biological_process",
+  "name": "C-terminal protein amino acid modification"
+ },
+ "GO:0019005": {
+  "aspect": "cellular_component",
+  "name": "SCF ubiquitin ligase complex"
+ },
+ "GO:0019104": {
+  "aspect": "molecular_function",
+  "name": "DNA N-glycosylase activity"
+ },
+ "GO:0019199": {
+  "aspect": "molecular_function",
+  "name": "transmembrane receptor protein kinase activity"
+ },
+ "GO:0019200": {
+  "aspect": "molecular_function",
+  "name": "carbohydrate kinase activity"
+ },
+ "GO:0019207": {
+  "aspect": "molecular_function",
+  "name": "kinase regulator activity"
+ },
+ "GO:0019208": {
+  "aspect": "molecular_function",
+  "name": "phosphatase regulator activity"
+ },
+ "GO:0019209": {
+  "aspect": "molecular_function",
+  "name": "kinase activator activity"
+ },
+ "GO:0019212": {
+  "aspect": "molecular_function",
+  "name": "phosphatase inhibitor activity"
+ },
+ "GO:0019213": {
+  "aspect": "molecular_function",
+  "name": "deacetylase activity"
+ },
+ "GO:0019219": {
+  "aspect": "biological_process",
+  "name": "regulation of nucleobase-containing compound metabolic process"
+ },
+ "GO:0019220": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of phosphate metabolic process"
+ },
+ "GO:0019222": {
+  "aspect": "biological_process",
+  "name": "regulation of metabolic process"
+ },
+ "GO:0019239": {
+  "aspect": "molecular_function",
+  "name": "deaminase activity"
+ },
+ "GO:0019318": {
+  "aspect": "biological_process",
+  "name": "hexose metabolic process"
+ },
+ "GO:0019319": {
+  "aspect": "biological_process",
+  "name": "hexose biosynthetic process"
+ },
+ "GO:0019432": {
+  "aspect": "biological_process",
+  "name": "triglyceride biosynthetic process"
+ },
+ "GO:0019438": {
+  "aspect": "biological_process",
+  "name": "obsolete aromatic compound biosynthetic process"
+ },
+ "GO:0019439": {
+  "aspect": "biological_process",
+  "name": "obsolete aromatic compound catabolic process"
+ },
+ "GO:0019538": {
+  "aspect": "biological_process",
+  "name": "protein metabolic process"
+ },
+ "GO:0019637": {
+  "aspect": "biological_process",
+  "name": "organophosphate metabolic process"
+ },
+ "GO:0019646": {
+  "aspect": "biological_process",
+  "name": "aerobic electron transport chain"
+ },
+ "GO:0019693": {
+  "aspect": "biological_process",
+  "name": "ribose phosphate metabolic process"
+ },
+ "GO:0019722": {
+  "aspect": "biological_process",
+  "name": "calcium-mediated signaling"
+ },
+ "GO:0019725": {
+  "aspect": "biological_process",
+  "name": "cellular homeostasis"
+ },
+ "GO:0019748": {
+  "aspect": "biological_process",
+  "name": "secondary metabolic process"
+ },
+ "GO:0019752": {
+  "aspect": "biological_process",
+  "name": "carboxylic acid metabolic process"
+ },
+ "GO:0019783": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-like protein peptidase activity"
+ },
+ "GO:0019787": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-like protein transferase activity"
+ },
+ "GO:0019843": {
+  "aspect": "molecular_function",
+  "name": "rRNA binding"
+ },
+ "GO:0019866": {
+  "aspect": "cellular_component",
+  "name": "organelle inner membrane"
+ },
+ "GO:0019867": {
+  "aspect": "cellular_component",
+  "name": "outer membrane"
+ },
+ "GO:0019887": {
+  "aspect": "molecular_function",
+  "name": "protein kinase regulator activity"
+ },
+ "GO:0019888": {
+  "aspect": "molecular_function",
+  "name": "protein phosphatase regulator activity"
+ },
+ "GO:0019897": {
+  "aspect": "cellular_component",
+  "name": "extrinsic component of plasma membrane"
+ },
+ "GO:0019898": {
+  "aspect": "cellular_component",
+  "name": "extrinsic component of membrane"
+ },
+ "GO:0019899": {
+  "aspect": "molecular_function",
+  "name": "enzyme binding"
+ },
+ "GO:0019900": {
+  "aspect": "molecular_function",
+  "name": "kinase binding"
+ },
+ "GO:0019901": {
+  "aspect": "molecular_function",
+  "name": "protein kinase binding"
+ },
+ "GO:0019905": {
+  "aspect": "molecular_function",
+  "name": "syntaxin binding"
+ },
+ "GO:0019915": {
+  "aspect": "biological_process",
+  "name": "lipid storage"
+ },
+ "GO:0019932": {
+  "aspect": "biological_process",
+  "name": "obsolete second-messenger-mediated signaling"
+ },
+ "GO:0019941": {
+  "aspect": "biological_process",
+  "name": "modification-dependent protein catabolic process"
+ },
+ "GO:0019953": {
+  "aspect": "biological_process",
+  "name": "sexual reproduction"
+ },
+ "GO:0019985": {
+  "aspect": "biological_process",
+  "name": "translesion synthesis"
+ },
+ "GO:0020037": {
+  "aspect": "molecular_function",
+  "name": "heme binding"
+ },
+ "GO:0022402": {
+  "aspect": "biological_process",
+  "name": "cell cycle process"
+ },
+ "GO:0022411": {
+  "aspect": "biological_process",
+  "name": "cellular component disassembly"
+ },
+ "GO:0022414": {
+  "aspect": "biological_process",
+  "name": "reproductive process"
+ },
+ "GO:0022603": {
+  "aspect": "biological_process",
+  "name": "regulation of anatomical structure morphogenesis"
+ },
+ "GO:0022607": {
+  "aspect": "biological_process",
+  "name": "cellular component assembly"
+ },
+ "GO:0022613": {
+  "aspect": "biological_process",
+  "name": "ribonucleoprotein complex biogenesis"
+ },
+ "GO:0022618": {
+  "aspect": "biological_process",
+  "name": "protein-RNA complex assembly"
+ },
+ "GO:0022624": {
+  "aspect": "cellular_component",
+  "name": "proteasome accessory complex"
+ },
+ "GO:0022625": {
+  "aspect": "cellular_component",
+  "name": "cytosolic large ribosomal subunit"
+ },
+ "GO:0022626": {
+  "aspect": "cellular_component",
+  "name": "cytosolic ribosome"
+ },
+ "GO:0022627": {
+  "aspect": "cellular_component",
+  "name": "cytosolic small ribosomal subunit"
+ },
+ "GO:0022803": {
+  "aspect": "molecular_function",
+  "name": "passive transmembrane transporter activity"
+ },
+ "GO:0022804": {
+  "aspect": "molecular_function",
+  "name": "active transmembrane transporter activity"
+ },
+ "GO:0022832": {
+  "aspect": "molecular_function",
+  "name": "voltage-gated channel activity"
+ },
+ "GO:0022834": {
+  "aspect": "molecular_function",
+  "name": "ligand-gated channel activity"
+ },
+ "GO:0022836": {
+  "aspect": "molecular_function",
+  "name": "gated channel activity"
+ },
+ "GO:0022839": {
+  "aspect": "molecular_function",
+  "name": "monoatomic ion-gated channel activity"
+ },
+ "GO:0022843": {
+  "aspect": "molecular_function",
+  "name": "voltage-gated monoatomic cation channel activity"
+ },
+ "GO:0022853": {
+  "aspect": "molecular_function",
+  "name": "active monoatomic ion transmembrane transporter activity"
+ },
+ "GO:0022857": {
+  "aspect": "molecular_function",
+  "name": "transmembrane transporter activity"
+ },
+ "GO:0022890": {
+  "aspect": "molecular_function",
+  "name": "obsolete inorganic cation transmembrane transporter activity"
+ },
+ "GO:0022900": {
+  "aspect": "biological_process",
+  "name": "electron transport chain"
+ },
+ "GO:0022904": {
+  "aspect": "biological_process",
+  "name": "respiratory electron transport chain"
+ },
+ "GO:0023051": {
+  "aspect": "biological_process",
+  "name": "regulation of signaling"
+ },
+ "GO:0023052": {
+  "aspect": "biological_process",
+  "name": "signaling"
+ },
+ "GO:0023057": {
+  "aspect": "biological_process",
+  "name": "negative regulation of signaling"
+ },
+ "GO:0030001": {
+  "aspect": "biological_process",
+  "name": "metal ion transport"
+ },
+ "GO:0030003": {
+  "aspect": "biological_process",
+  "name": "intracellular monoatomic cation homeostasis"
+ },
+ "GO:0030008": {
+  "aspect": "cellular_component",
+  "name": "TRAPP complex"
+ },
+ "GO:0030014": {
+  "aspect": "cellular_component",
+  "name": "CCR4-NOT complex"
+ },
+ "GO:0030029": {
+  "aspect": "biological_process",
+  "name": "actin filament-based process"
+ },
+ "GO:0030036": {
+  "aspect": "biological_process",
+  "name": "actin cytoskeleton organization"
+ },
+ "GO:0030042": {
+  "aspect": "biological_process",
+  "name": "actin filament depolymerization"
+ },
+ "GO:0030048": {
+  "aspect": "biological_process",
+  "name": "actin filament-based movement"
+ },
+ "GO:0030054": {
+  "aspect": "cellular_component",
+  "name": "cell junction"
+ },
+ "GO:0030071": {
+  "aspect": "biological_process",
+  "name": "regulation of mitotic metaphase/anaphase transition"
+ },
+ "GO:0030117": {
+  "aspect": "cellular_component",
+  "name": "membrane coat"
+ },
+ "GO:0030119": {
+  "aspect": "cellular_component",
+  "name": "AP-type membrane coat adaptor complex"
+ },
+ "GO:0030120": {
+  "aspect": "cellular_component",
+  "name": "vesicle coat"
+ },
+ "GO:0030125": {
+  "aspect": "cellular_component",
+  "name": "clathrin vesicle coat"
+ },
+ "GO:0030126": {
+  "aspect": "cellular_component",
+  "name": "COPI vesicle coat"
+ },
+ "GO:0030133": {
+  "aspect": "cellular_component",
+  "name": "transport vesicle"
+ },
+ "GO:0030134": {
+  "aspect": "cellular_component",
+  "name": "COPII-coated ER to Golgi transport vesicle"
+ },
+ "GO:0030135": {
+  "aspect": "cellular_component",
+  "name": "coated vesicle"
+ },
+ "GO:0030136": {
+  "aspect": "cellular_component",
+  "name": "clathrin-coated vesicle"
+ },
+ "GO:0030137": {
+  "aspect": "cellular_component",
+  "name": "COPI-coated vesicle"
+ },
+ "GO:0030139": {
+  "aspect": "cellular_component",
+  "name": "endocytic vesicle"
+ },
+ "GO:0030148": {
+  "aspect": "biological_process",
+  "name": "sphingolipid biosynthetic process"
+ },
+ "GO:0030149": {
+  "aspect": "biological_process",
+  "name": "sphingolipid catabolic process"
+ },
+ "GO:0030150": {
+  "aspect": "biological_process",
+  "name": "protein import into mitochondrial matrix"
+ },
+ "GO:0030154": {
+  "aspect": "biological_process",
+  "name": "cell differentiation"
+ },
+ "GO:0030162": {
+  "aspect": "biological_process",
+  "name": "regulation of proteolysis"
+ },
+ "GO:0030163": {
+  "aspect": "biological_process",
+  "name": "protein catabolic process"
+ },
+ "GO:0030203": {
+  "aspect": "biological_process",
+  "name": "glycosaminoglycan metabolic process"
+ },
+ "GO:0030234": {
+  "aspect": "molecular_function",
+  "name": "enzyme regulator activity"
+ },
+ "GO:0030246": {
+  "aspect": "molecular_function",
+  "name": "carbohydrate binding"
+ },
+ "GO:0030258": {
+  "aspect": "biological_process",
+  "name": "lipid modification"
+ },
+ "GO:0030261": {
+  "aspect": "biological_process",
+  "name": "chromosome condensation"
+ },
+ "GO:0030276": {
+  "aspect": "molecular_function",
+  "name": "clathrin binding"
+ },
+ "GO:0030286": {
+  "aspect": "cellular_component",
+  "name": "dynein complex"
+ },
+ "GO:0030295": {
+  "aspect": "molecular_function",
+  "name": "protein kinase activator activity"
+ },
+ "GO:0030312": {
+  "aspect": "cellular_component",
+  "name": "external encapsulating structure"
+ },
+ "GO:0030332": {
+  "aspect": "molecular_function",
+  "name": "cyclin binding"
+ },
+ "GO:0030422": {
+  "aspect": "biological_process",
+  "name": "siRNA processing"
+ },
+ "GO:0030433": {
+  "aspect": "biological_process",
+  "name": "obsolete ubiquitin-dependent ERAD pathway"
+ },
+ "GO:0030488": {
+  "aspect": "biological_process",
+  "name": "tRNA methylation"
+ },
+ "GO:0030490": {
+  "aspect": "biological_process",
+  "name": "maturation of SSU-rRNA"
+ },
+ "GO:0030515": {
+  "aspect": "molecular_function",
+  "name": "snoRNA binding"
+ },
+ "GO:0030532": {
+  "aspect": "cellular_component",
+  "name": "small nuclear ribonucleoprotein complex"
+ },
+ "GO:0030544": {
+  "aspect": "molecular_function",
+  "name": "Hsp70 protein binding"
+ },
+ "GO:0030641": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of cellular pH"
+ },
+ "GO:0030658": {
+  "aspect": "cellular_component",
+  "name": "transport vesicle membrane"
+ },
+ "GO:0030659": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic vesicle membrane"
+ },
+ "GO:0030660": {
+  "aspect": "cellular_component",
+  "name": "Golgi-associated vesicle membrane"
+ },
+ "GO:0030662": {
+  "aspect": "cellular_component",
+  "name": "coated vesicle membrane"
+ },
+ "GO:0030674": {
+  "aspect": "molecular_function",
+  "name": "protein-macromolecule adaptor activity"
+ },
+ "GO:0030677": {
+  "aspect": "cellular_component",
+  "name": "ribonuclease P complex"
+ },
+ "GO:0030684": {
+  "aspect": "cellular_component",
+  "name": "preribosome"
+ },
+ "GO:0030686": {
+  "aspect": "cellular_component",
+  "name": "90S preribosome"
+ },
+ "GO:0030687": {
+  "aspect": "cellular_component",
+  "name": "preribosome, large subunit precursor"
+ },
+ "GO:0030688": {
+  "aspect": "cellular_component",
+  "name": "preribosome, small subunit precursor"
+ },
+ "GO:0030695": {
+  "aspect": "molecular_function",
+  "name": "GTPase regulator activity"
+ },
+ "GO:0030705": {
+  "aspect": "biological_process",
+  "name": "cytoskeleton-dependent intracellular transport"
+ },
+ "GO:0030832": {
+  "aspect": "biological_process",
+  "name": "regulation of actin filament length"
+ },
+ "GO:0030833": {
+  "aspect": "biological_process",
+  "name": "regulation of actin filament polymerization"
+ },
+ "GO:0030837": {
+  "aspect": "biological_process",
+  "name": "negative regulation of actin filament polymerization"
+ },
+ "GO:0030863": {
+  "aspect": "cellular_component",
+  "name": "cortical cytoskeleton"
+ },
+ "GO:0030864": {
+  "aspect": "cellular_component",
+  "name": "cortical actin cytoskeleton"
+ },
+ "GO:0030865": {
+  "aspect": "biological_process",
+  "name": "cortical cytoskeleton organization"
+ },
+ "GO:0030867": {
+  "aspect": "cellular_component",
+  "name": "rough endoplasmic reticulum membrane"
+ },
+ "GO:0030880": {
+  "aspect": "cellular_component",
+  "name": "RNA polymerase complex"
+ },
+ "GO:0030894": {
+  "aspect": "cellular_component",
+  "name": "replisome"
+ },
+ "GO:0030964": {
+  "aspect": "cellular_component",
+  "name": "NADH dehydrogenase complex"
+ },
+ "GO:0030968": {
+  "aspect": "biological_process",
+  "name": "endoplasmic reticulum unfolded protein response"
+ },
+ "GO:0031011": {
+  "aspect": "cellular_component",
+  "name": "Ino80 complex"
+ },
+ "GO:0031023": {
+  "aspect": "biological_process",
+  "name": "microtubule organizing center organization"
+ },
+ "GO:0031047": {
+  "aspect": "biological_process",
+  "name": "regulatory ncRNA-mediated gene silencing"
+ },
+ "GO:0031072": {
+  "aspect": "molecular_function",
+  "name": "heat shock protein binding"
+ },
+ "GO:0031090": {
+  "aspect": "cellular_component",
+  "name": "organelle membrane"
+ },
+ "GO:0031109": {
+  "aspect": "biological_process",
+  "name": "microtubule polymerization or depolymerization"
+ },
+ "GO:0031122": {
+  "aspect": "biological_process",
+  "name": "cytoplasmic microtubule organization"
+ },
+ "GO:0031123": {
+  "aspect": "biological_process",
+  "name": "RNA 3'-end processing"
+ },
+ "GO:0031124": {
+  "aspect": "biological_process",
+  "name": "mRNA 3'-end processing"
+ },
+ "GO:0031145": {
+  "aspect": "biological_process",
+  "name": "anaphase-promoting complex-dependent catabolic process"
+ },
+ "GO:0031146": {
+  "aspect": "biological_process",
+  "name": "SCF-dependent proteasomal ubiquitin-dependent protein catabolic process"
+ },
+ "GO:0031167": {
+  "aspect": "biological_process",
+  "name": "rRNA methylation"
+ },
+ "GO:0031201": {
+  "aspect": "cellular_component",
+  "name": "SNARE complex"
+ },
+ "GO:0031204": {
+  "aspect": "biological_process",
+  "name": "post-translational protein targeting to membrane, translocation"
+ },
+ "GO:0031234": {
+  "aspect": "cellular_component",
+  "name": "extrinsic component of cytoplasmic side of plasma membrane"
+ },
+ "GO:0031248": {
+  "aspect": "cellular_component",
+  "name": "protein acetyltransferase complex"
+ },
+ "GO:0031261": {
+  "aspect": "cellular_component",
+  "name": "DNA replication preinitiation complex"
+ },
+ "GO:0031267": {
+  "aspect": "molecular_function",
+  "name": "small GTPase binding"
+ },
+ "GO:0031297": {
+  "aspect": "biological_process",
+  "name": "replication fork processing"
+ },
+ "GO:0031323": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of cellular metabolic process"
+ },
+ "GO:0031324": {
+  "aspect": "biological_process",
+  "name": "obsolete negative regulation of cellular metabolic process"
+ },
+ "GO:0031325": {
+  "aspect": "biological_process",
+  "name": "obsolete positive regulation of cellular metabolic process"
+ },
+ "GO:0031326": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of cellular biosynthetic process"
+ },
+ "GO:0031327": {
+  "aspect": "biological_process",
+  "name": "obsolete negative regulation of cellular biosynthetic process"
+ },
+ "GO:0031328": {
+  "aspect": "biological_process",
+  "name": "obsolete positive regulation of cellular biosynthetic process"
+ },
+ "GO:0031329": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of cellular catabolic process"
+ },
+ "GO:0031330": {
+  "aspect": "biological_process",
+  "name": "obsolete negative regulation of cellular catabolic process"
+ },
+ "GO:0031331": {
+  "aspect": "biological_process",
+  "name": "obsolete positive regulation of cellular catabolic process"
+ },
+ "GO:0031333": {
+  "aspect": "biological_process",
+  "name": "negative regulation of protein-containing complex assembly"
+ },
+ "GO:0031347": {
+  "aspect": "biological_process",
+  "name": "regulation of defense response"
+ },
+ "GO:0031369": {
+  "aspect": "molecular_function",
+  "name": "translation initiation factor binding"
+ },
+ "GO:0031399": {
+  "aspect": "biological_process",
+  "name": "regulation of protein modification process"
+ },
+ "GO:0031401": {
+  "aspect": "biological_process",
+  "name": "positive regulation of protein modification process"
+ },
+ "GO:0031406": {
+  "aspect": "molecular_function",
+  "name": "carboxylic acid binding"
+ },
+ "GO:0031410": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic vesicle"
+ },
+ "GO:0031461": {
+  "aspect": "cellular_component",
+  "name": "cullin-RING ubiquitin ligase complex"
+ },
+ "GO:0031490": {
+  "aspect": "molecular_function",
+  "name": "chromatin DNA binding"
+ },
+ "GO:0031491": {
+  "aspect": "molecular_function",
+  "name": "nucleosome binding"
+ },
+ "GO:0031503": {
+  "aspect": "biological_process",
+  "name": "protein-containing complex localization"
+ },
+ "GO:0031507": {
+  "aspect": "biological_process",
+  "name": "heterochromatin formation"
+ },
+ "GO:0031570": {
+  "aspect": "biological_process",
+  "name": "DNA integrity checkpoint signaling"
+ },
+ "GO:0031593": {
+  "aspect": "molecular_function",
+  "name": "polyubiquitin modification-dependent protein binding"
+ },
+ "GO:0031625": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin protein ligase binding"
+ },
+ "GO:0031647": {
+  "aspect": "biological_process",
+  "name": "regulation of protein stability"
+ },
+ "GO:0031667": {
+  "aspect": "biological_process",
+  "name": "response to nutrient levels"
+ },
+ "GO:0031668": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular response to extracellular stimulus"
+ },
+ "GO:0031669": {
+  "aspect": "biological_process",
+  "name": "cellular response to nutrient levels"
+ },
+ "GO:0031902": {
+  "aspect": "cellular_component",
+  "name": "late endosome membrane"
+ },
+ "GO:0031929": {
+  "aspect": "biological_process",
+  "name": "TOR signaling"
+ },
+ "GO:0031966": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial membrane"
+ },
+ "GO:0031967": {
+  "aspect": "cellular_component",
+  "name": "organelle envelope"
+ },
+ "GO:0031968": {
+  "aspect": "cellular_component",
+  "name": "organelle outer membrane"
+ },
+ "GO:0031969": {
+  "aspect": "cellular_component",
+  "name": "chloroplast membrane"
+ },
+ "GO:0031974": {
+  "aspect": "cellular_component",
+  "name": "membrane-enclosed lumen"
+ },
+ "GO:0031975": {
+  "aspect": "cellular_component",
+  "name": "obsolete envelope"
+ },
+ "GO:0031976": {
+  "aspect": "cellular_component",
+  "name": "plastid thylakoid"
+ },
+ "GO:0031981": {
+  "aspect": "cellular_component",
+  "name": "nuclear lumen"
+ },
+ "GO:0031982": {
+  "aspect": "cellular_component",
+  "name": "vesicle"
+ },
+ "GO:0031984": {
+  "aspect": "cellular_component",
+  "name": "organelle subcompartment"
+ },
+ "GO:0032040": {
+  "aspect": "cellular_component",
+  "name": "small-subunit processome"
+ },
+ "GO:0032153": {
+  "aspect": "cellular_component",
+  "name": "cell division site"
+ },
+ "GO:0032200": {
+  "aspect": "biological_process",
+  "name": "telomere organization"
+ },
+ "GO:0032204": {
+  "aspect": "biological_process",
+  "name": "regulation of telomere maintenance"
+ },
+ "GO:0032259": {
+  "aspect": "biological_process",
+  "name": "methylation"
+ },
+ "GO:0032266": {
+  "aspect": "molecular_function",
+  "name": "phosphatidylinositol-3-phosphate binding"
+ },
+ "GO:0032271": {
+  "aspect": "biological_process",
+  "name": "regulation of protein polymerization"
+ },
+ "GO:0032272": {
+  "aspect": "biological_process",
+  "name": "negative regulation of protein polymerization"
+ },
+ "GO:0032392": {
+  "aspect": "biological_process",
+  "name": "DNA geometric change"
+ },
+ "GO:0032434": {
+  "aspect": "biological_process",
+  "name": "regulation of proteasomal ubiquitin-dependent protein catabolic process"
+ },
+ "GO:0032436": {
+  "aspect": "biological_process",
+  "name": "positive regulation of proteasomal ubiquitin-dependent protein catabolic process"
+ },
+ "GO:0032446": {
+  "aspect": "biological_process",
+  "name": "protein modification by small protein conjugation"
+ },
+ "GO:0032451": {
+  "aspect": "molecular_function",
+  "name": "demethylase activity"
+ },
+ "GO:0032452": {
+  "aspect": "molecular_function",
+  "name": "histone demethylase activity"
+ },
+ "GO:0032501": {
+  "aspect": "biological_process",
+  "name": "multicellular organismal process"
+ },
+ "GO:0032502": {
+  "aspect": "biological_process",
+  "name": "developmental process"
+ },
+ "GO:0032508": {
+  "aspect": "biological_process",
+  "name": "obsolete DNA duplex unwinding"
+ },
+ "GO:0032509": {
+  "aspect": "biological_process",
+  "name": "endosome transport via multivesicular body sorting pathway"
+ },
+ "GO:0032511": {
+  "aspect": "biological_process",
+  "name": "late endosome to vacuole transport via multivesicular body sorting pathway"
+ },
+ "GO:0032535": {
+  "aspect": "biological_process",
+  "name": "regulation of cellular component size"
+ },
+ "GO:0032543": {
+  "aspect": "biological_process",
+  "name": "mitochondrial translation"
+ },
+ "GO:0032553": {
+  "aspect": "molecular_function",
+  "name": "ribonucleotide binding"
+ },
+ "GO:0032555": {
+  "aspect": "molecular_function",
+  "name": "purine ribonucleotide binding"
+ },
+ "GO:0032588": {
+  "aspect": "cellular_component",
+  "name": "trans-Golgi network membrane"
+ },
+ "GO:0032774": {
+  "aspect": "biological_process",
+  "name": "RNA biosynthetic process"
+ },
+ "GO:0032784": {
+  "aspect": "biological_process",
+  "name": "regulation of DNA-templated transcription elongation"
+ },
+ "GO:0032786": {
+  "aspect": "biological_process",
+  "name": "positive regulation of DNA-templated transcription, elongation"
+ },
+ "GO:0032787": {
+  "aspect": "biological_process",
+  "name": "monocarboxylic acid metabolic process"
+ },
+ "GO:0032797": {
+  "aspect": "cellular_component",
+  "name": "SMN complex"
+ },
+ "GO:0032870": {
+  "aspect": "biological_process",
+  "name": "cellular response to hormone stimulus"
+ },
+ "GO:0032879": {
+  "aspect": "biological_process",
+  "name": "regulation of localization"
+ },
+ "GO:0032880": {
+  "aspect": "biological_process",
+  "name": "regulation of protein localization"
+ },
+ "GO:0032886": {
+  "aspect": "biological_process",
+  "name": "regulation of microtubule-based process"
+ },
+ "GO:0032934": {
+  "aspect": "molecular_function",
+  "name": "sterol binding"
+ },
+ "GO:0032940": {
+  "aspect": "biological_process",
+  "name": "secretion by cell"
+ },
+ "GO:0032956": {
+  "aspect": "biological_process",
+  "name": "regulation of actin cytoskeleton organization"
+ },
+ "GO:0032968": {
+  "aspect": "biological_process",
+  "name": "positive regulation of transcription elongation by RNA polymerase II"
+ },
+ "GO:0032970": {
+  "aspect": "biological_process",
+  "name": "regulation of actin filament-based process"
+ },
+ "GO:0032981": {
+  "aspect": "biological_process",
+  "name": "mitochondrial respiratory chain complex I assembly"
+ },
+ "GO:0032984": {
+  "aspect": "biological_process",
+  "name": "protein-containing complex disassembly"
+ },
+ "GO:0032991": {
+  "aspect": "cellular_component",
+  "name": "protein-containing complex"
+ },
+ "GO:0032993": {
+  "aspect": "cellular_component",
+  "name": "protein-DNA complex"
+ },
+ "GO:0033013": {
+  "aspect": "biological_process",
+  "name": "tetrapyrrole metabolic process"
+ },
+ "GO:0033036": {
+  "aspect": "biological_process",
+  "name": "macromolecule localization"
+ },
+ "GO:0033043": {
+  "aspect": "biological_process",
+  "name": "regulation of organelle organization"
+ },
+ "GO:0033044": {
+  "aspect": "biological_process",
+  "name": "regulation of chromosome organization"
+ },
+ "GO:0033045": {
+  "aspect": "biological_process",
+  "name": "regulation of sister chromatid segregation"
+ },
+ "GO:0033046": {
+  "aspect": "biological_process",
+  "name": "negative regulation of sister chromatid segregation"
+ },
+ "GO:0033047": {
+  "aspect": "biological_process",
+  "name": "regulation of mitotic sister chromatid segregation"
+ },
+ "GO:0033048": {
+  "aspect": "biological_process",
+  "name": "negative regulation of mitotic sister chromatid segregation"
+ },
+ "GO:0033108": {
+  "aspect": "biological_process",
+  "name": "mitochondrial respiratory chain complex assembly"
+ },
+ "GO:0033177": {
+  "aspect": "cellular_component",
+  "name": "proton-transporting two-sector ATPase complex, proton-transporting domain"
+ },
+ "GO:0033218": {
+  "aspect": "molecular_function",
+  "name": "obsolete amide binding"
+ },
+ "GO:0033260": {
+  "aspect": "biological_process",
+  "name": "nuclear DNA replication"
+ },
+ "GO:0033314": {
+  "aspect": "biological_process",
+  "name": "mitotic DNA replication checkpoint signaling"
+ },
+ "GO:0033365": {
+  "aspect": "biological_process",
+  "name": "protein localization to organelle"
+ },
+ "GO:0033500": {
+  "aspect": "biological_process",
+  "name": "carbohydrate homeostasis"
+ },
+ "GO:0033554": {
+  "aspect": "biological_process",
+  "name": "cellular response to stress"
+ },
+ "GO:0033619": {
+  "aspect": "biological_process",
+  "name": "membrane protein proteolysis"
+ },
+ "GO:0033962": {
+  "aspect": "biological_process",
+  "name": "P-body assembly"
+ },
+ "GO:0033993": {
+  "aspect": "biological_process",
+  "name": "response to lipid"
+ },
+ "GO:0034061": {
+  "aspect": "molecular_function",
+  "name": "DNA polymerase activity"
+ },
+ "GO:0034062": {
+  "aspect": "molecular_function",
+  "name": "5'-3' RNA polymerase activity"
+ },
+ "GO:0034067": {
+  "aspect": "biological_process",
+  "name": "protein localization to Golgi apparatus"
+ },
+ "GO:0034204": {
+  "aspect": "biological_process",
+  "name": "lipid translocation"
+ },
+ "GO:0034212": {
+  "aspect": "molecular_function",
+  "name": "protein N-acetyltransferase activity"
+ },
+ "GO:0034219": {
+  "aspect": "biological_process",
+  "name": "carbohydrate transmembrane transport"
+ },
+ "GO:0034220": {
+  "aspect": "biological_process",
+  "name": "monoatomic ion transmembrane transport"
+ },
+ "GO:0034237": {
+  "aspect": "molecular_function",
+  "name": "protein kinase A regulatory subunit binding"
+ },
+ "GO:0034243": {
+  "aspect": "biological_process",
+  "name": "regulation of transcription elongation by RNA polymerase II"
+ },
+ "GO:0034248": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of amide metabolic process"
+ },
+ "GO:0034249": {
+  "aspect": "biological_process",
+  "name": "obsolete negative regulation of amide metabolic process"
+ },
+ "GO:0034314": {
+  "aspect": "biological_process",
+  "name": "Arp2/3 complex-mediated actin nucleation"
+ },
+ "GO:0034329": {
+  "aspect": "biological_process",
+  "name": "cell junction assembly"
+ },
+ "GO:0034330": {
+  "aspect": "biological_process",
+  "name": "cell junction organization"
+ },
+ "GO:0034357": {
+  "aspect": "cellular_component",
+  "name": "photosynthetic membrane"
+ },
+ "GO:0034440": {
+  "aspect": "biological_process",
+  "name": "lipid oxidation"
+ },
+ "GO:0034470": {
+  "aspect": "biological_process",
+  "name": "obsolete ncRNA processing"
+ },
+ "GO:0034472": {
+  "aspect": "biological_process",
+  "name": "snRNA 3'-end processing"
+ },
+ "GO:0034504": {
+  "aspect": "biological_process",
+  "name": "protein localization to nucleus"
+ },
+ "GO:0034599": {
+  "aspect": "biological_process",
+  "name": "cellular response to oxidative stress"
+ },
+ "GO:0034605": {
+  "aspect": "biological_process",
+  "name": "cellular response to heat"
+ },
+ "GO:0034620": {
+  "aspect": "biological_process",
+  "name": "cellular response to unfolded protein"
+ },
+ "GO:0034641": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular nitrogen compound metabolic process"
+ },
+ "GO:0034654": {
+  "aspect": "biological_process",
+  "name": "nucleobase-containing compound biosynthetic process"
+ },
+ "GO:0034655": {
+  "aspect": "biological_process",
+  "name": "nucleobase-containing compound catabolic process"
+ },
+ "GO:0034656": {
+  "aspect": "biological_process",
+  "name": "nucleobase-containing small molecule catabolic process"
+ },
+ "GO:0034660": {
+  "aspect": "biological_process",
+  "name": "obsolete ncRNA metabolic process"
+ },
+ "GO:0034702": {
+  "aspect": "cellular_component",
+  "name": "monoatomic ion channel complex"
+ },
+ "GO:0034703": {
+  "aspect": "cellular_component",
+  "name": "cation channel complex"
+ },
+ "GO:0034704": {
+  "aspect": "cellular_component",
+  "name": "calcium channel complex"
+ },
+ "GO:0034708": {
+  "aspect": "cellular_component",
+  "name": "methyltransferase complex"
+ },
+ "GO:0034715": {
+  "aspect": "cellular_component",
+  "name": "pICln-Sm protein complex"
+ },
+ "GO:0034719": {
+  "aspect": "cellular_component",
+  "name": "SMN-Sm protein complex"
+ },
+ "GO:0034727": {
+  "aspect": "biological_process",
+  "name": "piecemeal microautophagy of the nucleus"
+ },
+ "GO:0034728": {
+  "aspect": "biological_process",
+  "name": "nucleosome organization"
+ },
+ "GO:0034968": {
+  "aspect": "biological_process",
+  "name": "obsolete histone lysine methylation"
+ },
+ "GO:0034976": {
+  "aspect": "biological_process",
+  "name": "response to endoplasmic reticulum stress"
+ },
+ "GO:0034982": {
+  "aspect": "biological_process",
+  "name": "mitochondrial protein processing"
+ },
+ "GO:0035091": {
+  "aspect": "molecular_function",
+  "name": "phosphatidylinositol binding"
+ },
+ "GO:0035097": {
+  "aspect": "cellular_component",
+  "name": "histone methyltransferase complex"
+ },
+ "GO:0035194": {
+  "aspect": "biological_process",
+  "name": "regulatory ncRNA-mediated post-transcriptional gene silencing"
+ },
+ "GO:0035251": {
+  "aspect": "molecular_function",
+  "name": "UDP-glucosyltransferase activity"
+ },
+ "GO:0035267": {
+  "aspect": "cellular_component",
+  "name": "NuA4 histone acetyltransferase complex"
+ },
+ "GO:0035303": {
+  "aspect": "biological_process",
+  "name": "regulation of dephosphorylation"
+ },
+ "GO:0035556": {
+  "aspect": "biological_process",
+  "name": "intracellular signal transduction"
+ },
+ "GO:0035592": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to extracellular region"
+ },
+ "GO:0035639": {
+  "aspect": "molecular_function",
+  "name": "purine ribonucleoside triphosphate binding"
+ },
+ "GO:0035673": {
+  "aspect": "molecular_function",
+  "name": "oligopeptide transmembrane transporter activity"
+ },
+ "GO:0035725": {
+  "aspect": "biological_process",
+  "name": "sodium ion transmembrane transport"
+ },
+ "GO:0035770": {
+  "aspect": "cellular_component",
+  "name": "ribonucleoprotein granule"
+ },
+ "GO:0035825": {
+  "aspect": "biological_process",
+  "name": "homologous recombination"
+ },
+ "GO:0035861": {
+  "aspect": "cellular_component",
+  "name": "site of double-strand break"
+ },
+ "GO:0035966": {
+  "aspect": "biological_process",
+  "name": "response to topologically incorrect protein"
+ },
+ "GO:0035967": {
+  "aspect": "biological_process",
+  "name": "cellular response to topologically incorrect protein"
+ },
+ "GO:0036002": {
+  "aspect": "molecular_function",
+  "name": "pre-mRNA binding"
+ },
+ "GO:0036094": {
+  "aspect": "molecular_function",
+  "name": "small molecule binding"
+ },
+ "GO:0036211": {
+  "aspect": "biological_process",
+  "name": "protein modification process"
+ },
+ "GO:0036297": {
+  "aspect": "biological_process",
+  "name": "interstrand cross-link repair"
+ },
+ "GO:0036464": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic ribonucleoprotein granule"
+ },
+ "GO:0036503": {
+  "aspect": "biological_process",
+  "name": "ERAD pathway"
+ },
+ "GO:0038023": {
+  "aspect": "molecular_function",
+  "name": "signaling receptor activity"
+ },
+ "GO:0040007": {
+  "aspect": "biological_process",
+  "name": "growth"
+ },
+ "GO:0040029": {
+  "aspect": "biological_process",
+  "name": "epigenetic regulation of gene expression"
+ },
+ "GO:0042044": {
+  "aspect": "biological_process",
+  "name": "fluid transport"
+ },
+ "GO:0042054": {
+  "aspect": "molecular_function",
+  "name": "histone methyltransferase activity"
+ },
+ "GO:0042147": {
+  "aspect": "biological_process",
+  "name": "retrograde transport, endosome to Golgi"
+ },
+ "GO:0042157": {
+  "aspect": "biological_process",
+  "name": "lipoprotein metabolic process"
+ },
+ "GO:0042158": {
+  "aspect": "biological_process",
+  "name": "lipoprotein biosynthetic process"
+ },
+ "GO:0042162": {
+  "aspect": "molecular_function",
+  "name": "telomeric repeat DNA binding"
+ },
+ "GO:0042168": {
+  "aspect": "biological_process",
+  "name": "heme metabolic process"
+ },
+ "GO:0042170": {
+  "aspect": "cellular_component",
+  "name": "plastid membrane"
+ },
+ "GO:0042175": {
+  "aspect": "cellular_component",
+  "name": "nuclear outer membrane-endoplasmic reticulum membrane network"
+ },
+ "GO:0042176": {
+  "aspect": "biological_process",
+  "name": "regulation of protein catabolic process"
+ },
+ "GO:0042221": {
+  "aspect": "biological_process",
+  "name": "response to chemical"
+ },
+ "GO:0042254": {
+  "aspect": "biological_process",
+  "name": "ribosome biogenesis"
+ },
+ "GO:0042273": {
+  "aspect": "biological_process",
+  "name": "ribosomal large subunit biogenesis"
+ },
+ "GO:0042274": {
+  "aspect": "biological_process",
+  "name": "ribosomal small subunit biogenesis"
+ },
+ "GO:0042277": {
+  "aspect": "molecular_function",
+  "name": "peptide binding"
+ },
+ "GO:0042285": {
+  "aspect": "molecular_function",
+  "name": "xylosyltransferase activity"
+ },
+ "GO:0042325": {
+  "aspect": "biological_process",
+  "name": "regulation of phosphorylation"
+ },
+ "GO:0042327": {
+  "aspect": "biological_process",
+  "name": "positive regulation of phosphorylation"
+ },
+ "GO:0042391": {
+  "aspect": "biological_process",
+  "name": "regulation of membrane potential"
+ },
+ "GO:0042393": {
+  "aspect": "molecular_function",
+  "name": "histone binding"
+ },
+ "GO:0042440": {
+  "aspect": "biological_process",
+  "name": "pigment metabolic process"
+ },
+ "GO:0042445": {
+  "aspect": "biological_process",
+  "name": "hormone metabolic process"
+ },
+ "GO:0042446": {
+  "aspect": "biological_process",
+  "name": "hormone biosynthetic process"
+ },
+ "GO:0042546": {
+  "aspect": "biological_process",
+  "name": "cell wall biogenesis"
+ },
+ "GO:0042555": {
+  "aspect": "cellular_component",
+  "name": "MCM complex"
+ },
+ "GO:0042562": {
+  "aspect": "molecular_function",
+  "name": "hormone binding"
+ },
+ "GO:0042575": {
+  "aspect": "cellular_component",
+  "name": "DNA polymerase complex"
+ },
+ "GO:0042578": {
+  "aspect": "molecular_function",
+  "name": "phosphoric ester hydrolase activity"
+ },
+ "GO:0042579": {
+  "aspect": "cellular_component",
+  "name": "microbody"
+ },
+ "GO:0042592": {
+  "aspect": "biological_process",
+  "name": "homeostatic process"
+ },
+ "GO:0042593": {
+  "aspect": "biological_process",
+  "name": "glucose homeostasis"
+ },
+ "GO:0042594": {
+  "aspect": "biological_process",
+  "name": "response to starvation"
+ },
+ "GO:0042651": {
+  "aspect": "cellular_component",
+  "name": "thylakoid membrane"
+ },
+ "GO:0042742": {
+  "aspect": "biological_process",
+  "name": "defense response to bacterium"
+ },
+ "GO:0042752": {
+  "aspect": "biological_process",
+  "name": "regulation of circadian rhythm"
+ },
+ "GO:0042770": {
+  "aspect": "biological_process",
+  "name": "signal transduction in response to DNA damage"
+ },
+ "GO:0042773": {
+  "aspect": "biological_process",
+  "name": "ATP synthesis coupled electron transport"
+ },
+ "GO:0042775": {
+  "aspect": "biological_process",
+  "name": "mitochondrial ATP synthesis coupled electron transport"
+ },
+ "GO:0042802": {
+  "aspect": "molecular_function",
+  "name": "identical protein binding"
+ },
+ "GO:0042886": {
+  "aspect": "biological_process",
+  "name": "obsolete amide transport"
+ },
+ "GO:0042887": {
+  "aspect": "molecular_function",
+  "name": "obsolete amide transmembrane transporter activity"
+ },
+ "GO:0042995": {
+  "aspect": "cellular_component",
+  "name": "cell projection"
+ },
+ "GO:0043021": {
+  "aspect": "molecular_function",
+  "name": "ribonucleoprotein complex binding"
+ },
+ "GO:0043022": {
+  "aspect": "molecular_function",
+  "name": "ribosome binding"
+ },
+ "GO:0043043": {
+  "aspect": "biological_process",
+  "name": "peptide biosynthetic process"
+ },
+ "GO:0043047": {
+  "aspect": "molecular_function",
+  "name": "single-stranded telomeric DNA binding"
+ },
+ "GO:0043067": {
+  "aspect": "biological_process",
+  "name": "regulation of programmed cell death"
+ },
+ "GO:0043085": {
+  "aspect": "biological_process",
+  "name": "positive regulation of catalytic activity"
+ },
+ "GO:0043086": {
+  "aspect": "biological_process",
+  "name": "negative regulation of catalytic activity"
+ },
+ "GO:0043087": {
+  "aspect": "biological_process",
+  "name": "regulation of GTPase activity"
+ },
+ "GO:0043130": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin binding"
+ },
+ "GO:0043138": {
+  "aspect": "molecular_function",
+  "name": "3'-5' DNA helicase activity"
+ },
+ "GO:0043161": {
+  "aspect": "biological_process",
+  "name": "proteasome-mediated ubiquitin-dependent protein catabolic process"
+ },
+ "GO:0043162": {
+  "aspect": "biological_process",
+  "name": "ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway"
+ },
+ "GO:0043167": {
+  "aspect": "molecular_function",
+  "name": "ion binding"
+ },
+ "GO:0043168": {
+  "aspect": "molecular_function",
+  "name": "anion binding"
+ },
+ "GO:0043169": {
+  "aspect": "molecular_function",
+  "name": "cation binding"
+ },
+ "GO:0043170": {
+  "aspect": "biological_process",
+  "name": "macromolecule metabolic process"
+ },
+ "GO:0043175": {
+  "aspect": "molecular_function",
+  "name": "RNA polymerase core enzyme binding"
+ },
+ "GO:0043177": {
+  "aspect": "molecular_function",
+  "name": "organic acid binding"
+ },
+ "GO:0043207": {
+  "aspect": "biological_process",
+  "name": "response to external biotic stimulus"
+ },
+ "GO:0043226": {
+  "aspect": "cellular_component",
+  "name": "organelle"
+ },
+ "GO:0043227": {
+  "aspect": "cellular_component",
+  "name": "membrane-bounded organelle"
+ },
+ "GO:0043228": {
+  "aspect": "cellular_component",
+  "name": "membraneless organelle"
+ },
+ "GO:0043229": {
+  "aspect": "cellular_component",
+  "name": "intracellular organelle"
+ },
+ "GO:0043231": {
+  "aspect": "cellular_component",
+  "name": "intracellular membrane-bounded organelle"
+ },
+ "GO:0043232": {
+  "aspect": "cellular_component",
+  "name": "intracellular membraneless organelle"
+ },
+ "GO:0043233": {
+  "aspect": "cellular_component",
+  "name": "organelle lumen"
+ },
+ "GO:0043254": {
+  "aspect": "biological_process",
+  "name": "regulation of protein-containing complex assembly"
+ },
+ "GO:0043328": {
+  "aspect": "biological_process",
+  "name": "protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway"
+ },
+ "GO:0043401": {
+  "aspect": "biological_process",
+  "name": "steroid hormone receptor signaling pathway"
+ },
+ "GO:0043412": {
+  "aspect": "biological_process",
+  "name": "macromolecule modification"
+ },
+ "GO:0043413": {
+  "aspect": "biological_process",
+  "name": "obsolete macromolecule glycosylation"
+ },
+ "GO:0043414": {
+  "aspect": "biological_process",
+  "name": "macromolecule methylation"
+ },
+ "GO:0043436": {
+  "aspect": "biological_process",
+  "name": "oxoacid metabolic process"
+ },
+ "GO:0043484": {
+  "aspect": "biological_process",
+  "name": "regulation of RNA splicing"
+ },
+ "GO:0043487": {
+  "aspect": "biological_process",
+  "name": "regulation of RNA stability"
+ },
+ "GO:0043488": {
+  "aspect": "biological_process",
+  "name": "regulation of mRNA stability"
+ },
+ "GO:0043539": {
+  "aspect": "molecular_function",
+  "name": "protein serine/threonine kinase activator activity"
+ },
+ "GO:0043543": {
+  "aspect": "biological_process",
+  "name": "protein acylation"
+ },
+ "GO:0043547": {
+  "aspect": "biological_process",
+  "name": "positive regulation of GTPase activity"
+ },
+ "GO:0043549": {
+  "aspect": "biological_process",
+  "name": "regulation of kinase activity"
+ },
+ "GO:0043565": {
+  "aspect": "molecular_function",
+  "name": "sequence-specific DNA binding"
+ },
+ "GO:0043574": {
+  "aspect": "biological_process",
+  "name": "peroxisomal transport"
+ },
+ "GO:0043596": {
+  "aspect": "cellular_component",
+  "name": "nuclear replication fork"
+ },
+ "GO:0043603": {
+  "aspect": "biological_process",
+  "name": "obsolete amide metabolic process"
+ },
+ "GO:0043604": {
+  "aspect": "biological_process",
+  "name": "obsolete amide biosynthetic process"
+ },
+ "GO:0043632": {
+  "aspect": "biological_process",
+  "name": "modification-dependent macromolecule catabolic process"
+ },
+ "GO:0043648": {
+  "aspect": "biological_process",
+  "name": "dicarboxylic acid metabolic process"
+ },
+ "GO:0043666": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of phosphoprotein phosphatase activity"
+ },
+ "GO:0043687": {
+  "aspect": "biological_process",
+  "name": "post-translational protein modification"
+ },
+ "GO:0043933": {
+  "aspect": "biological_process",
+  "name": "protein-containing complex organization"
+ },
+ "GO:0044042": {
+  "aspect": "biological_process",
+  "name": "glucan metabolic process"
+ },
+ "GO:0044085": {
+  "aspect": "biological_process",
+  "name": "cellular component biogenesis"
+ },
+ "GO:0044087": {
+  "aspect": "biological_process",
+  "name": "regulation of cellular component biogenesis"
+ },
+ "GO:0044092": {
+  "aspect": "biological_process",
+  "name": "negative regulation of molecular function"
+ },
+ "GO:0044093": {
+  "aspect": "biological_process",
+  "name": "positive regulation of molecular function"
+ },
+ "GO:0044237": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular metabolic process"
+ },
+ "GO:0044238": {
+  "aspect": "biological_process",
+  "name": "primary metabolic process"
+ },
+ "GO:0044242": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular lipid catabolic process"
+ },
+ "GO:0044248": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular catabolic process"
+ },
+ "GO:0044249": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular biosynthetic process"
+ },
+ "GO:0044255": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular lipid metabolic process"
+ },
+ "GO:0044270": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular nitrogen compound catabolic process"
+ },
+ "GO:0044271": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular nitrogen compound biosynthetic process"
+ },
+ "GO:0044273": {
+  "aspect": "biological_process",
+  "name": "sulfur compound catabolic process"
+ },
+ "GO:0044281": {
+  "aspect": "biological_process",
+  "name": "small molecule metabolic process"
+ },
+ "GO:0044282": {
+  "aspect": "biological_process",
+  "name": "small molecule catabolic process"
+ },
+ "GO:0044283": {
+  "aspect": "biological_process",
+  "name": "small molecule biosynthetic process"
+ },
+ "GO:0044389": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-like protein ligase binding"
+ },
+ "GO:0044390": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-like protein conjugating enzyme binding"
+ },
+ "GO:0044391": {
+  "aspect": "cellular_component",
+  "name": "ribosomal subunit"
+ },
+ "GO:0044419": {
+  "aspect": "biological_process",
+  "name": "biological process involved in interspecies interaction between organisms"
+ },
+ "GO:0044550": {
+  "aspect": "biological_process",
+  "name": "secondary metabolite biosynthetic process"
+ },
+ "GO:0044743": {
+  "aspect": "biological_process",
+  "name": "protein transmembrane import into intracellular organelle"
+ },
+ "GO:0044770": {
+  "aspect": "biological_process",
+  "name": "cell cycle phase transition"
+ },
+ "GO:0044772": {
+  "aspect": "biological_process",
+  "name": "mitotic cell cycle phase transition"
+ },
+ "GO:0044773": {
+  "aspect": "biological_process",
+  "name": "mitotic DNA damage checkpoint signaling"
+ },
+ "GO:0044774": {
+  "aspect": "biological_process",
+  "name": "mitotic DNA integrity checkpoint signaling"
+ },
+ "GO:0044786": {
+  "aspect": "biological_process",
+  "name": "cell cycle DNA replication"
+ },
+ "GO:0044804": {
+  "aspect": "biological_process",
+  "name": "nucleophagy"
+ },
+ "GO:0044818": {
+  "aspect": "biological_process",
+  "name": "mitotic G2/M transition checkpoint"
+ },
+ "GO:0044843": {
+  "aspect": "biological_process",
+  "name": "cell cycle G1/S phase transition"
+ },
+ "GO:0044877": {
+  "aspect": "molecular_function",
+  "name": "protein-containing complex binding"
+ },
+ "GO:0045017": {
+  "aspect": "biological_process",
+  "name": "glycerolipid biosynthetic process"
+ },
+ "GO:0045036": {
+  "aspect": "biological_process",
+  "name": "protein targeting to chloroplast"
+ },
+ "GO:0045039": {
+  "aspect": "biological_process",
+  "name": "protein insertion into mitochondrial inner membrane"
+ },
+ "GO:0045047": {
+  "aspect": "biological_process",
+  "name": "protein targeting to ER"
+ },
+ "GO:0045087": {
+  "aspect": "biological_process",
+  "name": "innate immune response"
+ },
+ "GO:0045132": {
+  "aspect": "biological_process",
+  "name": "meiotic chromosome segregation"
+ },
+ "GO:0045165": {
+  "aspect": "biological_process",
+  "name": "cell fate commitment"
+ },
+ "GO:0045182": {
+  "aspect": "molecular_function",
+  "name": "translation regulator activity"
+ },
+ "GO:0045184": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization"
+ },
+ "GO:0045216": {
+  "aspect": "biological_process",
+  "name": "cell-cell junction organization"
+ },
+ "GO:0045229": {
+  "aspect": "biological_process",
+  "name": "external encapsulating structure organization"
+ },
+ "GO:0045259": {
+  "aspect": "cellular_component",
+  "name": "proton-transporting ATP synthase complex"
+ },
+ "GO:0045263": {
+  "aspect": "cellular_component",
+  "name": "obsolete proton-transporting ATP synthase complex, coupling factor F(o)"
+ },
+ "GO:0045271": {
+  "aspect": "cellular_component",
+  "name": "respiratory chain complex I"
+ },
+ "GO:0045292": {
+  "aspect": "biological_process",
+  "name": "mRNA cis splicing, via spliceosome"
+ },
+ "GO:0045324": {
+  "aspect": "biological_process",
+  "name": "late endosome to vacuole transport"
+ },
+ "GO:0045332": {
+  "aspect": "biological_process",
+  "name": "phospholipid translocation"
+ },
+ "GO:0045333": {
+  "aspect": "biological_process",
+  "name": "cellular respiration"
+ },
+ "GO:0045492": {
+  "aspect": "biological_process",
+  "name": "xylan biosynthetic process"
+ },
+ "GO:0045727": {
+  "aspect": "biological_process",
+  "name": "positive regulation of translation"
+ },
+ "GO:0045732": {
+  "aspect": "biological_process",
+  "name": "positive regulation of protein catabolic process"
+ },
+ "GO:0045786": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cell cycle"
+ },
+ "GO:0045787": {
+  "aspect": "biological_process",
+  "name": "positive regulation of cell cycle"
+ },
+ "GO:0045814": {
+  "aspect": "biological_process",
+  "name": "negative regulation of gene expression, epigenetic"
+ },
+ "GO:0045839": {
+  "aspect": "biological_process",
+  "name": "negative regulation of mitotic nuclear division"
+ },
+ "GO:0045840": {
+  "aspect": "biological_process",
+  "name": "positive regulation of mitotic nuclear division"
+ },
+ "GO:0045841": {
+  "aspect": "biological_process",
+  "name": "negative regulation of mitotic metaphase/anaphase transition"
+ },
+ "GO:0045859": {
+  "aspect": "biological_process",
+  "name": "regulation of protein kinase activity"
+ },
+ "GO:0045862": {
+  "aspect": "biological_process",
+  "name": "positive regulation of proteolysis"
+ },
+ "GO:0045892": {
+  "aspect": "biological_process",
+  "name": "negative regulation of DNA-templated transcription"
+ },
+ "GO:0045893": {
+  "aspect": "biological_process",
+  "name": "positive regulation of DNA-templated transcription"
+ },
+ "GO:0045910": {
+  "aspect": "biological_process",
+  "name": "negative regulation of DNA recombination"
+ },
+ "GO:0045930": {
+  "aspect": "biological_process",
+  "name": "negative regulation of mitotic cell cycle"
+ },
+ "GO:0045931": {
+  "aspect": "biological_process",
+  "name": "positive regulation of mitotic cell cycle"
+ },
+ "GO:0045934": {
+  "aspect": "biological_process",
+  "name": "negative regulation of nucleobase-containing compound metabolic process"
+ },
+ "GO:0045935": {
+  "aspect": "biological_process",
+  "name": "obsolete positive regulation of nucleobase-containing compound metabolic process"
+ },
+ "GO:0045937": {
+  "aspect": "biological_process",
+  "name": "positive regulation of phosphate metabolic process"
+ },
+ "GO:0045944": {
+  "aspect": "biological_process",
+  "name": "positive regulation of transcription by RNA polymerase II"
+ },
+ "GO:0046034": {
+  "aspect": "biological_process",
+  "name": "ATP metabolic process"
+ },
+ "GO:0046040": {
+  "aspect": "biological_process",
+  "name": "IMP metabolic process"
+ },
+ "GO:0046148": {
+  "aspect": "biological_process",
+  "name": "pigment biosynthetic process"
+ },
+ "GO:0046165": {
+  "aspect": "biological_process",
+  "name": "alcohol biosynthetic process"
+ },
+ "GO:0046390": {
+  "aspect": "biological_process",
+  "name": "ribose phosphate biosynthetic process"
+ },
+ "GO:0046394": {
+  "aspect": "biological_process",
+  "name": "carboxylic acid biosynthetic process"
+ },
+ "GO:0046395": {
+  "aspect": "biological_process",
+  "name": "carboxylic acid catabolic process"
+ },
+ "GO:0046434": {
+  "aspect": "biological_process",
+  "name": "organophosphate catabolic process"
+ },
+ "GO:0046467": {
+  "aspect": "biological_process",
+  "name": "obsolete membrane lipid biosynthetic process"
+ },
+ "GO:0046474": {
+  "aspect": "biological_process",
+  "name": "glycerophospholipid biosynthetic process"
+ },
+ "GO:0046483": {
+  "aspect": "biological_process",
+  "name": "obsolete heterocycle metabolic process"
+ },
+ "GO:0046486": {
+  "aspect": "biological_process",
+  "name": "glycerolipid metabolic process"
+ },
+ "GO:0046488": {
+  "aspect": "biological_process",
+  "name": "phosphatidylinositol metabolic process"
+ },
+ "GO:0046513": {
+  "aspect": "biological_process",
+  "name": "ceramide biosynthetic process"
+ },
+ "GO:0046527": {
+  "aspect": "molecular_function",
+  "name": "glucosyltransferase activity"
+ },
+ "GO:0046540": {
+  "aspect": "cellular_component",
+  "name": "U4/U6 x U5 tri-snRNP complex"
+ },
+ "GO:0046700": {
+  "aspect": "biological_process",
+  "name": "obsolete heterocycle catabolic process"
+ },
+ "GO:0046785": {
+  "aspect": "biological_process",
+  "name": "microtubule polymerization"
+ },
+ "GO:0046835": {
+  "aspect": "biological_process",
+  "name": "carbohydrate phosphorylation"
+ },
+ "GO:0046839": {
+  "aspect": "biological_process",
+  "name": "phospholipid dephosphorylation"
+ },
+ "GO:0046854": {
+  "aspect": "biological_process",
+  "name": "phosphatidylinositol phosphate biosynthetic process"
+ },
+ "GO:0046856": {
+  "aspect": "biological_process",
+  "name": "phosphatidylinositol dephosphorylation"
+ },
+ "GO:0046872": {
+  "aspect": "molecular_function",
+  "name": "metal ion binding"
+ },
+ "GO:0046873": {
+  "aspect": "molecular_function",
+  "name": "metal ion transmembrane transporter activity"
+ },
+ "GO:0046903": {
+  "aspect": "biological_process",
+  "name": "secretion"
+ },
+ "GO:0046906": {
+  "aspect": "molecular_function",
+  "name": "tetrapyrrole binding"
+ },
+ "GO:0046907": {
+  "aspect": "biological_process",
+  "name": "intracellular transport"
+ },
+ "GO:0046914": {
+  "aspect": "molecular_function",
+  "name": "transition metal ion binding"
+ },
+ "GO:0046933": {
+  "aspect": "molecular_function",
+  "name": "proton-transporting ATP synthase activity, rotational mechanism"
+ },
+ "GO:0046942": {
+  "aspect": "biological_process",
+  "name": "carboxylic acid transport"
+ },
+ "GO:0046943": {
+  "aspect": "molecular_function",
+  "name": "carboxylic acid transmembrane transporter activity"
+ },
+ "GO:0048015": {
+  "aspect": "biological_process",
+  "name": "phosphatidylinositol-mediated signaling"
+ },
+ "GO:0048017": {
+  "aspect": "biological_process",
+  "name": "obsolete inositol lipid-mediated signaling"
+ },
+ "GO:0048024": {
+  "aspect": "biological_process",
+  "name": "regulation of mRNA splicing, via spliceosome"
+ },
+ "GO:0048188": {
+  "aspect": "cellular_component",
+  "name": "Set1C/COMPASS complex"
+ },
+ "GO:0048193": {
+  "aspect": "biological_process",
+  "name": "Golgi vesicle transport"
+ },
+ "GO:0048284": {
+  "aspect": "biological_process",
+  "name": "organelle fusion"
+ },
+ "GO:0048285": {
+  "aspect": "biological_process",
+  "name": "organelle fission"
+ },
+ "GO:0048316": {
+  "aspect": "biological_process",
+  "name": "seed development"
+ },
+ "GO:0048364": {
+  "aspect": "biological_process",
+  "name": "root development"
+ },
+ "GO:0048366": {
+  "aspect": "biological_process",
+  "name": "leaf development"
+ },
+ "GO:0048367": {
+  "aspect": "biological_process",
+  "name": "shoot system development"
+ },
+ "GO:0048437": {
+  "aspect": "biological_process",
+  "name": "floral organ development"
+ },
+ "GO:0048468": {
+  "aspect": "biological_process",
+  "name": "cell development"
+ },
+ "GO:0048471": {
+  "aspect": "cellular_component",
+  "name": "perinuclear region of cytoplasm"
+ },
+ "GO:0048475": {
+  "aspect": "cellular_component",
+  "name": "coated membrane"
+ },
+ "GO:0048518": {
+  "aspect": "biological_process",
+  "name": "positive regulation of biological process"
+ },
+ "GO:0048519": {
+  "aspect": "biological_process",
+  "name": "negative regulation of biological process"
+ },
+ "GO:0048522": {
+  "aspect": "biological_process",
+  "name": "positive regulation of cellular process"
+ },
+ "GO:0048523": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cellular process"
+ },
+ "GO:0048545": {
+  "aspect": "biological_process",
+  "name": "response to steroid hormone"
+ },
+ "GO:0048583": {
+  "aspect": "biological_process",
+  "name": "regulation of response to stimulus"
+ },
+ "GO:0048584": {
+  "aspect": "biological_process",
+  "name": "positive regulation of response to stimulus"
+ },
+ "GO:0048585": {
+  "aspect": "biological_process",
+  "name": "negative regulation of response to stimulus"
+ },
+ "GO:0048588": {
+  "aspect": "biological_process",
+  "name": "developmental cell growth"
+ },
+ "GO:0048589": {
+  "aspect": "biological_process",
+  "name": "developmental growth"
+ },
+ "GO:0048608": {
+  "aspect": "biological_process",
+  "name": "reproductive structure development"
+ },
+ "GO:0048731": {
+  "aspect": "biological_process",
+  "name": "system development"
+ },
+ "GO:0048856": {
+  "aspect": "biological_process",
+  "name": "anatomical structure development"
+ },
+ "GO:0048869": {
+  "aspect": "biological_process",
+  "name": "cellular developmental process"
+ },
+ "GO:0048878": {
+  "aspect": "biological_process",
+  "name": "chemical homeostasis"
+ },
+ "GO:0050000": {
+  "aspect": "biological_process",
+  "name": "chromosome localization"
+ },
+ "GO:0050308": {
+  "aspect": "molecular_function",
+  "name": "sugar-phosphatase activity"
+ },
+ "GO:0050657": {
+  "aspect": "biological_process",
+  "name": "nucleic acid transport"
+ },
+ "GO:0050658": {
+  "aspect": "biological_process",
+  "name": "RNA transport"
+ },
+ "GO:0050660": {
+  "aspect": "molecular_function",
+  "name": "flavin adenine dinucleotide binding"
+ },
+ "GO:0050684": {
+  "aspect": "biological_process",
+  "name": "regulation of mRNA processing"
+ },
+ "GO:0050779": {
+  "aspect": "biological_process",
+  "name": "RNA destabilization"
+ },
+ "GO:0050789": {
+  "aspect": "biological_process",
+  "name": "regulation of biological process"
+ },
+ "GO:0050790": {
+  "aspect": "biological_process",
+  "name": "regulation of catalytic activity"
+ },
+ "GO:0050793": {
+  "aspect": "biological_process",
+  "name": "regulation of developmental process"
+ },
+ "GO:0050794": {
+  "aspect": "biological_process",
+  "name": "regulation of cellular process"
+ },
+ "GO:0050801": {
+  "aspect": "biological_process",
+  "name": "monoatomic ion homeostasis"
+ },
+ "GO:0050821": {
+  "aspect": "biological_process",
+  "name": "protein stabilization"
+ },
+ "GO:0050832": {
+  "aspect": "biological_process",
+  "name": "defense response to fungus"
+ },
+ "GO:0050896": {
+  "aspect": "biological_process",
+  "name": "response to stimulus"
+ },
+ "GO:0051015": {
+  "aspect": "molecular_function",
+  "name": "actin filament binding"
+ },
+ "GO:0051017": {
+  "aspect": "biological_process",
+  "name": "actin filament bundle assembly"
+ },
+ "GO:0051018": {
+  "aspect": "molecular_function",
+  "name": "protein kinase A binding"
+ },
+ "GO:0051028": {
+  "aspect": "biological_process",
+  "name": "mRNA transport"
+ },
+ "GO:0051046": {
+  "aspect": "biological_process",
+  "name": "regulation of secretion"
+ },
+ "GO:0051049": {
+  "aspect": "biological_process",
+  "name": "regulation of transport"
+ },
+ "GO:0051052": {
+  "aspect": "biological_process",
+  "name": "regulation of DNA metabolic process"
+ },
+ "GO:0051053": {
+  "aspect": "biological_process",
+  "name": "negative regulation of DNA metabolic process"
+ },
+ "GO:0051082": {
+  "aspect": "molecular_function",
+  "name": "obsolete unfolded protein binding"
+ },
+ "GO:0051085": {
+  "aspect": "biological_process",
+  "name": "obsolete chaperone cofactor-dependent protein refolding"
+ },
+ "GO:0051087": {
+  "aspect": "molecular_function",
+  "name": "protein-folding chaperone binding"
+ },
+ "GO:0051119": {
+  "aspect": "molecular_function",
+  "name": "sugar transmembrane transporter activity"
+ },
+ "GO:0051123": {
+  "aspect": "biological_process",
+  "name": "RNA polymerase II preinitiation complex assembly"
+ },
+ "GO:0051128": {
+  "aspect": "biological_process",
+  "name": "regulation of cellular component organization"
+ },
+ "GO:0051129": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cellular component organization"
+ },
+ "GO:0051130": {
+  "aspect": "biological_process",
+  "name": "positive regulation of cellular component organization"
+ },
+ "GO:0051139": {
+  "aspect": "molecular_function",
+  "name": "metal cation:proton antiporter activity"
+ },
+ "GO:0051156": {
+  "aspect": "biological_process",
+  "name": "glucose 6-phosphate metabolic process"
+ },
+ "GO:0051168": {
+  "aspect": "biological_process",
+  "name": "nuclear export"
+ },
+ "GO:0051169": {
+  "aspect": "biological_process",
+  "name": "nuclear transport"
+ },
+ "GO:0051170": {
+  "aspect": "biological_process",
+  "name": "import into nucleus"
+ },
+ "GO:0051171": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of nitrogen compound metabolic process"
+ },
+ "GO:0051172": {
+  "aspect": "biological_process",
+  "name": "obsolete negative regulation of nitrogen compound metabolic process"
+ },
+ "GO:0051173": {
+  "aspect": "biological_process",
+  "name": "obsolete positive regulation of nitrogen compound metabolic process"
+ },
+ "GO:0051174": {
+  "aspect": "biological_process",
+  "name": "regulation of phosphorus metabolic process"
+ },
+ "GO:0051179": {
+  "aspect": "biological_process",
+  "name": "localization"
+ },
+ "GO:0051205": {
+  "aspect": "biological_process",
+  "name": "protein insertion into membrane"
+ },
+ "GO:0051209": {
+  "aspect": "biological_process",
+  "name": "release of sequestered calcium ion into cytosol"
+ },
+ "GO:0051213": {
+  "aspect": "molecular_function",
+  "name": "dioxygenase activity"
+ },
+ "GO:0051225": {
+  "aspect": "biological_process",
+  "name": "spindle assembly"
+ },
+ "GO:0051231": {
+  "aspect": "biological_process",
+  "name": "spindle elongation"
+ },
+ "GO:0051233": {
+  "aspect": "cellular_component",
+  "name": "spindle midzone"
+ },
+ "GO:0051234": {
+  "aspect": "biological_process",
+  "name": "establishment of localization"
+ },
+ "GO:0051235": {
+  "aspect": "biological_process",
+  "name": "maintenance of location"
+ },
+ "GO:0051236": {
+  "aspect": "biological_process",
+  "name": "establishment of RNA localization"
+ },
+ "GO:0051239": {
+  "aspect": "biological_process",
+  "name": "regulation of multicellular organismal process"
+ },
+ "GO:0051241": {
+  "aspect": "biological_process",
+  "name": "negative regulation of multicellular organismal process"
+ },
+ "GO:0051246": {
+  "aspect": "biological_process",
+  "name": "regulation of protein metabolic process"
+ },
+ "GO:0051247": {
+  "aspect": "biological_process",
+  "name": "positive regulation of protein metabolic process"
+ },
+ "GO:0051248": {
+  "aspect": "biological_process",
+  "name": "negative regulation of protein metabolic process"
+ },
+ "GO:0051252": {
+  "aspect": "biological_process",
+  "name": "regulation of RNA metabolic process"
+ },
+ "GO:0051253": {
+  "aspect": "biological_process",
+  "name": "negative regulation of RNA metabolic process"
+ },
+ "GO:0051254": {
+  "aspect": "biological_process",
+  "name": "positive regulation of RNA metabolic process"
+ },
+ "GO:0051258": {
+  "aspect": "biological_process",
+  "name": "protein polymerization"
+ },
+ "GO:0051261": {
+  "aspect": "biological_process",
+  "name": "protein depolymerization"
+ },
+ "GO:0051274": {
+  "aspect": "biological_process",
+  "name": "beta-glucan biosynthetic process"
+ },
+ "GO:0051276": {
+  "aspect": "biological_process",
+  "name": "chromosome organization"
+ },
+ "GO:0051282": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of sequestering of calcium ion"
+ },
+ "GO:0051283": {
+  "aspect": "biological_process",
+  "name": "obsolete negative regulation of sequestering of calcium ion"
+ },
+ "GO:0051301": {
+  "aspect": "biological_process",
+  "name": "cell division"
+ },
+ "GO:0051302": {
+  "aspect": "biological_process",
+  "name": "regulation of cell division"
+ },
+ "GO:0051321": {
+  "aspect": "biological_process",
+  "name": "meiotic cell cycle"
+ },
+ "GO:0051336": {
+  "aspect": "biological_process",
+  "name": "regulation of hydrolase activity"
+ },
+ "GO:0051338": {
+  "aspect": "biological_process",
+  "name": "regulation of transferase activity"
+ },
+ "GO:0051345": {
+  "aspect": "biological_process",
+  "name": "positive regulation of hydrolase activity"
+ },
+ "GO:0051445": {
+  "aspect": "biological_process",
+  "name": "regulation of meiotic cell cycle"
+ },
+ "GO:0051452": {
+  "aspect": "biological_process",
+  "name": "intracellular pH reduction"
+ },
+ "GO:0051453": {
+  "aspect": "biological_process",
+  "name": "regulation of intracellular pH"
+ },
+ "GO:0051493": {
+  "aspect": "biological_process",
+  "name": "regulation of cytoskeleton organization"
+ },
+ "GO:0051494": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cytoskeleton organization"
+ },
+ "GO:0051536": {
+  "aspect": "molecular_function",
+  "name": "iron-sulfur cluster binding"
+ },
+ "GO:0051560": {
+  "aspect": "biological_process",
+  "name": "mitochondrial calcium ion homeostasis"
+ },
+ "GO:0051603": {
+  "aspect": "biological_process",
+  "name": "obsolete proteolysis involved in protein catabolic process"
+ },
+ "GO:0051604": {
+  "aspect": "biological_process",
+  "name": "protein maturation"
+ },
+ "GO:0051640": {
+  "aspect": "biological_process",
+  "name": "organelle localization"
+ },
+ "GO:0051641": {
+  "aspect": "biological_process",
+  "name": "cellular localization"
+ },
+ "GO:0051648": {
+  "aspect": "biological_process",
+  "name": "vesicle localization"
+ },
+ "GO:0051649": {
+  "aspect": "biological_process",
+  "name": "establishment of localization in cell"
+ },
+ "GO:0051650": {
+  "aspect": "biological_process",
+  "name": "establishment of vesicle localization"
+ },
+ "GO:0051651": {
+  "aspect": "biological_process",
+  "name": "maintenance of location in cell"
+ },
+ "GO:0051656": {
+  "aspect": "biological_process",
+  "name": "establishment of organelle localization"
+ },
+ "GO:0051668": {
+  "aspect": "biological_process",
+  "name": "localization within membrane"
+ },
+ "GO:0051707": {
+  "aspect": "biological_process",
+  "name": "response to other organism"
+ },
+ "GO:0051716": {
+  "aspect": "biological_process",
+  "name": "cellular response to stimulus"
+ },
+ "GO:0051726": {
+  "aspect": "biological_process",
+  "name": "regulation of cell cycle"
+ },
+ "GO:0051783": {
+  "aspect": "biological_process",
+  "name": "regulation of nuclear division"
+ },
+ "GO:0051784": {
+  "aspect": "biological_process",
+  "name": "negative regulation of nuclear division"
+ },
+ "GO:0051879": {
+  "aspect": "molecular_function",
+  "name": "Hsp90 protein binding"
+ },
+ "GO:0051983": {
+  "aspect": "biological_process",
+  "name": "regulation of chromosome segregation"
+ },
+ "GO:0051985": {
+  "aspect": "biological_process",
+  "name": "negative regulation of chromosome segregation"
+ },
+ "GO:0052689": {
+  "aspect": "molecular_function",
+  "name": "carboxylic ester hydrolase activity"
+ },
+ "GO:0055029": {
+  "aspect": "cellular_component",
+  "name": "nuclear DNA-directed RNA polymerase complex"
+ },
+ "GO:0055037": {
+  "aspect": "cellular_component",
+  "name": "recycling endosome"
+ },
+ "GO:0055038": {
+  "aspect": "cellular_component",
+  "name": "recycling endosome membrane"
+ },
+ "GO:0055074": {
+  "aspect": "biological_process",
+  "name": "calcium ion homeostasis"
+ },
+ "GO:0055080": {
+  "aspect": "biological_process",
+  "name": "monoatomic cation homeostasis"
+ },
+ "GO:0055082": {
+  "aspect": "biological_process",
+  "name": "intracellular chemical homeostasis"
+ },
+ "GO:0055085": {
+  "aspect": "biological_process",
+  "name": "transmembrane transport"
+ },
+ "GO:0055086": {
+  "aspect": "biological_process",
+  "name": "nucleobase-containing small molecule metabolic process"
+ },
+ "GO:0055088": {
+  "aspect": "biological_process",
+  "name": "lipid homeostasis"
+ },
+ "GO:0060089": {
+  "aspect": "molecular_function",
+  "name": "molecular transducer activity"
+ },
+ "GO:0060090": {
+  "aspect": "molecular_function",
+  "name": "molecular adaptor activity"
+ },
+ "GO:0060255": {
+  "aspect": "biological_process",
+  "name": "regulation of macromolecule metabolic process"
+ },
+ "GO:0060341": {
+  "aspect": "biological_process",
+  "name": "regulation of cellular localization"
+ },
+ "GO:0060560": {
+  "aspect": "biological_process",
+  "name": "developmental growth involved in morphogenesis"
+ },
+ "GO:0060589": {
+  "aspect": "molecular_function",
+  "name": "nucleoside-triphosphatase regulator activity"
+ },
+ "GO:0060627": {
+  "aspect": "biological_process",
+  "name": "regulation of vesicle-mediated transport"
+ },
+ "GO:0061013": {
+  "aspect": "biological_process",
+  "name": "regulation of mRNA catabolic process"
+ },
+ "GO:0061014": {
+  "aspect": "biological_process",
+  "name": "positive regulation of mRNA catabolic process"
+ },
+ "GO:0061024": {
+  "aspect": "biological_process",
+  "name": "membrane organization"
+ },
+ "GO:0061025": {
+  "aspect": "biological_process",
+  "name": "membrane fusion"
+ },
+ "GO:0061077": {
+  "aspect": "biological_process",
+  "name": "obsolete chaperone-mediated protein folding"
+ },
+ "GO:0061134": {
+  "aspect": "molecular_function",
+  "name": "peptidase regulator activity"
+ },
+ "GO:0061136": {
+  "aspect": "biological_process",
+  "name": "regulation of proteasomal protein catabolic process"
+ },
+ "GO:0061157": {
+  "aspect": "biological_process",
+  "name": "mRNA destabilization"
+ },
+ "GO:0061458": {
+  "aspect": "biological_process",
+  "name": "reproductive system development"
+ },
+ "GO:0061572": {
+  "aspect": "biological_process",
+  "name": "actin filament bundle organization"
+ },
+ "GO:0061630": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin protein ligase activity"
+ },
+ "GO:0061631": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin conjugating enzyme activity"
+ },
+ "GO:0061640": {
+  "aspect": "biological_process",
+  "name": "cytoskeleton-dependent cytokinesis"
+ },
+ "GO:0061650": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-like protein conjugating enzyme activity"
+ },
+ "GO:0061659": {
+  "aspect": "molecular_function",
+  "name": "ubiquitin-like protein ligase activity"
+ },
+ "GO:0061695": {
+  "aspect": "cellular_component",
+  "name": "transferase complex, transferring phosphorus-containing groups"
+ },
+ "GO:0061733": {
+  "aspect": "molecular_function",
+  "name": "protein-lysine-acetyltransferase activity"
+ },
+ "GO:0061919": {
+  "aspect": "biological_process",
+  "name": "process utilizing autophagic mechanism"
+ },
+ "GO:0061982": {
+  "aspect": "biological_process",
+  "name": "meiosis I cell cycle process"
+ },
+ "GO:0062197": {
+  "aspect": "biological_process",
+  "name": "cellular response to chemical stress"
+ },
+ "GO:0065002": {
+  "aspect": "biological_process",
+  "name": "intracellular protein transmembrane transport"
+ },
+ "GO:0065003": {
+  "aspect": "biological_process",
+  "name": "protein-containing complex assembly"
+ },
+ "GO:0065004": {
+  "aspect": "biological_process",
+  "name": "protein-DNA complex assembly"
+ },
+ "GO:0065007": {
+  "aspect": "biological_process",
+  "name": "biological regulation"
+ },
+ "GO:0065008": {
+  "aspect": "biological_process",
+  "name": "regulation of biological quality"
+ },
+ "GO:0065009": {
+  "aspect": "biological_process",
+  "name": "regulation of molecular function"
+ },
+ "GO:0070006": {
+  "aspect": "molecular_function",
+  "name": "metalloaminopeptidase activity"
+ },
+ "GO:0070013": {
+  "aspect": "cellular_component",
+  "name": "intracellular organelle lumen"
+ },
+ "GO:0070063": {
+  "aspect": "molecular_function",
+  "name": "RNA polymerase binding"
+ },
+ "GO:0070069": {
+  "aspect": "cellular_component",
+  "name": "cytochrome complex"
+ },
+ "GO:0070085": {
+  "aspect": "biological_process",
+  "name": "obsolete glycosylation"
+ },
+ "GO:0070161": {
+  "aspect": "cellular_component",
+  "name": "anchoring junction"
+ },
+ "GO:0070192": {
+  "aspect": "biological_process",
+  "name": "chromosome organization involved in meiotic cell cycle"
+ },
+ "GO:0070461": {
+  "aspect": "cellular_component",
+  "name": "SAGA-type complex"
+ },
+ "GO:0070469": {
+  "aspect": "cellular_component",
+  "name": "obsolete respirasome"
+ },
+ "GO:0070475": {
+  "aspect": "biological_process",
+  "name": "rRNA base methylation"
+ },
+ "GO:0070534": {
+  "aspect": "biological_process",
+  "name": "protein K63-linked ubiquitination"
+ },
+ "GO:0070542": {
+  "aspect": "biological_process",
+  "name": "response to fatty acid"
+ },
+ "GO:0070566": {
+  "aspect": "molecular_function",
+  "name": "adenylyltransferase activity"
+ },
+ "GO:0070585": {
+  "aspect": "biological_process",
+  "name": "protein localization to mitochondrion"
+ },
+ "GO:0070588": {
+  "aspect": "biological_process",
+  "name": "calcium ion transmembrane transport"
+ },
+ "GO:0070603": {
+  "aspect": "cellular_component",
+  "name": "SWI/SNF superfamily-type complex"
+ },
+ "GO:0070628": {
+  "aspect": "molecular_function",
+  "name": "proteasome binding"
+ },
+ "GO:0070646": {
+  "aspect": "biological_process",
+  "name": "protein modification by small protein removal"
+ },
+ "GO:0070647": {
+  "aspect": "biological_process",
+  "name": "protein modification by small protein conjugation or removal"
+ },
+ "GO:0070727": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular macromolecule localization"
+ },
+ "GO:0070828": {
+  "aspect": "biological_process",
+  "name": "heterochromatin organization"
+ },
+ "GO:0070847": {
+  "aspect": "cellular_component",
+  "name": "core mediator complex"
+ },
+ "GO:0070887": {
+  "aspect": "biological_process",
+  "name": "cellular response to chemical stimulus"
+ },
+ "GO:0070918": {
+  "aspect": "biological_process",
+  "name": "regulatory ncRNA processing"
+ },
+ "GO:0070925": {
+  "aspect": "biological_process",
+  "name": "organelle assembly"
+ },
+ "GO:0070971": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum exit site"
+ },
+ "GO:0070972": {
+  "aspect": "biological_process",
+  "name": "protein localization to endoplasmic reticulum"
+ },
+ "GO:0070979": {
+  "aspect": "biological_process",
+  "name": "protein K11-linked ubiquitination"
+ },
+ "GO:0071004": {
+  "aspect": "cellular_component",
+  "name": "U2-type prespliceosome"
+ },
+ "GO:0071011": {
+  "aspect": "cellular_component",
+  "name": "precatalytic spliceosome"
+ },
+ "GO:0071013": {
+  "aspect": "cellular_component",
+  "name": "catalytic step 2 spliceosome"
+ },
+ "GO:0071014": {
+  "aspect": "cellular_component",
+  "name": "post-mRNA release spliceosomal complex"
+ },
+ "GO:0071103": {
+  "aspect": "biological_process",
+  "name": "DNA conformation change"
+ },
+ "GO:0071218": {
+  "aspect": "biological_process",
+  "name": "cellular response to misfolded protein"
+ },
+ "GO:0071310": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular response to organic substance"
+ },
+ "GO:0071383": {
+  "aspect": "biological_process",
+  "name": "cellular response to steroid hormone stimulus"
+ },
+ "GO:0071396": {
+  "aspect": "biological_process",
+  "name": "cellular response to lipid"
+ },
+ "GO:0071398": {
+  "aspect": "biological_process",
+  "name": "cellular response to fatty acid"
+ },
+ "GO:0071407": {
+  "aspect": "biological_process",
+  "name": "obsolete cellular response to organic cyclic compound"
+ },
+ "GO:0071495": {
+  "aspect": "biological_process",
+  "name": "cellular response to endogenous stimulus"
+ },
+ "GO:0071496": {
+  "aspect": "biological_process",
+  "name": "cellular response to external stimulus"
+ },
+ "GO:0071554": {
+  "aspect": "biological_process",
+  "name": "cell wall organization or biogenesis"
+ },
+ "GO:0071555": {
+  "aspect": "biological_process",
+  "name": "cell wall organization"
+ },
+ "GO:0071692": {
+  "aspect": "biological_process",
+  "name": "protein localization to extracellular region"
+ },
+ "GO:0071702": {
+  "aspect": "biological_process",
+  "name": "obsolete organic substance transport"
+ },
+ "GO:0071704": {
+  "aspect": "biological_process",
+  "name": "obsolete organic substance metabolic process"
+ },
+ "GO:0071705": {
+  "aspect": "biological_process",
+  "name": "nitrogen compound transport"
+ },
+ "GO:0071709": {
+  "aspect": "biological_process",
+  "name": "membrane assembly"
+ },
+ "GO:0071763": {
+  "aspect": "biological_process",
+  "name": "nuclear membrane organization"
+ },
+ "GO:0071805": {
+  "aspect": "biological_process",
+  "name": "potassium ion transmembrane transport"
+ },
+ "GO:0071806": {
+  "aspect": "biological_process",
+  "name": "protein transmembrane transport"
+ },
+ "GO:0071824": {
+  "aspect": "biological_process",
+  "name": "protein-DNA complex organization"
+ },
+ "GO:0071826": {
+  "aspect": "biological_process",
+  "name": "protein-RNA complex organization"
+ },
+ "GO:0071840": {
+  "aspect": "biological_process",
+  "name": "cellular component organization or biogenesis"
+ },
+ "GO:0071897": {
+  "aspect": "biological_process",
+  "name": "DNA biosynthetic process"
+ },
+ "GO:0071900": {
+  "aspect": "biological_process",
+  "name": "regulation of protein serine/threonine kinase activity"
+ },
+ "GO:0071944": {
+  "aspect": "cellular_component",
+  "name": "cell periphery"
+ },
+ "GO:0071985": {
+  "aspect": "biological_process",
+  "name": "multivesicular body sorting pathway"
+ },
+ "GO:0072329": {
+  "aspect": "biological_process",
+  "name": "monocarboxylic acid catabolic process"
+ },
+ "GO:0072330": {
+  "aspect": "biological_process",
+  "name": "monocarboxylic acid biosynthetic process"
+ },
+ "GO:0072521": {
+  "aspect": "biological_process",
+  "name": "purine-containing compound metabolic process"
+ },
+ "GO:0072522": {
+  "aspect": "biological_process",
+  "name": "purine-containing compound biosynthetic process"
+ },
+ "GO:0072523": {
+  "aspect": "biological_process",
+  "name": "purine-containing compound catabolic process"
+ },
+ "GO:0072527": {
+  "aspect": "biological_process",
+  "name": "pyrimidine-containing compound metabolic process"
+ },
+ "GO:0072546": {
+  "aspect": "cellular_component",
+  "name": "EMC complex"
+ },
+ "GO:0072583": {
+  "aspect": "biological_process",
+  "name": "clathrin-dependent endocytosis"
+ },
+ "GO:0072594": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to organelle"
+ },
+ "GO:0072596": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to chloroplast"
+ },
+ "GO:0072598": {
+  "aspect": "biological_process",
+  "name": "protein localization to chloroplast"
+ },
+ "GO:0072599": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to endoplasmic reticulum"
+ },
+ "GO:0072655": {
+  "aspect": "biological_process",
+  "name": "obsolete establishment of protein localization to mitochondrion"
+ },
+ "GO:0072657": {
+  "aspect": "biological_process",
+  "name": "protein localization to membrane"
+ },
+ "GO:0072659": {
+  "aspect": "biological_process",
+  "name": "protein localization to plasma membrane"
+ },
+ "GO:0072662": {
+  "aspect": "biological_process",
+  "name": "protein localization to peroxisome"
+ },
+ "GO:0072663": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to peroxisome"
+ },
+ "GO:0072665": {
+  "aspect": "biological_process",
+  "name": "protein localization to vacuole"
+ },
+ "GO:0072666": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to vacuole"
+ },
+ "GO:0072686": {
+  "aspect": "cellular_component",
+  "name": "mitotic spindle"
+ },
+ "GO:0080008": {
+  "aspect": "cellular_component",
+  "name": "Cul4-RING E3 ubiquitin ligase complex"
+ },
+ "GO:0080090": {
+  "aspect": "biological_process",
+  "name": "regulation of primary metabolic process"
+ },
+ "GO:0080134": {
+  "aspect": "biological_process",
+  "name": "regulation of response to stress"
+ },
+ "GO:0080135": {
+  "aspect": "biological_process",
+  "name": "regulation of cellular response to stress"
+ },
+ "GO:0080156": {
+  "aspect": "biological_process",
+  "name": "mitochondrial mRNA modification"
+ },
+ "GO:0090066": {
+  "aspect": "biological_process",
+  "name": "regulation of anatomical structure size"
+ },
+ "GO:0090079": {
+  "aspect": "molecular_function",
+  "name": "obsolete translation regulator activity, nucleic acid binding"
+ },
+ "GO:0090114": {
+  "aspect": "biological_process",
+  "name": "COPII-coated vesicle budding"
+ },
+ "GO:0090150": {
+  "aspect": "biological_process",
+  "name": "establishment of protein localization to membrane"
+ },
+ "GO:0090174": {
+  "aspect": "biological_process",
+  "name": "organelle membrane fusion"
+ },
+ "GO:0090304": {
+  "aspect": "biological_process",
+  "name": "nucleic acid metabolic process"
+ },
+ "GO:0090305": {
+  "aspect": "biological_process",
+  "name": "obsolete nucleic acid phosphodiester bond hydrolysis"
+ },
+ "GO:0090307": {
+  "aspect": "biological_process",
+  "name": "mitotic spindle assembly"
+ },
+ "GO:0090407": {
+  "aspect": "biological_process",
+  "name": "organophosphate biosynthetic process"
+ },
+ "GO:0090567": {
+  "aspect": "biological_process",
+  "name": "reproductive shoot system development"
+ },
+ "GO:0090575": {
+  "aspect": "cellular_component",
+  "name": "RNA polymerase II transcription regulator complex"
+ },
+ "GO:0090599": {
+  "aspect": "molecular_function",
+  "name": "alpha-glucosidase activity"
+ },
+ "GO:0090630": {
+  "aspect": "biological_process",
+  "name": "activation of GTPase activity"
+ },
+ "GO:0090734": {
+  "aspect": "cellular_component",
+  "name": "site of DNA damage"
+ },
+ "GO:0097035": {
+  "aspect": "biological_process",
+  "name": "regulation of membrane lipid distribution"
+ },
+ "GO:0097159": {
+  "aspect": "molecular_function",
+  "name": "obsolete organic cyclic compound binding"
+ },
+ "GO:0097346": {
+  "aspect": "cellular_component",
+  "name": "INO80-type complex"
+ },
+ "GO:0097367": {
+  "aspect": "molecular_function",
+  "name": "carbohydrate derivative binding"
+ },
+ "GO:0097435": {
+  "aspect": "biological_process",
+  "name": "supramolecular fiber organization"
+ },
+ "GO:0097472": {
+  "aspect": "molecular_function",
+  "name": "cyclin-dependent protein kinase activity"
+ },
+ "GO:0097525": {
+  "aspect": "cellular_component",
+  "name": "spliceosomal snRNP complex"
+ },
+ "GO:0097526": {
+  "aspect": "cellular_component",
+  "name": "spliceosomal tri-snRNP complex"
+ },
+ "GO:0097553": {
+  "aspect": "biological_process",
+  "name": "calcium ion transmembrane import into cytosol"
+ },
+ "GO:0097602": {
+  "aspect": "molecular_function",
+  "name": "cullin family protein binding"
+ },
+ "GO:0097708": {
+  "aspect": "cellular_component",
+  "name": "intracellular vesicle"
+ },
+ "GO:0097747": {
+  "aspect": "molecular_function",
+  "name": "RNA polymerase activity"
+ },
+ "GO:0098542": {
+  "aspect": "biological_process",
+  "name": "defense response to other organism"
+ },
+ "GO:0098552": {
+  "aspect": "cellular_component",
+  "name": "side of membrane"
+ },
+ "GO:0098562": {
+  "aspect": "cellular_component",
+  "name": "cytoplasmic side of membrane"
+ },
+ "GO:0098588": {
+  "aspect": "cellular_component",
+  "name": "bounding membrane of organelle"
+ },
+ "GO:0098590": {
+  "aspect": "cellular_component",
+  "name": "plasma membrane region"
+ },
+ "GO:0098655": {
+  "aspect": "biological_process",
+  "name": "monoatomic cation transmembrane transport"
+ },
+ "GO:0098657": {
+  "aspect": "biological_process",
+  "name": "import into cell"
+ },
+ "GO:0098660": {
+  "aspect": "biological_process",
+  "name": "obsolete inorganic ion transmembrane transport"
+ },
+ "GO:0098661": {
+  "aspect": "biological_process",
+  "name": "obsolete inorganic anion transmembrane transport"
+ },
+ "GO:0098662": {
+  "aspect": "biological_process",
+  "name": "obsolete inorganic cation transmembrane transport"
+ },
+ "GO:0098687": {
+  "aspect": "cellular_component",
+  "name": "chromosomal region"
+ },
+ "GO:0098754": {
+  "aspect": "biological_process",
+  "name": "detoxification"
+ },
+ "GO:0098771": {
+  "aspect": "biological_process",
+  "name": "inorganic ion homeostasis"
+ },
+ "GO:0098772": {
+  "aspect": "molecular_function",
+  "name": "molecular function regulator activity"
+ },
+ "GO:0098781": {
+  "aspect": "biological_process",
+  "name": "obsolete ncRNA transcription"
+ },
+ "GO:0098791": {
+  "aspect": "cellular_component",
+  "name": "Golgi apparatus subcompartment"
+ },
+ "GO:0098796": {
+  "aspect": "cellular_component",
+  "name": "membrane protein complex"
+ },
+ "GO:0098797": {
+  "aspect": "cellular_component",
+  "name": "plasma membrane protein complex"
+ },
+ "GO:0098798": {
+  "aspect": "cellular_component",
+  "name": "mitochondrial protein-containing complex"
+ },
+ "GO:0098800": {
+  "aspect": "cellular_component",
+  "name": "inner mitochondrial membrane protein complex"
+ },
+ "GO:0098803": {
+  "aspect": "cellular_component",
+  "name": "respiratory chain complex"
+ },
+ "GO:0098813": {
+  "aspect": "biological_process",
+  "name": "nuclear chromosome segregation"
+ },
+ "GO:0098827": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum subcompartment"
+ },
+ "GO:0098852": {
+  "aspect": "cellular_component",
+  "name": "lytic vacuole membrane"
+ },
+ "GO:0098876": {
+  "aspect": "biological_process",
+  "name": "vesicle-mediated transport to the plasma membrane"
+ },
+ "GO:0099023": {
+  "aspect": "cellular_component",
+  "name": "vesicle tethering complex"
+ },
+ "GO:0099080": {
+  "aspect": "cellular_component",
+  "name": "supramolecular complex"
+ },
+ "GO:0099081": {
+  "aspect": "cellular_component",
+  "name": "supramolecular polymer"
+ },
+ "GO:0099402": {
+  "aspect": "biological_process",
+  "name": "plant organ development"
+ },
+ "GO:0099512": {
+  "aspect": "cellular_component",
+  "name": "supramolecular fiber"
+ },
+ "GO:0099513": {
+  "aspect": "cellular_component",
+  "name": "polymeric cytoskeletal fiber"
+ },
+ "GO:0099518": {
+  "aspect": "biological_process",
+  "name": "vesicle cytoskeletal trafficking"
+ },
+ "GO:0101005": {
+  "aspect": "molecular_function",
+  "name": "deubiquitinase activity"
+ },
+ "GO:0101031": {
+  "aspect": "cellular_component",
+  "name": "protein folding chaperone complex"
+ },
+ "GO:0106018": {
+  "aspect": "molecular_function",
+  "name": "phosphatidylinositol-3,5-bisphosphate phosphatase activity"
+ },
+ "GO:0110053": {
+  "aspect": "biological_process",
+  "name": "regulation of actin filament organization"
+ },
+ "GO:0110154": {
+  "aspect": "biological_process",
+  "name": "RNA decapping"
+ },
+ "GO:0110165": {
+  "aspect": "cellular_component",
+  "name": "cellular anatomical structure"
+ },
+ "GO:0120013": {
+  "aspect": "molecular_function",
+  "name": "lipid transfer activity"
+ },
+ "GO:0120114": {
+  "aspect": "cellular_component",
+  "name": "Sm-like protein family complex"
+ },
+ "GO:0140013": {
+  "aspect": "biological_process",
+  "name": "meiotic nuclear division"
+ },
+ "GO:0140014": {
+  "aspect": "biological_process",
+  "name": "mitotic nuclear division"
+ },
+ "GO:0140029": {
+  "aspect": "biological_process",
+  "name": "exocytic process"
+ },
+ "GO:0140030": {
+  "aspect": "molecular_function",
+  "name": "modification-dependent protein binding"
+ },
+ "GO:0140053": {
+  "aspect": "biological_process",
+  "name": "mitochondrial gene expression"
+ },
+ "GO:0140096": {
+  "aspect": "molecular_function",
+  "name": "catalytic activity, acting on a protein"
+ },
+ "GO:0140097": {
+  "aspect": "molecular_function",
+  "name": "catalytic activity, acting on DNA"
+ },
+ "GO:0140098": {
+  "aspect": "molecular_function",
+  "name": "catalytic activity, acting on RNA"
+ },
+ "GO:0140102": {
+  "aspect": "molecular_function",
+  "name": "catalytic activity, acting on a rRNA"
+ },
+ "GO:0140110": {
+  "aspect": "molecular_function",
+  "name": "transcription regulator activity"
+ },
+ "GO:0140326": {
+  "aspect": "molecular_function",
+  "name": "ATPase-coupled intramembrane lipid carrier activity"
+ },
+ "GO:0140352": {
+  "aspect": "biological_process",
+  "name": "export from cell"
+ },
+ "GO:0140513": {
+  "aspect": "cellular_component",
+  "name": "nuclear protein-containing complex"
+ },
+ "GO:0140527": {
+  "aspect": "biological_process",
+  "name": "reciprocal homologous recombination"
+ },
+ "GO:0140534": {
+  "aspect": "cellular_component",
+  "name": "endoplasmic reticulum protein-containing complex"
+ },
+ "GO:0140535": {
+  "aspect": "cellular_component",
+  "name": "intracellular protein-containing complex"
+ },
+ "GO:0140640": {
+  "aspect": "molecular_function",
+  "name": "catalytic activity, acting on a nucleic acid"
+ },
+ "GO:0140657": {
+  "aspect": "molecular_function",
+  "name": "ATP-dependent activity"
+ },
+ "GO:0140677": {
+  "aspect": "molecular_function",
+  "name": "molecular function activator activity"
+ },
+ "GO:0140678": {
+  "aspect": "molecular_function",
+  "name": "molecular function inhibitor activity"
+ },
+ "GO:0140694": {
+  "aspect": "biological_process",
+  "name": "membraneless organelle assembly"
+ },
+ "GO:0140993": {
+  "aspect": "molecular_function",
+  "name": "histone modifying activity"
+ },
+ "GO:1900864": {
+  "aspect": "biological_process",
+  "name": "mitochondrial RNA modification"
+ },
+ "GO:1901135": {
+  "aspect": "biological_process",
+  "name": "carbohydrate derivative metabolic process"
+ },
+ "GO:1901136": {
+  "aspect": "biological_process",
+  "name": "carbohydrate derivative catabolic process"
+ },
+ "GO:1901137": {
+  "aspect": "biological_process",
+  "name": "carbohydrate derivative biosynthetic process"
+ },
+ "GO:1901264": {
+  "aspect": "biological_process",
+  "name": "carbohydrate derivative transport"
+ },
+ "GO:1901265": {
+  "aspect": "molecular_function",
+  "name": "nucleoside phosphate binding"
+ },
+ "GO:1901292": {
+  "aspect": "biological_process",
+  "name": "nucleoside phosphate catabolic process"
+ },
+ "GO:1901293": {
+  "aspect": "biological_process",
+  "name": "nucleoside phosphate biosynthetic process"
+ },
+ "GO:1901360": {
+  "aspect": "biological_process",
+  "name": "obsolete organic cyclic compound metabolic process"
+ },
+ "GO:1901361": {
+  "aspect": "biological_process",
+  "name": "obsolete organic cyclic compound catabolic process"
+ },
+ "GO:1901362": {
+  "aspect": "biological_process",
+  "name": "obsolete organic cyclic compound biosynthetic process"
+ },
+ "GO:1901363": {
+  "aspect": "molecular_function",
+  "name": "heterocyclic compound binding"
+ },
+ "GO:1901505": {
+  "aspect": "molecular_function",
+  "name": "carbohydrate derivative transmembrane transporter activity"
+ },
+ "GO:1901564": {
+  "aspect": "biological_process",
+  "name": "obsolete organonitrogen compound metabolic process"
+ },
+ "GO:1901565": {
+  "aspect": "biological_process",
+  "name": "obsolete organonitrogen compound catabolic process"
+ },
+ "GO:1901566": {
+  "aspect": "biological_process",
+  "name": "obsolete organonitrogen compound biosynthetic process"
+ },
+ "GO:1901575": {
+  "aspect": "biological_process",
+  "name": "obsolete organic substance catabolic process"
+ },
+ "GO:1901576": {
+  "aspect": "biological_process",
+  "name": "obsolete organic substance biosynthetic process"
+ },
+ "GO:1901605": {
+  "aspect": "biological_process",
+  "name": "obsolete alpha-amino acid metabolic process"
+ },
+ "GO:1901607": {
+  "aspect": "biological_process",
+  "name": "obsolete alpha-amino acid biosynthetic process"
+ },
+ "GO:1901615": {
+  "aspect": "biological_process",
+  "name": "obsolete organic hydroxy compound metabolic process"
+ },
+ "GO:1901617": {
+  "aspect": "biological_process",
+  "name": "obsolete organic hydroxy compound biosynthetic process"
+ },
+ "GO:1901657": {
+  "aspect": "biological_process",
+  "name": "obsolete glycosyl compound metabolic process"
+ },
+ "GO:1901658": {
+  "aspect": "biological_process",
+  "name": "glycosyl compound catabolic process"
+ },
+ "GO:1901698": {
+  "aspect": "biological_process",
+  "name": "response to nitrogen compound"
+ },
+ "GO:1901699": {
+  "aspect": "biological_process",
+  "name": "cellular response to nitrogen compound"
+ },
+ "GO:1901700": {
+  "aspect": "biological_process",
+  "name": "response to oxygen-containing compound"
+ },
+ "GO:1901701": {
+  "aspect": "biological_process",
+  "name": "cellular response to oxygen-containing compound"
+ },
+ "GO:1901702": {
+  "aspect": "molecular_function",
+  "name": "salt transmembrane transporter activity"
+ },
+ "GO:1901800": {
+  "aspect": "biological_process",
+  "name": "positive regulation of proteasomal protein catabolic process"
+ },
+ "GO:1901981": {
+  "aspect": "molecular_function",
+  "name": "phosphatidylinositol phosphate binding"
+ },
+ "GO:1901987": {
+  "aspect": "biological_process",
+  "name": "regulation of cell cycle phase transition"
+ },
+ "GO:1901988": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cell cycle phase transition"
+ },
+ "GO:1901990": {
+  "aspect": "biological_process",
+  "name": "regulation of mitotic cell cycle phase transition"
+ },
+ "GO:1901991": {
+  "aspect": "biological_process",
+  "name": "negative regulation of mitotic cell cycle phase transition"
+ },
+ "GO:1902099": {
+  "aspect": "biological_process",
+  "name": "regulation of metaphase/anaphase transition of cell cycle"
+ },
+ "GO:1902100": {
+  "aspect": "biological_process",
+  "name": "negative regulation of metaphase/anaphase transition of cell cycle"
+ },
+ "GO:1902493": {
+  "aspect": "cellular_component",
+  "name": "acetyltransferase complex"
+ },
+ "GO:1902494": {
+  "aspect": "cellular_component",
+  "name": "catalytic complex"
+ },
+ "GO:1902495": {
+  "aspect": "cellular_component",
+  "name": "transmembrane transporter complex"
+ },
+ "GO:1902531": {
+  "aspect": "biological_process",
+  "name": "regulation of intracellular signal transduction"
+ },
+ "GO:1902554": {
+  "aspect": "cellular_component",
+  "name": "serine/threonine protein kinase complex"
+ },
+ "GO:1902555": {
+  "aspect": "cellular_component",
+  "name": "endoribonuclease complex"
+ },
+ "GO:1902600": {
+  "aspect": "biological_process",
+  "name": "proton transmembrane transport"
+ },
+ "GO:1902652": {
+  "aspect": "biological_process",
+  "name": "secondary alcohol metabolic process"
+ },
+ "GO:1902679": {
+  "aspect": "biological_process",
+  "name": "negative regulation of RNA biosynthetic process"
+ },
+ "GO:1902680": {
+  "aspect": "biological_process",
+  "name": "positive regulation of RNA biosynthetic process"
+ },
+ "GO:1902749": {
+  "aspect": "biological_process",
+  "name": "regulation of cell cycle G2/M phase transition"
+ },
+ "GO:1902750": {
+  "aspect": "biological_process",
+  "name": "negative regulation of cell cycle G2/M phase transition"
+ },
+ "GO:1902850": {
+  "aspect": "biological_process",
+  "name": "microtubule cytoskeleton organization involved in mitosis"
+ },
+ "GO:1902903": {
+  "aspect": "biological_process",
+  "name": "regulation of supramolecular fiber organization"
+ },
+ "GO:1902904": {
+  "aspect": "biological_process",
+  "name": "negative regulation of supramolecular fiber organization"
+ },
+ "GO:1902911": {
+  "aspect": "cellular_component",
+  "name": "protein kinase complex"
+ },
+ "GO:1902936": {
+  "aspect": "molecular_function",
+  "name": "phosphatidylinositol bisphosphate binding"
+ },
+ "GO:1902969": {
+  "aspect": "biological_process",
+  "name": "mitotic DNA replication"
+ },
+ "GO:1902975": {
+  "aspect": "biological_process",
+  "name": "mitotic DNA replication initiation"
+ },
+ "GO:1903008": {
+  "aspect": "biological_process",
+  "name": "organelle disassembly"
+ },
+ "GO:1903046": {
+  "aspect": "biological_process",
+  "name": "meiotic cell cycle process"
+ },
+ "GO:1903047": {
+  "aspect": "biological_process",
+  "name": "mitotic cell cycle process"
+ },
+ "GO:1903050": {
+  "aspect": "biological_process",
+  "name": "obsolete regulation of proteolysis involved in protein catabolic process"
+ },
+ "GO:1903052": {
+  "aspect": "biological_process",
+  "name": "obsolete positive regulation of proteolysis involved in protein catabolic process"
+ },
+ "GO:1903311": {
+  "aspect": "biological_process",
+  "name": "regulation of mRNA metabolic process"
+ },
+ "GO:1903313": {
+  "aspect": "biological_process",
+  "name": "positive regulation of mRNA metabolic process"
+ },
+ "GO:1903509": {
+  "aspect": "biological_process",
+  "name": "liposaccharide metabolic process"
+ },
+ "GO:1903530": {
+  "aspect": "biological_process",
+  "name": "regulation of secretion by cell"
+ },
+ "GO:1903825": {
+  "aspect": "biological_process",
+  "name": "obsolete organic acid transmembrane transport"
+ },
+ "GO:1904680": {
+  "aspect": "molecular_function",
+  "name": "peptide transmembrane transporter activity"
+ },
+ "GO:1904949": {
+  "aspect": "cellular_component",
+  "name": "ATPase complex"
+ },
+ "GO:1905039": {
+  "aspect": "biological_process",
+  "name": "carboxylic acid transmembrane transport"
+ },
+ "GO:1905348": {
+  "aspect": "cellular_component",
+  "name": "endonuclease complex"
+ },
+ "GO:1905368": {
+  "aspect": "cellular_component",
+  "name": "peptidase complex"
+ },
+ "GO:1905369": {
+  "aspect": "cellular_component",
+  "name": "endopeptidase complex"
+ },
+ "GO:1905818": {
+  "aspect": "biological_process",
+  "name": "regulation of chromosome separation"
+ },
+ "GO:1905819": {
+  "aspect": "biological_process",
+  "name": "negative regulation of chromosome separation"
+ },
+ "GO:1990204": {
+  "aspect": "cellular_component",
+  "name": "oxidoreductase complex"
+ },
+ "GO:1990234": {
+  "aspect": "cellular_component",
+  "name": "transferase complex"
+ },
+ "GO:1990351": {
+  "aspect": "cellular_component",
+  "name": "transporter complex"
+ },
+ "GO:1990414": {
+  "aspect": "biological_process",
+  "name": "replication-born double-strand break repair via sister chromatid exchange"
+ },
+ "GO:1990542": {
+  "aspect": "biological_process",
+  "name": "mitochondrial transmembrane transport"
+ },
+ "GO:1990778": {
+  "aspect": "biological_process",
+  "name": "protein localization to cell periphery"
+ },
+ "GO:1990837": {
+  "aspect": "molecular_function",
+  "name": "sequence-specific double-stranded DNA binding"
+ },
+ "GO:1990904": {
+  "aspect": "cellular_component",
+  "name": "ribonucleoprotein complex"
+ },
+ "GO:2000026": {
+  "aspect": "biological_process",
+  "name": "regulation of multicellular organismal development"
+ },
+ "GO:2000058": {
+  "aspect": "biological_process",
+  "name": "regulation of ubiquitin-dependent protein catabolic process"
+ },
+ "GO:2000060": {
+  "aspect": "biological_process",
+  "name": "positive regulation of ubiquitin-dependent protein catabolic process"
+ },
+ "GO:2000779": {
+  "aspect": "biological_process",
+  "name": "regulation of double-strand break repair"
+ },
+ "GO:2000816": {
+  "aspect": "biological_process",
+  "name": "negative regulation of mitotic sister chromatid separation"
+ },
+ "GO:2001141": {
+  "aspect": "biological_process",
+  "name": "regulation of RNA biosynthetic process"
+ },
+ "GO:2001251": {
+  "aspect": "biological_process",
+  "name": "negative regulation of chromosome organization"
+ }
+}

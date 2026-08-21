@@ -1,0 +1,362 @@
+gene,covariate,primary,within_lunar,SYMBOL,GENENAME
+AT1G02010,leaf_rate_per_day,-0.8088235294117647,-0.8321678321678322,SEC1A,member of KEULE Gene Family
+AT1G04180,leaf_final,0.8166530858541073,0.9067557103858994,YUC9|YUCCA9,
+AT1G06440,leaf_rate_per_day,-0.8705882352941177,-0.8951048951048951,,
+AT1G07180,leaf_rate_per_day,0.8235294117647058,0.8321678321678322,ATNDI1|NDA1,Internal NAD(P)H dehydrogenase in mitochondria. The predicted protein sequence has high homology with other designated NAD(P)H DHs from microorganisms; the capacity for matrix NAD(P)H oxidation via the rotenone-insensitive pathway is significantly reduced in the Atndi1 mutant plant line; the in vitro translation product of AtNDI1 is imported into isolated mitochondria and located on the inside of the inner membrane.
+AT1G08213,leaf_rate_per_day,-0.9029411764705882,-0.8391608391608392,,
+AT1G08310,leaf_rate_per_day,-0.7176470588235294,-0.9090909090909092,,
+AT1G08650,leaf_rate_per_day,-0.7264705882352941,-0.8391608391608392,ATPPCK1|PPCK1,Encodes a phosphoenolpyruvate carboxylase kinase that is expressed at highest levels in leaves. Expression is induced by light.
+AT1G09480,leaf_rate_per_day,-0.8558823529411764,-0.8461538461538461,,"similar to Eucalyptus gunnii alcohol dehydrogenase of unknown physiological function (GI:1143445), Vigna unguiculata (gi:1854445), NOT a cinnamyl-alcohol dehydrogenase"
+AT1G10090,leaf_rate_per_day,0.6882352941176471,0.8601398601398601,,
+AT1G12480,leaf_rate_per_day,0.7852941176470588,0.8321678321678322,CDI3|OZS1|RCD3|SLAC1,"Encodes a membrane protein with 10 predicted transmembrane helices. SLAC1 is a multispanning  membrane protein  expressed predominantly in guard cells that plays a role in regulating cellular ion homeostasis and S-type anion currents. SLAC1 is important for normal stomatal closure in response to a variety of signals including elevated CO2, ozone, ABA, darkness, and humidity. SLAC1:GFP localizes to the plasma membrane."
+AT1G12672,leaf_auc,0.8217967599410898,0.9298245614035088,,
+AT1G12672,leaf_final,0.8073437998247492,0.9276365189696922,,
+AT1G12990,leaf_rate_per_day,0.7411764705882353,0.8811188811188811,,
+AT1G13410,leaf_rate_per_day,-0.7352941176470589,-0.8601398601398601,,
+AT1G13430,leaf_final,0.8447576652078628,0.8766998008639251,ATST4C|ST4C,"Encodes a sulfotransferase. Unlike the related ST4A protein (At2g14920), in vitro experiements show that this enzyme does not act brassinosteroids. ST4C is expressed in the roots and transcript levels rise in response to cytokinin treatment."
+AT1G14040,leaf_rate_per_day,-0.7529411764705882,-0.8321678321678322,PHO1;H3,
+AT1G14130,leaf_final,-0.9312113692063868,-0.8894120382659515,AtDAO|DAO1,
+AT1G15110,leaf_rate_per_day,-0.8735294117647059,-0.8671328671328671,AtPSS1|PSS1,
+AT1G17090,leaf_final,-0.857734143616833,-0.8967323019553832,,
+AT1G17090,leaf_rate_per_day,-0.888235294117647,-0.944055944055944,,
+AT1G17100,leaf_rate_per_day,-0.9323529411764706,-0.93006993006993,AtHBP1|cHBP1|HBP1|SOUL1,
+AT1G17170,leaf_rate_per_day,-0.888235294117647,-0.8811188811188811,ATGSTU24|GST|GSTU24,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+AT1G17720,leaf_rate_per_day,-0.8,-0.8881118881118881,ATB,type 2A protein serine/threonine phosphatase 55 kDa B
+AT1G18680,leaf_rate_per_day,-0.9,-0.902097902097902,M20,
+AT1G19600,leaf_rate_per_day,-0.8941176470588236,-0.8321678321678322,,
+AT1G21590,leaf_rate_per_day,0.8558823529411764,0.916083916083916,,
+AT1G24267,leaf_rate_per_day,-0.7323529411764705,-0.8321678321678322,,
+AT1G24470,leaf_rate_per_day,0.8382352941176471,0.8671328671328671,ATKCR2|KCR2,"Encodes one of the two Arabidopsis homologues to YBR159w encoding a S. cerevisiae beta-ketoacyl reductase (KCR), which catalyzes the first reduction during VLCFA (very long chain fatty acids, >18 carbon) elongation: KCR1 (At1g67730), KCR2 (At1g24470). Complementation of the yeast ybr159Delta mutant demonstrated that the two KCR proteins are divergent and that only AtKCR1 can restore heterologous elongase activity similar to the native yeast KCR gene."
+AT1G24530,leaf_final,-0.7677620306500323,-0.8747715108870882,,
+AT1G24530,leaf_rate_per_day,-0.8205882352941176,-0.93006993006993,,
+AT1G25480,leaf_rate_per_day,0.9264705882352942,0.8531468531468531,ALMT4,
+AT1G26730,leaf_rate_per_day,-0.7529411764705882,-0.8601398601398601,,
+AT1G27130,leaf_rate_per_day,0.8235294117647058,0.8461538461538461,ATGSTU13|GST12|GSTU13,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+AT1G28090,leaf_final,-0.7602643545694656,-0.9113728293342468,,
+AT1G28090,leaf_rate_per_day,-0.8176470588235294,-0.9370629370629372,,
+AT1G28130,leaf_rate_per_day,-0.8970588235294118,-0.8391608391608392,GH3.17|VAS2,encodes an IAA-amido synthase that conjugates Asp and other amino acids to auxin in vitro. Lines carrying insertions in this gene are hypersensitive to auxin.
+AT1G28580,leaf_rate_per_day,-0.8794117647058823,-0.8671328671328671,AXE1|GELP7,
+AT1G30490,leaf_final,-0.8937229888035533,-0.9296734885578258,ATHB9|PHV,"Dominant PHV mutations cause transformation of abaxial leaf fates into adaxial leaf fates. Has overlapping functions with PHABULOSA, REVOLUTA and CORONA/ATHB15 in patterning the apical portion of the embryo. Encodes a member of HD-Zip family which contains homeodomain-leucine zipper domains and domain similar to a mammalian sterol binding domain."
+AT1G30490,leaf_rate_per_day,-0.8647058823529412,-0.8951048951048951,ATHB9|PHV,"Dominant PHV mutations cause transformation of abaxial leaf fates into adaxial leaf fates. Has overlapping functions with PHABULOSA, REVOLUTA and CORONA/ATHB15 in patterning the apical portion of the embryo. Encodes a member of HD-Zip family which contains homeodomain-leucine zipper domains and domain similar to a mammalian sterol binding domain."
+AT1G31020,leaf_final,-0.9222141579097068,-0.8894120382659515,ATO2|TO2,
+AT1G31020,leaf_rate_per_day,-0.9088235294117648,-0.8671328671328671,ATO2|TO2,
+AT1G31790,leaf_rate_per_day,-0.8647058823529412,-0.8951048951048951,,
+AT1G31910,leaf_rate_per_day,-0.9058823529411764,-0.8601398601398601,,
+AT1G32310,leaf_rate_per_day,-0.7294117647058823,-0.8461538461538461,SAMBA,
+AT1G33102,leaf_rate_per_day,-0.8117647058823529,-0.8321678321678322,,
+AT1G33790,leaf_rate_per_day,-0.7294117647058823,-0.8321678321678322,,
+AT1G34340,leaf_rate_per_day,0.8382352941176471,0.902097902097902,,
+AT1G35460,leaf_final,-0.8037508758367526,-0.8747715108870882,CFLAP2|FBH1,
+AT1G35460,leaf_rate_per_day,-0.8294117647058824,-0.9090909090909092,CFLAP2|FBH1,
+AT1G45170,leaf_rate_per_day,-0.6970588235294117,-0.8531468531468531,,
+AT1G48600,leaf_rate_per_day,0.8588235294117647,0.8391608391608392,AtPMEAMT|AtPMT2|PMEAMT,Encodes a phosphoethanolamine N-methyltransferase that catalyses the last two methylation steps of the three sequential methylations of phosphoethanolamine (PEA) that are required for the synthesis of phosphocholine (PCho) in plants.
+AT1G49470,leaf_rate_per_day,0.7205882352941176,0.8321678321678322,,
+AT1G51420,leaf_rate_per_day,-0.7970588235294118,-0.8391608391608392,ATSPP1|SPP1,
+AT1G51440,leaf_final,0.8517360027523796,0.904052565644815,DALL2,"Encodes a lipase that hydrolyzes phosphatidylcholine, glycolipids as well as triacylglycerols."
+AT1G51440,leaf_rate_per_day,0.8470588235294118,0.8531468531468531,DALL2,"Encodes a lipase that hydrolyzes phosphatidylcholine, glycolipids as well as triacylglycerols."
+AT1G51600,leaf_rate_per_day,-0.7970588235294118,-0.8531468531468531,GATA28|TIFY2A|ZML2,member of a novel family of plant-specific GATA-type transcription factors.
+AT1G52940,leaf_rate_per_day,-0.7441176470588236,-0.972027972027972,ATPAP5|PAP5,
+AT1G53170,leaf_rate_per_day,0.8911764705882353,0.8811188811188811,ATERF-8|ATERF8|ERF8,"encodes a member of the ERF (ethylene response factor) subfamily B-1 of ERF/AP2 transcription factor family (ATERF-8). The protein contains one AP2 domain. There are 15 members in this subfamily including ATERF-3, ATERF-4, ATERF-7, and leafy petiole."
+AT1G53380,leaf_rate_per_day,-0.8852941176470588,-0.8811188811188811,,
+AT1G53790,leaf_rate_per_day,-0.7058823529411765,-0.8531468531468531,,
+AT1G54010,leaf_auc,-0.9492276300497322,-0.9281975705483088,GLL23,
+AT1G54010,leaf_final,-0.944707186151407,-0.9113728293342468,GLL23,
+AT1G54010,leaf_rate_per_day,-0.9029411764705882,-0.8391608391608392,GLL23,
+AT1G54730,leaf_rate_per_day,-0.8205882352941176,-0.8461538461538461,,
+AT1G55000,leaf_rate_per_day,-0.9117647058823528,-0.8671328671328671,,
+AT1G58400,leaf_rate_per_day,-0.8588235294117647,-0.8461538461538461,,
+AT1G59670,leaf_auc,-0.7961738726463645,-0.9141870411815418,ATGSTU15|GSTU15,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+AT1G59670,leaf_final,-0.7677620306500323,-0.8747715108870882,ATGSTU15|GSTU15,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+AT1G59670,leaf_rate_per_day,-0.7735294117647059,-0.8671328671328671,ATGSTU15|GSTU15,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+AT1G60060,leaf_rate_per_day,-0.7852941176470588,-0.8531468531468531,,
+AT1G63090,leaf_rate_per_day,-0.8647058823529412,-0.951048951048951,AtPP2-A11|PP2-A11,
+AT1G63130,leaf_rate_per_day,0.75,0.8601398601398601,RPF6,Transacting siRNA generating locus. Its derived siR9as targets AT1G62930 for cleavage. Itself is targeted by TAS2-derived ta-siR2140 for cleavage.
+AT1G64360,leaf_rate_per_day,0.9176470588235294,0.8321678321678322,SAQR,
+AT1G64370,leaf_rate_per_day,0.85,0.8811188811188811,PARCL,
+AT1G66110,leaf_rate_per_day,-0.7794117647058824,-0.8601398601398601,,
+AT1G66350,leaf_rate_per_day,0.9470588235294116,0.8811188811188811,RGL|RGL1,"Negative regulator of GA responses, member of  GRAS family of transcription factors.  Also belongs to the DELLA proteins that restrain the cell proliferation and expansion that drives plant growth. RGL1 may be involved in reducing ROS accumulation in response to stress by up-regulating the transcription of superoxide dismutases. Rapidly degraded in response to GA. Involved in flower and fruit development."
+AT1G66890,leaf_rate_per_day,0.711764705882353,0.951048951048951,,
+AT1G67260,leaf_final,0.9132515299544464,0.8994712242629881,TCP1,"Encodes protein with TCP (TB1,CYC,PCF) domain which is likely to be involved in DNA binding and protein-protein interactions. Based on genome analysis, there is a 9-member gene family that possesses this domain in Arabidopsis. Orthologue of Antirrhinum gene CYCLOIDEA."
+AT1G67750,leaf_rate_per_day,0.8911764705882353,0.8391608391608392,,
+AT1G67860,leaf_rate_per_day,0.9352941176470588,0.8741258741258742,,
+AT1G67865,leaf_rate_per_day,0.9323529411764706,0.8671328671328671,,
+AT1G68390,leaf_final,0.8487369323201529,0.9186930930236784,,
+AT1G69210,leaf_rate_per_day,-0.7911764705882353,-0.8951048951048951,,
+AT1G69340,leaf_rate_per_day,-0.7323529411764705,-0.8811188811188811,,
+AT1G69440,leaf_final,0.8817267070746465,0.9113728293342468,AGO7|ZIP,"Encodes ARGONAUTE7, a member of the ARGONAUTE family, characterised by the presence of PAZ and PIWI domains. Involved in the regulation of developmental timing. Required for the accumulation of TAS3 ta-siRNAs but not for accumulation of miR171, miR173, miR390 or mi391.   Localized in mature rosette leaves and floral buds."
+AT1G69440,leaf_rate_per_day,0.8705882352941177,0.8461538461538461,AGO7|ZIP,"Encodes ARGONAUTE7, a member of the ARGONAUTE family, characterised by the presence of PAZ and PIWI domains. Involved in the regulation of developmental timing. Required for the accumulation of TAS3 ta-siRNAs but not for accumulation of miR171, miR173, miR390 or mi391.   Localized in mature rosette leaves and floral buds."
+AT1G69760,leaf_rate_per_day,-0.8441176470588235,-0.8881118881118881,,
+AT1G70250,leaf_rate_per_day,-0.7352941176470589,-0.8741258741258742,LTPG32,Encodes a Protease inhibitor/seed storage/LTP family protein
+AT1G70780,leaf_rate_per_day,-0.8411764705882353,-0.916083916083916,,
+AT1G71960,leaf_rate_per_day,0.8529411764705882,0.8951048951048951,ABCG25|ATABCG25,Encodes a plasma membrane localized ABC transporter involved in abscisic acid transport and responses.
+AT1G72070,leaf_rate_per_day,-0.6735294117647059,-0.8951048951048951,,
+AT1G72650,leaf_rate_per_day,-0.7823529411764706,-0.902097902097902,TRFL6,Arabidopsis thaliana myb family transcription factor (At1g72650)
+AT1G72740,leaf_rate_per_day,-0.8470588235294118,-0.8601398601398601,,
+AT1G73600,leaf_rate_per_day,0.8941176470588236,0.9090909090909092,AtPMT3|DEG26|NMT|NMT3,
+AT1G75520,leaf_rate_per_day,-0.7176470588235294,-0.8321678321678322,SRS5,"A member of SHI gene family. Arabidopsis thaliana has ten members that encode proteins with a RING finger-like zinc finger motif. Despite being highly divergent in sequence, many of the SHI-related genes are partially redundant in function and synergistically promote gynoecium, stamen and leaf development in Arabidopsis."
+AT1G76090,leaf_rate_per_day,-0.7176470588235294,-0.8601398601398601,SMT3,"Encodes S-adenosyl-methionine-sterol-C-methyltransferase, an enzyme in the sterol biosynthetic pathway."
+AT1G76130,leaf_final,0.7932541293239592,0.8820917745765199,AMY2|ATAMY2,"alpha-amylase, putative / 1,4-alpha-D-glucan glucanohydrolase, putative, strong similarity to alpha-amylase GI:7532799 from (Malus x domestica);contains Pfam profile PF00128: Alpha amylase, catalytic domain. Predicted to be secreted based on SignalP analysis."
+AT1G76130,leaf_rate_per_day,0.7911764705882353,0.8671328671328671,AMY2|ATAMY2,"alpha-amylase, putative / 1,4-alpha-D-glucan glucanohydrolase, putative, strong similarity to alpha-amylase GI:7532799 from (Malus x domestica);contains Pfam profile PF00128: Alpha amylase, catalytic domain. Predicted to be secreted based on SignalP analysis."
+AT1G76430,leaf_rate_per_day,-0.7323529411764705,-0.8951048951048951,PHT1;9,"Encodes Pht1;9, a member of the Pht1 family of phosphate transporters which include: Pht1;1/At5g43350, Pht1;2/At5g43370, Pht1;3/At5g43360, Pht1;4/At2g38940, Pht1;5/At2g32830, Pht1;6/At5g43340, Pht1;7/At3g54700, Pht1;8/At1g20860, Pht1;9/At1g76430 (Plant Journal 2002, 31:341)."
+AT1G79870,leaf_final,0.809749016701206,0.900392433800099,HPPR2,
+AT1G79870,leaf_rate_per_day,0.8441176470588235,0.9090909090909092,HPPR2,
+AT2G03550,leaf_rate_per_day,0.7705882352941177,0.9230769230769232,,
+AT2G07779,leaf_rate_per_day,-0.6794117647058824,-0.8461538461538461,,
+AT2G17280,leaf_rate_per_day,-0.7,-0.8951048951048951,,
+AT2G17640,leaf_final,-0.761763889785579,-0.9150329611789624,ATSERAT3;1|SAT-106,Encodes a cytosolic serine O-acetyltransferase involved in sulfur assimilation and cysteine biosynthesis. Expressed in the vascular system. Expression is induced after long-term sulfur starvation.
+AT2G17640,leaf_rate_per_day,-0.7382352941176471,-0.8461538461538461,ATSERAT3;1|SAT-106,Encodes a cytosolic serine O-acetyltransferase involved in sulfur assimilation and cysteine biosynthesis. Expressed in the vascular system. Expression is induced after long-term sulfur starvation.
+AT2G18280,leaf_rate_per_day,-0.9294117647058824,-0.902097902097902,AtTLP2|TLP2,Member of TLP family
+AT2G19470,leaf_rate_per_day,-0.8058823529411765,-0.8811188811188811,ckl5,
+AT2G20340,leaf_rate_per_day,0.8382352941176471,0.8601398601398601,AAS|AtAAS,
+AT2G20440,leaf_rate_per_day,0.7970588235294118,0.8601398601398601,,
+AT2G21560,leaf_rate_per_day,0.6823529411764706,0.8531468531468531,,
+AT2G21930,leaf_final,-0.8508460087408924,-0.9111370551935514,,
+AT2G21930,leaf_rate_per_day,-0.8030745287656857,-0.833626497322632,,
+AT2G22430,leaf_rate_per_day,0.7,0.8951048951048951,ATHB6|HB6,Encodes a homeodomain leucine zipper class I (HD-Zip I) protein that is a target of the protein phosphatase ABI1 and regulates hormone responses in Arabidopsis.
+AT2G22905,leaf_rate_per_day,0.8963208870557642,0.8506684844144639,,
+AT2G23610,leaf_final,0.8922234535874399,0.9150329611789624,ATMES3|MES3,"Encodes a protein shown to have carboxylesterase activity, methyl IAA esterase activity, and methyl jasmonate esterase activity in vitro. This protein does not act on methyl salicylate, MeGA4, or MEGA9 in vitro."
+AT2G23610,leaf_rate_per_day,0.8529411764705882,0.8671328671328671,ATMES3|MES3,"Encodes a protein shown to have carboxylesterase activity, methyl IAA esterase activity, and methyl jasmonate esterase activity in vitro. This protein does not act on methyl salicylate, MeGA4, or MEGA9 in vitro."
+AT2G25540,leaf_rate_per_day,0.8058823529411765,0.8951048951048951,CESA10,cellulose synthase
+AT2G25737,leaf_rate_per_day,0.7441176470588236,0.965034965034965,,
+AT2G25790,leaf_final,-0.8397397210234729,-0.8967323019553832,SKM1,
+AT2G25790,leaf_rate_per_day,-0.8382352941176471,-0.8811188811188811,SKM1,
+AT2G26300,leaf_rate_per_day,-0.8235294117647058,-0.8951048951048951,ATGPA1|GP|GPA1,"Encodes an alpha subunit of a heterotrimeric GTP-binding protein. The active GTP-bound form of GPA1 binds to the GTG1 and GTG2 abscisic acid (ABA) receptors and appears to affect their GTPase and GTP-binding activity, and hence, ABA binding abilities. GPA1 is a positive regulator in ABA-mediated inhibition of stomatal opening. Plants with recessive mutant alleles have complex phenotypes including: reduced brassinolide response, reduced cell divisions, round leaves, short hypocotyls.  It is likely to be involved in the signaling events that trigger unfolded protein response-associated cell death. GPA1 is also involved in sugar signaling."
+AT2G27920,leaf_rate_per_day,0.7176470588235294,0.8461538461538461,SCPL51,
+AT2G28120,leaf_auc,-0.8550407024168906,-0.9281975705483088,OTU1,
+AT2G28120,leaf_final,-0.8352411153751329,-0.8967323019553832,OTU1,
+AT2G28120,leaf_rate_per_day,-0.8676470588235294,-0.9370629370629372,OTU1,
+AT2G28130,leaf_rate_per_day,-0.7147058823529412,-0.8531468531468531,ASAP1,
+AT2G28660,leaf_rate_per_day,-0.6764705882352942,-0.902097902097902,AtHMP18,
+AT2G28720,leaf_rate_per_day,0.8264705882352941,0.958041958041958,HTB3,
+AT2G30530,leaf_rate_per_day,-0.7823529411764706,-0.9090909090909092,MadA4,
+AT2G30620,leaf_rate_per_day,0.7852941176470588,0.8321678321678322,H1.2|HON2,
+AT2G32870,leaf_rate_per_day,0.7823529411764706,0.944055944055944,,
+AT2G33810,leaf_final,0.9522048622319738,0.9186930930236784,SPL3,"Encodes a member of the SPL (squamosa-promoter binding protein-like)gene family, a novel gene family encoding DNA binding proteins and putative transcription factors.  Contains the SBP-box, which encodes the SBP-domain, required and sufficient for interaction with DNA. It binds DNA, may directly regulate AP1, and is involved in regulation of flowering and vegetative phase change.  Its temporal expression is regulated by the microRNA miR156.  The target site for the microRNA is in the 3'UTR."
+AT2G33810,leaf_rate_per_day,0.95,0.93006993006993,SPL3,"Encodes a member of the SPL (squamosa-promoter binding protein-like)gene family, a novel gene family encoding DNA binding proteins and putative transcription factors.  Contains the SBP-box, which encodes the SBP-domain, required and sufficient for interaction with DNA. It binds DNA, may directly regulate AP1, and is involved in regulation of flowering and vegetative phase change.  Its temporal expression is regulated by the microRNA miR156.  The target site for the microRNA is in the 3'UTR."
+AT2G34202,leaf_rate_per_day,-0.7551573379382714,-0.8659007336071332,,
+AT2G34420,leaf_rate_per_day,0.7441176470588236,0.8391608391608392,LHB1B2|LHCB1.5,Photosystem II type I chlorophyll            a/b-binding protein
+AT2G34650,leaf_rate_per_day,0.9264705882352942,0.8811188811188811,ABR|PID,"Encodes a protein serine/threonine kinase that may act as a positive regulator of cellular auxin efflux, as a a binary switch for PIN polarity, and as a negative regulator of auxin signaling. Recessive mutants exhibit similar phenotypes as pin-formed mutants in flowers and inflorescence but distinct phenotypes in cotyledons and leaves. Expressed in the vascular tissue proximal to root and shoot meristems, shoot apex, and embryos. Expression is induced by auxin. Overexpression of the gene results in phenotypes in the root and shoot similar to those found in auxin-insensitive mutants. The protein physically interacts with TCH3 (TOUCH3) and PID-BINDING PROTEIN 1 (PBP1), a previously uncharacterized protein containing putative EF-hand calcium-binding motifs.  Acts together with ENP (ENHANCER OF PINOID) to instruct precursor cells to elaborate cotyledons in the transition stage embryo. Interacts with PDK1. PID autophosphorylation is required for the ability of PID to phosphorylate an exogenous substrate. PID activation loop is required for PDK1-dependent PID phosphorylation and requires the PIF domain. Negative regulator of root hair growth. PID kinase activity is critical for the inhibition of root hair growth and for maintaining  the proper subcellular localization of PID."
+AT2G35760,leaf_final,0.935709974854727,0.9552944114708368,CASPL2B2,
+AT2G35760,leaf_rate_per_day,0.9058823529411764,0.902097902097902,CASPL2B2,
+AT2G36080,leaf_rate_per_day,-0.9352941176470588,-0.8811188811188811,ABS2|NGAL1,Encodes a plant-specific B3 DNA-binding domain transcription factor.  Has transcription repressor activity.
+AT2G36380,leaf_rate_per_day,-0.7147058823529412,-0.8811188811188811,ABCG34|AtABCG34|ATPDR6|PDR6,
+AT2G36490,leaf_rate_per_day,0.923529411764706,0.93006993006993,AtROS1|DML1|ROS1,"A repressor of transcriptional gene silencing. Functions by demethylating the target promoter DNA. Interacts physically with RPA2/ROR1. In the ros1 mutants, an increase in methylation is observed in a number of gene promoters. Among the loci affected by ros1, a few (RD29A and At1g76930) are affected in cytosine methylation in all sequence contexts (CpG, CpNpG or CpNpN), although many others are affected primarily in non-CpG contexts."
+AT2G37060,leaf_final,-0.731773185463312,-0.8857519064212357,NF-YB8,
+AT2G37060,leaf_rate_per_day,-0.8176470588235294,-0.972027972027972,NF-YB8,
+AT2G37890,leaf_rate_per_day,-0.6764705882352942,-0.8321678321678322,,
+AT2G38090,leaf_rate_per_day,0.8588235294117647,0.9370629370629372,,
+AT2G38320,leaf_rate_per_day,0.7264705882352941,0.8601398601398601,TBL34,"Encodes a member of the TBL (TRICHOME BIREFRINGENCE-LIKE) gene family containing a plant-specific DUF231 (domain of unknown function) domain. TBL gene family has 46 members, two of which (TBR/AT5G06700 and TBL3/AT5G01360) have been shown to be involved in the synthesis and deposition of secondary wall cellulose, presumably by influencing the esterification state of pectic polymers. A nomenclature for this gene family has been proposed (Volker Bischoff & Wolf Scheible, 2010, personal communication)."
+AT2G38610,leaf_rate_per_day,-0.8294117647058824,-0.8461538461538461,KH9,
+AT2G39780,leaf_rate_per_day,-0.8294117647058824,-0.9090909090909092,RNS2,S-like ribonuclease
+AT2G40130,leaf_rate_per_day,0.9029411764705882,0.93006993006993,SMXL8,
+AT2G40670,leaf_rate_per_day,0.7705882352941177,0.8321678321678322,ARR16|RR16,response regulator 16
+AT2G41905,leaf_rate_per_day,-0.8088235294117647,-0.8671328671328671,,
+AT2G42650,leaf_rate_per_day,-0.7088235294117647,-0.8321678321678322,,
+AT2G43535,leaf_rate_per_day,-0.7617647058823529,-0.8461538461538461,,Encodes a defensin-like (DEFL) family protein.
+AT2G44600,leaf_rate_per_day,0.7852941176470588,0.916083916083916,,
+AT2G45600,leaf_rate_per_day,0.7705882352941177,0.8601398601398601,,
+AT2G46880,leaf_rate_per_day,-0.8794117647058823,-0.8811188811188811,ATPAP14|PAP14,
+AT2G47210,leaf_auc,0.693156920547944,0.9281975705483088,ATSWC4|SWC4,
+AT2G47210,leaf_rate_per_day,0.6852941176470588,0.902097902097902,ATSWC4|SWC4,
+AT3G02860,leaf_final,-0.90122066488412,-0.92601335671311,ARS1,
+AT3G02860,leaf_rate_per_day,-0.8941176470588236,-0.9090909090909092,ARS1,
+AT3G02870,leaf_rate_per_day,-0.8558823529411764,-0.8671328671328671,GPP|VTC4,"Encodes a L-galactose-1-phosphate phosphatase, involved in ascorbate biosynthesis."
+AT3G04130,leaf_rate_per_day,-0.6882352941176471,-0.8671328671328671,,
+AT3G04960,leaf_rate_per_day,0.8470588235294118,0.8671328671328671,,
+AT3G05120,leaf_final,-0.866731354913513,-0.8857519064212357,ATGID1A|GID1A,"Encodes a gibberellin (GA) receptor ortholog of the rice GA receptor gene (OsGID1). Has GA-binding activity, showing higher affinity to GA4. Interacts with DELLA proteins in vivo in the presence of GA4. The DELLA region alone can interact with GID1A in GA-dependent manner in a Y2H assay."
+AT3G05840,leaf_rate_per_day,-0.8794117647058823,-0.8671328671328671,ATSK12|SK12,encodes a SHAGGY-like kinase involved in meristem organization.
+AT3G09260,leaf_final,-0.9237136931258202,-0.8820917745765199,BGLU23|LEB|PSR3.1|PYK10,"Encodes beta-glucosidase.The major constituent of ER bodies. One of the most abundant proteins in Arabidopsis seedlings. Exist in an soluble (inactive) and non-soluble (active) form, most probably formed in a polymerization process. Involved in the mutualistic interaction between Arabidopsis and the endophytic fungus Piriformospora indica."
+AT3G09260,leaf_rate_per_day,-0.9058823529411764,-0.8671328671328671,BGLU23|LEB|PSR3.1|PYK10,"Encodes beta-glucosidase.The major constituent of ER bodies. One of the most abundant proteins in Arabidopsis seedlings. Exist in an soluble (inactive) and non-soluble (active) form, most probably formed in a polymerization process. Involved in the mutualistic interaction between Arabidopsis and the endophytic fungus Piriformospora indica."
+AT3G09270,leaf_rate_per_day,-0.8088235294117647,-0.8321678321678322,ATGSTU8|GSTU8,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+AT3G09330,leaf_rate_per_day,0.7446653965971542,0.8546422913727824,,
+AT3G09410,leaf_rate_per_day,0.711764705882353,0.8391608391608392,AtPAE5,
+AT3G09820,leaf_final,0.6927852698443652,0.878431642731804,ADK1|ATADK1,Involved in the salvage synthesis of                      adenylates and methyl recycling
+AT3G09922,leaf_rate_per_day,-0.7970588235294118,-0.8601398601398601,ATIPS1|IPS1,"AF236376 Arabidopsis thaliana IPS1 mRNA, complete sequence"
+AT3G10150,leaf_rate_per_day,-0.6735294117647059,-0.916083916083916,ATPAP16|PAP16,
+AT3G10450,leaf_rate_per_day,-0.8176470588235294,-0.8601398601398601,SCPL7,
+AT3G11220,leaf_rate_per_day,-0.6911764705882353,-0.8531468531468531,AtELP4|ELO1,"A subunit of Elongator, a histone acetyl transferase complex, consisting of six subunits (ELP1ELP6), that copurifies with the elongating RNAPII in yeast and humans. Three Arabidopsis thaliana genes, encoding homologs of the yeast Elongator subunits ELP1, ELP3 (histone acetyl transferase), and ELP4 are responsible for the narrow leaf phenotype in elongata mutants and for reduced root growth that results from a decreased cell division rate."
+AT3G11260,leaf_rate_per_day,-0.8088235294117647,-0.8811188811188811,WOX5|WOX5B,Arabidopsis thaliana WOX5 protein mRNA
+AT3G12770,leaf_final,-0.800751805404526,-0.900392433800099,MEF22,Encodes a pentatricopeptide repeat protein (PPR) protein involved in mitochondrial mRNA editing.
+AT3G12770,leaf_rate_per_day,-0.8,-0.8601398601398601,MEF22,Encodes a pentatricopeptide repeat protein (PPR) protein involved in mitochondrial mRNA editing.
+AT3G12915,leaf_rate_per_day,0.7911764705882353,0.8461538461538461,,
+AT3G12920,leaf_rate_per_day,0.8029411764705883,0.8601398601398601,BRG3,
+AT3G13580,leaf_rate_per_day,-0.7441176470588236,-0.8671328671328671,uL30w,
+AT3G13880,leaf_rate_per_day,-0.711764705882353,-0.8531468531468531,OTP72,
+AT3G14463,leaf_rate_per_day,-0.8323529411764706,-0.8601398601398601,,
+AT3G14680,leaf_rate_per_day,-0.8176470588235294,-0.8391608391608392,CYP72A14,putative cytochrome P450
+AT3G14990,leaf_final,-0.727274579814972,-0.8747715108870882,AtDJ1A|DJ-1a|DJ1A,
+AT3G15210,leaf_rate_per_day,0.8647058823529412,0.8951048951048951,ATERF-4|ATERF4|ERF4|RAP2.5,Encodes a member of the ERF (ethylene response factor) subfamily B-1 of ERF/AP2 transcription factor family (ATERF-4). The protein contains one AP2 domain. Acts as a negative regulator of JA-responsive defense gene expression and resistance to the  necrotrophic fungal pathogen Fusarium oxysporum and antagonizes JA inhibition of root elongation.
+AT3G15620,leaf_final,-0.7002829459249319,-0.9296734885578258,UVR3,Required for photorepair of 6-4 photoproducts in Arabidopsis thaliana.
+AT3G15620,leaf_rate_per_day,-0.7352941176470589,-0.9090909090909092,UVR3,Required for photorepair of 6-4 photoproducts in Arabidopsis thaliana.
+AT3G16420,leaf_final,-0.9282122987741602,-0.8820917745765199,JAL30|PBP1|PBPI,"The PBP1(PYK10-binding protein 1) assists the PYK10 (beta-glucosidase complex) in its activity and may act like a molecular  chaperone that facilitates the correct polymerization of PYK10, when tissues are damaged and subcellular structures are destroyed by pests."
+AT3G16430,leaf_rate_per_day,-0.8911764705882353,-0.8461538461538461,JAL31|PBPII,
+AT3G16740,leaf_rate_per_day,-0.9,-0.8671328671328671,FOA2,
+AT3G17100,leaf_rate_per_day,0.7588235294117647,0.8951048951048951,AIF3,
+AT3G19860,leaf_rate_per_day,-0.7794117647058824,-0.944055944055944,bHLH121|URI,
+AT3G20370,leaf_final,-0.9192150874774802,-0.92601335671311,,
+AT3G20720,leaf_rate_per_day,0.85,0.8461538461538461,,
+AT3G20830,leaf_rate_per_day,0.6852941176470588,0.8951048951048951,AGC2-4|UCNL,
+AT3G21530,leaf_final,-0.89672205923578,-0.904052565644815,,
+AT3G22415,leaf_final,0.6957843402765919,0.8967323019553832,,
+AT3G22750,leaf_rate_per_day,-0.7,-0.8811188811188811,,
+AT3G23000,leaf_auc,0.7829288359479961,0.9176896735232336,ATSR2|ATSRPK1|CIPK7|PKS7|SnRK3.10,"Encodes a serine/threonine protein kinase with similarities to CBL-interacting protein kinases, SNF1 and SOS2."
+AT3G23000,leaf_final,0.7827573828111658,0.9552944114708368,ATSR2|ATSRPK1|CIPK7|PKS7|SnRK3.10,"Encodes a serine/threonine protein kinase with similarities to CBL-interacting protein kinases, SNF1 and SOS2."
+AT3G23000,leaf_rate_per_day,0.8235294117647058,0.958041958041958,ATSR2|ATSRPK1|CIPK7|PKS7|SnRK3.10,"Encodes a serine/threonine protein kinase with similarities to CBL-interacting protein kinases, SNF1 and SOS2."
+AT3G26590,leaf_rate_per_day,-0.888235294117647,-0.8391608391608392,,
+AT3G27190,leaf_rate_per_day,-0.7735294117647059,-0.8461538461538461,UCK2|UKL2,"One of the homologous genes predicted to encode proteins with UPRT domains (Uracil phosphoribosyltransferase). Five of these genes (At5g40870, At3g27190, At1g55810, At4g26510 and At3g27440) show a high level of identity, and are annotated as also containing a N-terminal uracil kinase (UK) domain. These genes are referred to as UKL1 (UK-like 1), UKL2, UKL3, UKL4 and UKL5, respectively."
+AT3G28840,leaf_rate_per_day,0.8735294117647059,0.8741258741258742,,
+AT3G28956,leaf_rate_per_day,-0.8441176470588235,-0.9230769230769232,,
+AT3G29180,leaf_rate_per_day,-0.7852941176470588,-0.8951048951048951,,
+AT3G29631,leaf_rate_per_day,0.819720604554575,0.8301238649809403,,
+AT3G44970,leaf_rate_per_day,-0.9411764705882352,-0.8671328671328671,,
+AT3G47580,leaf_rate_per_day,0.711764705882353,0.8531468531468531,,
+AT3G48360,leaf_final,-0.8877248479390999,-0.904052565644815,ATBT2|BT2,"encodes a protein (BT2) that is an essential component of the TAC1-mediated telomerase activation pathway. Acts redundantly with BT3 and BT1 during female gametophyte development and with BT3 during male gametophyte development. BT2 also mediates multiple responses to nutrients, stresses, and hormones."
+AT3G49830,leaf_rate_per_day,-0.8176470588235294,-0.8671328671328671,,
+AT3G50420,leaf_rate_per_day,-0.7470588235294118,-0.8601398601398601,,
+AT3G51075,leaf_auc,0.8638707268824695,0.9141870411815418,,
+AT3G51895,leaf_rate_per_day,0.8676470588235294,0.8321678321678322,AST12|SULTR3;1,Encodes a sulfate transporter.
+AT3G52190,leaf_final,-0.7587648193533523,-0.9406538840919736,AtPHF1|PHF1,"Encodes a plant specific protein structurally related to the SEC12 proteins of the early secretory pathway. Mutation of PHF1 impairs Pi transport. Expression was detected in all tissues, and was induced by Pi starvation. Localized in endoplasmic reticulum (ER), and mutation of PHF1 resulted in ER retention and reduced  accumulation of the plasma membrane PHT1;1 transporter."
+AT3G52190,leaf_rate_per_day,-0.7529411764705882,-0.902097902097902,AtPHF1|PHF1,"Encodes a plant specific protein structurally related to the SEC12 proteins of the early secretory pathway. Mutation of PHF1 impairs Pi transport. Expression was detected in all tissues, and was induced by Pi starvation. Localized in endoplasmic reticulum (ER), and mutation of PHF1 resulted in ER retention and reduced  accumulation of the plasma membrane PHT1;1 transporter."
+AT3G53210,leaf_auc,-0.8859457880464167,-0.924694938206617,UMAMIT6,
+AT3G53210,leaf_final,-0.866731354913513,-0.8857519064212357,UMAMIT6,
+AT3G53210,leaf_rate_per_day,-0.8823529411764706,-0.916083916083916,UMAMIT6,
+AT3G53270,leaf_rate_per_day,-0.8764705882352941,-0.8671328671328671,,
+AT3G55560,leaf_final,-0.8517360027523796,-0.9150329611789624,AGF2|AHL15,
+AT3G55560,leaf_rate_per_day,-0.8588235294117647,-0.9230769230769232,AGF2|AHL15,
+AT3G56930,leaf_auc,-0.6887419083151545,-0.9141870411815418,PAT4,
+AT3G56930,leaf_rate_per_day,-0.7147058823529412,-0.9230769230769232,PAT4,
+AT3G57400,leaf_rate_per_day,0.7617647058823529,0.8531468531468531,,
+AT3G57580,leaf_rate_per_day,-0.8941176470588236,-0.8741258741258742,,
+AT3G57770,leaf_rate_per_day,-0.8647058823529412,-0.8601398601398601,ZRK7,
+AT3G58670,leaf_rate_per_day,-0.8294117647058824,-0.8881118881118881,PCO5,
+AT3G59300,leaf_rate_per_day,-0.75,-0.8881118881118881,,
+AT3G60520,leaf_rate_per_day,0.8794117647058823,0.9090909090909092,,
+AT3G61810,leaf_rate_per_day,0.711764705882353,0.9090909090909092,,
+AT4G02050,leaf_final,-0.8652318196973997,-0.92601335671311,STP7,
+AT4G02050,leaf_rate_per_day,-0.8676470588235294,-0.916083916083916,STP7,
+AT4G02420,leaf_final,0.91471648182914,0.8820917745765199,LecRK-IV.4,
+AT4G02420,leaf_rate_per_day,0.9382352941176472,0.902097902097902,LecRK-IV.4,
+AT4G08300,leaf_rate_per_day,0.8088235294117647,0.8391608391608392,UMAMIT17,
+AT4G12080,leaf_rate_per_day,-0.85,-0.8951048951048951,AHL1|ATAHL1,
+AT4G12090,leaf_rate_per_day,-0.75,-0.8461538461538461,,
+AT4G13690,leaf_final,-0.8772281014263065,-0.900392433800099,,
+AT4G13690,leaf_rate_per_day,-0.861764705882353,-0.8461538461538461,,
+AT4G14100,leaf_rate_per_day,-0.7794117647058824,-0.8601398601398601,,
+AT4G14819,leaf_rate_per_day,0.7387787136201016,0.9036791441564668,,
+AT4G15800,leaf_rate_per_day,-0.7705882352941177,-0.8601398601398601,RALF33|RALFL33,"Member of a diversely expressed predicted peptide family showing sequence similarity to tobacco Rapid Alkalinization Factor (RALF), and is believed to play an essential role in the physiology of Arabidopsis.  Consists of a single exon and is characterized by a conserved C-terminal motif and N-terminal signal peptide."
+AT4G16840,leaf_final,-0.8322420449429062,-0.8894120382659515,,
+AT4G16840,leaf_rate_per_day,-0.8588235294117647,-0.9090909090909092,,
+AT4G17370,leaf_final,-0.9072188057485734,-0.9296734885578258,,
+AT4G17370,leaf_rate_per_day,-0.8735294117647059,-0.8671328671328671,,
+AT4G17640,leaf_rate_per_day,-0.888235294117647,-0.8391608391608392,CKB2,Encodes casein kinase II beta (regulatory) subunit.
+AT4G17960,leaf_final,-0.8592336788329463,-0.9443140159366892,,
+AT4G17960,leaf_rate_per_day,-0.8088235294117647,-0.8601398601398601,,
+AT4G18210,leaf_rate_per_day,-0.7676470588235295,-0.8881118881118881,ATPUP10|PUP10,"Member of a family of proteins related to PUP1, a purine transporter. May be involved in the transport of purine and purine derivatives such as cytokinins, across the plasma membrane."
+AT4G18700,leaf_final,-0.7692615658661457,-0.878431642731804,ATWL4|CIPK12|PKS8|SnRK3.9|WL4,Encodes CBL-interacting protein kinase 12 (CIPK12).
+AT4G18700,leaf_rate_per_day,-0.75,-0.8461538461538461,ATWL4|CIPK12|PKS8|SnRK3.9|WL4,Encodes CBL-interacting protein kinase 12 (CIPK12).
+AT4G19870,leaf_rate_per_day,0.75,0.8601398601398601,,
+AT4G21960,leaf_rate_per_day,0.7352941176470589,0.902097902097902,PRXR1,Encodes AT4g21960 (AT4g21960/T8O5_170).
+AT4G22360,leaf_rate_per_day,-0.7058823529411765,-0.8741258741258742,,
+AT4G22745,leaf_rate_per_day,0.7647058823529411,0.8741258741258742,MBD1,Protein containing methyl-CpG-binding domain.
+AT4G22840,leaf_final,0.7737601715144857,0.8894120382659515,BASS6,
+AT4G22840,leaf_rate_per_day,0.8294117647058824,0.9230769230769232,BASS6,
+AT4G26050,leaf_rate_per_day,-0.8588235294117647,-0.8461538461538461,CMF6|PIRL8,"Encodes PIRL8, a member of the Plant Intracellular Ras-group-related LRRs (Leucine rich repeat proteins). PIRLs are a distinct, plant-specific class of intracellular LRRs that likely mediate protein interactions, possibly in the context of signal transduction."
+AT4G26150,leaf_final,-0.8712299605618531,-0.8747715108870882,CGA1|GATA22|GNL,Encodes a member of the GATA factor family of zinc finger transcription factors.
+AT4G26150,leaf_rate_per_day,-0.8852941176470588,-0.8881118881118881,CGA1|GATA22|GNL,Encodes a member of the GATA factor family of zinc finger transcription factors.
+AT4G27130,leaf_rate_per_day,-0.8529411764705882,-0.8531468531468531,,
+AT4G31250,leaf_rate_per_day,0.7911764705882353,0.8321678321678322,PRK7,
+AT4G32480,leaf_rate_per_day,-0.85,-0.8951048951048951,,
+AT4G33700,leaf_rate_per_day,-0.8823529411764706,-0.8391608391608392,,
+AT4G35080,leaf_rate_per_day,-0.6970588235294117,-0.9370629370629372,CGF1,
+AT4G36850,leaf_rate_per_day,-0.7176470588235294,-0.958041958041958,,
+AT4G37980,leaf_rate_per_day,0.7588235294117647,0.902097902097902,ATCAD7|CAD7|CHR|ELI3|ELI3-1,
+AT4G38010,leaf_final,-0.8907239183713266,-0.9333336204025418,,
+AT4G38010,leaf_rate_per_day,-0.8676470588235294,-0.8881118881118881,,
+AT4G38480,leaf_rate_per_day,-0.7382352941176471,-0.8531468531468531,ABD1,
+AT4G39800,leaf_rate_per_day,0.6941176470588235,0.8391608391608392,ATIPS1|ATMIPS1|MI-1-P|MIPS1,"** Referred to as MIPS2 in Mitsuhashi et al 2008. myo-inositol-1-phosphate synthase isoform 1.Expressed in leaf, root and silique. Immunolocalization experiments with an antibody recognizing MIPS1, MIPS2, and MIPS3 showed endosperm localization."
+AT5G01881,leaf_final,0.8203015913722752,0.8942036680197918,,
+AT5G03700,leaf_rate_per_day,-0.861764705882353,-0.8601398601398601,,
+AT5G03890,leaf_rate_per_day,-0.8411764705882353,-0.8321678321678322,,
+AT5G05090,leaf_rate_per_day,0.8676470588235294,0.8951048951048951,,
+AT5G05540,leaf_final,-0.7182773685182919,-0.8967323019553832,SDN2,
+AT5G05540,leaf_rate_per_day,-0.7,-0.8391608391608392,SDN2,
+AT5G06910,leaf_rate_per_day,-0.8088235294117647,-0.902097902097902,ATJ6,"DnaJ homologue, contains J domain which is common in all known DnaJ proteins but missing G/F domain."
+AT5G08030,leaf_rate_per_day,-0.7588235294117647,-0.8741258741258742,AtGDPD6|GDPD6,
+AT5G08200,leaf_rate_per_day,-0.9205882352941176,-0.8391608391608392,,
+AT5G08391,leaf_rate_per_day,-0.7470588235294118,-0.8601398601398601,,
+AT5G08410,leaf_rate_per_day,0.7323529411764705,0.8461538461538461,FTRA2,
+AT5G09443,leaf_rate_per_day,-0.6852941176470588,-0.8531468531468531,,
+AT5G09570,leaf_rate_per_day,-0.8323529411764706,-0.8741258741258742,At12Cys-2,
+AT5G10430,leaf_rate_per_day,0.7382352941176471,0.8391608391608392,AGP4|ATAGP4|JAGGER,Encodes arabinogalactan-protein (AGP4).
+AT5G10930,leaf_final,0.8592336788329463,0.878431642731804,CIPK5|SnRK3.24,Encodes CBL-interacting protein kinase 5 (CIPK5).
+AT5G11060,leaf_final,0.8517360027523796,0.904052565644815,KNAT4,"A member of Class II KN1-like homeodomain transcription factors (together with KNAT3 and KNAT5), with greatest homology to the maize knox1 homeobox protein. Expression regulated by light. Detected in all tissues examined, but most prominent in leaves and young siliques. Transient expression of GFP translational fusion protein suggests bipartite localization in nucleus and cytoplasm. KNAT4 promoter activity showed cell-type specific pattern along longitudinal root axis; GUS expression pattern started at the elongation zone, predominantly in the phloem and pericycle cells, extending to endodermis toward the base of the root."
+AT5G11060,leaf_rate_per_day,0.9,0.958041958041958,KNAT4,"A member of Class II KN1-like homeodomain transcription factors (together with KNAT3 and KNAT5), with greatest homology to the maize knox1 homeobox protein. Expression regulated by light. Detected in all tissues examined, but most prominent in leaves and young siliques. Transient expression of GFP translational fusion protein suggests bipartite localization in nucleus and cytoplasm. KNAT4 promoter activity showed cell-type specific pattern along longitudinal root axis; GUS expression pattern started at the elongation zone, predominantly in the phloem and pericycle cells, extending to endodermis toward the base of the root."
+AT5G11260,leaf_rate_per_day,-0.7264705882352941,-0.8461538461538461,HY5|TED,"Basic leucine zipper (bZIP) transcription factor. Nuclear localization. Involved in light-regulated transcriptional activation of G-box-containing promoters. Negatively regulated by Cop1. Although cytokinins do not appear to affect the gene's promoter activity, they appear to stabilize the protein. HY5 plays a role in anthocyanin accumulation in far-red light and blue light, but not in red light or in the dark. Mutant studies showed that the gene product is involved in the positive regulation of the PHYA-mediated inhibition of hypocotyl elongation. Binds to G- and Z-boxes, and other ACEs, but not to E-box. Loss of function mutation shows ABA resistant seedling phenotypes suggesting involvement for HY5 in mediating ABA responses. Binds to the promoter of ABI5 and regulates its expression."
+AT5G11330,leaf_rate_per_day,-0.8735294117647059,-0.8601398601398601,,
+AT5G13570,leaf_rate_per_day,-0.8264705882352941,-0.8391608391608392,ATDCP2|DCP2|ITS1|TDT,"Encodes DCP2 with mRNA decapping activity.  DCP2 forms a mRNA decapping complex with DCP1 (At1g08370) and VCS (VARICOSE) (At3g13300). Recombinant DCP2 is enzymatically active in vitro, generating from capped mRNAs m7GDP, and 5-phosphorylated mRNAs.  DCP1, DCP2 and VCS colocalize in cytoplasmic loci, which are putative Arabidopsis mRNA processing bodies.  Null mutants of DCP1, DCP2, and VCS accumulate capped mRNAs with a reduced degradation rate. These mutants also share a similar lethal phenotype at the seedling cotyledon stage, with disorganized veins, swollen root hairs, and altered epidermal cell morphology. The protein was shown by immunoprecipitation not to interact with DCP1."
+AT5G15160,leaf_final,0.9027202001002332,0.8967323019553832,BHLH134|BNQ2,BNQ2 belongs to a family of  atypical non-DNA binding basic helix-loop-helix (bHLH) proteins that heterodimerize with and negatively regulate bHLH  transcription factors. Directly and negatively regulated by AP3 and PI in petals.Required for appropriate regulation of flowering time.
+AT5G15160,leaf_rate_per_day,0.9088235294117648,0.916083916083916,BHLH134|BNQ2,BNQ2 belongs to a family of  atypical non-DNA binding basic helix-loop-helix (bHLH) proteins that heterodimerize with and negatively regulate bHLH  transcription factors. Directly and negatively regulated by AP3 and PI in petals.Required for appropriate regulation of flowering time.
+AT5G17340,leaf_rate_per_day,-0.7558823529411764,-0.8881118881118881,,
+AT5G21105,leaf_rate_per_day,-0.861764705882353,-0.8881118881118881,MCO3,
+AT5G21482,leaf_auc,0.9197942151644692,0.9141870411815418,ATCKX5|CKX7,"This gene used to be called AtCKX5. It encodes a protein whose sequence is similar to cytokinin oxidase/dehydrogenase, which catalyzes the degradation of cytokinins."
+AT5G21482,leaf_final,0.9237136931258202,0.904052565644815,ATCKX5|CKX7,"This gene used to be called AtCKX5. It encodes a protein whose sequence is similar to cytokinin oxidase/dehydrogenase, which catalyzes the degradation of cytokinins."
+AT5G21482,leaf_rate_per_day,0.9088235294117648,0.8951048951048951,ATCKX5|CKX7,"This gene used to be called AtCKX5. It encodes a protein whose sequence is similar to cytokinin oxidase/dehydrogenase, which catalyzes the degradation of cytokinins."
+AT5G22030,leaf_rate_per_day,-0.8794117647058823,-0.902097902097902,UBP8,
+AT5G22460,leaf_final,0.8802271718585332,0.8747715108870882,,
+AT5G22500,leaf_rate_per_day,-0.7352941176470589,-0.9230769230769232,FAR1,"Encodes a member of the eight-member gene family encoding alcohol-forming fatty acyl-CoA reductases (FARs) identified in Arabidopsis thaliana.  Three of the FARs, FAR1 (At5g22500), FAR4 (At3g44540) and FAR5 (At3g44550), are shown to generate the fatty alcohols found in root, seed coat, and wound-induced leaf tissue."
+AT5G22550,leaf_rate_per_day,-0.9352941176470588,-0.8531468531468531,,
+AT5G23330,leaf_rate_per_day,-0.8764705882352941,-0.8321678321678322,,
+AT5G24400,leaf_rate_per_day,0.9117647058823528,0.8321678321678322,EMB2024|PGL3,"Encodes a protein with 6-phosphoglucunolactonase activity that localizes to the chloroplasts and the peroxisome. However, mutant phenotypes observed in pgl3 mutant plants can be complemented with a chloroplast-targeted version of the protein. PGL3 likely functions in the oxidative branch of the pentose phosphate pathway. pgl3 mutant phenotypes suggest that it is important in pathogen defense and maintenance of cellular redox homeostasis."
+AT5G24460,leaf_rate_per_day,-0.8205882352941176,-0.8391608391608392,,
+AT5G24690,leaf_rate_per_day,-0.8941176470588236,-0.8461538461538461,,
+AT5G26210,leaf_rate_per_day,0.7235294117647059,0.8531468531468531,AL4,AL4 encodes a member of the Alfin-Like family of nuclear-localized PhD domain containing homeodomain proteins. Binds to H3K4 di or trimethylated DNA.
+AT5G26280,leaf_rate_per_day,-0.7382352941176471,-0.8741258741258742,,
+AT5G27030,leaf_rate_per_day,0.85,0.8461538461538461,TPR3,
+AT5G33320,leaf_rate_per_day,0.9117647058823528,0.8811188811188811,ARAPPT|CUE1|NOX1|PPT,Encodes a plastid inner envelope protein PPT (phosphoenolpyruvate/phosphate translocator) that catalyzes the transport of phosphoenolpyruvate and phosphate across the inner envelope membrane of plastids.
+AT5G37710,leaf_rate_per_day,-0.7205882352941176,-0.8951048951048951,,
+AT5G39150,leaf_rate_per_day,-0.823012430340063,-0.8546422913727824,,
+AT5G39890,leaf_rate_per_day,-0.8911764705882353,-0.8461538461538461,HUP43|PCO2,
+AT5G42860,leaf_auc,0.8815307758136273,0.9352028352316922,CC2,
+AT5G42860,leaf_final,0.866731354913513,0.9296734885578258,CC2,
+AT5G42860,leaf_rate_per_day,0.8323529411764706,0.8531468531468531,CC2,
+AT5G42900,leaf_rate_per_day,-0.9176470588235294,-0.9090909090909092,COR27,
+AT5G43300,leaf_final,-0.8817267070746465,-0.900392433800099,AtGDPD3|GDPD3,
+AT5G43300,leaf_rate_per_day,-0.8970588235294118,-0.902097902097902,AtGDPD3|GDPD3,
+AT5G43350,leaf_rate_per_day,-0.6970588235294117,-0.8461538461538461,ATPT1|PHT1;1|PT1,"Encodes an inorganic phosphate transporter Pht1;1.  Mutants display enhanced arsenic accumulation.  Members of the Pht1 family of phosphate transporters include: Pht1;1/At5g43350, Pht1;2/At5g43370, Pht1;3/At5g43360, Pht1;4/At2g38940, Pht1;5/At2g32830, Pht1;6/At5g43340, Pht1;7/At3g54700, Pht1;8/At1g20860, Pht1;9/At1g76430 (Plant Journal 2002, 31:341)."
+AT5G43460,leaf_rate_per_day,-0.7735294117647059,-0.8461538461538461,,
+AT5G44572,leaf_rate_per_day,-0.8058823529411765,-0.8671328671328671,PROSCOOP6,
+AT5G45310,leaf_rate_per_day,0.7911764705882353,0.8601398601398601,,
+AT5G46240,leaf_rate_per_day,0.8411764705882353,0.8951048951048951,AtKAT1|KAT1,"Encodes a potassium channel protein (KAT1). ABA triggers KAT1 endocytosis  both in epidermal cells as  well as guard cells. Upon removal of ABA, KAT1 is recycled back to the plasma membrane. KAT1 is localized  within 0.50.6 &#956;m diameter microdomains at the  plasma membrane surface.  KAT1 belongs to the Shaker family K+ channel. This family includes five groups based on phylogenetic analysis (FEBS Letters (2007) 581: 2357): I (inward rectifying channel): AKT1 (AT2G26650), AKT5 (AT4G32500) and SPIK (also known as AKT6, AT2G25600); II (inward rectifying channel): KAT1 (AT5G46240) and KAT2 (AT4G18290); III (weakly inward rectifying channel): AKT2 (AT4G22200); IV (regulatory subunit involved in inwardly rectifying conductance formation): KAT3 (also known as AtKC1, AT4G32650); V (outward rectifying channel): SKOR (AT3G02850) and GORK (AT5G37500)."
+AT5G46620,leaf_final,-0.8502364675362662,-0.9333336204025418,,
+AT5G46620,leaf_rate_per_day,-0.8323529411764706,-0.8741258741258742,,
+AT5G47760,leaf_rate_per_day,-0.788235294117647,-0.8321678321678322,ATPGLP2|ATPK5|PGLP2,serine/threonine protein kinase
+AT5G48150,leaf_final,0.7242755093827453,0.8894120382659515,PAT1,Member of GRAS gene family. Semi-dominant mutant has a reduced response to far-red light and appears to act early in the phytochrome A signaling pathway.
+AT5G48150,leaf_rate_per_day,0.7970588235294118,0.9370629370629372,PAT1,Member of GRAS gene family. Semi-dominant mutant has a reduced response to far-red light and appears to act early in the phytochrome A signaling pathway.
+AT5G50130,leaf_auc,-0.9300959103743112,-0.924694938206617,,
+AT5G50170,leaf_rate_per_day,0.7735294117647059,0.916083916083916,,
+AT5G50950,leaf_rate_per_day,0.7205882352941176,0.8391608391608392,FUM2,"Encodes a fumarase enzyme initially shown to be in the mitochondria through proteomic studies but later shown to be present in the cytosol using an RFP fluorescent protein tag. It appears to be important for the accumulation of fumarate from malate in leaves in the light, and helps to promote nitrogen assimilation under high nitrogen conditions. It does not appear to be necessary for lipid metabolism and seedling growth."
+AT5G54510,leaf_rate_per_day,-0.8764705882352941,-0.8951048951048951,DFL1|GH3.6,"Encodes an IAA-amido synthase that conjugates Ala, Asp, Phe, and Trp to auxin. Lines overexpressing this gene accumulate IAA-ASP and are hypersensitive to several auxins.  Identified as a dominant mutation that displays shorter hypocotyls in light grown plants when compared to wild type siblings. Protein is similar to auxin inducible gene from pea (GH3)."
+AT5G55090,leaf_final,-0.8907239183713266,-0.9113728293342468,MAPKKK15,member of MEKK subfamily
+AT5G55090,leaf_rate_per_day,-0.8735294117647059,-0.8881118881118881,MAPKKK15,member of MEKK subfamily
+AT5G56310,leaf_rate_per_day,-0.7264705882352941,-0.8531468531468531,,
+AT5G56990,leaf_rate_per_day,0.7352941176470589,0.8601398601398601,,
+AT5G57320,leaf_auc,-0.7284770184102596,-0.9457107322567674,VLN5,
+AT5G58580,leaf_rate_per_day,0.8470588235294118,0.8601398601398601,ATL63|STRF1|TL63,
+AT5G58760,leaf_final,-0.8307425097267929,-0.8967323019553832,DDB2,Encodes a DDB1a interacting protein DDB2 required for UV-B tolerance and genomic integrity.
+AT5G58760,leaf_rate_per_day,-0.8735294117647059,-0.951048951048951,DDB2,Encodes a DDB1a interacting protein DDB2 required for UV-B tolerance and genomic integrity.
+AT5G58980,leaf_rate_per_day,0.8117647058823529,0.8671328671328671,AtNCER3,
+AT5G60270,leaf_final,-0.766262495433919,-0.8820917745765199,LecRK-I.7,
+AT5G60270,leaf_rate_per_day,-0.7941176470588235,-0.9090909090909092,LecRK-I.7,
+AT5G60840,leaf_rate_per_day,0.7,0.8461538461538461,,
+AT5G61340,leaf_rate_per_day,0.9058823529411764,0.902097902097902,,
+AT5G61370,leaf_rate_per_day,-0.7823529411764706,-0.8881118881118881,,
+AT5G61620,leaf_final,-0.7640228985253595,-0.8880855125634566,,
+AT5G61620,leaf_rate_per_day,-0.8136772500156629,-0.9426479189556486,,
+AT5G62260,leaf_rate_per_day,-0.711764705882353,-0.916083916083916,AHL6,
+AT5G63240,leaf_rate_per_day,-0.811750342732192,-0.8733756586062554,,
+AT5G64160,leaf_rate_per_day,-0.7411764705882353,-0.8391608391608392,,
+AT5G65390,leaf_final,-0.7047815515732719,-0.8747715108870882,AGP7,
+AT5G65390,leaf_rate_per_day,-0.7735294117647059,-0.944055944055944,AGP7,
+AT5G65620,leaf_final,0.8427387914556996,0.8820917745765199,OOP|TOP1,
+AT5G65620,leaf_rate_per_day,0.8588235294117647,0.8601398601398601,OOP|TOP1,
+AT5G65660,leaf_rate_per_day,-0.8323529411764706,-0.8321678321678322,,

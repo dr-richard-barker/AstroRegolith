@@ -1,0 +1,4 @@
+filename,species,treatment,captured,latitude,longitude,notes
+example_001.jpg,Arabidopsis thaliana (Col-0),1g ground control,2024-11-01T08:30:00,34.61988,135.49036,"day 3, healthy"
+example_002.jpg,Brassica rapa (Wisconsin Fast Plants),microgravity,2024-11-02T09:15:00,,,"tipburn observed; ISS = no GPS"
+example_003.jpg,Medicago truncatula,clinorotation,2024-11-03T10:00:00,,,"next to AstroBotany marker"

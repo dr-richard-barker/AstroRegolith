@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AstroRegolithSidecarMetadata",
+  "description": "Sidecar metadata schema for regolith plant-growth images (CSV row mapping or JSON list). Extends the AstroBotany calibration-image schema with the substrate fields a regolith study turns on, and with days_after_sowing / n_leaves, which are named to match the NASA OSD-476 deposit so a contributed series can be plotted on the same axes as the Apollo plants.",
+  "type": "object",
+  "properties": {
+    "filename": {
+      "type": "string",
+      "description": "The exact name of the image file, including extension (e.g. IMG_1212_cropped.jpg). Used as a primary key to match with physical image files."
+    },
+    "species": {
+      "type": "string",
+      "description": "Standard scientific or common name of the organism (e.g. Landoltia punctata, Arabidopsis thaliana)."
+    },
+    "genotype": {
+      "type": "string",
+      "description": "Plant mutant line, ecotype, genotype, or accession number (e.g. Col-0, pgm1-1)."
+    },
+    "treatment": {
+      "type": "string",
+      "description": "The experimental treatment, growth condition, or dosage applied (e.g. Gibberellic Acid, Control, Clinostat, 1g)."
+    },
+    "environment": {
+      "type": "string",
+      "description": "Gravity or flight context, e.g. Ground control (1g), Clinostat, ISS."
+    },
+    "substrate_class": {
+      "type": "string",
+      "enum": [
+        "lunar regolith",
+        "lunar simulant",
+        "Martian simulant",
+        "asteroid simulant",
+        "blend",
+        "non-regolith control"
+      ],
+      "description": "What the plant was rooted in. Blends use 'blend' and give substrate_blend_pct."
+    },
+    "substrate_name": {
+      "type": "string",
+      "description": "Substrate name or source, e.g. Apollo 11, JSC-1A, LHS-1, LMS-1, MGS-1, MMS-2, Exolith CI."
+    },
+    "substrate_batch": {
+      "type": "string",
+      "description": "Supplier lot or batch. Simulant composition varies between production runs, so two datasets naming the same simulant are not necessarily comparable without this."
+    },
+    "substrate_blend_pct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Percent regolith or simulant by volume: 100 for neat, 0 for the control. Places the entry on a dose-response axis."
+    },
+    "substrate_particle_size_um": {
+      "type": "string",
+      "description": "Mean particle size or range in micrometres. Drives water retention and root penetration resistance more than bulk chemistry does."
+    },
+    "substrate_pretreatment": {
+      "type": "string",
+      "enum": [
+        "none",
+        "autoclaved",
+        "dry-heat sterilised",
+        "rinsed",
+        "wetted and dried",
+        "other"
+      ],
+      "description": "Pre-treatment applied. Leaching in particular changes the ionic stress the root sees."
+    },
+    "amendment": {
+      "type": "string",
+      "description": "Anything mixed in or applied beyond water (perlite, peat, nutrient solution, biochar, inoculant, chelator), with rates."
+    },
+    "substrate_ph": {
+      "type": "number",
+      "description": "Measured substrate pH."
+    },
+    "substrate_ec_us_cm": {
+      "type": "number",
+      "description": "Measured substrate electrical conductivity, uS/cm."
+    },
+    "sowing_date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 sowing date. OSD-476 omitted this, and its growth curves cannot be placed on an absolute age axis as a result."
+    },
+    "days_after_sowing": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Days from sowing to this image. The shared time axis; matches OSD-476's 'age at sample harvest'."
+    },
+    "n_leaves": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Visible true leaves. Matches OSD-476's 'Number of Leaves' so contributed series are directly comparable."
+    },
+    "germinated": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "not yet"
+      ],
+      "description": "Germination outcome. Record the failures: zeroes are results."
+    },
+    "stress_symptoms": {
+      "type": "string",
+      "description": "Observed symptoms, e.g. anthocyanin/reddening, chlorosis, stunting, leaf distortion, necrosis \u2014 the morphologies Apollo-grown plants showed."
+    },
+    "glds_accession": {
+      "type": "string",
+      "description": "The NASA Open Science Data Repository (OSDR) / GeneLab dataset accession ID (e.g. OSD-670)."
+    },
+    "experiment": {
+      "type": "string",
+      "description": "Name or unique ID of the biological experiment (e.g. APEX03, SpaceChile)."
+    },
+    "date_taken": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 formatted datetime string indicating when the photograph was taken (e.g. 2026-07-31T16:17:09Z)."
+    },
+    "latitude": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90,
+      "description": "GPS Latitude coordinate."
+    },
+    "longitude": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180,
+      "description": "GPS Longitude coordinate."
+    },
+    "camera": {
+      "type": "string",
+      "description": "Camera model, hardware, or device identifier used for capture."
+    },
+    "lighting": {
+      "type": "string",
+      "description": "Lighting conditions under which the image was taken (e.g. LED White, FL, Dark, Red grow-light)."
+    },
+    "scale_bar_mm": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Physical size of the scale reference in millimeters."
+    },
+    "calibration_marker": {
+      "type": "boolean",
+      "description": "Whether the AstroBotany Spectrum calibration marker is present in the frame."
+    },
+    "width_px": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The width of the image in pixels."
+    },
+    "height_px": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The height of the image in pixels."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free text comments, annotations, or observations."
+    },
+    "source_repo": {
+      "type": "string",
+      "description": "URL or owner/repo identifier of the origin repository (e.g. dr-richard-barker/image-analysis-software-and-R-codes)."
+    },
+    "source_path": {
+      "type": "string",
+      "description": "Subdirectory path of the image folder inside the origin repository (e.g. Londultia)."
+    },
+    "contributor": {
+      "type": "string",
+      "description": "Name of the scientist, classroom, or citizen scientist who contributed the image data."
+    },
+    "license": {
+      "type": "string",
+      "default": "CC0-1.0",
+      "description": "Creative Commons or open-source data license covering the image (e.g. CC0-1.0, CC-BY-4.0)."
+    }
+  },
+  "required": [
+    "filename"
+  ]
+}

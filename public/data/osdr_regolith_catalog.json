@@ -1,0 +1,211 @@
+{
+ "accessed": "2026-08-21",
+ "api": "https://osdr.nasa.gov/osdr/data",
+ "note": "Baked at build time: the OSDR API restricts CORS to osdr.nasa.gov, so a browser on github.io cannot query it directly.",
+ "source": "NASA Open Science Data Repository (OSDR)",
+ "studies": [
+  {
+   "accession": "OSD-22",
+   "authors": "Visscher AM · Paul AL · Kirst M · Guy CL · Schuerger AC · Ferl RJ.",
+   "categories": [
+    "GeneLab Processed Microarray Data Files",
+    "Microarray Data Files",
+    "Study Metadata Files"
+   ],
+   "description": "Martian regolith (unconsolidated surface material) is a potential medium for plant growth in bioregenerative life support systems during manned missions on Mars. However, hydrated magnesium sulfate mineral levels in the regolith of Mars can reach as high as 10 wt%, and would be expected to be highly inhibitory to plant growth. A global approach was used to identify novel genes with potential to enhance tolerance to high MgSO4 stress. The early Arabidopsis root transcriptome response to elevated concentrations of magnesium sulfate was characterized in col-0, and also between col-0 and the mutant line cax1-1 – a mutant relatively tolerant of high levels of MgSO4•7H2O in soil solution.",
+   "factors": "soil environment exposure · Time · Genotype",
+   "files": 31,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "Plant Roots",
+   "measurements": "transcription profiling",
+   "organism": "Arabidopsis thaliana",
+   "publication": "Growth performance and root transcriptome remodeling of Arabidopsis in response to Mars-like levels of magnesium sulfate.",
+   "released": "2017-09-17",
+   "technology": "DNA microarray",
+   "title": "Root transcriptome remodeling of Arabidopsis in response to high levels of magnesium sulfate",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-22",
+   "why_regolith": "Arabidopsis root transcriptome under high magnesium — a terrestrial proxy for the ionic stress regolith imposes."
+  },
+  {
+   "accession": "OSD-305",
+   "authors": "Fajardo-Cavazos P · Morrison MD · Miller KM · Schuerger AC · Nicholson WL",
+   "categories": [
+    "RNA-Seq",
+    "Study Metadata Files"
+   ],
+   "description": "Results from previous experiments indicated that the Gram-negative a-proteobacterium Serratia liquefaciens strain ATCC 27592 was capable of growth under low temperature (0C), low pressure (0.7 kPa), and anoxic, CO2-dominated atmosphere--conditions intended to simulate the near-subsurface environment of Mars (Schuerger A.C. et al., Astrobiology 13: 115-131, 2013). To probe the response of its transcriptome to this extreme environment, S. liquefaciens ATCC 27592 was cultivated under 4 different environmental simulations: 0C, 0.7 kPa, CO2 atmosphere (Condition A); 0C, ~101.3 kPa, CO2 atmosphere (Condition B); 0C, ~101.3 kPa, ambient N2/O2 atmosphere (Condition C); and 30C, ~101.3 kPa, N2/O2 atmosphere (Condition D; ambient laboratory conditions). RNA-seq was performed on ribosomal RNA-depleted total RNA isolated from triplicate cultures grown under Conditions A-D and the datasets generated were subjected to transcriptome analyses. The data from Conditions A, B, or C were compared to laboratory Condition D. Significantly differentially expressed transcripts were identified belonging to a number of KEGG pathway categories. Up-regulated genes under all Conditions A, B, and C included tho",
+   "factors": "Temperature · Atmospheric Pressure · Atmospheric Composition",
+   "files": 18,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "Cells",
+   "measurements": "transcription profiling",
+   "organism": "Serratia liquefaciens",
+   "publication": "Transcriptomic responses of Serratia liquefaciens cells grown under simulated Martian conditions of low temperature, low pressure, and CO2-enriched anoxic atmosphere",
+   "released": "2020-08-27",
+   "technology": "RNA Sequencing (RNA-Seq)",
+   "title": "Transcriptomic responses of Serratia liquefaciens cells grown under simulated Martian conditions of low temperature, low pressure, and CO2-enriched anoxic atmosphere.",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-305",
+   "why_regolith": "Serratia liquefaciens under simulated Martian conditions — a microbial counterpart to the plant studies."
+  },
+  {
+   "accession": "OSD-476",
+   "authors": "Paul Anna-Lisa · Elardo Stephen M. · Ferl Robert",
+   "categories": [
+    "GeneLab Processed RNA-Seq Files",
+    "Morphometric Photography",
+    "RNA-Seq",
+    "Study Metadata Files",
+    "Supplemental Materials"
+   ],
+   "description": "The extent to which plants can enhance human life support on other worlds depends on the ability of plants to thrive in extraterrestrial environments using in situ resources. Using samples from Apollo 11, 12 and 17, we show that the terrestrial plant Arabidopsis thaliana germinates and grows in diverse lunar regoliths. However, our results show that growth is challenging; the lunar regolith plants were slow to develop, expressed genes indicative of ionic stresses, and many showed severe stress morphologies. Therefore, although in situ lunar regolith can be useful for plant production in lunar habitats, they are not benign substrates. The interaction between plants and lunar regolith will need to be further elucidated, and likely mitigated, to enable efficient use of lunar regolith for life support.",
+   "factors": "Treatment",
+   "files": 457,
+   "image_mb": 2721.0,
+   "images": 66,
+   "material": "aboveground biomass",
+   "measurements": "transcription profiling · Morphometric analysis",
+   "organism": "Arabidopsis thaliana",
+   "publication": "Plants grown in Apollo lunar regolith present stress-associated transcriptomes that inform prospects for lunar exploration",
+   "released": "2022-05-16",
+   "technology": "RNA Sequencing (RNA-Seq) · Image analysis",
+   "title": "Plants grown in Apollo lunar regolith present stress-associated transcriptomes that inform prospects for lunar exploration",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-476",
+   "why_regolith": "Arabidopsis grown in Apollo 11/12/17 regolith vs JSC-1A simulant — RNA-seq + per-plant morphometrics. The reference study for this database."
+  },
+  {
+   "accession": "OSD-581",
+   "authors": "Berni Roberto · Leclercq Céline C. · Roux Philippe · Hausman Jean-Francois · Renaut Jenny · Guerriero Gea",
+   "categories": [
+    "Proteomics Data Files",
+    "Study Metadata Files"
+   ],
+   "description": "In the last decade, the exploration of deep space has become the objective of the national space programs of many countries. The International Space Exploration Coordination Group has set a roadmap whose long-range strategy envisions the expansion of human presence in the solar system to progress with exploration and knowledge and to accelerate innovation. Crewed missions to Mars could be envisaged by 2040. In this scenario, finding ways to use the local resources for the provision of food, construction materials, propellants, pharmaceuticals is needed. Plants are important resources for deep space manned missions because they produce phytochemicals of pharmaceutical relevance, are sources of food and provide oxygen which is crucial in bioregenerative life support systems. Growth analysis and plant biomass yield have been previously evaluated on Martian regolith simulants; however, molecular approaches employing gene expression analysis and proteomics are still missing. The present work aims at filling this gap by providing molecular data on a representative member of the Poaceae, Lolium multiflorum Lam., grown on potting soil and a Martian regolith simulant (MMS-1). The molecular ",
+   "factors": "soil environment exposure · Organism Part",
+   "files": 14,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "",
+   "measurements": "protein expression profiling",
+   "organism": "Lolium multiflorum",
+   "publication": "A molecular study of Italian ryegrass grown on Martian regolith simulant",
+   "released": "2022-11-07",
+   "technology": "mass spectrometry",
+   "title": "A molecular study of Italian ryegrass grown on Martian regolith simulant",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-581",
+   "why_regolith": "Italian ryegrass (Lolium multiflorum) on Martian regolith simulant — proteomics."
+  },
+  {
+   "accession": "OSD-670",
+   "authors": "Russell SJ · Fieber-Beyer SK · Yurkonis KA.",
+   "categories": [
+    "Morphometric Photography",
+    "Study Metadata Files",
+    "Supplemental Materials"
+   ],
+   "description": "Human expansion into the solar system is currently at the forefront of space research. For our astronauts to survive, they will need to be fed a healthy and nutritious diet on a consistent basis. Right now, our current method of feeding astronauts consists of resupplied prepackaged food from Earth, which is unsustainable for long-term missions. Using planetary resources via in situ resource utilization to grow crops is the next step toward sustainability in space. Asteroids are an abundant space resource and should not be overlooked when considering crewed missions. In particular, the primordial CI carbonaceous asteroids are of interest because the regolith is suggested to contain soluble elemental nutrients, such as phosphorous and potassium, that crops can use for growth and development. We present a study on the ability of CI carbonaceous asteroid regolith simulant to sustain plant growth of lettuce (Latuca sativa), radishes (Raphanus sativus), and peppers (Capsicum annuum). We tested growing the selected crops in increasing mixtures of simulant and peat moss. The results showed that each species reacted differently to each treatment and that the radishes were more affected by t",
+   "factors": "Substrate Type",
+   "files": 20,
+   "image_mb": 33.9,
+   "images": 17,
+   "material": "Plants",
+   "measurements": "Image Analysis",
+   "organism": "Raphanus sativus · Lactuca sativa · Capsicum annuum",
+   "publication": "CI Asteroid Regolith as an In Situ Plant Growth Medium for Space Crop Production",
+   "released": "2024-05-21",
+   "technology": "Photography",
+   "title": "CI Asteroid Regolith as an In Situ Plant Growth Medium for Space Crop Production",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-670",
+   "why_regolith": "Radish and lettuce grown in CI asteroid regolith simulant as an in-situ growth medium."
+  },
+  {
+   "accession": "OSD-855",
+   "authors": "",
+   "categories": [
+    "Study Metadata Files",
+    "Supplemental Materials"
+   ],
+   "description": "Analyses of effects of lunar materials on plants: This study was designed to determine if lunar material can cause disease in plants grown under controlled conditions and to assess the effects of lunar materials on the germination and subsequent development of seeds of species belonging to the Tracheophyta (vascular plants). Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.",
+   "factors": "soil environment exposure · growth medium provenance",
+   "files": 4,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "Seedlings",
+   "measurements": "Germination and Growth Assesment",
+   "organism": "Lactuca sativa · Raphanus sativus · Brassica oleracea",
+   "publication": "",
+   "released": "2025-06-18",
+   "technology": "Plant Material Biomass",
+   "title": "Apollo 17 Challenge System - Seed Germination (Cabbage, Brussel Sprouts, Radish and Lettuce)",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-855",
+   "why_regolith": "Apollo 17 Challenge System: seed germination (cabbage, brussels sprout, radish) in contact with lunar material."
+  },
+  {
+   "accession": "OSD-856",
+   "authors": "R.S. Halliwell",
+   "categories": [
+    "Study Metadata Files",
+    "Supplemental Materials"
+   ],
+   "description": "The following general conclusions can be made concerning the use of tissue culture for assaying the effects of mineral elements from simulated lunar soil or other mineral samples: The method used here is a very sensitive one for showing that soluble materials are reaching the tissue explant. The effects found (inhibiting) are very probably caused by excess toxic materials or competition of non-essential elements with essential elements rather than pH changes because previously pH has been found- to have relatively little effect over a wide range. Any stimulatory effect of the simulated lunar soil will probably appear at concentrations below those used in these experiments. If this is the case, the method is much less wasteful of mineral materials than methods in which pre-grown callus is treated with mineral materials. · Measurements of uptake of minerals will be difficult in this system because of the relatively small growth obtainable from the tissue and also because of the apparently large background of minerals contributed by the purified agar.",
+   "factors": "Treatment · Strain",
+   "files": 2,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "Cells, Cultured",
+   "measurements": "Germination and Growth Assesment",
+   "organism": "Lactuca sativa",
+   "publication": "Analytical and Radio-Histo-Chemical Experiments of Plants and Tissue Culture Cells Treated with Lunar and Terrestrial Materials",
+   "released": "2025-07-30",
+   "technology": "Plant Material Biomass",
+   "title": "Effect of varying amounts of simulated lunar soil batch #005 upon growth of lettuce explants",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-856",
+   "why_regolith": "Dose-response of lettuce growth to varying amounts of simulated lunar soil (batch #005)."
+  },
+  {
+   "accession": "OSD-877",
+   "authors": "",
+   "categories": [
+    "Study Metadata Files",
+    "Supplemental Materials"
+   ],
+   "description": "Element content of seedlings from from seed and liverwort tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations (MMP 21243, MMP 21242). These findings are related to the feasibility of using plants for food in an international lunar base.",
+   "factors": "Treatment · Growth Medium Provenance",
+   "files": 4,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "",
+   "measurements": "Spectrochemical Analysis",
+   "organism": "Raphanus sativus · Lactuca sativa · Brassica oleracea · Glycine max · Citrus limonia · Marchantia",
+   "publication": "",
+   "released": "2025-09-18",
+   "technology": "Atomic Absorption Spectroscopy",
+   "title": "Element content of seedlings from seed and liverwort plant tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations (MMP 21243, MMP 21242)",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-877",
+   "why_regolith": "Elemental content of seedlings and liverwort tissue exposed to Apollo 15 lunar material."
+  },
+  {
+   "accession": "OSD-883",
+   "authors": "",
+   "categories": [
+    "Study Metadata Files",
+    "Supplemental Materials"
+   ],
+   "description": "Chemical analysis and other measurements made on lunar-treated plant seedlings grown for 14 to 21 days demonstrate a direct interaction between germfree plants and lunar material. Treated plants dissolved and absorbed significant quantities of Al, Fe, and Ti from the lunar fines. Cabbage and Brussels sprouts were particularly efficient in the dissolution and absorption of Mn. These results suggested that the beneficial effects observed in the Apollo 11 and 12 quarantine studies might be caused by the uptake of ions from the lunar material.",
+   "factors": "Treatment · Growth Medium Provenance",
+   "files": 2,
+   "image_mb": 0.0,
+   "images": 0,
+   "material": "",
+   "measurements": "Spectrochemical Analysis · Spectrochemical Analysis · Germination and Growth Assesment",
+   "organism": "Brassica oleracea · Lactuca sativa · Raphanus sativus · Daucus carota",
+   "publication": "",
+   "released": "2025-08-15",
+   "technology": "Optical Emission Spectroscopy · Atomic Absorption Spectroscopy · Plant Material Biomass",
+   "title": "Analysis of Vegetable Seedlings Grown in Contact with Apollo 14 Lunar Surface Fines",
+   "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-883",
+   "why_regolith": "Vegetable seedlings grown in contact with Apollo 14 lunar surface material."
+  }
+ ]
+}

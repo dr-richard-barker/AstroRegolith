@@ -1,0 +1,7 @@
+covariate,description
+leaf_final,leaf count on the last imaging day (2021-05-18)
+leaf_rate_per_day,OLS slope of leaf count over the 12 imaged days
+leaf_first_day,days from first plate scan to first true leaf (higher = slower)
+leaf_auc,area under the leaf-count curve
+log10_area_mm2_last,log10 rosette area on the last morphometric day (2021-05-10)
+rgr_area_per_day,relative growth rate of rosette area

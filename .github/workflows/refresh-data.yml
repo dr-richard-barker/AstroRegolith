@@ -1,0 +1,47 @@
+name: Refresh NASA catalogues
+
+# The OSDR and PSI catalogues are baked into public/data/ because neither API
+# allows cross-origin browser requests. This re-harvests them monthly and opens a
+# pull request if anything has changed, so a newly deposited regolith study shows
+# up without anyone remembering to look.
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'      # 06:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Re-harvest the catalogues
+        run: |
+          python3 scripts/01_fetch_osdr.py
+          python3 scripts/02_fetch_psi.py
+
+      - name: Open a pull request if the catalogues moved
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: |
+            public/data/osdr_regolith_catalog.json
+            public/data/psi_regolith_catalog.json
+          branch: chore/refresh-catalogues
+          delete-branch: true
+          title: 'chore: refresh the OSDR and PSI regolith catalogues'
+          commit-message: 'chore: refresh the OSDR and PSI regolith catalogues'
+          body: |
+            Automated monthly re-harvest of the NASA catalogues.
+
+            Any study added here by the live search carries the placeholder reason
+            **"Discovered by search. Needs curation."** — replace it with a real
+            note on why the study belongs in a regolith database, or drop the
+            study, before merging. Run `bash scripts/run_all.sh` afterwards if the
+            catalogue counts quoted in the manuscript or README need updating.
