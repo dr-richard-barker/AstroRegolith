@@ -9,6 +9,7 @@ Deploys the standardised plant/regolith growth survey into the Epicollect5 proje
 | `regolith-collaboration__observation-form.form.epicollect.json` | **Drop-in file** — drag onto the Form Builder. The easiest route. |
 | `ec5_formbuilder_console.js` | **Artifact A** — paste into the DevTools console on the Form Builder page. |
 | `ec5_formbuilder.py` | **Artifact B** — build, validate, and emit/push from Python. Generates the other two. |
+| `ec5_push_entries.py` | Push OSD-476 observations **and their photographs** into the project as entries. |
 
 All three routes were verified to produce **identical inputs** from the same schema file.
 
@@ -198,3 +199,57 @@ preserved intact; verified by round-tripping the gzip+base64 body.
 8. **Push before entries arrive.** The project currently holds 0 entries, which makes
    this the free moment to restructure. Once entries exist, changing an input's `type`
    or removing inputs leaves collected answers stranded.
+
+
+## Pushing entries (not just the form)
+
+Epicollect5's documented API is read-only, but the endpoint its mobile app uses to
+submit entries is reachable, and for a **public** project it needs no authentication
+at all — `ProjectPermissions::hasPermission()` only checks a user/role when the
+project `isPrivate()`:
+
+```
+POST https://five.epicollect.net/api/upload/regolith-collaboration
+  multipart/form-data
+    data = json({"type":"entry", ...})                     # the answers
+    data = json({"type":"file_entry", ...}) + name=<file>  # one POST per photo
+```
+
+`ec5_push_entries.py` uses it to import the OSD-476 observations this repository
+already holds, with the plate photograph attached:
+
+```bash
+python3 tools/ec5_push_entries.py push --granularity plant-final --dry-run
+python3 tools/ec5_push_entries.py push --granularity plant-final --limit 1
+```
+
+Granularities: `plant-final` (16 sequenced plants at the last imaging date),
+`plant-date` (192 leaf-count observations), `plantcv` (133 rosette-area rows).
+
+Two other write endpoints exist and are **not** usable here: `api/bulk-upload` is
+disabled in production (`ec5_363`), and `api/import/entries` explicitly rejects public
+projects (`ec5_256`) and is marked "For CGPS use only, this is not documented".
+
+### Every answer is sourced, or blank
+
+Answers come from the paper's Methods (read from PMC9098553), the OSD-476 ISA archive
+in `data/osdr/`, this repository's own tables, and direct inspection of the plate
+photographs. 30 of the 46 questions can be answered. The other 16 are left blank
+because the published record does not contain them — **light source, spectrum,
+intensity, photoperiod, temperature, humidity, CO₂, substrate pH and EC are all
+absent**; the paper says only "growth lights in a secured plant growth room".
+
+Two consequences worth knowing before importing:
+
+1. **`Days after sowing at imaging` is required and cannot be answered.** No sowing
+   date is published for OSD-476 — `scripts/03_build_phenotype_table.py` already says
+   so, and the `day` column everywhere in `results/tables/` counts from the first plate
+   scan (2021-05-02), not from sowing. The script refuses to push rather than write a
+   number that means something else. Either make that question optional, or establish
+   the sowing date from the investigators.
+
+2. **One photograph shows four substrates.** Each image is a whole 48-well plate
+   carrying Apollo 11, 12, 17 and JSC-1A wells together, so an entry describing one
+   well attaches a photograph of all of them. The importer says so in the notes field
+   of every entry. The plate scans also do not cover every plate on every date, so at
+   `plant-final` only the plate scanned on the last date carries an image.
