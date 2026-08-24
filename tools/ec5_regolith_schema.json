@@ -1,0 +1,73 @@
+{
+  "project": {
+    "slug": "regolith-collaboration",
+    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a"
+  },
+  "form": {
+    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614",
+    "name": "Observation Form"
+  },
+  "inputs": [
+    {"key": "q01_sample_experiment_id", "type": "text", "question": "Sample / experiment ID", "required": true, "uniqueness": "form", "verify": false, "is_title": true},
+    {"key": "q02_contributor_name", "type": "text", "question": "Contributor name"},
+    {"key": "q03_institution_group", "type": "text", "question": "Institution / group"},
+    {"key": "q04_date_of_observation", "type": "date", "question": "Date of observation", "set_to_current_datetime": true},
+    {"key": "q05_doi_citation", "type": "text", "question": "DOI or citation (optional)"},
+    {"key": "q06_species_latin_binomial", "type": "text", "question": "Species (Latin binomial)", "required": true},
+    {"key": "q07_genotype_ecotype_cultivar", "type": "text", "question": "Genotype / ecotype / cultivar"},
+    {"key": "q08_substrate_class", "type": "dropdown", "question": "Substrate class", "required": true, "options": [
+      "Lunar regolith (returned sample)", "Lunar simulant", "Martian simulant", "Asteroid simulant",
+      "Blend (regolith + amendment)", "Non-regolith control"]},
+    {"key": "q09_substrate_name_source", "type": "text", "question": "Substrate name / source", "required": true},
+    {"key": "q10_supplier_batch_lot", "type": "text", "question": "Supplier / batch or lot"},
+    {"key": "q11_blend_ratio", "type": "integer", "question": "Blend ratio (% regolith by volume)", "min": 0, "max": 100},
+    {"key": "q12_amendment", "type": "checkbox", "question": "Amendment", "options": [
+      "None", "Perlite / vermiculite", "Peat / compost", "Nutrient solution", "Biochar",
+      "Microbial inoculant", "Chelator", "Other"]},
+    {"key": "q13_amendment_details", "type": "textarea", "question": "Amendment details"},
+    {"key": "q14_particle_size", "type": "text", "question": "Particle size (µm, mean or range)"},
+    {"key": "q15_substrate_mass_volume", "type": "text", "question": "Substrate mass or volume per vessel"},
+    {"key": "q16_substrate_ph", "type": "decimal", "question": "Substrate pH"},
+    {"key": "q17_substrate_ec", "type": "decimal", "question": "Substrate EC (µS/cm)"},
+    {"key": "q18_substrate_pre_treatment", "type": "dropdown", "question": "Substrate pre-treatment", "options": [
+      "None", "Autoclaved", "Dry-heat sterilised", "Rinsed / leached", "Wetted and dried", "Other"]},
+    {"key": "q19_environment", "type": "dropdown", "question": "Environment", "options": [
+      "Ground control (1g)", "Clinostat / random-positioning", "ISS / microgravity", "Parabolic flight", "Other"]},
+    {"key": "q20_location", "type": "location", "question": "Location"},
+    {"key": "q21_vessel_hardware", "type": "text", "question": "Vessel / hardware"},
+    {"key": "q22_watering_regime", "type": "textarea", "question": "Watering regime"},
+    {"key": "q23_nutrient_solution", "type": "text", "question": "Nutrient solution"},
+    {"key": "q24_light_source", "type": "dropdown", "question": "Light source", "options": [
+      "LED", "Fluorescent", "Sunlight", "Mixed", "Other"]},
+    {"key": "q25_light_spectrum", "type": "checkbox", "question": "Light spectrum", "options": [
+      "Red", "Green", "Blue", "White", "Far-red", "Full spectrum"]},
+    {"key": "q26_light_intensity", "type": "integer", "question": "Light intensity (µmol·m⁻²·s⁻¹)"},
+    {"key": "q27_photoperiod", "type": "integer", "question": "Photoperiod (hours light / day)", "min": 0, "max": 24},
+    {"key": "q28_temperature", "type": "decimal", "question": "Temperature (°C)"},
+    {"key": "q29_relative_humidity", "type": "integer", "question": "Relative humidity (%)", "min": 0, "max": 100},
+    {"key": "q30_co2", "type": "integer", "question": "CO₂ (ppm) (optional)"},
+    {"key": "q31_sowing_date", "type": "date", "question": "Sowing date"},
+    {"key": "q32_days_after_sowing", "type": "integer", "question": "Days after sowing at imaging", "required": true},
+    {"key": "q33_leaf_count", "type": "integer", "question": "Leaf count"},
+    {"key": "q34_germinated", "type": "dropdown", "question": "Germinated?", "options": ["Yes", "No", "Not yet"]},
+    {"key": "q35_measurement_type", "type": "dropdown", "question": "Measurement type", "options": [
+      "Rosette / canopy area", "Plant height", "Root length", "Fresh mass", "Dry mass",
+      "Leaf count", "Chlorophyll / SPAD", "Other"]},
+    {"key": "q36_measurement_value", "type": "decimal", "question": "Measurement value"},
+    {"key": "q37_measurement_unit", "type": "dropdown", "question": "Measurement unit", "options": [
+      "mm", "cm", "mm²", "cm²", "g", "mg", "count", "SPAD"]},
+    {"key": "q38_stress_symptoms", "type": "checkbox", "question": "Stress symptoms", "options": [
+      "None", "Anthocyanin / reddening", "Chlorosis", "Stunting", "Leaf distortion", "Necrosis", "Wilting"]},
+    {"key": "q39_phenotype_notes", "type": "textarea", "question": "Phenotype notes"},
+    {"key": "q40_photo_of_plant", "type": "photo", "question": "Photo of the plant", "required": false,
+     "note": "The spec asked for required:true, but Epicollect5 has no required option on media types (photo/audio/video/location) - REQUIRED_ALLOWED_TYPES excludes them, and the Form Builder rejects an imported form that sets it. q42 (calibration marker) is required instead."},
+    {"key": "q41_photo_of_substrate", "type": "photo", "question": "Photo of the substrate / method"},
+    {"key": "q42_calibration_marker", "type": "dropdown", "question": "Calibration marker in frame?", "required": true, "options": [
+      "Yes — AstroBotany ArUco card", "Yes — ruler / scale bar", "Yes — colour card", "No"]},
+    {"key": "q43_marker_type_notes", "type": "text", "question": "Marker type / notes"},
+    {"key": "q44_camera_lens", "type": "text", "question": "Camera / lens (optional)"},
+    {"key": "q45_licence", "type": "dropdown", "question": "Licence for this contribution", "options": [
+      "CC0 (public domain)", "CC-BY 4.0", "CC-BY-NC 4.0", "Ask me first"]},
+    {"key": "q46_general_notes", "type": "textarea", "question": "General notes / issues"}
+  ]
+}

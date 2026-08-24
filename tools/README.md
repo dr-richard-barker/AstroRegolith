@@ -12,6 +12,10 @@ They are for contributors, not part of the analysis pipeline — that lives in
 | `metadata_template.csv` | A blank sidecar with the expected column names. |
 | `plantcv_pipeline_gui.py` | Interactive PlantCV pipeline builder for scoring shoot traits from plate photographs — the same measurements as `results/tables/plantcv_traits_long.csv`. |
 | `validate-sidecar.yml` | Drop-in GitHub Action so your own image repository validates its sidecar on every push. |
+| `ec5_regolith_schema.json` | The 46-question Epicollect5 survey, in readable form — source of truth for the two pushers below. |
+| `ec5_formbuilder.py` | Build, validate and push that survey into the `regolith-collaboration` Epicollect5 project. |
+| `ec5_formbuilder_console.js` | The same push, as a snippet to paste into the Epicollect5 Form Builder's DevTools console. |
+| `regolith-collaboration__observation-form.form.epicollect.json` | The same 46 questions as a drop-in file for the Form Builder's drag-and-drop import. |
 
 ## The sidecar contract
 
@@ -28,3 +32,4 @@ python3 tools/validate_sidecar.py /path/to/images/metadata.csv
 ```
 
 The Epicollect5 route asks the same questions; see the "Share your data" page in the app.
+To (re)deploy those questions to Epicollect5, see [`README-epicollect5.md`](README-epicollect5.md).

@@ -1,0 +1,1180 @@
+{
+    "data": {
+        "id": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614",
+        "type": "form",
+        "form": {
+            "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614",
+            "name": "Observation Form",
+            "slug": "observation-form",
+            "type": "hierarchy",
+            "inputs": [
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_8d38c48e2f5f2",
+                    "type": "text",
+                    "question": "Sample / experiment ID",
+                    "is_title": true,
+                    "is_required": true,
+                    "uniqueness": "form",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_c2aae636baba7",
+                    "type": "text",
+                    "question": "Contributor name",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_f4c87566702c0",
+                    "type": "text",
+                    "question": "Institution / group",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_297cd79b5303c",
+                    "type": "date",
+                    "question": "Date of observation",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": "dd/MM/YYYY",
+                    "set_to_current_datetime": true,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_e22ce7768e757",
+                    "type": "text",
+                    "question": "DOI or citation (optional)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_709133f36035e",
+                    "type": "text",
+                    "question": "Species (Latin binomial)",
+                    "is_title": false,
+                    "is_required": true,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_48ff57bbac0d0",
+                    "type": "text",
+                    "question": "Genotype / ecotype / cultivar",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_7b9a0e4a12444",
+                    "type": "dropdown",
+                    "question": "Substrate class",
+                    "is_title": false,
+                    "is_required": true,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "Lunar regolith (returned sample)",
+                            "answer_ref": "5c7591852d317"
+                        },
+                        {
+                            "answer": "Lunar simulant",
+                            "answer_ref": "1f01370e66d7d"
+                        },
+                        {
+                            "answer": "Martian simulant",
+                            "answer_ref": "45aa102074ef8"
+                        },
+                        {
+                            "answer": "Asteroid simulant",
+                            "answer_ref": "e2057964c162a"
+                        },
+                        {
+                            "answer": "Blend (regolith + amendment)",
+                            "answer_ref": "46efe597fe43c"
+                        },
+                        {
+                            "answer": "Non-regolith control",
+                            "answer_ref": "01687016b7e33"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_4ea60eeb7c493",
+                    "type": "text",
+                    "question": "Substrate name / source",
+                    "is_title": false,
+                    "is_required": true,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_003992b4c7928",
+                    "type": "text",
+                    "question": "Supplier / batch or lot",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_613086a3f81d1",
+                    "type": "integer",
+                    "question": "Blend ratio (% regolith by volume)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "100",
+                    "min": "0",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_308d6bb8cb221",
+                    "type": "checkbox",
+                    "question": "Amendment",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "None",
+                            "answer_ref": "fbf3f29a40f21"
+                        },
+                        {
+                            "answer": "Perlite / vermiculite",
+                            "answer_ref": "4f33a8873d3b5"
+                        },
+                        {
+                            "answer": "Peat / compost",
+                            "answer_ref": "26333b9b6c3a5"
+                        },
+                        {
+                            "answer": "Nutrient solution",
+                            "answer_ref": "b73344f190039"
+                        },
+                        {
+                            "answer": "Biochar",
+                            "answer_ref": "e538520f4811e"
+                        },
+                        {
+                            "answer": "Microbial inoculant",
+                            "answer_ref": "86b3afc9247b5"
+                        },
+                        {
+                            "answer": "Chelator",
+                            "answer_ref": "4ead381b43fa6"
+                        },
+                        {
+                            "answer": "Other",
+                            "answer_ref": "fc576266e052b"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_7953e7fd28bde",
+                    "type": "textarea",
+                    "question": "Amendment details",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_d9777fce8cc55",
+                    "type": "text",
+                    "question": "Particle size (µm, mean or range)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_ab89a4fd9f999",
+                    "type": "text",
+                    "question": "Substrate mass or volume per vessel",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_d58e2b4147424",
+                    "type": "decimal",
+                    "question": "Substrate pH",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_dcd96597254b5",
+                    "type": "decimal",
+                    "question": "Substrate EC (µS/cm)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_d92d2c654b898",
+                    "type": "dropdown",
+                    "question": "Substrate pre-treatment",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "None",
+                            "answer_ref": "a4a297dbea76e"
+                        },
+                        {
+                            "answer": "Autoclaved",
+                            "answer_ref": "dad617c640f83"
+                        },
+                        {
+                            "answer": "Dry-heat sterilised",
+                            "answer_ref": "9b1453d4db205"
+                        },
+                        {
+                            "answer": "Rinsed / leached",
+                            "answer_ref": "def78b17998cd"
+                        },
+                        {
+                            "answer": "Wetted and dried",
+                            "answer_ref": "dc2c213d30235"
+                        },
+                        {
+                            "answer": "Other",
+                            "answer_ref": "a355b8c4b365e"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_bd87e1adc6f4e",
+                    "type": "dropdown",
+                    "question": "Environment",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "Ground control (1g)",
+                            "answer_ref": "fbbf976938c1d"
+                        },
+                        {
+                            "answer": "Clinostat / random-positioning",
+                            "answer_ref": "e29863e46d14c"
+                        },
+                        {
+                            "answer": "ISS / microgravity",
+                            "answer_ref": "ef6548eb51fb2"
+                        },
+                        {
+                            "answer": "Parabolic flight",
+                            "answer_ref": "dcb152d3cd1c0"
+                        },
+                        {
+                            "answer": "Other",
+                            "answer_ref": "3a97fb5dee85b"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_007c244be6589",
+                    "type": "location",
+                    "question": "Location",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_bdb9d1a3dd5e7",
+                    "type": "text",
+                    "question": "Vessel / hardware",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_7c2bfceb969ca",
+                    "type": "textarea",
+                    "question": "Watering regime",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_1183e02e48b14",
+                    "type": "text",
+                    "question": "Nutrient solution",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_3672edae040c2",
+                    "type": "dropdown",
+                    "question": "Light source",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "LED",
+                            "answer_ref": "13194efd04df4"
+                        },
+                        {
+                            "answer": "Fluorescent",
+                            "answer_ref": "30beb1e47110d"
+                        },
+                        {
+                            "answer": "Sunlight",
+                            "answer_ref": "8b0513e003a94"
+                        },
+                        {
+                            "answer": "Mixed",
+                            "answer_ref": "dfaeaf6a90f65"
+                        },
+                        {
+                            "answer": "Other",
+                            "answer_ref": "0c1245e3ce9a9"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_7c698b2b0c9a7",
+                    "type": "checkbox",
+                    "question": "Light spectrum",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "Red",
+                            "answer_ref": "b8d95a18cb2d3"
+                        },
+                        {
+                            "answer": "Green",
+                            "answer_ref": "fac42386deac6"
+                        },
+                        {
+                            "answer": "Blue",
+                            "answer_ref": "3ed6f53975161"
+                        },
+                        {
+                            "answer": "White",
+                            "answer_ref": "a7f09ba10b988"
+                        },
+                        {
+                            "answer": "Far-red",
+                            "answer_ref": "6146aa536d53f"
+                        },
+                        {
+                            "answer": "Full spectrum",
+                            "answer_ref": "2f42c09138937"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_227a7fbdf102f",
+                    "type": "integer",
+                    "question": "Light intensity (µmol·m⁻²·s⁻¹)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_173e5151baa46",
+                    "type": "integer",
+                    "question": "Photoperiod (hours light / day)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "24",
+                    "min": "0",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_60ae0fa4ee9d1",
+                    "type": "decimal",
+                    "question": "Temperature (°C)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_2add3649ece05",
+                    "type": "integer",
+                    "question": "Relative humidity (%)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "100",
+                    "min": "0",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_bd2f8dc3b3edc",
+                    "type": "integer",
+                    "question": "CO₂ (ppm) (optional)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_c04444aacaedf",
+                    "type": "date",
+                    "question": "Sowing date",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": "dd/MM/YYYY",
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_105a76df50324",
+                    "type": "integer",
+                    "question": "Days after sowing at imaging",
+                    "is_title": false,
+                    "is_required": true,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_82902ccefe4de",
+                    "type": "integer",
+                    "question": "Leaf count",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_65d3904c75154",
+                    "type": "dropdown",
+                    "question": "Germinated?",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "Yes",
+                            "answer_ref": "30e7af4d2e3e7"
+                        },
+                        {
+                            "answer": "No",
+                            "answer_ref": "6da41b3224505"
+                        },
+                        {
+                            "answer": "Not yet",
+                            "answer_ref": "1f21321c84e1b"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_3e2b16f2a8b6d",
+                    "type": "dropdown",
+                    "question": "Measurement type",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "Rosette / canopy area",
+                            "answer_ref": "51c9009085b89"
+                        },
+                        {
+                            "answer": "Plant height",
+                            "answer_ref": "629437c979154"
+                        },
+                        {
+                            "answer": "Root length",
+                            "answer_ref": "f474de046ad42"
+                        },
+                        {
+                            "answer": "Fresh mass",
+                            "answer_ref": "72d71f732e82b"
+                        },
+                        {
+                            "answer": "Dry mass",
+                            "answer_ref": "61ae50cd1cba2"
+                        },
+                        {
+                            "answer": "Leaf count",
+                            "answer_ref": "82b7772b38339"
+                        },
+                        {
+                            "answer": "Chlorophyll / SPAD",
+                            "answer_ref": "0fd771421a61b"
+                        },
+                        {
+                            "answer": "Other",
+                            "answer_ref": "e3e6b31d52ec1"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_c8044e1d3ee09",
+                    "type": "decimal",
+                    "question": "Measurement value",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": "",
+                    "default": "",
+                    "verify": false,
+                    "max": "",
+                    "min": "",
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_11034f3417166",
+                    "type": "dropdown",
+                    "question": "Measurement unit",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "mm",
+                            "answer_ref": "80df99f95a398"
+                        },
+                        {
+                            "answer": "cm",
+                            "answer_ref": "060249e4eebca"
+                        },
+                        {
+                            "answer": "mm²",
+                            "answer_ref": "d7884ca6e4726"
+                        },
+                        {
+                            "answer": "cm²",
+                            "answer_ref": "c988a465e384c"
+                        },
+                        {
+                            "answer": "g",
+                            "answer_ref": "a04d839ea5348"
+                        },
+                        {
+                            "answer": "mg",
+                            "answer_ref": "d7257a6ad102b"
+                        },
+                        {
+                            "answer": "count",
+                            "answer_ref": "1e3199528566f"
+                        },
+                        {
+                            "answer": "SPAD",
+                            "answer_ref": "c71660331a057"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_f426f8339199d",
+                    "type": "checkbox",
+                    "question": "Stress symptoms",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "None",
+                            "answer_ref": "4f42161ad5ce1"
+                        },
+                        {
+                            "answer": "Anthocyanin / reddening",
+                            "answer_ref": "4cd80ab495d7a"
+                        },
+                        {
+                            "answer": "Chlorosis",
+                            "answer_ref": "f559f87b55091"
+                        },
+                        {
+                            "answer": "Stunting",
+                            "answer_ref": "cb88bcbe2994f"
+                        },
+                        {
+                            "answer": "Leaf distortion",
+                            "answer_ref": "3ea833e72a9c9"
+                        },
+                        {
+                            "answer": "Necrosis",
+                            "answer_ref": "cacd7d26c1473"
+                        },
+                        {
+                            "answer": "Wilting",
+                            "answer_ref": "a2374a8604cd6"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_9f37e83e6f82f",
+                    "type": "textarea",
+                    "question": "Phenotype notes",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_e65ac1e60df8e",
+                    "type": "photo",
+                    "question": "Photo of the plant",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_6d9022c3c624b",
+                    "type": "photo",
+                    "question": "Photo of the substrate / method",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_a71f5bc9c8691",
+                    "type": "dropdown",
+                    "question": "Calibration marker in frame?",
+                    "is_title": false,
+                    "is_required": true,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "Yes — AstroBotany ArUco card",
+                            "answer_ref": "f7ff25e4f8b6c"
+                        },
+                        {
+                            "answer": "Yes — ruler / scale bar",
+                            "answer_ref": "95479113f7231"
+                        },
+                        {
+                            "answer": "Yes — colour card",
+                            "answer_ref": "16e74df5e7dd7"
+                        },
+                        {
+                            "answer": "No",
+                            "answer_ref": "932f99e8a2cc8"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_69d573ef35071",
+                    "type": "text",
+                    "question": "Marker type / notes",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_d40eb2290d38c",
+                    "type": "text",
+                    "question": "Camera / lens (optional)",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_1518a0eb83ace",
+                    "type": "dropdown",
+                    "question": "Licence for this contribution",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": "",
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [
+                        {
+                            "answer": "CC0 (public domain)",
+                            "answer_ref": "f8f44e6460f03"
+                        },
+                        {
+                            "answer": "CC-BY 4.0",
+                            "answer_ref": "abc912a8aef18"
+                        },
+                        {
+                            "answer": "CC-BY-NC 4.0",
+                            "answer_ref": "b5e224053804e"
+                        },
+                        {
+                            "answer": "Ask me first",
+                            "answer_ref": "088814323f0e3"
+                        }
+                    ],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                },
+                {
+                    "ref": "ebfe222d5f7f4a7a967ab0cf2949375a_6a8cba580a614_b527c36a001bb",
+                    "type": "textarea",
+                    "question": "General notes / issues",
+                    "is_title": false,
+                    "is_required": false,
+                    "uniqueness": "none",
+                    "regex": null,
+                    "default": null,
+                    "verify": false,
+                    "max": null,
+                    "min": null,
+                    "datetime_format": null,
+                    "set_to_current_datetime": false,
+                    "possible_answers": [],
+                    "jumps": [],
+                    "branch": [],
+                    "group": []
+                }
+            ]
+        }
+    }
+}
