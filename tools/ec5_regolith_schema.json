@@ -47,7 +47,8 @@
     {"key": "q29_relative_humidity", "type": "integer", "question": "Relative humidity (%)", "min": 0, "max": 100},
     {"key": "q30_co2", "type": "integer", "question": "CO₂ (ppm) (optional)"},
     {"key": "q31_sowing_date", "type": "date", "question": "Sowing date"},
-    {"key": "q32_days_after_sowing", "type": "integer", "question": "Days after sowing at imaging", "required": true},
+    {"key": "q32_days_after_sowing", "type": "integer", "question": "Days after sowing at imaging", "required": false,
+     "note": "Was required. Made optional 2026-08-24: published datasets frequently do not report a sowing date (OSD-476 does not), which made the question unanswerable and blocked otherwise-complete contributions. Contributors who know it should still fill it in."},
     {"key": "q33_leaf_count", "type": "integer", "question": "Leaf count"},
     {"key": "q34_germinated", "type": "dropdown", "question": "Germinated?", "options": ["Yes", "No", "Not yet"]},
     {"key": "q35_measurement_type", "type": "dropdown", "question": "Measurement type", "options": [

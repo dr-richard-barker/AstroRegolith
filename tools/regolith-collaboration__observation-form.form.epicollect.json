@@ -752,7 +752,7 @@
                     "type": "integer",
                     "question": "Days after sowing at imaging",
                     "is_title": false,
-                    "is_required": true,
+                    "is_required": false,
                     "uniqueness": "none",
                     "regex": "",
                     "default": "",

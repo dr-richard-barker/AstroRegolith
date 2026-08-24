@@ -253,7 +253,8 @@ const SCHEMA = {
       "key": "q32_days_after_sowing",
       "type": "integer",
       "question": "Days after sowing at imaging",
-      "required": true
+      "required": false,
+      "note": "Was required. Made optional 2026-08-24: published datasets frequently do not report a sowing date (OSD-476 does not), which made the question unanswerable and blocked otherwise-complete contributions. Contributors who know it should still fill it in."
     },
     {
       "key": "q33_leaf_count",

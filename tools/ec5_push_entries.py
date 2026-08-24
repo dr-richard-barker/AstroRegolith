@@ -111,8 +111,14 @@ def build_rows(granularity: str) -> list[dict]:
     if granularity in {"plant-final", "plant-date"}:
         rows = leaf
         if granularity == "plant-final":
-            last = max(r["date"] for r in rows)
-            rows = [r for r in rows if r["date"] == last]
+            # Per plate, the latest date that has BOTH a leaf count and a plate scan,
+            # so every entry carries a photograph taken on its own observation date.
+            # The scans rotate between plates, so this is not one date for all four.
+            pick = {}
+            for r in rows:
+                if plate_image(r["plate"], r["date"]):
+                    pick[r["plate"]] = max(pick.get(r["plate"], ""), r["date"])
+            rows = [r for r in rows if pick.get(r["plate"]) == r["date"]]
         return [dict(kind="leaf", plate=r["plate"], substrate=r["substrate"], date=r["date"],
                      n_leaves=r["n_leaves"], day=r["day"], gsm=r["gsm"],
                      plant_id=f'{r["plate"]}-{r["substrate"]}') for r in rows]
