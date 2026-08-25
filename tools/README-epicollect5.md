@@ -253,3 +253,28 @@ Two consequences worth knowing before importing:
    well attaches a photograph of all of them. The importer says so in the notes field
    of every entry. The plate scans also do not cover every plate on every date, so at
    `plant-final` only the plate scanned on the last date carries an image.
+
+### Attaching a photo takes two linked steps
+
+This one is easy to get wrong, because the wrong version succeeds. Uploading a
+`file_entry` stores the bytes but does **not** fill in the answer, so an entry whose
+photo question is blank uploads happily, returns `ec5_237 Entry successfully uploaded`
+for both POSTs, and ends up with an orphaned file and no visible image.
+
+The entry must already carry the stored filename as the answer to the photo question
+(`RulePhotoInput` requires `/\.(jpg|jpeg|png)$/` there), and the `file_entry.name` must
+be that same filename. Epicollect5 names them `{entry_uuid}_{unix}.jpg` — 51 characters,
+which is why `entry_answer_limits['photo']` is 52.
+
+Other limits the entry endpoint enforces, all of which this script now checks locally
+before sending:
+
+- `ec5_220` — no `<` or `>` anywhere in the payload, exactly as for the form. The
+  paper's `<1 mm` had to be written out as "under 1 mm".
+- `ec5_214` — `entry_answer_limits`: 255 characters for text, 1000 for textarea.
+- `ec5_206` — photos must be **1024 px or less on both axes**, jpeg/jpg/png, under
+  5000 KB. The plate scans are 2000x1476, so the script downscales and records the
+  full-resolution source URL in the entry's notes.
+- `ec5_54` — an anonymously uploaded entry **cannot be edited afterwards**, by anyone.
+  Get it right the first time; a mistake means deleting the entries and re-pushing.
+  Attaching a photo to an existing entry is not an edit and does still work.

@@ -37,6 +37,7 @@ import argparse
 import csv
 import json
 import sys
+import time
 import urllib.error
 import urllib.request
 import uuid
@@ -51,10 +52,8 @@ IMG_BASE = ("https://raw.githubusercontent.com/dr-richard-barker/"
             "image-analysis-software-and-R-codes/master/NASA_OSDR/OSD-476/images")
 
 # Fields the published record does not contain. Left blank rather than guessed.
-NOT_STATED = ("Light source, light spectrum, light intensity, photoperiod, temperature, "
-              "relative humidity, CO2, substrate pH, substrate EC and the SOWING DATE are "
-              "not reported in Paul, Elardo & Ferl 2022 or in the OSD-476 ISA archive - the "
-              "paper says only 'growth lights in a secured plant growth room'. Left blank.")
+NOT_STATED = ("Light, photoperiod, temperature, humidity, CO2, substrate pH/EC and the sowing "
+              "date are not reported in the paper or the OSD-476 ISA archive, so are left blank.")
 
 # --- substrate facts, all from [P] "Lunar regolith materials" ----------------
 SUBSTRATE = {
@@ -81,8 +80,12 @@ SUBSTRATE = {
 # [P]: Apollo 11 and 12 "were hydrophobic and initially failed to wet using the
 # subsurface irrigation procedure ... therefore actively stirred with nutrient
 # solution to overcome the hydrophobicity". Apollo 17 and JSC-1A wetted by capillarity.
-STIR_NOTE = ("Hydrophobic on first wetting; actively stirred with nutrient solution to "
-             "overcome hydrophobicity before sowing (Paul et al. 2022, Methods).")
+STIR_NOTE = "Hydrophobic on first wetting; stirred with nutrient solution to wet it (Methods)."
+
+
+# config/epicollect/limits.php -> entry_answer_limits
+ANSWER_LIMITS = {"text": 255, "phone": 255, "integer": 255, "decimal": 255,
+                 "textarea": 1000, "date": 25, "time": 25}
 
 
 def fetch_json(url: str) -> dict:
@@ -96,6 +99,20 @@ def load_form() -> tuple[dict, str, str]:
     form = proj["data"]["project"]["forms"][0]
     version = fetch_json(f"{BASE}/api/project-version/{SLUG}")["data"]["attributes"]["structure_last_updated"]
     return {i["question"]: i for i in form["inputs"]}, form["ref"], version
+
+
+def existing_entries() -> dict:
+    """title -> ec5_uuid for entries already in the project.
+
+    Re-using the uuid of a matching entry makes a re-run an edit. Without it the
+    upload would be rejected: "Sample / experiment ID" is unique per form, so a
+    second entry carrying the same ID cannot be created.
+    """
+    try:
+        d = fetch_json(f"{BASE}/api/export/entries/{SLUG}?per_page=500")
+    except Exception:
+        return {}
+    return {e.get("title"): e["ec5_uuid"] for e in d.get("data", {}).get("entries", [])}
 
 
 def answer_refs(inp: dict) -> dict:
@@ -144,7 +161,9 @@ def plate_image(plate: str, date: str) -> str | None:
     return None
 
 
-def build_entries(rows: list[dict], form_ref: str, version: str) -> list[dict]:
+def build_entries(rows: list[dict], form_ref: str, version: str,
+                  existing: dict | None = None) -> list[dict]:
+    existing = existing or {}
     out = []
     for r in rows:
         s = SUBSTRATE[r["substrate"]]
@@ -168,7 +187,9 @@ def build_entries(rows: list[dict], form_ref: str, version: str) -> list[dict]:
             "Amendment details":
                 "0.125x strength Murashige & Skoog nutrient solution, pH 5.7, delivered by subsurface "
                 "irrigation through a Rockwool plug capped with a 13 mm nylon 0.45 um filter.",   # [P]
-            "Particle size (µm, mean or range)": "<1000 (all samples <1 mm)",        # [P]
+            # Strings::containsHtml rejects any < or > anywhere in an entry too (ec5_220),
+            # so the paper's "<1 mm" has to be spelled out.
+            "Particle size (µm, mean or range)": "up to 1000 (all samples under 1 mm)",  # [P]
             "Substrate mass or volume per vessel": "900 mg",                        # [P]
             "Substrate pre-treatment": s["pretreat"],                               # [P]
             "Environment": "Ground control (1g)",                                   # [P]
@@ -183,8 +204,8 @@ def build_entries(rows: list[dict], form_ref: str, version: str) -> list[dict]:
             "Camera / lens (optional)": "Canon EOS 5D Mark IV, RGB colour space",   # [ISA]
             "Calibration marker in frame?": "No",                                   # [IMG] no marker/ruler/colour card
             "Marker type / notes":
-                "No in-frame marker. Scale for the morphometrics came from the OSDR image-analysis "
-                "assay's linear_scale (m/px); a separate grey standard image accompanies the deposit.",
+                "No in-frame marker; morphometric scale came from the OSDR image-analysis assay's "
+                "linear_scale (m/px). A grey standard image accompanies the deposit.",
             "Licence for this contribution": "CC0 (public domain)",                 # NASA open data
         }
 
@@ -211,14 +232,30 @@ def build_entries(rows: list[dict], form_ref: str, version: str) -> list[dict]:
         if r["substrate"] in {"A11", "A12"}:
             notes.append(STIR_NOTE)
         if img:
-            notes.append("Photograph is the whole 48-well plate, which carries Apollo 11, 12, 17 and "
-                         "JSC-1A wells together; this entry describes one well on it.")
+            notes.append("Photograph is the whole 48-well plate, carrying Apollo 11, 12, 17 and "
+                         "JSC-1A wells together; this entry describes one well on it. Downscaled "
+                         f"to Epicollect5's 1024 px limit; original at {IMG_BASE}/{img}")
         notes.append(NOT_STATED)
         a["Phenotype notes"] = f'PlantCV/GeneLab scoring for {r["plant_id"]}.'
         a["General notes / issues"] = " ".join(notes)
 
-        out.append({"uuid": str(uuid.uuid4()), "sample_id": sample_id, "answers": a,
-                    "photo": img, "form_ref": form_ref, "version": version})
+        # Deterministic, like the form's input refs: a re-run edits the same entry
+        # instead of creating a duplicate (and q01's form-level uniqueness would
+        # reject a duplicate anyway).
+        eid = existing.get(sample_id) or str(
+            uuid.uuid5(uuid.NAMESPACE_URL, f"astroregolith:{SLUG}:{sample_id}"))
+        already = sample_id in existing
+        if img:
+            # The ENTRY must carry the stored filename in the photo question's answer -
+            # RulePhotoInput requires /\.(jpg|jpeg|png)$/ there. The file_entry upload
+            # only stores the bytes; it does not fill the answer in. Epicollect5's own
+            # naming is {entry_uuid}_{unix}.jpg, which is 51 chars and fits the 52-char
+            # entry_answer_limits['photo'] cap.
+            a["Photo of the plant"] = f"{eid}_{int(time.time())}.jpg"
+
+        out.append({"uuid": eid, "sample_id": sample_id, "answers": a, "already": already,
+                    "photo": img, "stored_as": a.get("Photo of the plant"),
+                    "form_ref": form_ref, "version": version})
     return out
 
 
@@ -246,6 +283,14 @@ def to_payload(entry: dict, questions: dict) -> tuple[dict, list[str]]:
             value = [refs[v] for v in value if v in refs]
         if inp["is_required"] and value in ("", [], {}):
             problems.append(f'{entry["sample_id"]}: REQUIRED question "{question}" has no answer')
+        # ec5_220: the entry endpoint screens the whole payload for < and > as well.
+        if isinstance(value, str) and ("<" in value or ">" in value):
+            problems.append(f'{entry["sample_id"]}: "{question}" contains < or > (ec5_220)')
+        # ec5_214: config/epicollect/limits.php entry_answer_limits
+        cap = ANSWER_LIMITS.get(t)
+        if cap and isinstance(value, str) and len(value) > cap:
+            problems.append(f'{entry["sample_id"]}: "{question}" is {len(value)} chars, '
+                            f'over the {cap}-char limit for {t} answers (ec5_214)')
         answers[inp["ref"]] = {"answer": value, "was_jumped": False}
 
     return {
@@ -273,12 +318,31 @@ def file_payload(entry: dict, questions: dict) -> dict:
         "relationships": {"parent": {}, "branch": {}},
         "file_entry": {
             "entry_uuid": entry["uuid"],
-            "name": entry["photo"],
+            "name": entry["stored_as"],
             "type": "photo",
             "input_ref": questions["Photo of the plant"]["ref"],
             "project_version": entry["version"],
         },
     }
+
+
+# RulePhotoApp: jpeg/jpg/png, max 5000 KB, and width AND height each max 1024 px.
+MAX_EDGE = 1024
+
+
+def prepare_photo(blob: bytes) -> bytes:
+    """Downscale to Epicollect5's 1024 px limit. Full-resolution originals stay at source."""
+    from io import BytesIO
+
+    from PIL import Image
+
+    im = Image.open(BytesIO(blob))
+    if max(im.size) > MAX_EDGE:
+        scale = MAX_EDGE / max(im.size)
+        im = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)
+    out = BytesIO()
+    im.convert("RGB").save(out, "JPEG", quality=85, optimize=True)
+    return out.getvalue()
 
 
 def post_multipart(url: str, data: str, file: tuple[str, bytes] | None = None) -> tuple[int, str]:
@@ -315,7 +379,7 @@ def main() -> None:
 
     questions, form_ref, version = load_form()
     rows = build_rows(args.granularity)
-    entries = build_entries(rows, form_ref, version)
+    entries = build_entries(rows, form_ref, version, existing_entries())
     if args.limit:
         entries = entries[:args.limit]
 
@@ -355,16 +419,21 @@ def main() -> None:
 
     url = f"{BASE}/api/upload/{SLUG}"
     for e, p in payloads:
+        if e["already"]:
+            # Anonymous uploads cannot be edited afterwards (ec5_54), and the sample ID
+            # is unique per form, so an entry that is already there is left alone.
+            print(f'{e["sample_id"]}: already in the project, skipped')
+            continue
         code, text = post_multipart(url, json.dumps(p, ensure_ascii=False))
         print(f'{e["sample_id"]}: entry {code} {text[:120]}')
         if code != 200:
             raise SystemExit("stopping on first failure")
         if e["photo"]:
             with urllib.request.urlopen(f'{IMG_BASE}/{e["photo"]}') as r:
-                blob = r.read()
+                blob = prepare_photo(r.read())
             code, text = post_multipart(url, json.dumps(file_payload(e, questions), ensure_ascii=False),
-                                        (e["photo"], blob))
-            print(f'  photo {e["photo"]}: {code} {text[:120]}')
+                                        (e["stored_as"], blob))
+            print(f'  photo {e["photo"]} -> {e["stored_as"]}: {code} {text[:90]}')
 
 
 if __name__ == "__main__":
