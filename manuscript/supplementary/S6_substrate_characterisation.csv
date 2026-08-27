@@ -1,4 +1,4 @@
-substrate,time_min,water_content_pct,ec_us_cm,ph,nitrogen,phosphorus,potassium,water_added_ml,protocol,table,oxide,lhs1_wt_pct,ce5_wt_pct,difference_wt_pct
+substrate,time_s,water_content_pct,ec_us_cm,ph,nitrogen,phosphorus,potassium,water_added_ml,protocol,table,oxide,lhs1_wt_pct,ce5_wt_pct,difference_wt_pct
 Martian Regolith Simulant,417.28,23.39,31.0,5.0,9.0,0.0,6.0,10.0,10ml H20 in 15ml substrate,probe_endpoint,,,,
 Perlite (Small particle),428.08,22.01,10.0,5.1,0.0,0.0,0.0,10.0,10ml H20 in 15ml substrate,probe_endpoint,,,,
 Arcelite,853.52,19.18,148.0,4.6,82.0,14.0,57.0,10.0,10ml H20 in 15ml substrate,probe_endpoint,,,,

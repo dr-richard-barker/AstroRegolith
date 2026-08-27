@@ -32,8 +32,14 @@ from lib_sources import DATA, RESULTS, log  # noqa: E402
 
 A, T = DATA / "awg", RESULTS / "tables"
 
+# The raw "Time" column is in SECONDS, despite reading like minutes at a glance.
+# Three independent checks agree: consecutive readings are 16.0 apart against a
+# documented "readings every 15 s"; the water-addition steps fall 176-448 apart
+# against "5 mL added at ~5 min intervals"; and the longest run is 1606, i.e. 27
+# minutes to wet 15 mL of substrate. Read as minutes it would be a 26.8-hour run
+# taking a reading every 16 minutes.
 PROBE_COLS = {
-    "Time": ("time_min", "minutes from the start of the run"),
+    "Time": ("time_s", "seconds from the start of the run"),
     "Water Content": ("water_content_pct", "% volumetric, probe-reported"),
     "EC": ("ec_us_cm", "µS/cm, probe-reported"),
     "pH": ("ph", "pH units"),
@@ -68,7 +74,7 @@ def tidy_probe(path: Path, first_col: str) -> pd.DataFrame:
     for c in out.columns:
         if c not in ("substrate", "protocol"):
             out[c] = pd.to_numeric(out[c], errors="coerce")
-    return out.dropna(subset=["time_min"]).reset_index(drop=True)
+    return out.dropna(subset=["time_s"]).reset_index(drop=True)
 
 
 def parse_lhs1(path: Path) -> tuple:

@@ -21,7 +21,8 @@ export const Substrates: React.FC = () => {
   const series: Series[] = useMemo(() => groupBy(ts, (r: any) => r.substrate)
     .map(([name, rs], i) => ({
       name, colour: PALETTE[i % PALETTE.length],
-      points: rs.map((r: any) => ({ x: r.time_min / 60, y: r[metric] }))
+      // time_s is seconds from the start of the run; plot it in minutes.
+      points: rs.map((r: any) => ({ x: r.time_s / 60, y: r[metric] }))
         .filter((p: any) => isFinite(p.x) && isFinite(p.y))
         .sort((a: any, b: any) => a.x - b.x),
     })).filter(s => s.points.length > 1), [ts, metric]);
@@ -54,7 +55,7 @@ export const Substrates: React.FC = () => {
                     onClick={() => setMetric(x.key)}>{x.label}</button>
           ))}
         </div>
-        <LineChart series={series} xLabel="hours" yLabel={m.unit ? `${m.label} (${m.unit.trim()})` : m.label} height={280} />
+        <LineChart series={series} xLabel="minutes" yLabel={m.unit ? `${m.label} (${m.unit.trim()})` : m.label} height={210} />
         <p className="muted" style={{ fontSize: '.8rem', lineHeight: 1.6, marginBottom: 0 }}>
           {data.probe.description}{unitNote ? ` Units: ${unitNote}.` : ''}
         </p>
@@ -112,7 +113,7 @@ export const Substrates: React.FC = () => {
               {data.probe.endpoint.map(r => (
                 <tr key={r.substrate}>
                   <td style={{ fontWeight: 600 }}>{r.substrate}</td>
-                  <td className="mono">{num(r.time_min, 0)}</td>
+                  <td className="mono">{num(r.time_s / 60, 1)}</td>
                   <td className="mono">{num(r.water_content_pct, 1)}</td>
                   <td className="mono">{num(r.ec_us_cm, 0)}</td>
                   <td className="mono">{num(r.ph, 1)}</td>
