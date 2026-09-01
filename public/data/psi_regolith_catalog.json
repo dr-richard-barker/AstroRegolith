@@ -1,5 +1,5 @@
 {
- "accessed": "2026-08-21",
+ "accessed": "2026-09-01",
  "api": "https://psi.nasa.gov/geode-py/ws/repo/search",
  "caveat": "PSI holds no plant-in-regolith data. Its regolith-relevant content is granular mechanics, regolith-derived cement/ISRU and dust behaviour — physics investigations that constrain how a regolith growth substrate behaves, not biology. Listed here so an experiment designer can find the substrate physics, with that limitation stated up front.",
  "curated": [
@@ -491,6 +491,28 @@
    "sub_area": "",
    "title": "Packed Bed Reactor Experiment",
    "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-90"
+  },
+  {
+   "accession": "PSI-94",
+   "acronym": "PHaSE",
+   "end": "07-17-1997",
+   "keywords": [
+    "Colloids",
+    "Order-disorder transition",
+    "Bragg's Light Scattering",
+    "Microgravity",
+    "Hard sphere",
+    "Nucleation and growth",
+    "Non-linear rheology"
+   ],
+   "platform": "International Space Station (ISS)",
+   "project_type": "Microgravity Investigation",
+   "relevance": "",
+   "research_area": "Complex Fluids - Soft Matter",
+   "start": "07-01-1997",
+   "sub_area": "Colloids",
+   "title": "Physics of Hard Spheres Experiment",
+   "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-94"
   },
   {
    "accession": "PSI-95",
