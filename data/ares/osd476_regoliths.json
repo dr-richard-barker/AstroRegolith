@@ -1,0 +1,1352 @@
+{
+ "10084": {
+  "detail": {
+   "BAGNUMBER": "ALSRC 1003",
+   "DISPLAYSAMPLENUMBER": null,
+   "GENERIC": "10084",
+   "GENERICDESCRIPTION": "Fines, Unsieved",
+   "HASDISPLAYSAMPLE": null,
+   "HASTHINSECTION": true,
+   "LANDMARK": null,
+   "MISSION": "Apollo 11",
+   "ORIGINALWEIGHT": 3830.0,
+   "PRISTINITY": 60.082,
+   "PRISTINITYDATE": "March, 04 2015 00:00:00",
+   "SAMPLEID": 57,
+   "SAMPLESUBTYPE": "Unsieved",
+   "SAMPLETYPE": "Soil",
+   "STATION": null
+  },
+  "displays": [],
+  "osd476_splits": [
+   "2075",
+   "2076",
+   "2077",
+   "2078"
+  ],
+  "thin_sections": [
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-NS/PLAG",
+    "GENERIC": "10084",
+    "SPECIFIC": "251",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM",
+    "GENERIC": "10084",
+    "SPECIFIC": "252",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM",
+    "GENERIC": "10084",
+    "SPECIFIC": "253",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM",
+    "GENERIC": "10084",
+    "SPECIFIC": "254",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINS",
+    "GENERIC": "10084",
+    "SPECIFIC": "361",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINS",
+    "GENERIC": "10084",
+    "SPECIFIC": "362",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINS",
+    "GENERIC": "10084",
+    "SPECIFIC": "363",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TSU-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "370",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-BKN",
+    "GENERIC": "10084",
+    "SPECIFIC": "386",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GMC",
+    "GENERIC": "10084",
+    "SPECIFIC": "391",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GMC",
+    "GENERIC": "10084",
+    "SPECIFIC": "415",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GMC",
+    "GENERIC": "10084",
+    "SPECIFIC": "416",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TSC-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "444",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TSC-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "445",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TSC-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "446",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TSC-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "447",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TSC-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "448",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-PIBKN",
+    "GENERIC": "10084",
+    "SPECIFIC": "454",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "455",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "457",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "460",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "464",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "465",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "467",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "513",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "514",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "515",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "516",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "517",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "518",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "519",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "520",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "521",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "522",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "523",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "524",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "818",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GMU-PI63125",
+    "GENERIC": "10084",
+    "SPECIFIC": "824",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GMU-PI  250",
+    "GENERIC": "10084",
+    "SPECIFIC": "825",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GMU-PI  500",
+    "GENERIC": "10084",
+    "SPECIFIC": "826",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "863",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "865",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "866",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "867",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "868",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "870",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "871",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "872",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "874",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PITNCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "875",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "10084",
+    "SPECIFIC": "876",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PITS",
+    "GENERIC": "10084",
+    "SPECIFIC": "1418",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "1566",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "1567",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "1569",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "1570",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM 90-1000U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1595",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM500-1000U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1600",
+    "WEIGHT": 0.011
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM   20-45U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1604",
+    "WEIGHT": 0.003
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM 250-500U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1607",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM 150-250U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1610",
+    "WEIGHT": 0.005
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM   10-20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1614",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM   10-20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1615",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM  90-150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1618",
+    "WEIGHT": 0.004
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM   45-90U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1623",
+    "WEIGHT": 0.003
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM   45-90U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1624",
+    "WEIGHT": 0.003
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM   20-45U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1625",
+    "WEIGHT": 0.004
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PI-PM 9",
+    "GENERIC": "10084",
+    "SPECIFIC": "1632",
+    "WEIGHT": 0.09
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM +150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1811",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM +150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1812",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM +150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1813",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM +150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1814",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PIPM +150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1815",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PIPM +150U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1816",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PIPM150X74U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1818",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 150X74U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1819",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 150X74U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1820",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 150X74U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1821",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 150X74U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1822",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 150X74U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1823",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PIPM 74X44U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1825",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 74X44U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1826",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 74X44U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1827",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 74X44U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1828",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 74X44U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1829",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 44X20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1831",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 44X20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1832",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM 44X20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1833",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM -20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1835",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPM -20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1836",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM,MBL-11",
+    "GENERIC": "10084",
+    "SPECIFIC": "1865",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "7 PS",
+    "GENERIC": "10084",
+    "SPECIFIC": "1878",
+    "WEIGHT": 0.07
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-TS",
+    "GENERIC": "10084",
+    "SPECIFIC": "1927",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM",
+    "GENERIC": "10084",
+    "SPECIFIC": "1938",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PMS",
+    "GENERIC": "10084",
+    "SPECIFIC": "1941",
+    "WEIGHT": 0.07
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM (20-44UM)",
+    "GENERIC": "10084",
+    "SPECIFIC": "1951",
+    "WEIGHT": 0.003
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM (10-20UM)",
+    "GENERIC": "10084",
+    "SPECIFIC": "1954",
+    "WEIGHT": 0.003
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM<45U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1967",
+    "WEIGHT": 0.006
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM 20-45U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1971",
+    "WEIGHT": 0.006
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM 10-20U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1975",
+    "WEIGHT": 0.005
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM<10U",
+    "GENERIC": "10084",
+    "SPECIFIC": "1979",
+    "WEIGHT": 0.004
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": " ",
+    "GENERIC": "10084",
+    "SPECIFIC": "2029",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "10084",
+    "SPECIFIC": "2030",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI    F1",
+    "GENERIC": "10084",
+    "SPECIFIC": "9024",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI    I1",
+    "GENERIC": "10084",
+    "SPECIFIC": "9026",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "9030",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "9031",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "9032",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "9033",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "10084",
+    "SPECIFIC": "9034",
+    "WEIGHT": 0.001
+   }
+  ]
+ },
+ "12070": {
+  "detail": {
+   "BAGNUMBER": null,
+   "DISPLAYSAMPLENUMBER": null,
+   "GENERIC": "12070",
+   "GENERICDESCRIPTION": "Fines, Unsieved",
+   "HASDISPLAYSAMPLE": null,
+   "HASTHINSECTION": true,
+   "LANDMARK": "SURVEYOR CRATER",
+   "MISSION": "Apollo 12",
+   "ORIGINALWEIGHT": 1102.0,
+   "PRISTINITY": 80.235,
+   "PRISTINITYDATE": "January, 20 2015 00:00:00",
+   "SAMPLEID": null,
+   "SAMPLESUBTYPE": "Unsieved",
+   "SAMPLETYPE": "Soil",
+   "STATION": null
+  },
+  "displays": [],
+  "osd476_splits": [
+   "105",
+   "99",
+   "106",
+   "109"
+  ],
+  "thin_sections": [
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "154",
+    "WEIGHT": 0.007
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "155",
+    "WEIGHT": 0.007
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "156",
+    "WEIGHT": 0.007
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "157",
+    "WEIGHT": 0.007
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-1MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "158",
+    "WEIGHT": 0.006
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1-2MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "159",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1-2MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "160",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1-2MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "161",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-1-2MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "162",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-1-2MMF",
+    "GENERIC": "12070",
+    "SPECIFIC": "163",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "169",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "170",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "12070",
+    "SPECIFIC": "206",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-PINSCC",
+    "GENERIC": "12070",
+    "SPECIFIC": "207",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-NSCC",
+    "GENERIC": "12070",
+    "SPECIFIC": "208",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-NS",
+    "GENERIC": "12070",
+    "SPECIFIC": "209",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-NS",
+    "GENERIC": "12070",
+    "SPECIFIC": "210",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-NSCC",
+    "GENERIC": "12070",
+    "SPECIFIC": "211",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "TS-NSTN",
+    "GENERIC": "12070",
+    "SPECIFIC": "380",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-NS",
+    "GENERIC": "12070",
+    "SPECIFIC": "381",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-NS",
+    "GENERIC": "12070",
+    "SPECIFIC": "382",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-NS",
+    "GENERIC": "12070",
+    "SPECIFIC": "383",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "412",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "413",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "458",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PIWG",
+    "GENERIC": "12070",
+    "SPECIFIC": "459",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "460",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "461",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PIBKN",
+    "GENERIC": "12070",
+    "SPECIFIC": "462",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "463",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PINSCC",
+    "GENERIC": "12070",
+    "SPECIFIC": "465",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "466",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PIBKNNS",
+    "GENERIC": "12070",
+    "SPECIFIC": "467",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "468",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PI-PGM",
+    "GENERIC": "12070",
+    "SPECIFIC": "486",
+    "WEIGHT": 0.09
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI,206",
+    "GENERIC": "12070",
+    "SPECIFIC": "530",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-PI,207",
+    "GENERIC": "12070",
+    "SPECIFIC": "531",
+    "WEIGHT": 0.001
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM",
+    "GENERIC": "12070",
+    "SPECIFIC": "762",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM",
+    "GENERIC": "12070",
+    "SPECIFIC": "763",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM",
+    "GENERIC": "12070",
+    "SPECIFIC": "764",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM",
+    "GENERIC": "12070",
+    "SPECIFIC": "765",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "818",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 0,
+    "DESCRIPTION": "PM-PI",
+    "GENERIC": "12070",
+    "SPECIFIC": "827",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PI GM'S",
+    "GENERIC": "12070",
+    "SPECIFIC": "842",
+    "WEIGHT": 0.015
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PM",
+    "GENERIC": "12070",
+    "SPECIFIC": "865",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPTS",
+    "GENERIC": "12070",
+    "SPECIFIC": "867",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPTS",
+    "GENERIC": "12070",
+    "SPECIFIC": "868",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPTS",
+    "GENERIC": "12070",
+    "SPECIFIC": "869",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPTS",
+    "GENERIC": "12070",
+    "SPECIFIC": "870",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPTS",
+    "GENERIC": "12070",
+    "SPECIFIC": "871",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "PIPTS",
+    "GENERIC": "12070",
+    "SPECIFIC": "872",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "894",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "895",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "896",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "897",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "898",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "899",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "900",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "901",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "902",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "903",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "904",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "905",
+    "WEIGHT": 0.01
+   },
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "",
+    "GENERIC": "12070",
+    "SPECIFIC": "906",
+    "WEIGHT": 0.01
+   }
+  ]
+ },
+ "70051": {
+  "detail": {
+   "BAGNUMBER": "BSLSS",
+   "DISPLAYSAMPLENUMBER": "70051,55; 70051,51",
+   "GENERIC": "70051",
+   "GENERICDESCRIPTION": null,
+   "HASDISPLAYSAMPLE": true,
+   "HASTHINSECTION": true,
+   "LANDMARK": "EVA-3",
+   "MISSION": "Apollo 17",
+   "ORIGINALWEIGHT": 1438.0,
+   "PRISTINITY": 80.453,
+   "PRISTINITYDATE": "November, 20 2014 00:00:00",
+   "SAMPLEID": null,
+   "SAMPLESUBTYPE": "<1 mm",
+   "SAMPLETYPE": "Soil",
+   "STATION": null
+  },
+  "displays": [
+   {
+    "ADD_LINE1": "Smithsonian Institution",
+    "ADD_LINE2": "6th & Independence Ave., S.W.",
+    "ADD_LINE3": "Washington, DC 20560",
+    "CITY": "Washington",
+    "COUNTRY": "USA",
+    "COUNTRYID": "usa",
+    "DISPLAYDESCRIPTION": "Soil display of Apollo 17 Lunar Sample 70051,55.",
+    "DISPLAYLOCATION": "Smithsonian National Air & Space Museum",
+    "DISPLAYURL": "http://www.nasm.si.edu",
+    "GENERIC": 70051.0,
+    "ID": 22,
+    "LATITUDE": "38.887500",
+    "LONGITUDE": "-77.019900",
+    "PHONE": "Phone: (202) 357-1400 / (202) 357-1505 (TTY)",
+    "REGION": "District of Columbia",
+    "SPECIFIC": 55.0,
+    "STATE": "DC",
+    "ZOOMLEVEL": 3
+   },
+   {
+    "ADD_LINE1": "Smithsonian Institution",
+    "ADD_LINE2": "10th & Constitution Ave.",
+    "ADD_LINE3": "Washington, DC 20560-0119",
+    "CITY": "Washington",
+    "COUNTRY": "USA",
+    "COUNTRYID": "usa",
+    "DISPLAYDESCRIPTION": "Soil display of Apollo 17 Lunar Sample 70051,51.",
+    "DISPLAYLOCATION": "Smithsonian National Museum of Natural History",
+    "DISPLAYURL": "http://www.nmnh.si.edu",
+    "GENERIC": 70051.0,
+    "ID": 23,
+    "LATITUDE": "38.890700",
+    "LONGITUDE": "-77.029900",
+    "PHONE": "Phone: 202-357-2700 / TTY 202-357-1729",
+    "REGION": "District of Columbia",
+    "SPECIFIC": 51.0,
+    "STATE": "DC",
+    "ZOOMLEVEL": 3
+   }
+  ],
+  "osd476_splits": [
+   "159",
+   "160",
+   "161",
+   "162"
+  ],
+  "thin_sections": [
+   {
+    "AVAILABILITY": 1,
+    "DESCRIPTION": "GM-DISPLAY",
+    "GENERIC": "70051",
+    "SPECIFIC": "85",
+    "WEIGHT": 0.01
+   }
+  ]
+ }
+}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback, useMemo } from 'react';
-import { Database as DbIcon, UploadCloud, Share2, Info, Search, Menu, X, Sun, Moon, Sprout, AlertTriangle, BarChart3, ExternalLink, Ruler, ClipboardList, BookText, ShieldCheck, LogOut, Library, Table, Mountain, Dna, Link2, Atom } from 'lucide-react';
+import { Database as DbIcon, UploadCloud, Share2, Info, Search, Menu, X, Sun, Moon, Sprout, AlertTriangle, BarChart3, ExternalLink, Ruler, ClipboardList, BookText, ShieldCheck, LogOut, Library, Table, Mountain, Dna, Link2, Atom, Gem } from 'lucide-react';
 import { TOOLS, toolById, toolFrameSrc } from './tools';
 import type { Ec5Entry, MarkerAnalysis, CollectionStats } from './types';
 import {
@@ -19,6 +19,7 @@ import { AuthGate } from './components/AuthGate';
 import { MetadataEditor } from './components/MetadataEditor';
 import { Studies } from './components/Studies';
 import { Substrates } from './components/Substrates';
+import { Curation } from './components/Curation';
 import { Transcriptomics } from './components/Transcriptomics';
 import { GrowthLink } from './components/GrowthLink';
 import { Share } from './components/Share';
@@ -36,6 +37,7 @@ type Tab = string;
 const NAV: { id: Tab; label: string; sub: string; icon: React.ComponentType<any> }[] = [
   { id: 'database', label: 'Images', sub: 'Browse & calibrate', icon: DbIcon },
   { id: 'substrates', label: 'Substrates', sub: 'Simulants & lunar soil', icon: Mountain },
+  { id: 'curation', label: 'Curation', sub: 'Apollo sample provenance', icon: Gem },
   { id: 'studies', label: 'Studies', sub: 'OSDR & PSI catalogue', icon: Atom },
   { id: 'transcriptomics', label: 'Transcriptomics', sub: 'OSD-476 expression', icon: Dna },
   { id: 'growth', label: 'Phenotype ↔ Expression', sub: 'Growth-anchored genes', icon: Link2 },
@@ -252,6 +254,8 @@ function AppInner({ auth }: { auth: AuthState }) {
             <Datasets projects={visibleProjects} onOpen={changeActive} />
           ) : tab === 'substrates' ? (
             <Substrates />
+          ) : tab === 'curation' ? (
+            <Curation />
           ) : tab === 'studies' ? (
             <Studies />
           ) : tab === 'transcriptomics' ? (

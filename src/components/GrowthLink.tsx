@@ -1,6 +1,8 @@
 import React, { useMemo, useState } from 'react';
 import { Link2, Search, AlertTriangle, Sprout } from 'lucide-react';
 import { loadData, rows, type Phenotypes, type GrowthGenes, type LinkRow } from '../lib/sitedata';
+import { loadRegistry, resolve, type SubstrateRegistry } from '../lib/substrates';
+import { SubstrateChip } from './SubstrateChip';
 import {
   LineChart, Scatter, Loading, LoadError, useData, groupBy, meanSem,
   SUBSTRATE_COLOUR, SUBSTRATE_LABEL, SUBSTRATE_ORDER, type Series,
@@ -37,6 +39,8 @@ export const GrowthLink: React.FC = () => {
           widely inside every treatment group.
         </p>
       </div>
+
+      <SubstrateProvenanceStrip />
 
       <div className="stat-row" style={{ marginBottom: 16 }}>
         <Stat k="RNA-seq samples" v={link.length} />
@@ -329,3 +333,32 @@ const Stat: React.FC<{ k: string; v: React.ReactNode; accent?: boolean; teal?: b
     <div className={`v ${accent ? 'accent' : ''} ${teal ? 'teal' : ''}`}>{v}</div>
   </div>
 );
+
+/**
+ * The four treatment groups, resolved to the material behind each one.
+ *
+ * `A11` is a chart label; `10084` is 3,830 g of Apollo 11 soil collected in a
+ * rock box, 60% of it still unallocated fifty years later. This strip closes
+ * that gap, so the substrate axis of the analysis is traceable to the curated
+ * sample rather than to a four-character code.
+ */
+const SubstrateProvenanceStrip: React.FC = () => {
+  const { data: registry } = useData<SubstrateRegistry>(loadRegistry);
+  if (!registry) return null;
+
+  return (
+    <div className="card pad" style={{ marginBottom: 16 }}>
+      <div className="card-title"><Sprout size={16} /> What the four groups grew in</div>
+      <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))', gap: 10 }}>
+        {SUBSTRATE_ORDER.map(code => (
+          <SubstrateChip key={code} name={code} substrate={resolve(registry, code)} />
+        ))}
+      </div>
+      <p className="muted" style={{ fontSize: '.78rem', lineHeight: 1.6, marginTop: 12, marginBottom: 0 }}>
+        The three Apollo soils are named to the split in OSD-476's own deposit, so they key
+        directly to NASA's curation database. The Curation view carries the full record and
+        NASA's photographs — where they exist: 70051 has none.
+      </p>
+    </div>
+  );
+};

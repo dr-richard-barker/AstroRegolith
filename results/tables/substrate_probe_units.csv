@@ -1,5 +1,5 @@
 column,source_column,unit_note
-time_min,Time,minutes from the start of the run
+time_s,Time,seconds from the start of the run
 water_content_pct,Water Content,"% volumetric, probe-reported"
 ec_us_cm,EC,"µS/cm, probe-reported"
 ph,pH,pH units

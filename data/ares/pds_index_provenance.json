@@ -1,0 +1,63 @@
+[
+ {
+  "bytes_accounted_for": true,
+  "declared_rows": 2500,
+  "index": "INDEX.TAB",
+  "layout": "fixed",
+  "n_jpegs_in_extras": 2500,
+  "parsed_rows": 2500,
+  "rows_match_label": true,
+  "volume": "A11VIS_0001"
+ },
+ {
+  "bytes_accounted_for": true,
+  "declared_rows": 5107,
+  "index": "INDEX.TAB",
+  "layout": "fixed",
+  "n_jpegs_in_extras": 5082,
+  "parsed_rows": 5107,
+  "rows_match_label": true,
+  "volume": "A12VIS_0001"
+ },
+ {
+  "bytes_accounted_for": true,
+  "declared_rows": 4514,
+  "index": "INDEX.TAB",
+  "layout": "fixed",
+  "n_jpegs_in_extras": 4514,
+  "parsed_rows": 4514,
+  "rows_match_label": true,
+  "volume": "A14VIS_0001"
+ },
+ {
+  "bytes_accounted_for": null,
+  "declared_rows": 2226,
+  "index": "IMGINDEX.TAB",
+  "layout": "csv",
+  "n_jpegs_in_extras": 8942,
+  "n_pattern_only_records": 54,
+  "parsed_rows": 8950,
+  "rows_match_label": false,
+  "volume": "A15VIS_0001"
+ },
+ {
+  "bytes_accounted_for": true,
+  "declared_rows": 8178,
+  "index": "INDEX.TAB",
+  "layout": "fixed",
+  "n_jpegs_in_extras": 8176,
+  "parsed_rows": 8176,
+  "rows_match_label": false,
+  "volume": "A16VIS_0001"
+ },
+ {
+  "bytes_accounted_for": true,
+  "declared_rows": 5713,
+  "index": "INDEX.TAB",
+  "layout": "fixed",
+  "n_jpegs_in_extras": 5713,
+  "parsed_rows": 5713,
+  "rows_match_label": true,
+  "volume": "A17VIS_0001"
+ }
+]

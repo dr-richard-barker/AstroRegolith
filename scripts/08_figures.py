@@ -128,9 +128,9 @@ def fig2_substrate():
                                            ("ec_us_cm", "EC (µS/cm)"),
                                            ("ph", "pH")]):
         for s in subs:
-            d = ts[ts["substrate"] == s].sort_values("time_min")
-            ax.plot(d["time_min"] / 60.0, d[col], lw=1.3, color=colours[s], label=s)
-        ax.set(xlabel="hours", ylabel=label)
+            d = ts[ts["substrate"] == s].sort_values("time_s")
+            ax.plot(d["time_s"] / 60.0, d[col], lw=1.3, color=colours[s], label=s)
+        ax.set(xlabel="minutes", ylabel=label)
         if col == "ec_us_cm":
             ax.set_yscale("symlog", linthresh=10)
     axes[0].set_title("Substrate probe: water uptake")

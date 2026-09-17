@@ -1,0 +1,287 @@
+{
+ "corrections": [
+  {
+   "corrected_to": "CSM-LMT-1",
+   "duplicate_of_previous_row": true,
+   "image_stem": "CSM-LMT-1",
+   "name_as_published": "CSM-LHT-1",
+   "surface": "Lunar Mare"
+  }
+ ],
+ "discrepancies": [
+  {
+   "duplicate_of_previous_row": true,
+   "image_stem": "CSM-LMT-1",
+   "name_as_published": "CSM-LHT-1",
+   "surface": "Lunar Mare"
+  }
+ ],
+ "simulants": [
+  {
+   "local_bench": "images/simulants/BP-1-bench.jpg",
+   "local_micro": "images/simulants/BP-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/BP-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/BP-1.jpg",
+   "name_as_published": "BP-1",
+   "representative_surface": "Lunar Mare",
+   "simulant": "BP-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/BP-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/BP-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/CSM-LHT-1-bench.jpg",
+   "local_micro": "images/simulants/CSM-LHT-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/CSM-LHT-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/CSM-LHT-1.jpg",
+   "name_as_published": "CSM-LHT-1",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "CSM-LHT-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/CSM-LHT-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/CSM-LHT-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/CSM-LMT-1-bench.jpg",
+   "local_micro": "images/simulants/CSM-LMT-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/CSM-LMT-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/CSM-LMT-1.jpg",
+   "name_as_published": "CSM-LHT-1",
+   "representative_surface": "Lunar Mare",
+   "simulant": "CSM-LMT-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/CSM-LMT-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/CSM-LMT-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": true
+  },
+  {
+   "local_bench": "images/simulants/GreenSpar-bench.jpg",
+   "local_micro": "images/simulants/GreenSpar-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/GreenSpar,250.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/GreenSpar,250.jpg",
+   "name_as_published": "GreenSpar",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "GreenSpar",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/GreenSpar,250.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/GreenSpar,250.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/JSC-1A-bench.jpg",
+   "local_micro": "images/simulants/JSC-1A-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JSC-1A.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/JSC-1A.jpg",
+   "name_as_published": "JSC-1A",
+   "representative_surface": "Lunar Mare",
+   "simulant": "JSC-1A",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JSC-1A.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/JSC-1A.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/LHS-1-bench.jpg",
+   "local_micro": "images/simulants/LHS-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/LHS-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/LHS-1.jpg",
+   "name_as_published": "LHS-1",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "LHS-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/LHS-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/LHS-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/LMS-1-bench.jpg",
+   "local_micro": "images/simulants/LMS-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/LMS-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/LMS-1.jpg",
+   "name_as_published": "LMS-1",
+   "representative_surface": "Lunar Mare",
+   "simulant": "LMS-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/LMS-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/LMS-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/MLS-1-bench.jpg",
+   "local_micro": "images/simulants/MLS-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/MLS-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/MLS-1.jpg",
+   "name_as_published": "MLS-1",
+   "representative_surface": "Lunar Mare",
+   "simulant": "MLS-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/MLS-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/MLS-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/NU-LHT-2M-bench.jpg",
+   "local_micro": "images/simulants/NU-LHT-2M-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/NU-LHT-2M.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/NU-LHT-2M.jpg",
+   "name_as_published": "NU-LHT-2M",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "NU-LHT-2M",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/NU-LHT-2M.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/NU-LHT-2M.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/NU-LHT-4M-bench.jpg",
+   "local_micro": "images/simulants/NU-LHT-4M-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/NU-LHT-4M.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/NU-LHT-4M.jpg",
+   "name_as_published": "NU-LHT-4M",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "NU-LHT-4M",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/NU-LHT-4M.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/NU-LHT-4M.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/OB1A-bench.jpg",
+   "local_micro": "images/simulants/OB1A-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/OB1A.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/OB1A.jpg",
+   "name_as_published": "OB1A",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "OB1A",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/OB1-A.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/OB1-A.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/OPRH2N-J1-bench.jpg",
+   "local_micro": "images/simulants/OPRH2N-J1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/OPRH2N-J1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/OPRH2N-J1.jpg",
+   "name_as_published": "OPRH2N-J1",
+   "representative_surface": "Lunar Highlands",
+   "simulant": "OPRH2N-J1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/OPRH2N-J1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/OPRH2N-J1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/OPRL2N-bench.jpg",
+   "local_micro": "images/simulants/OPRL2N-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/OPRL2N.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/OPRL2N.jpg",
+   "name_as_published": "OPRL2N",
+   "representative_surface": "Lunar Mare",
+   "simulant": "OPRL2N",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/OPRL2N.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/OPRL2N.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/JPL-MMS-bench.jpg",
+   "local_micro": "images/simulants/JPL-MMS-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JPL-MMS.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/JPL-MMS.jpg",
+   "name_as_published": "JPL MMS",
+   "representative_surface": "Mars",
+   "simulant": "JPL MMS",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JPL-MMS.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/JPL-MMS.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/JSC-MARS-1-bench.jpg",
+   "local_micro": "images/simulants/JSC-MARS-1-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JSC-MARS-1.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/JSC-MARS-1.jpg",
+   "name_as_published": "JSC MARS-1",
+   "representative_surface": "Mars",
+   "simulant": "JSC MARS-1",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JSC%20MARS-1.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/JSC%20MARS-1.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  },
+  {
+   "local_bench": "images/simulants/JSC-ROCKNEST-bench.jpg",
+   "local_micro": "images/simulants/JSC-ROCKNEST-micro.jpg",
+   "microscope_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JSC-ROCKNEST.jpg",
+   "microscope_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Thumbnails/JSC-ROCKNEST.jpg",
+   "name_as_published": "JSC ROCKNEST",
+   "representative_surface": "Mars",
+   "simulant": "JSC ROCKNEST",
+   "simulant_photo_full": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JSC-ROCKNEST.jpg",
+   "simulant_photo_thumb": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Thumbnails/JSC-ROCKNEST.jpg",
+   "source_url": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html",
+   "was_corrected": false
+  }
+ ],
+ "stock": [
+  {
+   "analog": "Moon (mare)",
+   "simulant": "BP-1"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "JSC-1/1A"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "JSC-1 source material (sand)"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "JSC-1 source material (3/4\" rocks)"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "LMS-1"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "MLS-1"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "OPRL2N"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "GreenSpar < 90 μm"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "GreenSpar < 250 μm"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "LHS-1"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "LHS-1D"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "NU-LHT Series"
+  },
+  {
+   "analog": "Moon (polar highlands + agglutinates)",
+   "simulant": "OPRH4W30"
+  },
+  {
+   "analog": "Moon (agglutinates)",
+   "simulant": "NASA Agglutinate"
+  }
+ ]
+}

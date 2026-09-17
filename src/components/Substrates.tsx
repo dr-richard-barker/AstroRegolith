@@ -1,6 +1,8 @@
 import React, { useMemo, useState } from 'react';
 import { Layers, Droplets, Zap, FlaskConical, Mountain, ExternalLink } from 'lucide-react';
 import { loadData, rows, type Substrates as SubstrateData } from '../lib/sitedata';
+import { loadRegistry, resolve, traceability, type SubstrateRegistry } from '../lib/substrates';
+import { SubstrateChip } from './SubstrateChip';
 import { LineChart, BarRow, Loading, LoadError, useData, groupBy, PALETTE, type Series } from './charts';
 
 const METRICS = [
@@ -15,13 +17,15 @@ const METRICS = [
 /** What a regolith substrate actually is: probe behaviour, mineralogy, chemistry. */
 export const Substrates: React.FC = () => {
   const { data, error } = useData<SubstrateData>(() => loadData('substrates'));
+  const { data: registry } = useData<SubstrateRegistry>(loadRegistry);
   const [metric, setMetric] = useState<string>('water_content_pct');
 
   const ts = useMemo(() => rows(data?.probe.timeseries), [data]);
   const series: Series[] = useMemo(() => groupBy(ts, (r: any) => r.substrate)
     .map(([name, rs], i) => ({
       name, colour: PALETTE[i % PALETTE.length],
-      points: rs.map((r: any) => ({ x: r.time_min / 60, y: r[metric] }))
+      // time_s is seconds from the start of the run; plot it in minutes.
+      points: rs.map((r: any) => ({ x: r.time_s / 60, y: r[metric] }))
         .filter((p: any) => isFinite(p.x) && isFinite(p.y))
         .sort((a: any, b: any) => a.x - b.x),
     })).filter(s => s.points.length > 1), [ts, metric]);
@@ -54,11 +58,13 @@ export const Substrates: React.FC = () => {
                     onClick={() => setMetric(x.key)}>{x.label}</button>
           ))}
         </div>
-        <LineChart series={series} xLabel="hours" yLabel={m.unit ? `${m.label} (${m.unit.trim()})` : m.label} height={280} />
+        <LineChart series={series} xLabel="minutes" yLabel={m.unit ? `${m.label} (${m.unit.trim()})` : m.label} height={210} />
         <p className="muted" style={{ fontSize: '.8rem', lineHeight: 1.6, marginBottom: 0 }}>
           {data.probe.description}{unitNote ? ` Units: ${unitNote}.` : ''}
         </p>
       </div>
+
+      {registry && <ProbeProvenance registry={registry} substrates={data.probe.endpoint.map(r => r.substrate)} />}
 
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', marginBottom: 16 }}>
         <div className="card pad">
@@ -112,7 +118,7 @@ export const Substrates: React.FC = () => {
               {data.probe.endpoint.map(r => (
                 <tr key={r.substrate}>
                   <td style={{ fontWeight: 600 }}>{r.substrate}</td>
-                  <td className="mono">{num(r.time_min, 0)}</td>
+                  <td className="mono">{num(r.time_s / 60, 1)}</td>
                   <td className="mono">{num(r.water_content_pct, 1)}</td>
                   <td className="mono">{num(r.ec_us_cm, 0)}</td>
                   <td className="mono">{num(r.ph, 1)}</td>
@@ -162,3 +168,48 @@ export const Substrates: React.FC = () => {
 const num = (v: any, dp: number) => v == null || !isFinite(Number(v)) ? '—' : Number(v).toFixed(dp);
 const fmtDiff = (c?: { difference_wt_pct: number | null }) =>
   c?.difference_wt_pct == null ? '—' : `${Math.abs(c.difference_wt_pct).toFixed(1)} wt%`;
+
+/**
+ * What each probe trace was actually measuring.
+ *
+ * The chart above plots eight substrates. Five are named terrestrial media and
+ * resolve cleanly; the three planetary simulants are recorded only as "Lunar
+ * simulant", "Stirred Lunar simulant" and "Martian Regolith Simulant", with no
+ * product, supplier or batch — so they cannot be keyed to any material in
+ * NASA's simulant catalogue, and nobody can reproduce these runs on the same
+ * stuff. The "Plan an experiment" view asks contributors for exactly the fields
+ * that are missing here; this panel is the database holding itself to it.
+ */
+const ProbeProvenance: React.FC<{ registry: SubstrateRegistry; substrates: string[] }> = ({
+  registry, substrates,
+}) => {
+  const t = traceability(registry, substrates);
+  const resolved = substrates.map(n => ({ name: n, row: resolve(registry, n) }));
+
+  return (
+    <div className="card pad" style={{ marginBottom: 16 }}>
+      <div className="card-title"><Mountain size={16} /> What was in the pouch</div>
+      <p style={{ fontSize: '.86rem', lineHeight: 1.7 }}>
+        Every substrate named anywhere in this database is keyed to one material in the
+        substrate registry, which is what lets a growth curve resolve to the curated soil
+        behind it. It also shows where that is impossible:{' '}
+        <strong>{t.planetaryIdentified} of the {t.planetary} planetary simulants</strong> in
+        this probe series can be identified. The rest are recorded only by class, with no
+        product name, supplier or batch — so these traces cannot be reproduced on the same
+        material, and cannot be compared with anyone else's.
+      </p>
+
+      <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))', gap: 10 }}>
+        {resolved.map(({ name, row }) => (
+          <SubstrateChip key={name} name={name} substrate={row} />
+        ))}
+      </div>
+
+      <p className="muted" style={{ fontSize: '.78rem', lineHeight: 1.6, marginTop: 12, marginBottom: 0 }}>
+        Registry: <span className="mono">data/substrates/registry.csv</span>, built by{' '}
+        <span className="mono">scripts/17_build_substrate_registry.py</span>. A mapping is written
+        only where there is evidence for it; each row carries its own.
+      </p>
+    </div>
+  );
+};

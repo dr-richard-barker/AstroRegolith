@@ -123,18 +123,32 @@ export const Dashboard: React.FC = () => {
         <div className="card pad">
           <div className="card-title"><FolderTree /> Entries per project</div>
           <HBar data={agg.byProject} colorFor={(_, i) => PALETTE[i % PALETTE.length]} />
+          <Caption>
+            Images per source, from the entries currently loaded, so it follows the toggles
+            above. Sources are the built-in NASA OSDR and bundled sets plus anything added
+            under <em>Add a source</em>.
+          </Caption>
         </div>
         <div className="card pad">
           <div className="card-title"><Sprout /> Top species</div>
           {agg.topSpecies.length ? <HBar data={agg.topSpecies} colorFor={() => 'var(--accent2)'} />
             : <p className="muted" style={{ fontSize: '.85rem' }}>No species field detected in these entries.</p>}
+          <Caption>
+            Ten commonest species in the loaded entries, read from each project's own species
+            or cultivar field — an Epicollect5 question, or a
+            <span className="mono"> metadata.csv</span> column. Entries lacking one are not
+            counted, so this can total less than the entry count above.
+          </Caption>
         </div>
       </div>
 
       {resultSummary.length > 0 && (
         <div className="card pad" style={{ marginBottom: 16 }}>
           <div className="card-title"><LineChart /> Analysis results summary</div>
-          <p className="muted" style={{ fontSize: '.8rem', marginTop: -6, marginBottom: 12 }}>Averaged across images analysed by the sibling tools and written back to the shared store.</p>
+          <p className="muted" style={{ fontSize: '.8rem', marginTop: -6, marginBottom: 12 }}>
+            Averaged across images you have analysed in the sibling tools. Results live in a
+            store shared by every tool on this domain, inside your own browser — nothing is uploaded.
+          </p>
           <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit,minmax(260px,1fr))' }}>
             {resultSummary.map((t, i) => (
               <div key={t.tool} className="card pad" style={{ background: 'var(--bg)' }}>
@@ -159,6 +173,11 @@ export const Dashboard: React.FC = () => {
       <div className="card pad" style={{ marginBottom: 16 }}>
         <div className="card-title"><CalendarRange /> Entries over time</div>
         {agg.byMonth.length ? <MonthBars data={agg.byMonth} /> : <p className="muted" style={{ fontSize: '.85rem' }}>No dated entries.</p>}
+        <Caption>
+          Entries per calendar month by capture date — the Epicollect5 submission date, or the
+          timestamp parsed from a GitHub folder's filenames and sidecar. Every month in range is
+          drawn, so quiet periods show as gaps rather than being closed up.
+        </Caption>
       </div>
 
       {(agg.gps.length > 0 || iss.points.length > 0) && (
@@ -180,6 +199,11 @@ export const Dashboard: React.FC = () => {
             issPoints={showIss ? iss.points : []}
             issTrack={showIss ? iss.track : []}
           />
+          <Caption>
+            Geotagged entries placed by point-in-polygon against a bundled 180-country boundary
+            set, shaded by image count. Only entries carrying GPS appear — Epicollect5 records it
+            from the Location question; mirrored dataset images generally have none.
+          </Caption>
           {showIss && iss.points.length > 0 && (
             <div className="muted" style={{ fontSize: '.72rem', marginTop: 6 }}>
               <Satellite size={11} style={{ verticalAlign: -1 }} /> ISS positions are <strong>estimated</strong> from each frame's timestamp using a simplified circular-orbit model (inclination {ISS_INCLINATION}°, ~93 min period). The latitude band is physically correct; absolute longitude is approximate.
@@ -190,7 +214,11 @@ export const Dashboard: React.FC = () => {
 
       <div className="card pad">
         <div className="card-title"><BarChart3 /> Metadata field explorer</div>
-        <p className="muted" style={{ fontSize: '.8rem', marginTop: -6, marginBottom: 12 }}>Pick a project and one of its form fields to see how the answers are distributed.</p>
+        <p className="muted" style={{ fontSize: '.8rem', marginTop: -6, marginBottom: 12 }}>
+          How the answers to one field are distributed. Fields are whatever that source recorded
+          — its Epicollect5 questions, or its <span className="mono">metadata.csv</span> columns —
+          so the list changes with the project. The 15 commonest answers are shown.
+        </p>
         <div className="row wrap" style={{ gap: 8, marginBottom: 12 }}>
           <select className="select" style={{ width: 'auto', maxWidth: 260 }} value={expProject} onChange={e => setExpProject(e.target.value)}>
             {projectsInData.map(s => <option key={s} value={s}>{projectName(s)}</option>)}
@@ -211,18 +239,25 @@ const Tile: React.FC<{ icon: React.ReactNode; k: string; v: number; accent?: boo
   <div className="stat"><div className="k">{icon} {k}</div><div className={`v ${accent ? 'accent' : ''} ${teal ? 'teal' : ''}`}>{v}</div></div>
 );
 
+// ---- chart caption ----
+// Every panel says both what is plotted and where the numbers came from; a bar
+// chart with no provenance is not much use to a reader deciding whether to trust it.
+const Caption: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <p className="muted" style={{ fontSize: '.78rem', lineHeight: 1.55, margin: '10px 0 0' }}>{children}</p>
+);
+
 // ---- horizontal bar chart (divs, responsive, theme-aware) ----
 const HBar: React.FC<{ data: { label: string; value: number }[]; colorFor: (d: { label: string; value: number }, i: number) => string }> = ({ data, colorFor }) => {
   const max = Math.max(1, ...data.map(d => d.value));
   return (
-    <div className="grid" style={{ gap: 7 }}>
+    <div className="grid" style={{ gap: 6 }}>
       {data.map((d, i) => (
         <div key={i} title={`${d.label}: ${d.value}`}>
           <div className="row sb" style={{ justifyContent: 'space-between', fontSize: '.78rem', marginBottom: 3 }}>
             <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '75%' }}>{d.label}</span>
             <span className="mono muted">{d.value}</span>
           </div>
-          <div style={{ height: 8, borderRadius: 5, background: 'var(--line)', overflow: 'hidden' }}>
+          <div style={{ height: 7, borderRadius: 5, background: 'var(--line)', overflow: 'hidden' }}>
             <div style={{ width: `${(d.value / max) * 100}%`, height: '100%', background: colorFor(d, i), borderRadius: 5, transition: 'width .3s' }} />
           </div>
         </div>
@@ -236,7 +271,7 @@ const MonthBars: React.FC<{ data: { label: string; value: number }[] }> = ({ dat
   const max = Math.max(1, ...data.map(d => d.value));
   const step = Math.ceil(data.length / 12);
   return (
-    <div style={{ display: 'flex', alignItems: 'flex-end', gap: 3, height: 160, overflowX: 'auto', paddingTop: 8 }}>
+    <div style={{ display: 'flex', alignItems: 'flex-end', gap: 3, height: 120, overflowX: 'auto', paddingTop: 8 }}>
       {data.map((d, i) => (
         <div key={i} title={`${d.label}: ${d.value}`} style={{ flex: '1 0 14px', display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%', justifyContent: 'flex-end', minWidth: 14 }}>
           <span style={{ fontSize: '.62rem', color: 'var(--muted)', marginBottom: 2 }}>{d.value || ''}</span>
@@ -284,7 +319,7 @@ const WorldMap: React.FC<{
   issPoints?: { lat: number; lng: number; label: string; project: string }[];
   issTrack?: { lat: number; lng: number }[][];
 }> = ({ world, countryCounts, points, colorFor, issPoints = [], issTrack = [] }) => {
-  const W = 720, H = 360;
+  const W = 600, H = 300;   // must stay 2:1 — x/y below are a raw equirectangular projection
   const x = (lng: number) => ((lng + 180) / 360) * W;
   const y = (lat: number) => ((90 - lat) / 180) * H;
   const c = readVars({ '--line': '#e5e9f0', '--muted': '#5a6473', '--accent': '#3b6ea5', '--accent2': '#3fb6a8', '--bg': '#ffffff', '--card': '#ffffff' });

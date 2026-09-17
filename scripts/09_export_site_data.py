@@ -179,11 +179,11 @@ def export_substrates():
         "probe": {
             "description": ("CoSE Lunar Large Chamber soil probe: 15 mL of substrate in "
                             "an acrylic pouch, 5 mL water added at ~5 min intervals, "
-                            "readings every 15 s. Unpublished."),
+                            "readings every 15 s over runs of 7-27 min. Unpublished."),
             "units": records(pd.read_csv(T / "substrate_probe_units.csv")),
             "endpoint": records(pd.read_csv(T / "substrate_probe_endpoint.csv")),
             "timeseries": columnar(pd.read_csv(T / "substrate_probe_timeseries.csv"),
-                                   {"time_min": 2, "water_content_pct": 2, "ec_us_cm": 1,
+                                   {"time_s": 2, "water_content_pct": 2, "ec_us_cm": 1,
                                     "ph": 2, "nitrogen": 1, "phosphorus": 1,
                                     "potassium": 1, "water_added_ml": 1}),
         },
