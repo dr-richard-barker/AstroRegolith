@@ -30,3 +30,6 @@ manuscript/*.pdf
 __pycache__/
 *.pyc
 .venv/
+
+# ABAI attestations (local evidence gate)
+.abai/

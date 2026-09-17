@@ -1,0 +1,73 @@
+{
+ "by_mission": {
+  "Apollo 11": {
+   "n": 80,
+   "photographed": 57
+  },
+  "Apollo 12": {
+   "n": 77,
+   "photographed": 64
+  },
+  "Apollo 14": {
+   "n": 234,
+   "photographed": 164
+  },
+  "Apollo 15": {
+   "n": 480,
+   "photographed": 327
+  },
+  "Apollo 16": {
+   "n": 844,
+   "photographed": 564
+  },
+  "Apollo 17": {
+   "n": 756,
+   "photographed": 405
+  },
+  "Luna 16": {
+   "n": 15,
+   "photographed": 0
+  },
+  "Luna 20": {
+   "n": 15,
+   "photographed": 0
+  },
+  "Luna 24": {
+   "n": 10,
+   "photographed": 0
+  }
+ },
+ "compendium_consulted": true,
+ "n_pds_photo_records": 36838,
+ "n_samples": 2511,
+ "n_soil_photographed": 208,
+ "n_soil_samples": 818,
+ "n_with_3d_scan": 22,
+ "n_with_compendium": 720,
+ "n_with_display": 48,
+ "n_with_pds_photos": 1581,
+ "n_with_thin_section": 1495,
+ "osd476": {
+  "10084": {
+   "has_compendium": true,
+   "has_pds_photos": true,
+   "has_thin_section": true,
+   "mission": "Apollo 11",
+   "n_pds_photos": 5
+  },
+  "12070": {
+   "has_compendium": true,
+   "has_pds_photos": true,
+   "has_thin_section": true,
+   "mission": "Apollo 12",
+   "n_pds_photos": 44
+  },
+  "70051": {
+   "has_compendium": false,
+   "has_pds_photos": false,
+   "has_thin_section": true,
+   "mission": "Apollo 17",
+   "n_pds_photos": 0
+  }
+ }
+}

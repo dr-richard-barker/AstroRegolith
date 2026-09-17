@@ -136,3 +136,57 @@ export interface Manifest {
   counts: Record<string, number>;
   provenance: { name: string; url: string; note: string }[];
 }
+
+/**
+ * NASA curation provenance for the material OSD-476 grew plants in, plus the
+ * ARES simulant photographs and the coverage of NASA's own archives.
+ * Written by `scripts/16_export_curation_site_data.py`.
+ */
+export interface CurationData {
+  regoliths: {
+    generic: string; mission: string;
+    sampleType: string; sampleSubtype: string;
+    originalWeightG: number | null; pristinityPct: number | null; pristinityDate: string | null;
+    station: string | null; landmark: string | null; bagNumber: string | null;
+    description: string | null;
+    hasThinSection: boolean; nThinSections: number;
+    displaySamples: string | null;
+    osd476Splits: string[];
+    photos: {
+      photo: string; type: string; description: string;
+      width: string; height: string; fileSize: string;
+      jpegUrl: string; tifUrl: string;
+    }[];
+    nPhotos: number;
+    /** null means the compendium was not consulted — unknown, not absent. */
+    hasCompendium: boolean | null;
+    compendiumUrl: string;
+    a3d: { key: string; display_name: string; classification: string; viewer_url: string }[];
+  }[];
+  simulants: {
+    name: string; nameAsPublished: string; wasCorrected: boolean; surface: string;
+    bench: string | null; micro: string | null;
+    benchSourceUrl: string; microSourceUrl: string;
+  }[];
+  simulantCorrections: {
+    name_as_published: string; image_stem: string; surface: string; corrected_to: string;
+  }[];
+  simulantStock: { simulant: string; analog: string }[];
+  coverage: {
+    n_samples: number; n_with_pds_photos: number; n_pds_photo_records: number;
+    n_with_thin_section: number; n_with_3d_scan: number; n_with_display: number;
+    n_soil_samples: number; n_soil_photographed: number;
+    compendium_consulted: boolean; n_with_compendium: number | null;
+    by_mission: Record<string, { n: number; photographed: number }>;
+    osd476: Record<string, {
+      mission: string; has_pds_photos: boolean; n_pds_photos: number;
+      has_compendium: boolean | null; has_thin_section: boolean;
+    }>;
+  };
+  pdsIndexProvenance: {
+    volume: string; index: string; layout: string;
+    declared_rows: number | null; parsed_rows: number;
+    rows_match_label: boolean | null; bytes_accounted_for: boolean | null;
+  }[];
+  sources: Record<string, string>;
+}

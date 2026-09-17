@@ -1,0 +1,950 @@
+{
+ "coverage": {
+  "by_mission": {
+   "Apollo 11": {
+    "n": 80,
+    "photographed": 57
+   },
+   "Apollo 12": {
+    "n": 77,
+    "photographed": 64
+   },
+   "Apollo 14": {
+    "n": 234,
+    "photographed": 164
+   },
+   "Apollo 15": {
+    "n": 480,
+    "photographed": 327
+   },
+   "Apollo 16": {
+    "n": 844,
+    "photographed": 564
+   },
+   "Apollo 17": {
+    "n": 756,
+    "photographed": 405
+   },
+   "Luna 16": {
+    "n": 15,
+    "photographed": 0
+   },
+   "Luna 20": {
+    "n": 15,
+    "photographed": 0
+   },
+   "Luna 24": {
+    "n": 10,
+    "photographed": 0
+   }
+  },
+  "compendium_consulted": true,
+  "n_pds_photo_records": 36838,
+  "n_samples": 2511,
+  "n_soil_photographed": 208,
+  "n_soil_samples": 818,
+  "n_with_3d_scan": 22,
+  "n_with_compendium": 720,
+  "n_with_display": 48,
+  "n_with_pds_photos": 1581,
+  "n_with_thin_section": 1495,
+  "osd476": {
+   "10084": {
+    "has_compendium": true,
+    "has_pds_photos": true,
+    "has_thin_section": true,
+    "mission": "Apollo 11",
+    "n_pds_photos": 5
+   },
+   "12070": {
+    "has_compendium": true,
+    "has_pds_photos": true,
+    "has_thin_section": true,
+    "mission": "Apollo 12",
+    "n_pds_photos": 44
+   },
+   "70051": {
+    "has_compendium": false,
+    "has_pds_photos": false,
+    "has_thin_section": true,
+    "mission": "Apollo 17",
+    "n_pds_photos": 0
+   }
+  }
+ },
+ "pdsIndexProvenance": [
+  {
+   "bytes_accounted_for": true,
+   "declared_rows": 2500,
+   "index": "INDEX.TAB",
+   "layout": "fixed",
+   "n_jpegs_in_extras": 2500,
+   "parsed_rows": 2500,
+   "rows_match_label": true,
+   "volume": "A11VIS_0001"
+  },
+  {
+   "bytes_accounted_for": true,
+   "declared_rows": 5107,
+   "index": "INDEX.TAB",
+   "layout": "fixed",
+   "n_jpegs_in_extras": 5082,
+   "parsed_rows": 5107,
+   "rows_match_label": true,
+   "volume": "A12VIS_0001"
+  },
+  {
+   "bytes_accounted_for": true,
+   "declared_rows": 4514,
+   "index": "INDEX.TAB",
+   "layout": "fixed",
+   "n_jpegs_in_extras": 4514,
+   "parsed_rows": 4514,
+   "rows_match_label": true,
+   "volume": "A14VIS_0001"
+  },
+  {
+   "bytes_accounted_for": null,
+   "declared_rows": 2226,
+   "index": "IMGINDEX.TAB",
+   "layout": "csv",
+   "n_jpegs_in_extras": 8942,
+   "n_pattern_only_records": 54,
+   "parsed_rows": 8950,
+   "rows_match_label": false,
+   "volume": "A15VIS_0001"
+  },
+  {
+   "bytes_accounted_for": true,
+   "declared_rows": 8178,
+   "index": "INDEX.TAB",
+   "layout": "fixed",
+   "n_jpegs_in_extras": 8176,
+   "parsed_rows": 8176,
+   "rows_match_label": false,
+   "volume": "A16VIS_0001"
+  },
+  {
+   "bytes_accounted_for": true,
+   "declared_rows": 5713,
+   "index": "INDEX.TAB",
+   "layout": "fixed",
+   "n_jpegs_in_extras": 5713,
+   "parsed_rows": 5713,
+   "rows_match_label": true,
+   "volume": "A17VIS_0001"
+  }
+ ],
+ "regoliths": [
+  {
+   "a3d": [],
+   "bagNumber": "ALSRC 1003",
+   "compendiumUrl": "https://curator.jsc.nasa.gov/lunar/lsc/10084.pdf",
+   "description": "Fines, Unsieved",
+   "displaySamples": null,
+   "generic": "10084",
+   "hasCompendium": true,
+   "hasThinSection": true,
+   "landmark": null,
+   "mission": "Apollo 11",
+   "nPhotos": 5,
+   "nThinSections": 110,
+   "originalWeightG": 3830.0,
+   "osd476Splits": [
+    "2075",
+    "2076",
+    "2077",
+    "2078"
+   ],
+   "photos": [
+    {
+     "description": "Color photograph of Apollo 11 Sample(s) 10084,1600; Processing photograph displaying a soil at 500-1000 micron.",
+     "fileSize": "415 MB",
+     "height": "7608",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/10084/PROCESSING/S79-40142.JPG",
+     "photo": "S79-40142",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/DATA/SOIL/UNSIEVED/10084/PROCESSING/S79-40142.TIF",
+     "type": "Processing",
+     "width": "9531"
+    },
+    {
+     "description": "Color photograph of Apollo 11 Sample(s) 10084,1607; Processing photograph displaying a soil at 250-500 micron.",
+     "fileSize": "415 MB",
+     "height": "7580",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/10084/PROCESSING/S79-40143.JPG",
+     "photo": "S79-40143",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/DATA/SOIL/UNSIEVED/10084/PROCESSING/S79-40143.TIF",
+     "type": "Processing",
+     "width": "9568"
+    },
+    {
+     "description": "Color photograph of Apollo 11 Sample(s) 10084,1595; Processing photograph displaying a soil at 90-1000 micron.",
+     "fileSize": "418 MB",
+     "height": "7627",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/10084/PROCESSING/S79-40144.JPG",
+     "photo": "S79-40144",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/DATA/SOIL/UNSIEVED/10084/PROCESSING/S79-40144.TIF",
+     "type": "Processing",
+     "width": "9578"
+    },
+    {
+     "description": "Color photograph of Apollo 11 Sample(s) 10084,1610; Processing photograph displaying a soil at 150-250 micron.",
+     "fileSize": "418 MB",
+     "height": "7627",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/10084/PROCESSING/S79-40145.JPG",
+     "photo": "S79-40145",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/DATA/SOIL/UNSIEVED/10084/PROCESSING/S79-40145.TIF",
+     "type": "Processing",
+     "width": "9578"
+    },
+    {
+     "description": "Color photograph of Apollo 11 Sample(s) 10084,245; Processing photograph displaying soil .",
+     "fileSize": "441 MB",
+     "height": "7925",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/10084/PROCESSING/S97-16100.JPG",
+     "photo": "S97-16100",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A11VIS_0001/DATA/SOIL/UNSIEVED/10084/PROCESSING/S97-16100.TIF",
+     "type": "Processing",
+     "width": "9714"
+    }
+   ],
+   "pristinityDate": "March, 04 2015 00:00:00",
+   "pristinityPct": 60.082,
+   "sampleSubtype": "Unsieved",
+   "sampleType": "Soil",
+   "station": null
+  },
+  {
+   "a3d": [],
+   "bagNumber": null,
+   "compendiumUrl": "https://curator.jsc.nasa.gov/lunar/lsc/12070.pdf",
+   "description": "Fines, Unsieved",
+   "displaySamples": null,
+   "generic": "12070",
+   "hasCompendium": true,
+   "hasThinSection": true,
+   "landmark": "SURVEYOR CRATER",
+   "mission": "Apollo 12",
+   "nPhotos": 44,
+   "nThinSections": 64,
+   "originalWeightG": 1102.0,
+   "osd476Splits": [
+    "105",
+    "99",
+    "106",
+    "109"
+   ],
+   "photos": [
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "9383",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16105.JPG",
+     "photo": "S70-16105",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16105.TIF",
+     "type": "Thin Section",
+     "width": "7632"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,159; Thin Section photograph displaying grain mount.",
+     "fileSize": "135 MB",
+     "height": "9289",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16096.JPG",
+     "photo": "S70-16096",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16096.TIF",
+     "type": "Thin Section",
+     "width": "7632"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "9384",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-17417.JPG",
+     "photo": "S70-17417",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-17417.TIF",
+     "type": "Thin Section",
+     "width": "7642"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,163; Thin Section photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "7642",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-17429.JPG",
+     "photo": "S70-17429",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-17429.TIF",
+     "type": "Thin Section",
+     "width": "9393"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,159; Thin Section photograph displaying grain mount.",
+     "fileSize": "136 MB",
+     "height": "9374",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16116.JPG",
+     "photo": "S70-16116",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16116.TIF",
+     "type": "Thin Section",
+     "width": "7613"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount.",
+     "fileSize": "136 MB",
+     "height": "9374",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16117.JPG",
+     "photo": "S70-16117",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-16117.TIF",
+     "type": "Thin Section",
+     "width": "7613"
+    },
+    {
+     "description": "Thin section photograph of Apollo 12 sample 12070,0.",
+     "fileSize": "135 MB",
+     "height": "9374",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-17410.JPG",
+     "photo": "S70-17410",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-17410.TIF",
+     "type": "Thin Section",
+     "width": "7576"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,155; Processing photograph displaying grain mount.",
+     "fileSize": "135 MB",
+     "height": "9442",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-46974.JPG",
+     "photo": "S70-46974",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-46974.TIF",
+     "type": "Processing",
+     "width": "7476"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,154; Processing photograph displaying grain mount.",
+     "fileSize": "139 MB",
+     "height": "9583",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-46976.JPG",
+     "photo": "S70-46976",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-46976.TIF",
+     "type": "Processing",
+     "width": "7621"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,156; Processing photograph displaying grain mount.",
+     "fileSize": "139 MB",
+     "height": "9564",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-46979.JPG",
+     "photo": "S70-46979",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-46979.TIF",
+     "type": "Processing",
+     "width": "7593"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,157; Processing photograph displaying grain mount.",
+     "fileSize": "139 MB",
+     "height": "7593",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-46982.JPG",
+     "photo": "S70-46982",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-46982.TIF",
+     "type": "Processing",
+     "width": "9564"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,158; Thin Section photograph displaying grain mount.",
+     "fileSize": "135 MB",
+     "height": "7504",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-46998.JPG",
+     "photo": "S70-46998",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-46998.TIF",
+     "type": "Thin Section",
+     "width": "9442"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,160; Processing photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "7652",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-47961.JPG",
+     "photo": "S70-47961",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-47961.TIF",
+     "type": "Processing",
+     "width": "9375"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,161; Processing photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "7633",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-47968.JPG",
+     "photo": "S70-47968",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-47968.TIF",
+     "type": "Processing",
+     "width": "9412"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,154; Processing photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "7633",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-47973.JPG",
+     "photo": "S70-47973",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-47973.TIF",
+     "type": "Processing",
+     "width": "9412"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,163; Processing photograph displaying grain mount.",
+     "fileSize": "138 MB",
+     "height": "7689",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-47981.JPG",
+     "photo": "S70-47981",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-47981.TIF",
+     "type": "Processing",
+     "width": "9431"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,162; Processing photograph displaying grain mount.",
+     "fileSize": "137 MB",
+     "height": "7642",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/PROCESSING/S70-47988.JPG",
+     "photo": "S70-47988",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/PROCESSING/S70-47988.TIF",
+     "type": "Processing",
+     "width": "9412"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,155; Thin Section photograph displaying grain mount.",
+     "fileSize": "139 MB",
+     "height": "7602",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48195.JPG",
+     "photo": "S70-48195",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48195.TIF",
+     "type": "Thin Section",
+     "width": "9555"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,157; Thin Section photograph displaying grain mount.",
+     "fileSize": "139 MB",
+     "height": "7593",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48201.JPG",
+     "photo": "S70-48201",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48201.TIF",
+     "type": "Thin Section",
+     "width": "9573"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,154; Thin Section photograph displaying grain mount.",
+     "fileSize": "139 MB",
+     "height": "7602",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48204.JPG",
+     "photo": "S70-48204",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48204.TIF",
+     "type": "Thin Section",
+     "width": "9564"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,156; Thin Section photograph displaying grain mount.",
+     "fileSize": "138 MB",
+     "height": "7584",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48209.JPG",
+     "photo": "S70-48209",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48209.TIF",
+     "type": "Thin Section",
+     "width": "9564"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,154; Thin Section photograph displaying grain mount.",
+     "fileSize": "138 MB",
+     "height": "7584",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48213.JPG",
+     "photo": "S70-48213",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48213.TIF",
+     "type": "Thin Section",
+     "width": "9564"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,156; Thin Section photograph displaying grain mount.",
+     "fileSize": "138 MB",
+     "height": "7584",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48214.JPG",
+     "photo": "S70-48214",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48214.TIF",
+     "type": "Thin Section",
+     "width": "9564"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,157; Thin Section photograph displaying grain mount.",
+     "fileSize": "138 MB",
+     "height": "7584",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48222.JPG",
+     "photo": "S70-48222",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48222.TIF",
+     "type": "Thin Section",
+     "width": "9564"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,158; Thin Section photograph displaying grain mount.",
+     "fileSize": "149 MB",
+     "height": "9970",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48876.JPG",
+     "photo": "S70-48876",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48876.TIF",
+     "type": "Thin Section",
+     "width": "7860"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,158; Thin Section photograph displaying grain mount.",
+     "fileSize": "143 MB",
+     "height": "7674",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48886.JPG",
+     "photo": "S70-48886",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-48886.TIF",
+     "type": "Thin Section",
+     "width": "9802"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,163; Thin Section photograph displaying grain mount.",
+     "fileSize": "134 MB",
+     "height": "9405",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51009.JPG",
+     "photo": "S70-51009",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51009.TIF",
+     "type": "Thin Section",
+     "width": "7481"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,161; Thin Section photograph displaying grain mount.",
+     "fileSize": "133 MB",
+     "height": "9360",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51010.JPG",
+     "photo": "S70-51010",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51010.TIF",
+     "type": "Thin Section",
+     "width": "7436"
+    },
+    {
+     "description": "Black and white photograph of Apollo 12 sample 12070,161; Thin Section photograph displaying grain mount.",
+     "fileSize": "133 MB",
+     "height": "9360",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51013.JPG",
+     "photo": "S70-51013",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51013.TIF",
+     "type": "Thin Section",
+     "width": "7436"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "416 MB",
+     "height": "9556",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51427.JPG",
+     "photo": "S70-51427",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51427.TIF",
+     "type": "Thin Section",
+     "width": "7613"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using cross nichols light.",
+     "fileSize": "419 MB",
+     "height": "9603",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51428.JPG",
+     "photo": "S70-51428",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51428.TIF",
+     "type": "Thin Section",
+     "width": "7622"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "419 MB",
+     "height": "9584",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51429.JPG",
+     "photo": "S70-51429",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51429.TIF",
+     "type": "Thin Section",
+     "width": "7631"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using cross nichols light.",
+     "fileSize": "413 MB",
+     "height": "7652",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51430.JPG",
+     "photo": "S70-51430",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51430.TIF",
+     "type": "Thin Section",
+     "width": "9441"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "413 MB",
+     "height": "7652",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51431.JPG",
+     "photo": "S70-51431",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51431.TIF",
+     "type": "Thin Section",
+     "width": "9441"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using cross nichols light.",
+     "fileSize": "417 MB",
+     "height": "9575",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51432.JPG",
+     "photo": "S70-51432",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51432.TIF",
+     "type": "Thin Section",
+     "width": "7613"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "417 MB",
+     "height": "9575",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51433.JPG",
+     "photo": "S70-51433",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51433.TIF",
+     "type": "Thin Section",
+     "width": "7613"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "417 MB",
+     "height": "9575",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51434.JPG",
+     "photo": "S70-51434",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51434.TIF",
+     "type": "Thin Section",
+     "width": "7613"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,160; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "421 MB",
+     "height": "9592",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51435.JPG",
+     "photo": "S70-51435",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51435.TIF",
+     "type": "Thin Section",
+     "width": "7677"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "421 MB",
+     "height": "9592",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51436.JPG",
+     "photo": "S70-51436",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51436.TIF",
+     "type": "Thin Section",
+     "width": "7677"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount using cross nichols light.",
+     "fileSize": "421 MB",
+     "height": "9592",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51437.JPG",
+     "photo": "S70-51437",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51437.TIF",
+     "type": "Thin Section",
+     "width": "7677"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "421 MB",
+     "height": "9592",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51438.JPG",
+     "photo": "S70-51438",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51438.TIF",
+     "type": "Thin Section",
+     "width": "7677"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount using cross nichols light.",
+     "fileSize": "421 MB",
+     "height": "9592",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51439.JPG",
+     "photo": "S70-51439",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51439.TIF",
+     "type": "Thin Section",
+     "width": "7677"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount using transmitted light.",
+     "fileSize": "421 MB",
+     "height": "9592",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51440.JPG",
+     "photo": "S70-51440",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51440.TIF",
+     "type": "Thin Section",
+     "width": "7677"
+    },
+    {
+     "description": "Color photograph of Apollo 12 sample 12070,162; Thin Section photograph displaying grain mount using cross nichols light.",
+     "fileSize": "418 MB",
+     "height": "9555",
+     "jpegUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/EXTRAS/FULL_RES_JPEG/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51441.JPG",
+     "photo": "S70-51441",
+     "tifUrl": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com/Lunar_Sample_Photographs/A12VIS_0001/DATA/SOIL/UNSIEVED/12070/THIN_SECTIONS/S70-51441.TIF",
+     "type": "Thin Section",
+     "width": "7639"
+    }
+   ],
+   "pristinityDate": "January, 20 2015 00:00:00",
+   "pristinityPct": 80.235,
+   "sampleSubtype": "Unsieved",
+   "sampleType": "Soil",
+   "station": null
+  },
+  {
+   "a3d": [],
+   "bagNumber": "BSLSS",
+   "compendiumUrl": "https://curator.jsc.nasa.gov/lunar/lsc/70051.pdf",
+   "description": null,
+   "displaySamples": "70051,55; 70051,51",
+   "generic": "70051",
+   "hasCompendium": false,
+   "hasThinSection": true,
+   "landmark": "EVA-3",
+   "mission": "Apollo 17",
+   "nPhotos": 0,
+   "nThinSections": 1,
+   "originalWeightG": 1438.0,
+   "osd476Splits": [
+    "159",
+    "160",
+    "161",
+    "162"
+   ],
+   "photos": [],
+   "pristinityDate": "November, 20 2014 00:00:00",
+   "pristinityPct": 80.453,
+   "sampleSubtype": "<1 mm",
+   "sampleType": "Soil",
+   "station": null
+  }
+ ],
+ "simulantCorrections": [
+  {
+   "corrected_to": "CSM-LMT-1",
+   "duplicate_of_previous_row": true,
+   "image_stem": "CSM-LMT-1",
+   "name_as_published": "CSM-LHT-1",
+   "surface": "Lunar Mare"
+  }
+ ],
+ "simulantStock": [
+  {
+   "analog": "Moon (mare)",
+   "simulant": "BP-1"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "JSC-1/1A"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "JSC-1 source material (sand)"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "JSC-1 source material (3/4\" rocks)"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "LMS-1"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "MLS-1"
+  },
+  {
+   "analog": "Moon (mare)",
+   "simulant": "OPRL2N"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "GreenSpar < 90 μm"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "GreenSpar < 250 μm"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "LHS-1"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "LHS-1D"
+  },
+  {
+   "analog": "Moon (highlands)",
+   "simulant": "NU-LHT Series"
+  },
+  {
+   "analog": "Moon (polar highlands + agglutinates)",
+   "simulant": "OPRH4W30"
+  },
+  {
+   "analog": "Moon (agglutinates)",
+   "simulant": "NASA Agglutinate"
+  }
+ ],
+ "simulants": [
+  {
+   "bench": "images/simulants/BP-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/BP-1.jpg",
+   "micro": "images/simulants/BP-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/BP-1.jpg",
+   "name": "BP-1",
+   "nameAsPublished": "BP-1",
+   "surface": "Lunar Mare",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/CSM-LHT-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/CSM-LHT-1.jpg",
+   "micro": "images/simulants/CSM-LHT-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/CSM-LHT-1.jpg",
+   "name": "CSM-LHT-1",
+   "nameAsPublished": "CSM-LHT-1",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/CSM-LMT-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/CSM-LMT-1.jpg",
+   "micro": "images/simulants/CSM-LMT-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/CSM-LMT-1.jpg",
+   "name": "CSM-LMT-1",
+   "nameAsPublished": "CSM-LHT-1",
+   "surface": "Lunar Mare",
+   "wasCorrected": true
+  },
+  {
+   "bench": "images/simulants/GreenSpar-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/GreenSpar,250.jpg",
+   "micro": "images/simulants/GreenSpar-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/GreenSpar,250.jpg",
+   "name": "GreenSpar",
+   "nameAsPublished": "GreenSpar",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/JSC-1A-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JSC-1A.jpg",
+   "micro": "images/simulants/JSC-1A-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JSC-1A.jpg",
+   "name": "JSC-1A",
+   "nameAsPublished": "JSC-1A",
+   "surface": "Lunar Mare",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/LHS-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/LHS-1.jpg",
+   "micro": "images/simulants/LHS-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/LHS-1.jpg",
+   "name": "LHS-1",
+   "nameAsPublished": "LHS-1",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/LMS-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/LMS-1.jpg",
+   "micro": "images/simulants/LMS-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/LMS-1.jpg",
+   "name": "LMS-1",
+   "nameAsPublished": "LMS-1",
+   "surface": "Lunar Mare",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/MLS-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/MLS-1.jpg",
+   "micro": "images/simulants/MLS-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/MLS-1.jpg",
+   "name": "MLS-1",
+   "nameAsPublished": "MLS-1",
+   "surface": "Lunar Mare",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/NU-LHT-2M-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/NU-LHT-2M.jpg",
+   "micro": "images/simulants/NU-LHT-2M-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/NU-LHT-2M.jpg",
+   "name": "NU-LHT-2M",
+   "nameAsPublished": "NU-LHT-2M",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/NU-LHT-4M-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/NU-LHT-4M.jpg",
+   "micro": "images/simulants/NU-LHT-4M-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/NU-LHT-4M.jpg",
+   "name": "NU-LHT-4M",
+   "nameAsPublished": "NU-LHT-4M",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/OB1A-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/OB1-A.jpg",
+   "micro": "images/simulants/OB1A-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/OB1A.jpg",
+   "name": "OB1A",
+   "nameAsPublished": "OB1A",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/OPRH2N-J1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/OPRH2N-J1.jpg",
+   "micro": "images/simulants/OPRH2N-J1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/OPRH2N-J1.jpg",
+   "name": "OPRH2N-J1",
+   "nameAsPublished": "OPRH2N-J1",
+   "surface": "Lunar Highlands",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/OPRL2N-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/OPRL2N.jpg",
+   "micro": "images/simulants/OPRL2N-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/OPRL2N.jpg",
+   "name": "OPRL2N",
+   "nameAsPublished": "OPRL2N",
+   "surface": "Lunar Mare",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/JPL-MMS-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JPL-MMS.jpg",
+   "micro": "images/simulants/JPL-MMS-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JPL-MMS.jpg",
+   "name": "JPL MMS",
+   "nameAsPublished": "JPL MMS",
+   "surface": "Mars",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/JSC-MARS-1-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JSC%20MARS-1.jpg",
+   "micro": "images/simulants/JSC-MARS-1-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JSC-MARS-1.jpg",
+   "name": "JSC MARS-1",
+   "nameAsPublished": "JSC MARS-1",
+   "surface": "Mars",
+   "wasCorrected": false
+  },
+  {
+   "bench": "images/simulants/JSC-ROCKNEST-bench.jpg",
+   "benchSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Simulant%20Full%20Size/JSC-ROCKNEST.jpg",
+   "micro": "images/simulants/JSC-ROCKNEST-micro.jpg",
+   "microSourceUrl": "https://ares.jsc.nasa.gov/_pictures/_research_groups/Microscope%20Full%20Size/JSC-ROCKNEST.jpg",
+   "name": "JSC ROCKNEST",
+   "nameAsPublished": "JSC ROCKNEST",
+   "surface": "Mars",
+   "wasCorrected": false
+  }
+ ],
+ "sources": {
+  "astromaterials3d": "https://ares.jsc.nasa.gov/astromaterials3d/",
+  "compendium": "https://curator.jsc.nasa.gov/lunar/lsc/",
+  "lunarApi": "https://curator.jsc.nasa.gov/rest/lunarapi/samples",
+  "pdsArchive": "https://asc-pds-apollo.s3.us-west-2.amazonaws.com",
+  "samplePage": "https://curator.jsc.nasa.gov/lunar/samplecatalog/index.cfm",
+  "simulantTable": "https://ares.jsc.nasa.gov/projects/simulants/development-lab.html"
+ }
+}

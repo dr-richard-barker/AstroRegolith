@@ -38,23 +38,53 @@ docs/           reproducibility notes
 
 ## The site
 
-Eight views, all reading data committed to this repository:
+Nine views, all reading data committed to this repository:
 
 - **Images** — Apollo-regolith plate scans, asteroid-simulant crop photographs and
   community contributions, with in-browser ArUco marker detection recovering mm-per-pixel
   scale and a 15-chip colour correction.
 - **Substrates** — soil-probe response of eight candidate substrates while watering, the
-  LHS-1 simulant specification, and LHS-1 against Chang'e-5 returned mare soil.
+  LHS-1 simulant specification, LHS-1 against Chang'e-5 returned mare soil, and what each
+  probe trace was actually measuring: 0 of its 3 planetary simulants can be identified,
+  because none of them was recorded with a product name, supplier or batch.
+- **Curation** — where the regolith came from. OSD-476 names its substrate to the split
+  (Apollo 11 `10084`, Apollo 12 `12070`, Apollo 17 `70051`, all below 1 mm), and those are
+  primary keys in NASA's Apollo Sample and Photo Database, so each plant traces to the
+  curation record of the exact soil it grew in — mass, pristinity, collection landmark and
+  NASA's own photographs. Includes the ARES simulant photographs and a coverage report
+  over all 2,511 Apollo and Luna samples.
 - **Studies** — the regolith slice of OSDR and PSI, each with a note on *why* it belongs
   in a regolith database.
 - **Transcriptomics** — OSD-476 differential expression, both site-by-site and pooled
   (the Broad Lunar model, 21,594 genes), plus GO-slim enrichment.
 - **Phenotype ↔ Expression** — the linkage: growth trajectories, how the join is made,
-  and the growth-correlated genes.
+  and the growth-correlated genes — with each of the four treatment groups resolved to the
+  curated NASA sample behind it.
 - **Plan an experiment** — power estimates from the observed effect sizes, five failure
   modes visible in the existing record, and the metadata that decides reusability.
 - **Share your data** — the Epicollect5 contribution workflow and a ready-to-build form.
 - **Datasets / Export / About** — provenance, citation, and manifest export.
+
+### One substrate vocabulary
+
+"What the plant grew in" was written eight different ways across this repository — `A11` in
+a chart, `Apollo 11 regolith` in an OSDR factor, `Lunar simulant` in a probe trace, `JSC-1A`
+in NASA's simulant table, `10084` in NASA's curation database, and free text in the
+contribution form — and none of them joined.
+
+`scripts/17_build_substrate_registry.py` maps all of them onto one identifier, so a bar in a
+growth chart resolves to the curated soil behind it: 3,830 g of Apollo 11 fines, 60% still
+unallocated, with NASA's photograph. A mapping is written only where there is evidence for
+it, and the evidence is stored in the row; a substrate named too vaguely to identify is
+recorded as **unresolved** with the reason rather than guessed at. The build fails if a
+substrate appears in the site data that the registry does not claim, so nothing re-enters
+the database without provenance.
+
+That cuts both ways. Of the eight substrates in this repository's own probe series, the five
+terrestrial media resolve cleanly and **none of the three planetary simulants can be
+identified** — they were recorded only as "Lunar simulant" and "Martian Regolith Simulant".
+The "Plan an experiment" view asks contributors for exactly the fields that are missing
+there.
 
 ### Why the dashboards read pre-baked JSON
 
@@ -64,12 +94,22 @@ all, and PSI runs the same GeoDE backend. The scripts harvest those APIs offline
 write JSON into `public/data/`, which the site reads. Every figure on the site therefore
 has a committed table behind it and cannot drift from the numbers.
 
+NASA's Apollo curation API is the one exception — it answers
+`Access-Control-Allow-Origin: *`, so the Curation view can offer a live lookup for any of
+the 2,511 samples. Everything that view *states* is still read from a committed table;
+the live box is a labelled extra, and its failure costs one lookup and nothing else.
+
 ## Reproducing everything
 
 ```bash
 pip install -r requirements.txt
+pip install ares-curation        # steps 14-15; or clone it beside this repo
 bash scripts/run_all.sh          # ~10 min on a cold cache, mostly downloads
 ```
+
+Steps 14 and 15 use [`ares-curation`](https://github.com/dr-richard-barker/ares-curation),
+a separate client for NASA's ARES/JSC astromaterials catalogues written for this work and
+reusable by sibling projects.
 
 | Step | Does |
 | --- | --- |
@@ -87,11 +127,15 @@ bash scripts/run_all.sh          # ~10 min on a cold cache, mostly downloads
 | `11_port_legacy_narrative.py` | the `legacy/` port |
 | `12_supplementary_tables.py` | manuscript supplementary tables |
 | `13_manifest.py` | `MANIFEST.tsv` and `CHECKSUMS.sha256` |
+| `14_fetch_ares_curation.py` | NASA curation records, PDS photographs and the coverage table |
+| `15_fetch_simulants.py` | the ARES simulant table and its 32 bundled photographs |
+| `16_export_curation_site_data.py` | the JSON the Curation view reads |
+| `17_build_substrate_registry.py` | the substrate registry every view keys into |
 | `check_references.py` | builds `references.bib` from Crossref, by DOI |
 | `check_citations.py` | every `\cite` resolves against the bibliography |
 
-Steps 00–02 and 10 hit the network and are idempotent — a file already present is not
-re-downloaded. Steps 03–09 are pure functions of `data/`, so re-runs are byte-stable.
+Steps 00–02, 10, 14 and 15 hit the network and are idempotent — a file already present is not
+re-downloaded. Steps 03–09 and 16 are pure functions of `data/`, so re-runs are byte-stable.
 `SKIP_FETCH=1 bash scripts/run_all.sh` reuses what is already downloaded.
 
 ## Developing the site
